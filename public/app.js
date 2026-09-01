@@ -180,6 +180,11 @@ function viewToday() {
       ? el('button', { class: 'cta wide', style: 'margin-top:10px', onclick: startSession }, 'Start reviewing')
       : el('p', { class: 'muted' }, upcoming ? `Nice — nothing due. ~${upcoming} more within 2 days.` : 'Nothing due. Check back tomorrow, or learn something new!')),
     el('p', { class: 'muted center' }, `Level ${S.api.level} · ${S.api.xp} XP · ${S.api.streak}-day streak`))
+  if (!due.length) {
+    panels.push(el('div', { class: 'row' },
+      el('a', { href: '#/study' }, el('button', { class: 'cta wide' }, '📖 Learn something new')),
+      el('a', { href: '#/progress' }, el('button', { class: 'wide' }, 'See progress'))))
+  }
   if (S.lang === 'es' && S.api.stageCounts.pt.total) {
     panels.push(el('div', { class: 'panel' }, el('span', { class: 'muted' },
       `You also have ${S.api.stageCounts.pt.total} Portuguese words — tap PT above to switch.`)))
