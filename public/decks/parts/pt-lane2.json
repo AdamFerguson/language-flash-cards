@@ -1,0 +1,623 @@
+{
+  "lang": "pt",
+  "units": [
+    {
+      "id": "u07",
+      "title": "Comidas: Refeições e Alimentos Básicos",
+      "titleEn": "Food: Meals & Staples",
+      "cards": [
+        {
+          "term": "o pão",
+          "en": "the bread",
+          "example": "Como pão com queijo no café da manhã.",
+          "exampleEn": "I eat bread with cheese at breakfast."
+        },
+        {
+          "term": "o arroz",
+          "en": "the rice",
+          "example": "No almoço, não pode faltar arroz e feijão.",
+          "exampleEn": "At lunch, rice and beans can't be missing."
+        },
+        {
+          "term": "o feijão",
+          "en": "the beans",
+          "example": "Hoje tem feijão com arroz no almoço.",
+          "exampleEn": "Today there's beans and rice for lunch."
+        },
+        {
+          "term": "a carne",
+          "en": "the meat",
+          "example": "Vamos comprar carne no mercado hoje.",
+          "exampleEn": "Let's buy meat at the market today."
+        },
+        {
+          "term": "o frango",
+          "en": "the chicken",
+          "example": "O frango assado está quase pronto.",
+          "exampleEn": "The roasted chicken is almost ready."
+        },
+        {
+          "term": "o peixe",
+          "en": "the fish",
+          "example": "Ela gosta de peixe assado com limão.",
+          "exampleEn": "She likes roasted fish with lemon."
+        },
+        {
+          "term": "o ovo",
+          "en": "the egg",
+          "example": "No café da manhã, como dois ovos mexidos.",
+          "exampleEn": "At breakfast, I eat two scrambled eggs."
+        },
+        {
+          "term": "o leite",
+          "en": "the milk",
+          "example": "As crianças bebem leite todos os dias.",
+          "exampleEn": "The kids drink milk every day."
+        },
+        {
+          "term": "o queijo",
+          "en": "the cheese",
+          "example": "Pão de queijo é um lanche clássico brasileiro.",
+          "exampleEn": "Cheese bread is a classic Brazilian snack."
+        },
+        {
+          "term": "a manteiga",
+          "en": "the butter",
+          "example": "O pão com manteiga acabou de sair do forno.",
+          "exampleEn": "The buttered bread just came out of the oven."
+        },
+        {
+          "term": "o açúcar",
+          "en": "the sugar",
+          "example": "Você quer açúcar no café?",
+          "exampleEn": "Do you want sugar in your coffee?"
+        },
+        {
+          "term": "o sal",
+          "en": "the salt",
+          "example": "A sopa precisa de mais sal.",
+          "exampleEn": "The soup needs more salt."
+        },
+        {
+          "term": "o almoço",
+          "en": "lunch",
+          "example": "O almoço está pronto ao meio-dia.",
+          "exampleEn": "Lunch is ready at noon."
+        },
+        {
+          "term": "o jantar",
+          "en": "dinner",
+          "example": "O jantar de hoje é macarrão com molho.",
+          "exampleEn": "Tonight's dinner is pasta with sauce."
+        },
+        {
+          "term": "o café da manhã",
+          "en": "breakfast",
+          "example": "Tomo café da manhã sempre às sete.",
+          "exampleEn": "I always have breakfast at seven."
+        },
+        {
+          "term": "o macarrão",
+          "en": "the pasta",
+          "example": "O macarrão cozinha em apenas dez minutos.",
+          "exampleEn": "The pasta cooks in just ten minutes."
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "title": "Frutas, Legumes e Cozinha",
+      "titleEn": "Fruits, Vegetables & Kitchen",
+      "cards": [
+        {
+          "term": "a maçã",
+          "en": "the apple",
+          "example": "Como uma maçã todos os dias.",
+          "exampleEn": "I eat an apple every day."
+        },
+        {
+          "term": "a banana",
+          "en": "the banana",
+          "example": "No lanche da tarde, como banana.",
+          "exampleEn": "For an afternoon snack, I eat banana."
+        },
+        {
+          "term": "a laranja",
+          "en": "the orange",
+          "example": "Vou fazer suco de laranja gelado.",
+          "exampleEn": "I'm going to make cold orange juice."
+        },
+        {
+          "term": "o abacaxi",
+          "en": "the pineapple",
+          "example": "Comprei um abacaxi doce na feira.",
+          "exampleEn": "I bought a sweet pineapple at the market."
+        },
+        {
+          "term": "o mamão",
+          "en": "the papaya",
+          "example": "Como mamão com aveia no café da manhã.",
+          "exampleEn": "I eat papaya with oats at breakfast."
+        },
+        {
+          "term": "o tomate",
+          "en": "the tomato",
+          "example": "Lavo o tomate para a salada.",
+          "exampleEn": "I wash the tomato for the salad."
+        },
+        {
+          "term": "a batata",
+          "en": "the potato",
+          "example": "Vou fritar batata para o lanche.",
+          "exampleEn": "I'm going to fry potatoes for a snack."
+        },
+        {
+          "term": "a cebola",
+          "en": "the onion",
+          "example": "Refogo a cebola com um pouco de alho.",
+          "exampleEn": "I sauté the onion with a little garlic."
+        },
+        {
+          "term": "o alho",
+          "en": "the garlic",
+          "example": "Esse arroz leva alho e sal.",
+          "exampleEn": "This rice has garlic and salt in it."
+        },
+        {
+          "term": "a cenoura",
+          "en": "the carrot",
+          "example": "Rale a cenoura para a salada.",
+          "exampleEn": "Grate the carrot for the salad."
+        },
+        {
+          "term": "a geladeira",
+          "en": "the refrigerator",
+          "example": "Guarda o leite na geladeira, por favor.",
+          "exampleEn": "Put the milk in the refrigerator, please."
+        },
+        {
+          "term": "o fogão",
+          "en": "the stove",
+          "example": "O feijão está cozinhando no fogão.",
+          "exampleEn": "The beans are cooking on the stove."
+        },
+        {
+          "term": "a panela",
+          "en": "the pot",
+          "example": "Preciso de uma panela maior.",
+          "exampleEn": "I need a bigger pot."
+        },
+        {
+          "term": "o prato",
+          "en": "the plate",
+          "example": "Coloque os pratos em cima da mesa.",
+          "exampleEn": "Put the plates on the table."
+        },
+        {
+          "term": "o garfo",
+          "en": "the fork",
+          "example": "O garfo e a faca estão na gaveta.",
+          "exampleEn": "The fork and the knife are in the drawer."
+        },
+        {
+          "term": "a faca",
+          "en": "the knife",
+          "example": "Corte o pão com a faca.",
+          "exampleEn": "Cut the bread with the knife."
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "title": "Bebidas e Café",
+      "titleEn": "Drinks & Café",
+      "cards": [
+        {
+          "term": "a água",
+          "en": "the water",
+          "example": "Me traz um copo de água, por favor?",
+          "exampleEn": "Can you bring me a glass of water, please?"
+        },
+        {
+          "term": "o suco",
+          "en": "the juice",
+          "example": "Vou pedir um suco de manga.",
+          "exampleEn": "I'm going to order a mango juice."
+        },
+        {
+          "term": "o refrigerante",
+          "en": "the soft drink",
+          "example": "Prefiro água a refrigerante no dia a dia.",
+          "exampleEn": "I prefer water to soft drinks day to day."
+        },
+        {
+          "term": "o vinho",
+          "en": "the wine",
+          "example": "Vamos tomar um vinho hoje à noite.",
+          "exampleEn": "Let's have a wine tonight."
+        },
+        {
+          "term": "a cerveja",
+          "en": "the beer",
+          "example": "Uma cerveja bem gelada, por favor.",
+          "exampleEn": "A very cold beer, please."
+        },
+        {
+          "term": "o chá",
+          "en": "the tea",
+          "example": "À noite gosto de tomar um chá.",
+          "exampleEn": "At night I like to have a tea."
+        },
+        {
+          "term": "o café",
+          "en": "the coffee",
+          "example": "Depois do jantar, tomo um café.",
+          "exampleEn": "After dinner, I have a coffee."
+        },
+        {
+          "term": "o copo",
+          "en": "the glass",
+          "example": "Desculpa, você tem um copo de água?",
+          "exampleEn": "Sorry, do you have a glass of water?"
+        },
+        {
+          "term": "a xícara",
+          "en": "the cup",
+          "example": "Me serve mais uma xícara de café?",
+          "exampleEn": "Could you serve me one more cup of coffee?"
+        },
+        {
+          "term": "a garrafa",
+          "en": "the bottle",
+          "example": "Uma garrafa de água mineral, por favor.",
+          "exampleEn": "A bottle of still water, please."
+        },
+        {
+          "term": "beber",
+          "en": "to drink",
+          "example": "Você quer beber alguma coisa agora?",
+          "exampleEn": "Do you want to drink something now?"
+        },
+        {
+          "term": "tomar",
+          "en": "to drink, to have",
+          "example": "Vamos tomar um suco de laranja?",
+          "exampleEn": "Shall we have an orange juice?"
+        },
+        {
+          "term": "a sede",
+          "en": "thirst",
+          "example": "Depois da corrida, estou com muita sede.",
+          "exampleEn": "After the run, I'm very thirsty."
+        },
+        {
+          "term": "a limonada",
+          "en": "the lemonade",
+          "example": "Faça uma limonada com gelo e açúcar.",
+          "exampleEn": "Make a lemonade with ice and sugar."
+        },
+        {
+          "term": "a bebida",
+          "en": "the drink",
+          "example": "Qual é a sua bebida favorita?",
+          "exampleEn": "What's your favorite drink?"
+        },
+        {
+          "term": "o gelo",
+          "en": "the ice",
+          "example": "Prefiro refrigerante sem gelo.",
+          "exampleEn": "I prefer my soft drink without ice."
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "No Restaurante",
+      "titleEn": "At the Restaurant",
+      "cards": [
+        {
+          "term": "o cardápio",
+          "en": "the menu",
+          "example": "Me traz o cardápio, por favor?",
+          "exampleEn": "Can you bring me the menu, please?"
+        },
+        {
+          "term": "a conta",
+          "en": "the bill",
+          "example": "Garçom, a conta, por favor.",
+          "exampleEn": "Waiter, the bill, please."
+        },
+        {
+          "term": "o garçom",
+          "en": "the waiter",
+          "example": "O garçom foi muito simpático com a gente.",
+          "exampleEn": "The waiter was very nice to us."
+        },
+        {
+          "term": "a gorjeta",
+          "en": "the tip",
+          "example": "A gorjeta aqui é de dez por cento.",
+          "exampleEn": "The tip here is ten percent."
+        },
+        {
+          "term": "pedir",
+          "en": "to order",
+          "example": "Vamos pedir a comida e uma bebida.",
+          "exampleEn": "Let's order the food and a drink."
+        },
+        {
+          "term": "o pedido",
+          "en": "the order",
+          "example": "Acho que o meu pedido veio errado.",
+          "exampleEn": "I think my order came wrong."
+        },
+        {
+          "term": "a sobremesa",
+          "en": "the dessert",
+          "example": "De sobremesa, vamos dividir um bolo.",
+          "exampleEn": "For dessert, let's split a cake."
+        },
+        {
+          "term": "a refeição",
+          "en": "the meal",
+          "example": "A refeição estava ótima e barata.",
+          "exampleEn": "The meal was great and cheap."
+        },
+        {
+          "term": "delicioso",
+          "en": "delicious",
+          "example": "Esse bolo caseiro está delicioso!",
+          "exampleEn": "This homemade cake is delicious!"
+        },
+        {
+          "term": "a reserva",
+          "en": "the reservation",
+          "example": "Tenho uma reserva para duas pessoas.",
+          "exampleEn": "I have a reservation for two people."
+        },
+        {
+          "term": "pagar",
+          "en": "to pay",
+          "example": "Posso pagar com cartão de crédito?",
+          "exampleEn": "Can I pay with a credit card?"
+        },
+        {
+          "term": "a comida",
+          "en": "the food",
+          "example": "A comida daqui é boa e caseira.",
+          "exampleEn": "The food here is good and homemade."
+        },
+        {
+          "term": "a entrada",
+          "en": "the starter",
+          "example": "Para começar, vamos dividir uma entrada.",
+          "exampleEn": "To start, let's split an appetizer."
+        },
+        {
+          "term": "fique à vontade",
+          "en": "make yourself at home",
+          "example": "Fique à vontade na minha casa.",
+          "exampleEn": "Make yourself at home in my house."
+        },
+        {
+          "term": "o guardanapo",
+          "en": "the napkin",
+          "example": "Passa os guardanapos, por favor.",
+          "exampleEn": "Pass the napkins, please."
+        },
+        {
+          "term": "a fome",
+          "en": "hunger",
+          "example": "Depois do passeio, estou com muita fome.",
+          "exampleEn": "After the walk, I'm very hungry."
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "Casa e Compartimentos",
+      "titleEn": "House & Rooms",
+      "cards": [
+        {
+          "term": "a casa",
+          "en": "the house",
+          "example": "Estou voltando para casa agora.",
+          "exampleEn": "I'm heading home right now."
+        },
+        {
+          "term": "o apartamento",
+          "en": "the apartment",
+          "example": "Meu apartamento tem dois quartos pequenos.",
+          "exampleEn": "My apartment has two small bedrooms."
+        },
+        {
+          "term": "a cozinha",
+          "en": "the kitchen",
+          "example": "Lavo a louça na cozinha depois do jantar.",
+          "exampleEn": "I wash the dishes in the kitchen after dinner."
+        },
+        {
+          "term": "o quarto",
+          "en": "the bedroom",
+          "example": "O quarto tem uma janela grande.",
+          "exampleEn": "The bedroom has a big window."
+        },
+        {
+          "term": "o banheiro",
+          "en": "the bathroom",
+          "example": "Posso usar o banheiro, por favor?",
+          "exampleEn": "Can I use the bathroom, please?"
+        },
+        {
+          "term": "a sala",
+          "en": "the living room",
+          "example": "A família conversa à noite na sala.",
+          "exampleEn": "The family chats at night in the living room."
+        },
+        {
+          "term": "o quintal",
+          "en": "the backyard",
+          "example": "O cachorro brinca no quintal de casa.",
+          "exampleEn": "The dog plays in the backyard."
+        },
+        {
+          "term": "a garagem",
+          "en": "the garage",
+          "example": "O carro está estacionado na garagem.",
+          "exampleEn": "The car is parked in the garage."
+        },
+        {
+          "term": "a porta",
+          "en": "the door",
+          "example": "A porta da frente está aberta.",
+          "exampleEn": "The front door is open."
+        },
+        {
+          "term": "a janela",
+          "en": "the window",
+          "example": "Abra a janela para entrar ar, por favor.",
+          "exampleEn": "Open the window for some air, please."
+        },
+        {
+          "term": "o jardim",
+          "en": "the garden",
+          "example": "Meu pai rega as plantas do jardim.",
+          "exampleEn": "My dad waters the garden plants."
+        },
+        {
+          "term": "o elevador",
+          "en": "the elevator",
+          "example": "O elevador do prédio está quebrado.",
+          "exampleEn": "The building's elevator is broken."
+        },
+        {
+          "term": "a varanda",
+          "en": "the balcony",
+          "example": "À noite, tomamos café na varanda.",
+          "exampleEn": "At night, we have coffee on the balcony."
+        },
+        {
+          "term": "o vizinho",
+          "en": "the neighbor",
+          "example": "O vizinho novo é muito simpático.",
+          "exampleEn": "The new neighbor is very nice."
+        },
+        {
+          "term": "o escritório",
+          "en": "the office",
+          "example": "Trabalho no escritório aqui de casa.",
+          "exampleEn": "I work in the home office."
+        },
+        {
+          "term": "a escada",
+          "en": "the stairs",
+          "example": "Desça a escada com cuidado.",
+          "exampleEn": "Go down the stairs carefully."
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "Objetos e Móveis",
+      "titleEn": "Objects & Furniture",
+      "cards": [
+        {
+          "term": "a mesa",
+          "en": "the table",
+          "example": "Os livros estão em cima da mesa.",
+          "exampleEn": "The books are on the table."
+        },
+        {
+          "term": "a cadeira",
+          "en": "the chair",
+          "example": "Puxa a cadeira e senta aqui.",
+          "exampleEn": "Pull up the chair and sit here."
+        },
+        {
+          "term": "a cama",
+          "en": "the bed",
+          "example": "Arrumo a cama todas as manhãs.",
+          "exampleEn": "I make the bed every morning."
+        },
+        {
+          "term": "o sofá",
+          "en": "the sofa",
+          "example": "Estou no sofá vendo televisão.",
+          "exampleEn": "I'm on the sofa watching television."
+        },
+        {
+          "term": "o armário",
+          "en": "the wardrobe",
+          "example": "Guardei as roupas novas no armário.",
+          "exampleEn": "I put the new clothes in the wardrobe."
+        },
+        {
+          "term": "o espelho",
+          "en": "the mirror",
+          "example": "Se olha no espelho antes de sair.",
+          "exampleEn": "He looks at himself in the mirror before going out."
+        },
+        {
+          "term": "a televisão",
+          "en": "the television",
+          "example": "A televisão está na sala de estar.",
+          "exampleEn": "The television is in the living room."
+        },
+        {
+          "term": "o computador",
+          "en": "the computer",
+          "example": "Uso o computador para trabalhar todos os dias.",
+          "exampleEn": "I use the computer to work every day."
+        },
+        {
+          "term": "o celular",
+          "en": "the cell phone",
+          "example": "Meu celular está sem bateria.",
+          "exampleEn": "My cell phone is out of battery."
+        },
+        {
+          "term": "a chave",
+          "en": "the key",
+          "example": "Perdi a chave de casa hoje.",
+          "exampleEn": "I lost my house key today."
+        },
+        {
+          "term": "o livro",
+          "en": "the book",
+          "example": "Estou lendo um livro muito bom.",
+          "exampleEn": "I'm reading a very good book."
+        },
+        {
+          "term": "a caneta",
+          "en": "the pen",
+          "example": "Você tem uma caneta para me emprestar?",
+          "exampleEn": "Do you have a pen to lend me?"
+        },
+        {
+          "term": "o relógio",
+          "en": "the watch",
+          "example": "Esqueci meu relógio em cima da mesa.",
+          "exampleEn": "I left my watch on the table."
+        },
+        {
+          "term": "o travesseiro",
+          "en": "the pillow",
+          "example": "Comprei um travesseiro novo e macio.",
+          "exampleEn": "I bought a new, soft pillow."
+        },
+        {
+          "term": "a toalha",
+          "en": "the towel",
+          "example": "Pega a toalha para me secar.",
+          "exampleEn": "Grab the towel to dry me off."
+        },
+        {
+          "term": "o controle remoto",
+          "en": "the remote control",
+          "example": "Pega o controle remoto e muda o canal.",
+          "exampleEn": "Grab the remote control and change the channel."
+        }
+      ]
+    }
+  ]
+}

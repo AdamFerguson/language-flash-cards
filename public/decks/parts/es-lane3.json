@@ -1,0 +1,623 @@
+{
+  "lang": "es",
+  "units": [
+    {
+      "id": "u13",
+      "title": "La ciudad y los lugares",
+      "titleEn": "City & Places",
+      "cards": [
+        {
+          "term": "la ciudad",
+          "en": "the city",
+          "example": "Vivo en una ciudad grande.",
+          "exampleEn": "I live in a big city."
+        },
+        {
+          "term": "el pueblo",
+          "en": "the town, the village",
+          "example": "Mi abuela vive en un pueblo pequeño.",
+          "exampleEn": "My grandmother lives in a small town."
+        },
+        {
+          "term": "la calle",
+          "en": "the street",
+          "example": "La calle está llena de gente.",
+          "exampleEn": "The street is full of people."
+        },
+        {
+          "term": "el banco",
+          "en": "the bank",
+          "example": "El banco abre a las nueve.",
+          "exampleEn": "The bank opens at nine."
+        },
+        {
+          "term": "el hospital",
+          "en": "the hospital",
+          "example": "El hospital está cerca de mi casa.",
+          "exampleEn": "The hospital is near my house."
+        },
+        {
+          "term": "la farmacia",
+          "en": "the pharmacy, the drugstore",
+          "example": "Compro medicinas en la farmacia.",
+          "exampleEn": "I buy medicine at the pharmacy."
+        },
+        {
+          "term": "la escuela",
+          "en": "the school",
+          "example": "Los niños van a la escuela en autobús.",
+          "exampleEn": "The kids go to school by bus."
+        },
+        {
+          "term": "la universidad",
+          "en": "the university",
+          "example": "Estudio en la universidad.",
+          "exampleEn": "I study at the university."
+        },
+        {
+          "term": "el supermercado",
+          "en": "the supermarket",
+          "example": "El supermercado cierra a las diez.",
+          "exampleEn": "The supermarket closes at ten."
+        },
+        {
+          "term": "el restaurante",
+          "en": "the restaurant",
+          "example": "Este restaurante tiene buena comida.",
+          "exampleEn": "This restaurant has good food."
+        },
+        {
+          "term": "el parque",
+          "en": "the park",
+          "example": "Los niños juegan en el parque.",
+          "exampleEn": "The kids play in the park."
+        },
+        {
+          "term": "la biblioteca",
+          "en": "the library",
+          "example": "La biblioteca está abierta los lunes.",
+          "exampleEn": "The library is open on Mondays."
+        },
+        {
+          "term": "el mercado",
+          "en": "the market",
+          "example": "Compro fruta fresca en el mercado.",
+          "exampleEn": "I buy fresh fruit at the market."
+        },
+        {
+          "term": "la playa",
+          "en": "the beach",
+          "example": "En verano vamos a la playa.",
+          "exampleEn": "In summer we go to the beach."
+        },
+        {
+          "term": "la estación",
+          "en": "the station",
+          "example": "La estación de tren está lejos.",
+          "exampleEn": "The train station is far away."
+        },
+        {
+          "term": "la tienda",
+          "en": "the store, the shop",
+          "example": "La tienda de ropa está cerrada.",
+          "exampleEn": "The clothing store is closed."
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "Indicaciones y transporte",
+      "titleEn": "Directions & Transport",
+      "cards": [
+        {
+          "term": "la izquierda",
+          "en": "the left",
+          "example": "Gira a la izquierda en la esquina.",
+          "exampleEn": "Turn left at the corner."
+        },
+        {
+          "term": "la derecha",
+          "en": "the right",
+          "example": "La farmacia está a la derecha.",
+          "exampleEn": "The pharmacy is on the right."
+        },
+        {
+          "term": "todo recto",
+          "en": "straight ahead",
+          "example": "Siga todo recto y luego gire.",
+          "exampleEn": "Go straight ahead and then turn."
+        },
+        {
+          "term": "la esquina",
+          "en": "the corner",
+          "example": "El semáforo está en la esquina.",
+          "exampleEn": "The traffic light is on the corner."
+        },
+        {
+          "term": "girar",
+          "en": "to turn",
+          "example": "Debe girar a la derecha.",
+          "exampleEn": "You must turn right."
+        },
+        {
+          "term": "cruzar",
+          "en": "to cross",
+          "example": "Cruce la calle con cuidado.",
+          "exampleEn": "Cross the street carefully."
+        },
+        {
+          "term": "la parada",
+          "en": "the stop",
+          "example": "La parada del autobús está aquí.",
+          "exampleEn": "The bus stop is right here."
+        },
+        {
+          "term": "el autobús",
+          "en": "the bus",
+          "example": "Tomo el autobús para ir al trabajo.",
+          "exampleEn": "I take the bus to go to work."
+        },
+        {
+          "term": "el tren",
+          "en": "the train",
+          "example": "El tren llega en diez minutos.",
+          "exampleEn": "The train arrives in ten minutes."
+        },
+        {
+          "term": "el metro",
+          "en": "the subway, the metro",
+          "example": "Voy al trabajo en metro.",
+          "exampleEn": "I go to work by subway."
+        },
+        {
+          "term": "el taxi",
+          "en": "the taxi",
+          "example": "Tomamos un taxi porque era tarde.",
+          "exampleEn": "We took a taxi because it was late."
+        },
+        {
+          "term": "el coche",
+          "en": "the car",
+          "example": "Mi coche está estacionado afuera.",
+          "exampleEn": "My car is parked outside."
+        },
+        {
+          "term": "la bicicleta",
+          "en": "the bicycle",
+          "example": "Ella va a la oficina en bicicleta.",
+          "exampleEn": "She goes to the office by bicycle."
+        },
+        {
+          "term": "la carretera",
+          "en": "the highway, the road",
+          "example": "Conducimos por la carretera antigua.",
+          "exampleEn": "We drive along the old road."
+        },
+        {
+          "term": "cerca",
+          "en": "near, close",
+          "example": "La farmacia está cerca de aquí.",
+          "exampleEn": "The pharmacy is near here."
+        },
+        {
+          "term": "lejos",
+          "en": "far",
+          "example": "El aeropuerto queda lejos del hotel.",
+          "exampleEn": "The airport is far from the hotel."
+        }
+      ]
+    },
+    {
+      "id": "u15",
+      "title": "Viajes: aeropuerto y hotel",
+      "titleEn": "Travel: Airport & Hotel",
+      "cards": [
+        {
+          "term": "el aeropuerto",
+          "en": "the airport",
+          "example": "Llegamos al aeropuerto muy temprano.",
+          "exampleEn": "We arrived at the airport very early."
+        },
+        {
+          "term": "el pasaporte",
+          "en": "the passport",
+          "example": "Tengo el pasaporte en la mano.",
+          "exampleEn": "I have my passport in my hand."
+        },
+        {
+          "term": "el equipaje",
+          "en": "the luggage",
+          "example": "El equipaje pesa más de veinte kilos.",
+          "exampleEn": "The luggage weighs more than twenty kilos."
+        },
+        {
+          "term": "la maleta",
+          "en": "the suitcase",
+          "example": "Mi maleta es demasiado pesada.",
+          "exampleEn": "My suitcase is too heavy."
+        },
+        {
+          "term": "el avión",
+          "en": "the plane",
+          "example": "El avión sale a las seis.",
+          "exampleEn": "The plane departs at six."
+        },
+        {
+          "term": "el billete",
+          "en": "the ticket",
+          "example": "Compré el billete por internet.",
+          "exampleEn": "I bought the ticket online."
+        },
+        {
+          "term": "el asiento",
+          "en": "the seat",
+          "example": "Mi asiento está junto a la ventana.",
+          "exampleEn": "My seat is next to the window."
+        },
+        {
+          "term": "facturar",
+          "en": "to check in (luggage)",
+          "example": "Vamos a facturar la maleta ahora.",
+          "exampleEn": "We are going to check the suitcase now."
+        },
+        {
+          "term": "la puerta de embarque",
+          "en": "the boarding gate",
+          "example": "La puerta de embarque es la doce.",
+          "exampleEn": "The boarding gate is number twelve."
+        },
+        {
+          "term": "la aduana",
+          "en": "customs",
+          "example": "Pasé la aduana sin problemas.",
+          "exampleEn": "I passed through customs without problems."
+        },
+        {
+          "term": "el hotel",
+          "en": "the hotel",
+          "example": "El hotel está cerca de la playa.",
+          "exampleEn": "The hotel is near the beach."
+        },
+        {
+          "term": "la habitación",
+          "en": "the room",
+          "example": "La habitación tiene vista al mar.",
+          "exampleEn": "The room has a view of the sea."
+        },
+        {
+          "term": "la llave",
+          "en": "the key",
+          "example": "Necesito la llave de mi habitación.",
+          "exampleEn": "I need the key to my room."
+        },
+        {
+          "term": "la reserva",
+          "en": "the reservation",
+          "example": "Hice una reserva para dos noches.",
+          "exampleEn": "I made a reservation for two nights."
+        },
+        {
+          "term": "la recepción",
+          "en": "the front desk, the reception",
+          "example": "Deje su llave en la recepción.",
+          "exampleEn": "Leave your key at the front desk."
+        },
+        {
+          "term": "el pasillo",
+          "en": "the aisle, the hallway",
+          "example": "Mi asiento es en el pasillo.",
+          "exampleEn": "My seat is on the aisle."
+        }
+      ]
+    },
+    {
+      "id": "u16",
+      "title": "Compras y dinero",
+      "titleEn": "Shopping & Money",
+      "cards": [
+        {
+          "term": "comprar",
+          "en": "to buy",
+          "example": "Voy a comprar pan en la panadería.",
+          "exampleEn": "I'm going to buy bread at the bakery."
+        },
+        {
+          "term": "vender",
+          "en": "to sell",
+          "example": "El señor vende fruta en el mercado.",
+          "exampleEn": "The man sells fruit at the market."
+        },
+        {
+          "term": "el precio",
+          "en": "the price",
+          "example": "El precio de la carne es alto.",
+          "exampleEn": "The price of the meat is high."
+        },
+        {
+          "term": "caro",
+          "en": "expensive",
+          "example": "Esta chaqueta es muy cara.",
+          "exampleEn": "This jacket is very expensive."
+        },
+        {
+          "term": "barato",
+          "en": "cheap",
+          "example": "El mercado es más barato.",
+          "exampleEn": "The market is cheaper."
+        },
+        {
+          "term": "el dinero",
+          "en": "the money",
+          "example": "No tengo dinero suficiente.",
+          "exampleEn": "I don't have enough money."
+        },
+        {
+          "term": "la tarjeta",
+          "en": "the card",
+          "example": "Puedo pagar con tarjeta, ¿verdad?",
+          "exampleEn": "I can pay with a card, right?"
+        },
+        {
+          "term": "el efectivo",
+          "en": "cash",
+          "example": "Prefiero pagar en efectivo.",
+          "exampleEn": "I prefer to pay in cash."
+        },
+        {
+          "term": "el cambio",
+          "en": "the change (coins)",
+          "example": "¿Me puede dar el cambio?",
+          "exampleEn": "Can you give me the change?"
+        },
+        {
+          "term": "la bolsa",
+          "en": "the bag",
+          "example": "La fruta cabe en esta bolsa.",
+          "exampleEn": "The fruit fits in this bag."
+        },
+        {
+          "term": "la caja",
+          "en": "the checkout, the register",
+          "example": "Pague en la caja, por favor.",
+          "exampleEn": "Please pay at the register."
+        },
+        {
+          "term": "el descuento",
+          "en": "the discount",
+          "example": "Me hicieron un descuento grande.",
+          "exampleEn": "They gave me a big discount."
+        },
+        {
+          "term": "pagar",
+          "en": "to pay",
+          "example": "¿Cuánto tengo que pagar?",
+          "exampleEn": "How much do I have to pay?"
+        },
+        {
+          "term": "el recibo",
+          "en": "the receipt",
+          "example": "Necesito el recibo, por favor.",
+          "exampleEn": "I need the receipt, please."
+        },
+        {
+          "term": "la talla",
+          "en": "the size (clothing)",
+          "example": "¿Tiene esta camisa en otra talla?",
+          "exampleEn": "Do you have this shirt in another size?"
+        },
+        {
+          "term": "la ropa",
+          "en": "the clothes",
+          "example": "Compro ropa en esa tienda.",
+          "exampleEn": "I buy clothes at that store."
+        }
+      ]
+    },
+    {
+      "id": "u17",
+      "title": "Trabajo y escuela",
+      "titleEn": "Work & School",
+      "cards": [
+        {
+          "term": "el trabajo",
+          "en": "the job, the work",
+          "example": "Mi trabajo empieza a las ocho.",
+          "exampleEn": "My job starts at eight."
+        },
+        {
+          "term": "trabajar",
+          "en": "to work",
+          "example": "Mi madre trabaja en un banco.",
+          "exampleEn": "My mother works at a bank."
+        },
+        {
+          "term": "la oficina",
+          "en": "the office",
+          "example": "Trabajo en una oficina pequeña.",
+          "exampleEn": "I work in a small office."
+        },
+        {
+          "term": "el jefe",
+          "en": "the boss",
+          "example": "Mi jefe es muy amable.",
+          "exampleEn": "My boss is very kind."
+        },
+        {
+          "term": "el sueldo",
+          "en": "the salary",
+          "example": "El sueldo es suficiente para vivir.",
+          "exampleEn": "The salary is enough to live on."
+        },
+        {
+          "term": "el horario",
+          "en": "the schedule",
+          "example": "No tengo un horario fijo.",
+          "exampleEn": "I don't have a fixed schedule."
+        },
+        {
+          "term": "el estudiante",
+          "en": "the student",
+          "example": "Soy estudiante todavía.",
+          "exampleEn": "I'm still a student."
+        },
+        {
+          "term": "estudiar",
+          "en": "to study",
+          "example": "Estudio español todos los días.",
+          "exampleEn": "I study Spanish every day."
+        },
+        {
+          "term": "aprender",
+          "en": "to learn",
+          "example": "Quiero aprender a cocinar.",
+          "exampleEn": "I want to learn to cook."
+        },
+        {
+          "term": "la clase",
+          "en": "the class",
+          "example": "La clase empieza en cinco minutos.",
+          "exampleEn": "Class starts in five minutes."
+        },
+        {
+          "term": "el profesor",
+          "en": "the teacher, the professor",
+          "example": "El profesor explica la lección.",
+          "exampleEn": "The teacher explains the lesson."
+        },
+        {
+          "term": "el libro",
+          "en": "the book",
+          "example": "Leo un libro cada mes.",
+          "exampleEn": "I read a book every month."
+        },
+        {
+          "term": "el cuaderno",
+          "en": "the notebook",
+          "example": "Escribo en mi cuaderno nuevo.",
+          "exampleEn": "I write in my new notebook."
+        },
+        {
+          "term": "la tarea",
+          "en": "the homework",
+          "example": "Tengo mucha tarea esta semana.",
+          "exampleEn": "I have a lot of homework this week."
+        },
+        {
+          "term": "el examen",
+          "en": "the exam",
+          "example": "El examen es el viernes.",
+          "exampleEn": "The exam is on Friday."
+        },
+        {
+          "term": "escribir",
+          "en": "to write",
+          "example": "Escribo mi nombre en la hoja.",
+          "exampleEn": "I write my name on the sheet."
+        }
+      ]
+    },
+    {
+      "id": "u18",
+      "title": "Cuerpo y salud",
+      "titleEn": "Body & Health",
+      "cards": [
+        {
+          "term": "la cabeza",
+          "en": "the head",
+          "example": "Me duele la cabeza.",
+          "exampleEn": "I have a headache."
+        },
+        {
+          "term": "el ojo",
+          "en": "the eye",
+          "example": "Tengo algo en el ojo.",
+          "exampleEn": "I have something in my eye."
+        },
+        {
+          "term": "la nariz",
+          "en": "the nose",
+          "example": "Tengo la nariz tapada.",
+          "exampleEn": "My nose is stuffed up."
+        },
+        {
+          "term": "la boca",
+          "en": "the mouth",
+          "example": "Me duele algo en la boca.",
+          "exampleEn": "Something hurts in my mouth."
+        },
+        {
+          "term": "el diente",
+          "en": "the tooth",
+          "example": "Me duele un diente.",
+          "exampleEn": "I have a toothache."
+        },
+        {
+          "term": "el brazo",
+          "en": "the arm",
+          "example": "Me duele el brazo derecho.",
+          "exampleEn": "My right arm hurts."
+        },
+        {
+          "term": "la mano",
+          "en": "the hand",
+          "example": "Lávate las manos antes de comer.",
+          "exampleEn": "Wash your hands before eating."
+        },
+        {
+          "term": "la pierna",
+          "en": "the leg",
+          "example": "Me duele la pierna al caminar.",
+          "exampleEn": "My leg hurts when I walk."
+        },
+        {
+          "term": "el pie",
+          "en": "the foot",
+          "example": "Me duele el pie al correr.",
+          "exampleEn": "My foot hurts when I run."
+        },
+        {
+          "term": "la espalda",
+          "en": "the back",
+          "example": "Me duele la espalda de trabajar.",
+          "exampleEn": "My back hurts from working."
+        },
+        {
+          "term": "el corazón",
+          "en": "the heart",
+          "example": "El corazón late muy rápido.",
+          "exampleEn": "The heart beats very fast."
+        },
+        {
+          "term": "doler",
+          "en": "to hurt",
+          "example": "Me duelen mucho los ojos.",
+          "exampleEn": "My eyes hurt a lot."
+        },
+        {
+          "term": "el médico",
+          "en": "the doctor",
+          "example": "Voy al médico mañana.",
+          "exampleEn": "I'm going to the doctor tomorrow."
+        },
+        {
+          "term": "la medicina",
+          "en": "the medicine",
+          "example": "Tomo la medicina por la noche.",
+          "exampleEn": "I take the medicine at night."
+        },
+        {
+          "term": "enfermo",
+          "en": "sick",
+          "example": "Mi hermano está enfermo hoy.",
+          "exampleEn": "My brother is sick today."
+        },
+        {
+          "term": "la gripe",
+          "en": "the flu",
+          "example": "Tengo gripe y tos.",
+          "exampleEn": "I have the flu and a cough."
+        }
+      ]
+    }
+  ]
+}

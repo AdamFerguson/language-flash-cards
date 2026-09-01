@@ -1,0 +1,623 @@
+{
+  "lang": "es",
+  "units": [
+    {
+      "id": "u07",
+      "title": "Comida: comidas y alimentos básicos",
+      "titleEn": "Food: Meals & Staples",
+      "cards": [
+        {
+          "term": "el desayuno",
+          "en": "breakfast",
+          "example": "El desayuno está listo a las siete.",
+          "exampleEn": "Breakfast is ready at seven."
+        },
+        {
+          "term": "el almuerzo",
+          "en": "lunch",
+          "example": "El almuerzo es a las dos en punto.",
+          "exampleEn": "Lunch is at two o'clock sharp."
+        },
+        {
+          "term": "la cena",
+          "en": "dinner",
+          "example": "La cena es ligera, solo una sopa.",
+          "exampleEn": "Dinner is light, just a soup."
+        },
+        {
+          "term": "el pan",
+          "en": "bread",
+          "example": "Compro pan fresco en la panadería.",
+          "exampleEn": "I buy fresh bread at the bakery."
+        },
+        {
+          "term": "el arroz",
+          "en": "rice",
+          "example": "El arroz con pollo es muy común.",
+          "exampleEn": "Chicken and rice is very common."
+        },
+        {
+          "term": "la pasta",
+          "en": "pasta",
+          "example": "La pasta con salsa es fácil de hacer.",
+          "exampleEn": "Pasta with sauce is easy to make."
+        },
+        {
+          "term": "la carne",
+          "en": "meat",
+          "example": "No como carne, soy vegetariano.",
+          "exampleEn": "I don't eat meat, I'm vegetarian."
+        },
+        {
+          "term": "el pollo",
+          "en": "chicken",
+          "example": "El pollo con arroz es mi favorito.",
+          "exampleEn": "Chicken with rice is my favorite."
+        },
+        {
+          "term": "el pescado",
+          "en": "fish",
+          "example": "El pescado del restaurante estaba fresco.",
+          "exampleEn": "The fish at the restaurant was fresh."
+        },
+        {
+          "term": "el queso",
+          "en": "cheese",
+          "example": "Me encanta el queso con pan.",
+          "exampleEn": "I love cheese with bread."
+        },
+        {
+          "term": "el huevo",
+          "en": "egg",
+          "example": "Como huevos con tomate en el desayuno.",
+          "exampleEn": "I eat eggs with tomato for breakfast."
+        },
+        {
+          "term": "la sopa",
+          "en": "soup",
+          "example": "En invierno me gusta la sopa caliente.",
+          "exampleEn": "In winter I like hot soup."
+        },
+        {
+          "term": "la ensalada",
+          "en": "salad",
+          "example": "Para el almuerzo pido una ensalada.",
+          "exampleEn": "For lunch I order a salad."
+        },
+        {
+          "term": "la papa",
+          "en": "potato",
+          "example": "Me gustan las papas fritas con huevo.",
+          "exampleEn": "I like French fries with egg."
+        },
+        {
+          "term": "la sal",
+          "en": "salt",
+          "example": "La sopa necesita un poco de sal.",
+          "exampleEn": "The soup needs a little salt."
+        },
+        {
+          "term": "el azúcar",
+          "en": "sugar",
+          "example": "Tomo el café sin azúcar.",
+          "exampleEn": "I drink my coffee without sugar."
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "title": "Frutas, verduras y cocina",
+      "titleEn": "Fruits, Vegetables & Kitchen",
+      "cards": [
+        {
+          "term": "la manzana",
+          "en": "apple",
+          "example": "Como una manzana todos los días.",
+          "exampleEn": "I eat an apple every day."
+        },
+        {
+          "term": "la banana",
+          "en": "banana",
+          "example": "La banana es una fruta muy dulce.",
+          "exampleEn": "A banana is a very sweet fruit."
+        },
+        {
+          "term": "la naranja",
+          "en": "orange",
+          "example": "Me encanta el jugo de naranja natural.",
+          "exampleEn": "I love fresh orange juice."
+        },
+        {
+          "term": "la fresa",
+          "en": "strawberry",
+          "example": "Me gustan las fresas con crema.",
+          "exampleEn": "I like strawberries with cream."
+        },
+        {
+          "term": "la uva",
+          "en": "grape",
+          "example": "Estas uvas son muy dulces.",
+          "exampleEn": "These grapes are very sweet."
+        },
+        {
+          "term": "el limón",
+          "en": "lemon",
+          "example": "El agua con limón es muy refrescante.",
+          "exampleEn": "Water with lemon is very refreshing."
+        },
+        {
+          "term": "el tomate",
+          "en": "tomato",
+          "example": "La ensalada lleva tomate y cebolla.",
+          "exampleEn": "The salad has tomato and onion."
+        },
+        {
+          "term": "la cebolla",
+          "en": "onion",
+          "example": "Cuando corto la cebolla, lloro un poco.",
+          "exampleEn": "When I cut onion, I cry a little."
+        },
+        {
+          "term": "el ajo",
+          "en": "garlic",
+          "example": "Esta salsa lleva mucho ajo.",
+          "exampleEn": "This sauce has a lot of garlic."
+        },
+        {
+          "term": "la zanahoria",
+          "en": "carrot",
+          "example": "La zanahoria es buena para la vista.",
+          "exampleEn": "Carrots are good for your eyesight."
+        },
+        {
+          "term": "la lechuga",
+          "en": "lettuce",
+          "example": "Pongo lechuga en la ensalada.",
+          "exampleEn": "I put lettuce in the salad."
+        },
+        {
+          "term": "el cuchillo",
+          "en": "knife",
+          "example": "¿Me pasas el cuchillo, por favor?",
+          "exampleEn": "Can you pass me the knife, please?"
+        },
+        {
+          "term": "la cuchara",
+          "en": "spoon",
+          "example": "Uso la cuchara para la sopa.",
+          "exampleEn": "I use a spoon for the soup."
+        },
+        {
+          "term": "el plato",
+          "en": "plate, dish",
+          "example": "Lava los platos después de cenar.",
+          "exampleEn": "Wash the dishes after dinner."
+        },
+        {
+          "term": "la taza",
+          "en": "cup, mug",
+          "example": "Mi taza de café está llena.",
+          "exampleEn": "My coffee cup is full."
+        },
+        {
+          "term": "el refrigerador",
+          "en": "refrigerator, fridge",
+          "example": "La leche está en el refrigerador.",
+          "exampleEn": "The milk is in the fridge."
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "title": "Bebidas y café",
+      "titleEn": "Drinks & Café",
+      "cards": [
+        {
+          "term": "el agua",
+          "en": "water",
+          "example": "Necesito beber más agua en verano.",
+          "exampleEn": "I need to drink more water in summer."
+        },
+        {
+          "term": "el café",
+          "en": "coffee",
+          "example": "Por la mañana tomo un café con leche.",
+          "exampleEn": "In the morning I have a coffee with milk."
+        },
+        {
+          "term": "la leche",
+          "en": "milk",
+          "example": "Le pongo leche al café.",
+          "exampleEn": "I add milk to my coffee."
+        },
+        {
+          "term": "el té",
+          "en": "tea",
+          "example": "Mi abuela toma té verde cada noche.",
+          "exampleEn": "My grandmother drinks green tea every night."
+        },
+        {
+          "term": "el jugo",
+          "en": "juice",
+          "example": "Quiero un jugo de naranja, por favor.",
+          "exampleEn": "I'd like an orange juice, please."
+        },
+        {
+          "term": "la limonada",
+          "en": "lemonade",
+          "example": "En verano me encanta la limonada fría.",
+          "exampleEn": "In summer I love cold lemonade."
+        },
+        {
+          "term": "el refresco",
+          "en": "soda, soft drink",
+          "example": "No tomo refresco, prefiero agua.",
+          "exampleEn": "I don't drink soda, I prefer water."
+        },
+        {
+          "term": "la cerveza",
+          "en": "beer",
+          "example": "Los viernes tomo una cerveza con amigos.",
+          "exampleEn": "On Fridays I have a beer with friends."
+        },
+        {
+          "term": "el vino",
+          "en": "wine",
+          "example": "Pedimos una botella de vino tinto.",
+          "exampleEn": "We ordered a bottle of red wine."
+        },
+        {
+          "term": "el vaso",
+          "en": "glass",
+          "example": "Un vaso de agua, por favor.",
+          "exampleEn": "A glass of water, please."
+        },
+        {
+          "term": "la botella",
+          "en": "bottle",
+          "example": "Una botella de agua cuesta un dólar.",
+          "exampleEn": "A bottle of water costs one dollar."
+        },
+        {
+          "term": "el hielo",
+          "en": "ice",
+          "example": "Quiero un agua mineral con mucho hielo.",
+          "exampleEn": "I want sparkling water with lots of ice."
+        },
+        {
+          "term": "la sed",
+          "en": "thirst",
+          "example": "Tengo mucha sed después de correr.",
+          "exampleEn": "I'm very thirsty after running."
+        },
+        {
+          "term": "el chocolate",
+          "en": "hot chocolate, chocolate",
+          "example": "Los niños toman chocolate con galletas.",
+          "exampleEn": "The kids have hot chocolate with cookies."
+        },
+        {
+          "term": "la merienda",
+          "en": "snack, afternoon snack",
+          "example": "La merienda es a las cinco.",
+          "exampleEn": "Snack time is at five."
+        },
+        {
+          "term": "el trago",
+          "en": "sip, drink",
+          "example": "Tomé un trago de agua fría.",
+          "exampleEn": "I took a sip of cold water."
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "En el restaurante",
+      "titleEn": "At the Restaurant",
+      "cards": [
+        {
+          "term": "el menú",
+          "en": "menu",
+          "example": "¿Me traen el menú, por favor?",
+          "exampleEn": "Could you bring me the menu, please?"
+        },
+        {
+          "term": "la cuenta",
+          "en": "the check, the bill",
+          "example": "La cuenta, por favor, tengo prisa.",
+          "exampleEn": "The check, please, I'm in a hurry."
+        },
+        {
+          "term": "la propina",
+          "en": "tip (gratuity)",
+          "example": "Dejamos propina porque el servicio fue bueno.",
+          "exampleEn": "We left a tip because the service was good."
+        },
+        {
+          "term": "el mesero",
+          "en": "waiter",
+          "example": "El mesero nos trae el menú.",
+          "exampleEn": "The waiter brings us the menu."
+        },
+        {
+          "term": "la mesa",
+          "en": "table",
+          "example": "Una mesa para dos, por favor.",
+          "exampleEn": "A table for two, please."
+        },
+        {
+          "term": "el pedido",
+          "en": "order",
+          "example": "Ya hicimos el pedido.",
+          "exampleEn": "We've already placed our order."
+        },
+        {
+          "term": "el postre",
+          "en": "dessert",
+          "example": "De postre, un helado para dos.",
+          "exampleEn": "For dessert, ice cream for two."
+        },
+        {
+          "term": "la bebida",
+          "en": "drink, beverage",
+          "example": "¿Qué bebida prefieres, agua o jugo?",
+          "exampleEn": "What drink do you prefer, water or juice?"
+        },
+        {
+          "term": "la reservación",
+          "en": "reservation",
+          "example": "Tengo una reservación para las ocho.",
+          "exampleEn": "I have a reservation for eight."
+        },
+        {
+          "term": "delicioso",
+          "en": "delicious",
+          "example": "¡Esta comida está deliciosa!",
+          "exampleEn": "This food is delicious!"
+        },
+        {
+          "term": "picante",
+          "en": "spicy, hot (spicy)",
+          "example": "No como comida muy picante.",
+          "exampleEn": "I don't eat very spicy food."
+        },
+        {
+          "term": "pedir",
+          "en": "to order",
+          "example": "Voy a pedir el pollo con arroz.",
+          "exampleEn": "I'm going to order the chicken with rice."
+        },
+        {
+          "term": "pagar",
+          "en": "to pay",
+          "example": "¿Puedo pagar con tarjeta, por favor?",
+          "exampleEn": "Can I pay with card, please?"
+        },
+        {
+          "term": "compartir",
+          "en": "to share",
+          "example": "Vamos a compartir el postre.",
+          "exampleEn": "We're going to share the dessert."
+        },
+        {
+          "term": "invitar",
+          "en": "to treat, to pay for",
+          "example": "Hoy invito yo, es tu cumpleaños.",
+          "exampleEn": "Today I'm treating, it's your birthday."
+        },
+        {
+          "term": "para llevar",
+          "en": "to go, takeout",
+          "example": "Un café para llevar, por favor.",
+          "exampleEn": "A coffee to go, please."
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "La casa y las habitaciones",
+      "titleEn": "House & Rooms",
+      "cards": [
+        {
+          "term": "la casa",
+          "en": "house, home",
+          "example": "Mi casa tiene dos pisos.",
+          "exampleEn": "My house has two floors."
+        },
+        {
+          "term": "la cocina",
+          "en": "kitchen",
+          "example": "Me gusta cocinar en la cocina nueva.",
+          "exampleEn": "I like to cook in the new kitchen."
+        },
+        {
+          "term": "el baño",
+          "en": "bathroom",
+          "example": "El baño está al final del pasillo.",
+          "exampleEn": "The bathroom is at the end of the hall."
+        },
+        {
+          "term": "la habitación",
+          "en": "room, bedroom",
+          "example": "Mi habitación es pequeña pero cómoda.",
+          "exampleEn": "My room is small but cozy."
+        },
+        {
+          "term": "la sala",
+          "en": "living room",
+          "example": "Nos sentamos en la sala a ver películas.",
+          "exampleEn": "We sit in the living room to watch movies."
+        },
+        {
+          "term": "el patio",
+          "en": "yard, patio",
+          "example": "Los niños juegan en el patio.",
+          "exampleEn": "The kids play in the yard."
+        },
+        {
+          "term": "el jardín",
+          "en": "garden",
+          "example": "Mi padre riega las flores del jardín.",
+          "exampleEn": "My father waters the flowers in the garden."
+        },
+        {
+          "term": "la puerta",
+          "en": "door",
+          "example": "Cierra la puerta, hace frío.",
+          "exampleEn": "Close the door, it's cold."
+        },
+        {
+          "term": "la ventana",
+          "en": "window",
+          "example": "Abre la ventana para ventilar la habitación.",
+          "exampleEn": "Open the window to air out the room."
+        },
+        {
+          "term": "la pared",
+          "en": "wall",
+          "example": "La pared del comedor es blanca.",
+          "exampleEn": "The dining room wall is white."
+        },
+        {
+          "term": "el techo",
+          "en": "ceiling, roof",
+          "example": "El techo tiene una lámpara bonita.",
+          "exampleEn": "The ceiling has a nice lamp."
+        },
+        {
+          "term": "el piso",
+          "en": "floor",
+          "example": "El gato duerme en el piso.",
+          "exampleEn": "The cat sleeps on the floor."
+        },
+        {
+          "term": "la escalera",
+          "en": "staircase, stairs",
+          "example": "Subo las escaleras al segundo piso.",
+          "exampleEn": "I go up the stairs to the second floor."
+        },
+        {
+          "term": "el pasillo",
+          "en": "hallway, corridor",
+          "example": "En el pasillo hay un espejo grande.",
+          "exampleEn": "There is a big mirror in the hallway."
+        },
+        {
+          "term": "el garaje",
+          "en": "garage",
+          "example": "El coche está en el garaje.",
+          "exampleEn": "The car is in the garage."
+        },
+        {
+          "term": "la terraza",
+          "en": "terrace, patio",
+          "example": "En la terraza hay dos sillas.",
+          "exampleEn": "There are two chairs on the terrace."
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "Objetos y muebles",
+      "titleEn": "Objects & Furniture",
+      "cards": [
+        {
+          "term": "la cama",
+          "en": "bed",
+          "example": "Me acuesto en la cama a las diez.",
+          "exampleEn": "I go to bed at ten."
+        },
+        {
+          "term": "el sofá",
+          "en": "sofa, couch",
+          "example": "El perro duerme en el sofá.",
+          "exampleEn": "The dog sleeps on the couch."
+        },
+        {
+          "term": "la silla",
+          "en": "chair",
+          "example": "La silla está junto a la mesa.",
+          "exampleEn": "The chair is next to the table."
+        },
+        {
+          "term": "el armario",
+          "en": "closet, wardrobe",
+          "example": "La camisa está en el armario.",
+          "exampleEn": "The shirt is in the closet."
+        },
+        {
+          "term": "el espejo",
+          "en": "mirror",
+          "example": "Me miro en el espejo por la mañana.",
+          "exampleEn": "I look at myself in the mirror in the morning."
+        },
+        {
+          "term": "la lámpara",
+          "en": "lamp",
+          "example": "La lámpara está sobre la mesa.",
+          "exampleEn": "The lamp is on the table."
+        },
+        {
+          "term": "la alfombra",
+          "en": "rug, carpet",
+          "example": "La alfombra de la sala es suave.",
+          "exampleEn": "The living room rug is soft."
+        },
+        {
+          "term": "la cortina",
+          "en": "curtain, blind",
+          "example": "Cierra la cortina, hace mucho sol.",
+          "exampleEn": "Close the curtains, it's very sunny."
+        },
+        {
+          "term": "el televisor",
+          "en": "television, TV",
+          "example": "El televisor está en la sala.",
+          "exampleEn": "The TV is in the living room."
+        },
+        {
+          "term": "el teléfono",
+          "en": "telephone, phone",
+          "example": "Suena el teléfono en la cocina.",
+          "exampleEn": "The phone is ringing in the kitchen."
+        },
+        {
+          "term": "la computadora",
+          "en": "computer",
+          "example": "Trabajo en la computadora todo el día.",
+          "exampleEn": "I work on the computer all day."
+        },
+        {
+          "term": "el reloj",
+          "en": "clock, watch",
+          "example": "El reloj de la cocina está parado.",
+          "exampleEn": "The kitchen clock has stopped."
+        },
+        {
+          "term": "la llave",
+          "en": "key",
+          "example": "Perdí la llave de mi casa.",
+          "exampleEn": "I lost the key to my house."
+        },
+        {
+          "term": "el libro",
+          "en": "book",
+          "example": "Leo un libro antes de dormir.",
+          "exampleEn": "I read a book before sleeping."
+        },
+        {
+          "term": "la toalla",
+          "en": "towel",
+          "example": "Necesito una toalla limpia.",
+          "exampleEn": "I need a clean towel."
+        },
+        {
+          "term": "el cargador",
+          "en": "charger",
+          "example": "Mi cargador no funciona, ¿tienes uno?",
+          "exampleEn": "My charger isn't working, do you have one?"
+        }
+      ]
+    }
+  ]
+}

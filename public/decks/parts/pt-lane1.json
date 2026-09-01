@@ -1,0 +1,143 @@
+{
+  "lang": "pt",
+  "units": [
+    {
+      "id": "u01",
+      "title": "Cumprimentos e apresentações",
+      "titleEn": "Greetings & Introductions",
+      "cards": [
+        { "term": "olá", "en": "hello", "example": "Olá! Como você está hoje?", "exampleEn": "Hello! How are you today?" },
+        { "term": "bom dia", "en": "good morning", "example": "Bom dia e boa semana!", "exampleEn": "Good morning and have a good week!" },
+        { "term": "boa tarde", "en": "good afternoon", "example": "Boa tarde! Em que posso ajudar?", "exampleEn": "Good afternoon! How can I help?" },
+        { "term": "boa noite", "en": "good evening / good night", "example": "Boa noite! Foi um longo dia.", "exampleEn": "Good evening! It was a long day." },
+        { "term": "tudo bem", "en": "all right; how are you?", "example": "Oi, tudo bem com você?", "exampleEn": "Hi, how are you?" },
+        { "term": "como vai", "en": "how are you? (formal)", "example": "Olá, como vai a família?", "exampleEn": "Hello, how is your family?" },
+        { "term": "chamar-se", "en": "to be called", "example": "Como ela se chama, você sabe?", "exampleEn": "Do you know what her name is?" },
+        { "term": "o nome", "en": "the name", "example": "Anotei o nome de todo mundo.", "exampleEn": "I wrote down everyone's name." },
+        { "term": "muito prazer", "en": "nice to meet you", "example": "Muito prazer! Já ouvi muito sobre você.", "exampleEn": "Nice to meet you! I've heard a lot about you." },
+        { "term": "tchau", "en": "bye", "example": "Tchau, gente! Até mais.", "exampleEn": "Bye, everyone! See you later." },
+        { "term": "até logo", "en": "see you later", "example": "Até logo! Foi bom te ver.", "exampleEn": "See you later! It was good to see you." },
+        { "term": "até amanhã", "en": "see you tomorrow", "example": "Boa noite, até amanhã!", "exampleEn": "Good night, see you tomorrow!" },
+        { "term": "o senhor", "en": "sir, Mr.", "example": "O senhor fala inglês?", "exampleEn": "Do you speak English? (to a man, formal)" },
+        { "term": "a senhora", "en": "madam, Mrs.", "example": "A senhora está bem?", "exampleEn": "Are you all right? (to a woman, formal)" },
+        { "term": "apresentar-se", "en": "to introduce oneself", "example": "Vou me apresentar rapidamente.", "exampleEn": "I'll introduce myself quickly." },
+        { "term": "bem-vindo", "en": "welcome", "example": "Bem-vindo à nossa casa!", "exampleEn": "Welcome to our home!" }
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "Por favor, obrigado e cortesia",
+      "titleEn": "Please, Thanks & Politeness",
+      "cards": [
+        { "term": "por favor", "en": "please", "example": "Senta aqui, por favor.", "exampleEn": "Sit here, please." },
+        { "term": "obrigado", "en": "thank you", "example": "Muito obrigado por tudo!", "exampleEn": "Thank you very much for everything!" },
+        { "term": "de nada", "en": "you're welcome", "example": "De nada! Foi um prazer.", "exampleEn": "You're welcome! It was a pleasure." },
+        { "term": "com licença", "en": "excuse me", "example": "Com licença, posso passar?", "exampleEn": "Excuse me, may I get past?" },
+        { "term": "desculpe", "en": "sorry", "example": "Desculpe, cheguei um pouco atrasado.", "exampleEn": "Sorry, I arrived a little late." },
+        { "term": "sim", "en": "yes", "example": "Sim, claro, sem problema!", "exampleEn": "Yes, of course, no problem!" },
+        { "term": "não", "en": "no", "example": "Não, obrigado. Estou bem.", "exampleEn": "No, thank you. I'm fine." },
+        { "term": "ajudar", "en": "to help", "example": "Você pode me ajudar, por favor?", "exampleEn": "Can you help me, please?" },
+        { "term": "poder", "en": "can, to be able to", "example": "Com licença, posso sentar aqui?", "exampleEn": "Excuse me, may I sit here?" },
+        { "term": "por aqui", "en": "this way", "example": "Siga por aqui, por favor.", "exampleEn": "Follow me this way, please." },
+        { "term": "ficar à vontade", "en": "to make yourself at home", "example": "Fique à vontade, a casa é sua.", "exampleEn": "Make yourself at home, the house is yours." },
+        { "term": "agradecer", "en": "to thank", "example": "Quero agradecer pela comida.", "exampleEn": "I want to thank you for the food." },
+        { "term": "claro", "en": "of course, sure", "example": "Claro! Pode contar comigo.", "exampleEn": "Of course! You can count on me." },
+        { "term": "sem problema", "en": "no problem", "example": "Está bem, sem problema.", "exampleEn": "All right, no problem." },
+        { "term": "com prazer", "en": "with pleasure", "example": "Com prazer, eu explico de novo.", "exampleEn": "With pleasure, I'll explain it again." },
+        { "term": "repetir", "en": "to repeat", "example": "Pode repetir, por favor?", "exampleEn": "Can you repeat, please?" }
+      ]
+    },
+    {
+      "id": "u03",
+      "title": "Números e contagem",
+      "titleEn": "Numbers & Counting",
+      "cards": [
+        { "term": "zero", "en": "zero", "example": "O placar está zero a zero.", "exampleEn": "The score is nil-nil." },
+        { "term": "um", "en": "one", "example": "Um café, por favor.", "exampleEn": "A coffee, please." },
+        { "term": "dois", "en": "two", "example": "Tenho dois irmãos gêmeos.", "exampleEn": "I have two twin brothers." },
+        { "term": "três", "en": "three", "example": "São três e meia agora.", "exampleEn": "It's three-thirty now." },
+        { "term": "quatro", "en": "four", "example": "Ele tem quatro anos.", "exampleEn": "He is four years old." },
+        { "term": "cinco", "en": "five", "example": "Pego cinco quilos de arroz.", "exampleEn": "I'll take five kilos of rice." },
+        { "term": "seis", "en": "six", "example": "A prova começa às seis.", "exampleEn": "The test starts at six." },
+        { "term": "sete", "en": "seven", "example": "Trabalho sete dias por semana.", "exampleEn": "I work seven days a week." },
+        { "term": "oito", "en": "eight", "example": "A aula é às oito.", "exampleEn": "Class is at eight." },
+        { "term": "nove", "en": "nine", "example": "Já são nove horas.", "exampleEn": "It's already nine o'clock." },
+        { "term": "dez", "en": "ten", "example": "Dali são dez minutos a pé.", "exampleEn": "It's a ten-minute walk from there." },
+        { "term": "onze", "en": "eleven", "example": "O jogo é às onze.", "exampleEn": "The game is at eleven." },
+        { "term": "doze", "en": "twelve", "example": "Doze meses formam um ano.", "exampleEn": "Twelve months make a year." },
+        { "term": "vinte", "en": "twenty", "example": "Ela fez vinte anos ontem.", "exampleEn": "She turned twenty yesterday." },
+        { "term": "cem", "en": "one hundred", "example": "O livro custa cem reais.", "exampleEn": "The book costs one hundred reais." },
+        { "term": "mil", "en": "one thousand", "example": "Mil reais é o aluguel.", "exampleEn": "Rent is one thousand reais." }
+      ]
+    },
+    {
+      "id": "u04",
+      "title": "Dias, meses e calendário",
+      "titleEn": "Days, Months & Calendar",
+      "cards": [
+        { "term": "o dia", "en": "the day", "example": "Passei o dia todo em casa.", "exampleEn": "I spent the whole day at home." },
+        { "term": "hoje", "en": "today", "example": "Hoje estou muito cansado.", "exampleEn": "I'm very tired today." },
+        { "term": "amanhã", "en": "tomorrow", "example": "Amanhã eu te ligo.", "exampleEn": "I'll call you tomorrow." },
+        { "term": "ontem", "en": "yesterday", "example": "Choveu muito ontem à noite.", "exampleEn": "It rained a lot yesterday evening." },
+        { "term": "a semana", "en": "the week", "example": "A semana começa na segunda.", "exampleEn": "The week starts on Monday." },
+        { "term": "o fim de semana", "en": "the weekend", "example": "No fim de semana vou à praia.", "exampleEn": "On the weekend I'm going to the beach." },
+        { "term": "segunda-feira", "en": "Monday", "example": "Trabalho toda segunda-feira.", "exampleEn": "I work every Monday." },
+        { "term": "sexta-feira", "en": "Friday", "example": "Sexta-feira à noite saio com amigos.", "exampleEn": "On Friday nights I go out with friends." },
+        { "term": "domingo", "en": "Sunday", "example": "Domingo a família almoça junta.", "exampleEn": "On Sunday the family has lunch together." },
+        { "term": "o mês", "en": "the month", "example": "Este mês estou sem dinheiro.", "exampleEn": "This month I'm without money." },
+        { "term": "o ano", "en": "the year", "example": "Este ano vou viajar muito.", "exampleEn": "This year I'm going to travel a lot." },
+        { "term": "o calendário", "en": "the calendar", "example": "Preciso de um calendário novo.", "exampleEn": "I need a new calendar." },
+        { "term": "a data", "en": "the date", "example": "Qual é a data do casamento?", "exampleEn": "What is the date of the wedding?" },
+        { "term": "o aniversário", "en": "the birthday", "example": "Fizemos uma festa de aniversário.", "exampleEn": "We threw a birthday party." },
+        { "term": "o feriado", "en": "the holiday", "example": "O feriado caiu na segunda.", "exampleEn": "The holiday fell on a Monday." },
+        { "term": "a semana que vem", "en": "next week", "example": "Na semana que vem eu volto.", "exampleEn": "I'm coming back next week." }
+      ]
+    },
+    {
+      "id": "u05",
+      "title": "Hora, frequência e velocidade",
+      "titleEn": "Time, Frequency & Speed",
+      "cards": [
+        { "term": "a hora", "en": "the hour, time", "example": "Qual é a hora certa?", "exampleEn": "What's the right time?" },
+        { "term": "o horário", "en": "the schedule, opening hours", "example": "Qual é o horário de funcionamento?", "exampleEn": "What are the opening hours?" },
+        { "term": "que horas são", "en": "what time is it?", "example": "Ei, que horas são?", "exampleEn": "Hey, what time is it?" },
+        { "term": "o relógio", "en": "the clock, watch", "example": "O relógio da cozinha quebrou.", "exampleEn": "The kitchen clock broke." },
+        { "term": "cedo", "en": "early", "example": "Levanto cedo todos os dias.", "exampleEn": "I get up early every day." },
+        { "term": "tarde", "en": "late", "example": "Cheguei tarde na reunião.", "exampleEn": "I arrived late to the meeting." },
+        { "term": "sempre", "en": "always", "example": "Sempre tomo café da manhã.", "exampleEn": "I always have breakfast." },
+        { "term": "nunca", "en": "never", "example": "Nunca como doces à noite.", "exampleEn": "I never eat sweets at night." },
+        { "term": "às vezes", "en": "sometimes", "example": "Às vezes caminho até o trabalho.", "exampleEn": "Sometimes I walk to work." },
+        { "term": "geralmente", "en": "usually", "example": "Geralmente almoço ao meio-dia.", "exampleEn": "I usually have lunch at noon." },
+        { "term": "já", "en": "already", "example": "Já terminei o meu trabalho.", "exampleEn": "I've already finished my work." },
+        { "term": "ainda", "en": "still, yet", "example": "A loja ainda não abriu.", "exampleEn": "The store hasn't opened yet." },
+        { "term": "depressa", "en": "quickly, fast", "example": "Venha depressa, é urgente!", "exampleEn": "Come quickly, it's urgent!" },
+        { "term": "devagar", "en": "slowly", "example": "Fale mais devagar, por favor.", "exampleEn": "Speak more slowly, please." },
+        { "term": "rápido", "en": "fast, quick", "example": "O trem novo é muito rápido.", "exampleEn": "The new train is very fast." },
+        { "term": "o minuto", "en": "the minute", "example": "O filme começa em cinco minutos.", "exampleEn": "The movie starts in five minutes." }
+      ]
+    },
+    {
+      "id": "u06",
+      "title": "Família e pessoas",
+      "titleEn": "Family & People",
+      "cards": [
+        { "term": "a família", "en": "the family", "example": "A família dele é grande.", "exampleEn": "His family is big." },
+        { "term": "o pai", "en": "the father", "example": "O pai dela viaja toda semana.", "exampleEn": "Her father travels every week." },
+        { "term": "a mãe", "en": "the mother", "example": "A mãe dela trabalha comigo.", "exampleEn": "Her mother works with me." },
+        { "term": "o filho", "en": "the son", "example": "O filho deles estuda medicina.", "exampleEn": "Their son studies medicine." },
+        { "term": "a filha", "en": "the daughter", "example": "A filha dela tem dois anos.", "exampleEn": "Her daughter is two years old." },
+        { "term": "o irmão", "en": "the brother", "example": "O irmão dela é engenheiro.", "exampleEn": "Her brother is an engineer." },
+        { "term": "a irmã", "en": "the sister", "example": "A irmã mais nova mora longe.", "exampleEn": "The younger sister lives far away." },
+        { "term": "o marido", "en": "the husband", "example": "O marido dela cozinha muito bem.", "exampleEn": "Her husband cooks very well." },
+        { "term": "a esposa", "en": "the wife", "example": "Ele saiu com a esposa.", "exampleEn": "He went out with his wife." },
+        { "term": "os pais", "en": "the parents", "example": "Amo muito os meus pais.", "exampleEn": "I love my parents very much." },
+        { "term": "o avô", "en": "the grandfather", "example": "O avô conta histórias antigas.", "exampleEn": "Grandpa tells old stories." },
+        { "term": "a avó", "en": "the grandmother", "example": "A avó faz um bolo delicioso.", "exampleEn": "Grandma makes a delicious cake." },
+        { "term": "a criança", "en": "the child", "example": "A criança dormiu cedo.", "exampleEn": "The child went to sleep early." },
+        { "term": "o bebê", "en": "the baby", "example": "O bebê dorme a noite inteira.", "exampleEn": "The baby sleeps the whole night." },
+        { "term": "o amigo", "en": "the friend", "example": "Meu melhor amigo mora aqui.", "exampleEn": "My best friend lives here." },
+        { "term": "a pessoa", "en": "the person", "example": "Ele é uma pessoa gentil.", "exampleEn": "He is a kind person." }
+      ]
+    }
+  ]
+}

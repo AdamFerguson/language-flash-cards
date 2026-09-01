@@ -1,0 +1,2718 @@
+{
+ "lang": "pt",
+ "units": [
+  {
+   "id": "u01",
+   "title": "Greetings & Introductions",
+   "cards": [
+    {
+     "term": "olá",
+     "en": "hello",
+     "example": "Olá! Como você está hoje?",
+     "exampleEn": "Hello! How are you today?",
+     "id": "pt-u01-001"
+    },
+    {
+     "term": "bom dia",
+     "en": "good morning",
+     "example": "Bom dia e boa semana!",
+     "exampleEn": "Good morning and have a good week!",
+     "id": "pt-u01-002"
+    },
+    {
+     "term": "boa tarde",
+     "en": "good afternoon",
+     "example": "Boa tarde! Em que posso ajudar?",
+     "exampleEn": "Good afternoon! How can I help?",
+     "id": "pt-u01-003"
+    },
+    {
+     "term": "boa noite",
+     "en": "good evening / good night",
+     "example": "Boa noite! Foi um longo dia.",
+     "exampleEn": "Good evening! It was a long day.",
+     "id": "pt-u01-004"
+    },
+    {
+     "term": "tudo bem",
+     "en": "all right; how are you?",
+     "example": "Oi, tudo bem com você?",
+     "exampleEn": "Hi, how are you?",
+     "id": "pt-u01-005"
+    },
+    {
+     "term": "como vai",
+     "en": "how are you? (formal)",
+     "example": "Olá, como vai a família?",
+     "exampleEn": "Hello, how is your family?",
+     "id": "pt-u01-006"
+    },
+    {
+     "term": "chamar-se",
+     "en": "to be called",
+     "example": "Como ela se chama, você sabe?",
+     "exampleEn": "Do you know what her name is?",
+     "id": "pt-u01-007"
+    },
+    {
+     "term": "o nome",
+     "en": "the name",
+     "example": "Anotei o nome de todo mundo.",
+     "exampleEn": "I wrote down everyone's name.",
+     "id": "pt-u01-008"
+    },
+    {
+     "term": "muito prazer",
+     "en": "nice to meet you",
+     "example": "Muito prazer! Já ouvi muito sobre você.",
+     "exampleEn": "Nice to meet you! I've heard a lot about you.",
+     "id": "pt-u01-009"
+    },
+    {
+     "term": "tchau",
+     "en": "bye",
+     "example": "Tchau, gente! Até mais.",
+     "exampleEn": "Bye, everyone! See you later.",
+     "id": "pt-u01-010"
+    },
+    {
+     "term": "até logo",
+     "en": "see you later",
+     "example": "Até logo! Foi bom te ver.",
+     "exampleEn": "See you later! It was good to see you.",
+     "id": "pt-u01-011"
+    },
+    {
+     "term": "até amanhã",
+     "en": "see you tomorrow",
+     "example": "Boa noite, até amanhã!",
+     "exampleEn": "Good night, see you tomorrow!",
+     "id": "pt-u01-012"
+    },
+    {
+     "term": "o senhor",
+     "en": "sir, Mr.",
+     "example": "O senhor fala inglês?",
+     "exampleEn": "Do you speak English? (to a man, formal)",
+     "id": "pt-u01-013"
+    },
+    {
+     "term": "a senhora",
+     "en": "madam, Mrs.",
+     "example": "A senhora está bem?",
+     "exampleEn": "Are you all right? (to a woman, formal)",
+     "id": "pt-u01-014"
+    },
+    {
+     "term": "apresentar-se",
+     "en": "to introduce oneself",
+     "example": "Vou me apresentar rapidamente.",
+     "exampleEn": "I'll introduce myself quickly.",
+     "id": "pt-u01-015"
+    },
+    {
+     "term": "bem-vindo",
+     "en": "welcome",
+     "example": "Bem-vindo à nossa casa!",
+     "exampleEn": "Welcome to our home!",
+     "id": "pt-u01-016"
+    }
+   ]
+  },
+  {
+   "id": "u02",
+   "title": "Please, Thanks & Politeness",
+   "cards": [
+    {
+     "term": "por favor",
+     "en": "please",
+     "example": "Senta aqui, por favor.",
+     "exampleEn": "Sit here, please.",
+     "id": "pt-u02-001"
+    },
+    {
+     "term": "obrigado",
+     "en": "thank you",
+     "example": "Muito obrigado por tudo!",
+     "exampleEn": "Thank you very much for everything!",
+     "id": "pt-u02-002"
+    },
+    {
+     "term": "de nada",
+     "en": "you're welcome",
+     "example": "De nada! Foi um prazer.",
+     "exampleEn": "You're welcome! It was a pleasure.",
+     "id": "pt-u02-003"
+    },
+    {
+     "term": "com licença",
+     "en": "excuse me",
+     "example": "Com licença, posso passar?",
+     "exampleEn": "Excuse me, may I get past?",
+     "id": "pt-u02-004"
+    },
+    {
+     "term": "desculpe",
+     "en": "sorry",
+     "example": "Desculpe, cheguei um pouco atrasado.",
+     "exampleEn": "Sorry, I arrived a little late.",
+     "id": "pt-u02-005"
+    },
+    {
+     "term": "sim",
+     "en": "yes",
+     "example": "Sim, claro, sem problema!",
+     "exampleEn": "Yes, of course, no problem!",
+     "id": "pt-u02-006"
+    },
+    {
+     "term": "não",
+     "en": "no",
+     "example": "Não, obrigado. Estou bem.",
+     "exampleEn": "No, thank you. I'm fine.",
+     "id": "pt-u02-007"
+    },
+    {
+     "term": "ajudar",
+     "en": "to help",
+     "example": "Você pode me ajudar, por favor?",
+     "exampleEn": "Can you help me, please?",
+     "id": "pt-u02-008"
+    },
+    {
+     "term": "poder",
+     "en": "can, to be able to",
+     "example": "Com licença, posso sentar aqui?",
+     "exampleEn": "Excuse me, may I sit here?",
+     "id": "pt-u02-009"
+    },
+    {
+     "term": "por aqui",
+     "en": "this way",
+     "example": "Siga por aqui, por favor.",
+     "exampleEn": "Follow me this way, please.",
+     "id": "pt-u02-010"
+    },
+    {
+     "term": "ficar à vontade",
+     "en": "to make yourself at home",
+     "example": "Fique à vontade, a casa é sua.",
+     "exampleEn": "Make yourself at home, the house is yours.",
+     "id": "pt-u02-011"
+    },
+    {
+     "term": "agradecer",
+     "en": "to thank",
+     "example": "Quero agradecer pela comida.",
+     "exampleEn": "I want to thank you for the food.",
+     "id": "pt-u02-012"
+    },
+    {
+     "term": "claro",
+     "en": "of course, sure",
+     "example": "Claro! Pode contar comigo.",
+     "exampleEn": "Of course! You can count on me.",
+     "id": "pt-u02-013"
+    },
+    {
+     "term": "sem problema",
+     "en": "no problem",
+     "example": "Está bem, sem problema.",
+     "exampleEn": "All right, no problem.",
+     "id": "pt-u02-014"
+    },
+    {
+     "term": "com prazer",
+     "en": "with pleasure",
+     "example": "Com prazer, eu explico de novo.",
+     "exampleEn": "With pleasure, I'll explain it again.",
+     "id": "pt-u02-015"
+    },
+    {
+     "term": "repetir",
+     "en": "to repeat",
+     "example": "Pode repetir, por favor?",
+     "exampleEn": "Can you repeat, please?",
+     "id": "pt-u02-016"
+    }
+   ]
+  },
+  {
+   "id": "u03",
+   "title": "Numbers & Counting",
+   "cards": [
+    {
+     "term": "zero",
+     "en": "zero",
+     "example": "O placar está zero a zero.",
+     "exampleEn": "The score is nil-nil.",
+     "id": "pt-u03-001"
+    },
+    {
+     "term": "um",
+     "en": "one",
+     "example": "Um café, por favor.",
+     "exampleEn": "A coffee, please.",
+     "id": "pt-u03-002"
+    },
+    {
+     "term": "dois",
+     "en": "two",
+     "example": "Tenho dois irmãos gêmeos.",
+     "exampleEn": "I have two twin brothers.",
+     "id": "pt-u03-003"
+    },
+    {
+     "term": "três",
+     "en": "three",
+     "example": "São três e meia agora.",
+     "exampleEn": "It's three-thirty now.",
+     "id": "pt-u03-004"
+    },
+    {
+     "term": "quatro",
+     "en": "four",
+     "example": "Ele tem quatro anos.",
+     "exampleEn": "He is four years old.",
+     "id": "pt-u03-005"
+    },
+    {
+     "term": "cinco",
+     "en": "five",
+     "example": "Pego cinco quilos de arroz.",
+     "exampleEn": "I'll take five kilos of rice.",
+     "id": "pt-u03-006"
+    },
+    {
+     "term": "seis",
+     "en": "six",
+     "example": "A prova começa às seis.",
+     "exampleEn": "The test starts at six.",
+     "id": "pt-u03-007"
+    },
+    {
+     "term": "sete",
+     "en": "seven",
+     "example": "Trabalho sete dias por semana.",
+     "exampleEn": "I work seven days a week.",
+     "id": "pt-u03-008"
+    },
+    {
+     "term": "oito",
+     "en": "eight",
+     "example": "A aula é às oito.",
+     "exampleEn": "Class is at eight.",
+     "id": "pt-u03-009"
+    },
+    {
+     "term": "nove",
+     "en": "nine",
+     "example": "Já são nove horas.",
+     "exampleEn": "It's already nine o'clock.",
+     "id": "pt-u03-010"
+    },
+    {
+     "term": "dez",
+     "en": "ten",
+     "example": "Dali são dez minutos a pé.",
+     "exampleEn": "It's a ten-minute walk from there.",
+     "id": "pt-u03-011"
+    },
+    {
+     "term": "onze",
+     "en": "eleven",
+     "example": "O jogo é às onze.",
+     "exampleEn": "The game is at eleven.",
+     "id": "pt-u03-012"
+    },
+    {
+     "term": "doze",
+     "en": "twelve",
+     "example": "Doze meses formam um ano.",
+     "exampleEn": "Twelve months make a year.",
+     "id": "pt-u03-013"
+    },
+    {
+     "term": "vinte",
+     "en": "twenty",
+     "example": "Ela fez vinte anos ontem.",
+     "exampleEn": "She turned twenty yesterday.",
+     "id": "pt-u03-014"
+    },
+    {
+     "term": "cem",
+     "en": "one hundred",
+     "example": "O livro custa cem reais.",
+     "exampleEn": "The book costs one hundred reais.",
+     "id": "pt-u03-015"
+    },
+    {
+     "term": "mil",
+     "en": "one thousand",
+     "example": "Mil reais é o aluguel.",
+     "exampleEn": "Rent is one thousand reais.",
+     "id": "pt-u03-016"
+    }
+   ]
+  },
+  {
+   "id": "u04",
+   "title": "Days, Months & Calendar",
+   "cards": [
+    {
+     "term": "o dia",
+     "en": "the day",
+     "example": "Passei o dia todo em casa.",
+     "exampleEn": "I spent the whole day at home.",
+     "id": "pt-u04-001"
+    },
+    {
+     "term": "hoje",
+     "en": "today",
+     "example": "Hoje estou muito cansado.",
+     "exampleEn": "I'm very tired today.",
+     "id": "pt-u04-002"
+    },
+    {
+     "term": "amanhã",
+     "en": "tomorrow",
+     "example": "Amanhã eu te ligo.",
+     "exampleEn": "I'll call you tomorrow.",
+     "id": "pt-u04-003"
+    },
+    {
+     "term": "ontem",
+     "en": "yesterday",
+     "example": "Choveu muito ontem à noite.",
+     "exampleEn": "It rained a lot yesterday evening.",
+     "id": "pt-u04-004"
+    },
+    {
+     "term": "a semana",
+     "en": "the week",
+     "example": "A semana começa na segunda.",
+     "exampleEn": "The week starts on Monday.",
+     "id": "pt-u04-005"
+    },
+    {
+     "term": "o fim de semana",
+     "en": "the weekend",
+     "example": "No fim de semana vou à praia.",
+     "exampleEn": "On the weekend I'm going to the beach.",
+     "id": "pt-u04-006"
+    },
+    {
+     "term": "segunda-feira",
+     "en": "Monday",
+     "example": "Trabalho toda segunda-feira.",
+     "exampleEn": "I work every Monday.",
+     "id": "pt-u04-007"
+    },
+    {
+     "term": "sexta-feira",
+     "en": "Friday",
+     "example": "Sexta-feira à noite saio com amigos.",
+     "exampleEn": "On Friday nights I go out with friends.",
+     "id": "pt-u04-008"
+    },
+    {
+     "term": "domingo",
+     "en": "Sunday",
+     "example": "Domingo a família almoça junta.",
+     "exampleEn": "On Sunday the family has lunch together.",
+     "id": "pt-u04-009"
+    },
+    {
+     "term": "o mês",
+     "en": "the month",
+     "example": "Este mês estou sem dinheiro.",
+     "exampleEn": "This month I'm without money.",
+     "id": "pt-u04-010"
+    },
+    {
+     "term": "o ano",
+     "en": "the year",
+     "example": "Este ano vou viajar muito.",
+     "exampleEn": "This year I'm going to travel a lot.",
+     "id": "pt-u04-011"
+    },
+    {
+     "term": "o calendário",
+     "en": "the calendar",
+     "example": "Preciso de um calendário novo.",
+     "exampleEn": "I need a new calendar.",
+     "id": "pt-u04-012"
+    },
+    {
+     "term": "a data",
+     "en": "the date",
+     "example": "Qual é a data do casamento?",
+     "exampleEn": "What is the date of the wedding?",
+     "id": "pt-u04-013"
+    },
+    {
+     "term": "o aniversário",
+     "en": "the birthday",
+     "example": "Fizemos uma festa de aniversário.",
+     "exampleEn": "We threw a birthday party.",
+     "id": "pt-u04-014"
+    },
+    {
+     "term": "o feriado",
+     "en": "the holiday",
+     "example": "O feriado caiu na segunda.",
+     "exampleEn": "The holiday fell on a Monday.",
+     "id": "pt-u04-015"
+    },
+    {
+     "term": "a semana que vem",
+     "en": "next week",
+     "example": "Na semana que vem eu volto.",
+     "exampleEn": "I'm coming back next week.",
+     "id": "pt-u04-016"
+    }
+   ]
+  },
+  {
+   "id": "u05",
+   "title": "Time, Frequency & Speed",
+   "cards": [
+    {
+     "term": "a hora",
+     "en": "the hour, time",
+     "example": "Qual é a hora certa?",
+     "exampleEn": "What's the right time?",
+     "id": "pt-u05-001"
+    },
+    {
+     "term": "o horário",
+     "en": "the schedule, opening hours",
+     "example": "Qual é o horário de funcionamento?",
+     "exampleEn": "What are the opening hours?",
+     "id": "pt-u05-002"
+    },
+    {
+     "term": "que horas são",
+     "en": "what time is it?",
+     "example": "Ei, que horas são?",
+     "exampleEn": "Hey, what time is it?",
+     "id": "pt-u05-003"
+    },
+    {
+     "term": "o relógio",
+     "en": "the clock, watch",
+     "example": "O relógio da cozinha quebrou.",
+     "exampleEn": "The kitchen clock broke.",
+     "id": "pt-u05-004"
+    },
+    {
+     "term": "cedo",
+     "en": "early",
+     "example": "Levanto cedo todos os dias.",
+     "exampleEn": "I get up early every day.",
+     "id": "pt-u05-005"
+    },
+    {
+     "term": "tarde",
+     "en": "late",
+     "example": "Cheguei tarde na reunião.",
+     "exampleEn": "I arrived late to the meeting.",
+     "id": "pt-u05-006"
+    },
+    {
+     "term": "sempre",
+     "en": "always",
+     "example": "Sempre tomo café da manhã.",
+     "exampleEn": "I always have breakfast.",
+     "id": "pt-u05-007"
+    },
+    {
+     "term": "nunca",
+     "en": "never",
+     "example": "Nunca como doces à noite.",
+     "exampleEn": "I never eat sweets at night.",
+     "id": "pt-u05-008"
+    },
+    {
+     "term": "às vezes",
+     "en": "sometimes",
+     "example": "Às vezes caminho até o trabalho.",
+     "exampleEn": "Sometimes I walk to work.",
+     "id": "pt-u05-009"
+    },
+    {
+     "term": "geralmente",
+     "en": "usually",
+     "example": "Geralmente almoço ao meio-dia.",
+     "exampleEn": "I usually have lunch at noon.",
+     "id": "pt-u05-010"
+    },
+    {
+     "term": "já",
+     "en": "already",
+     "example": "Já terminei o meu trabalho.",
+     "exampleEn": "I've already finished my work.",
+     "id": "pt-u05-011"
+    },
+    {
+     "term": "ainda",
+     "en": "still, yet",
+     "example": "A loja ainda não abriu.",
+     "exampleEn": "The store hasn't opened yet.",
+     "id": "pt-u05-012"
+    },
+    {
+     "term": "depressa",
+     "en": "quickly, fast",
+     "example": "Venha depressa, é urgente!",
+     "exampleEn": "Come quickly, it's urgent!",
+     "id": "pt-u05-013"
+    },
+    {
+     "term": "devagar",
+     "en": "slowly",
+     "example": "Fale mais devagar, por favor.",
+     "exampleEn": "Speak more slowly, please.",
+     "id": "pt-u05-014"
+    },
+    {
+     "term": "rápido",
+     "en": "fast, quick",
+     "example": "O trem novo é muito rápido.",
+     "exampleEn": "The new train is very fast.",
+     "id": "pt-u05-015"
+    },
+    {
+     "term": "o minuto",
+     "en": "the minute",
+     "example": "O filme começa em cinco minutos.",
+     "exampleEn": "The movie starts in five minutes.",
+     "id": "pt-u05-016"
+    }
+   ]
+  },
+  {
+   "id": "u06",
+   "title": "Family & People",
+   "cards": [
+    {
+     "term": "a família",
+     "en": "the family",
+     "example": "A família dele é grande.",
+     "exampleEn": "His family is big.",
+     "id": "pt-u06-001"
+    },
+    {
+     "term": "o pai",
+     "en": "the father",
+     "example": "O pai dela viaja toda semana.",
+     "exampleEn": "Her father travels every week.",
+     "id": "pt-u06-002"
+    },
+    {
+     "term": "a mãe",
+     "en": "the mother",
+     "example": "A mãe dela trabalha comigo.",
+     "exampleEn": "Her mother works with me.",
+     "id": "pt-u06-003"
+    },
+    {
+     "term": "o filho",
+     "en": "the son",
+     "example": "O filho deles estuda medicina.",
+     "exampleEn": "Their son studies medicine.",
+     "id": "pt-u06-004"
+    },
+    {
+     "term": "a filha",
+     "en": "the daughter",
+     "example": "A filha dela tem dois anos.",
+     "exampleEn": "Her daughter is two years old.",
+     "id": "pt-u06-005"
+    },
+    {
+     "term": "o irmão",
+     "en": "the brother",
+     "example": "O irmão dela é engenheiro.",
+     "exampleEn": "Her brother is an engineer.",
+     "id": "pt-u06-006"
+    },
+    {
+     "term": "a irmã",
+     "en": "the sister",
+     "example": "A irmã mais nova mora longe.",
+     "exampleEn": "The younger sister lives far away.",
+     "id": "pt-u06-007"
+    },
+    {
+     "term": "o marido",
+     "en": "the husband",
+     "example": "O marido dela cozinha muito bem.",
+     "exampleEn": "Her husband cooks very well.",
+     "id": "pt-u06-008"
+    },
+    {
+     "term": "a esposa",
+     "en": "the wife",
+     "example": "Ele saiu com a esposa.",
+     "exampleEn": "He went out with his wife.",
+     "id": "pt-u06-009"
+    },
+    {
+     "term": "os pais",
+     "en": "the parents",
+     "example": "Amo muito os meus pais.",
+     "exampleEn": "I love my parents very much.",
+     "id": "pt-u06-010"
+    },
+    {
+     "term": "o avô",
+     "en": "the grandfather",
+     "example": "O avô conta histórias antigas.",
+     "exampleEn": "Grandpa tells old stories.",
+     "id": "pt-u06-011"
+    },
+    {
+     "term": "a avó",
+     "en": "the grandmother",
+     "example": "A avó faz um bolo delicioso.",
+     "exampleEn": "Grandma makes a delicious cake.",
+     "id": "pt-u06-012"
+    },
+    {
+     "term": "a criança",
+     "en": "the child",
+     "example": "A criança dormiu cedo.",
+     "exampleEn": "The child went to sleep early.",
+     "id": "pt-u06-013"
+    },
+    {
+     "term": "o bebê",
+     "en": "the baby",
+     "example": "O bebê dorme a noite inteira.",
+     "exampleEn": "The baby sleeps the whole night.",
+     "id": "pt-u06-014"
+    },
+    {
+     "term": "o amigo",
+     "en": "the friend",
+     "example": "Meu melhor amigo mora aqui.",
+     "exampleEn": "My best friend lives here.",
+     "id": "pt-u06-015"
+    },
+    {
+     "term": "a pessoa",
+     "en": "the person",
+     "example": "Ele é uma pessoa gentil.",
+     "exampleEn": "He is a kind person.",
+     "id": "pt-u06-016"
+    }
+   ]
+  },
+  {
+   "id": "u07",
+   "title": "Food: Meals & Staples",
+   "cards": [
+    {
+     "term": "o pão",
+     "en": "the bread",
+     "example": "Como pão com queijo no café da manhã.",
+     "exampleEn": "I eat bread with cheese at breakfast.",
+     "id": "pt-u07-001"
+    },
+    {
+     "term": "o arroz",
+     "en": "the rice",
+     "example": "No almoço, não pode faltar arroz e feijão.",
+     "exampleEn": "At lunch, rice and beans can't be missing.",
+     "id": "pt-u07-002"
+    },
+    {
+     "term": "o feijão",
+     "en": "the beans",
+     "example": "Hoje tem feijão com arroz no almoço.",
+     "exampleEn": "Today there's beans and rice for lunch.",
+     "id": "pt-u07-003"
+    },
+    {
+     "term": "a carne",
+     "en": "the meat",
+     "example": "Vamos comprar carne no mercado hoje.",
+     "exampleEn": "Let's buy meat at the market today.",
+     "id": "pt-u07-004"
+    },
+    {
+     "term": "o frango",
+     "en": "the chicken",
+     "example": "O frango assado está quase pronto.",
+     "exampleEn": "The roasted chicken is almost ready.",
+     "id": "pt-u07-005"
+    },
+    {
+     "term": "o peixe",
+     "en": "the fish",
+     "example": "Ela gosta de peixe assado com limão.",
+     "exampleEn": "She likes roasted fish with lemon.",
+     "id": "pt-u07-006"
+    },
+    {
+     "term": "o ovo",
+     "en": "the egg",
+     "example": "No café da manhã, como dois ovos mexidos.",
+     "exampleEn": "At breakfast, I eat two scrambled eggs.",
+     "id": "pt-u07-007"
+    },
+    {
+     "term": "o leite",
+     "en": "the milk",
+     "example": "As crianças bebem leite todos os dias.",
+     "exampleEn": "The kids drink milk every day.",
+     "id": "pt-u07-008"
+    },
+    {
+     "term": "o queijo",
+     "en": "the cheese",
+     "example": "Pão de queijo é um lanche clássico brasileiro.",
+     "exampleEn": "Cheese bread is a classic Brazilian snack.",
+     "id": "pt-u07-009"
+    },
+    {
+     "term": "a manteiga",
+     "en": "the butter",
+     "example": "O pão com manteiga acabou de sair do forno.",
+     "exampleEn": "The buttered bread just came out of the oven.",
+     "id": "pt-u07-010"
+    },
+    {
+     "term": "o açúcar",
+     "en": "the sugar",
+     "example": "Você quer açúcar no café?",
+     "exampleEn": "Do you want sugar in your coffee?",
+     "id": "pt-u07-011"
+    },
+    {
+     "term": "o sal",
+     "en": "the salt",
+     "example": "A sopa precisa de mais sal.",
+     "exampleEn": "The soup needs more salt.",
+     "id": "pt-u07-012"
+    },
+    {
+     "term": "o almoço",
+     "en": "lunch",
+     "example": "O almoço está pronto ao meio-dia.",
+     "exampleEn": "Lunch is ready at noon.",
+     "id": "pt-u07-013"
+    },
+    {
+     "term": "o jantar",
+     "en": "dinner",
+     "example": "O jantar de hoje é macarrão com molho.",
+     "exampleEn": "Tonight's dinner is pasta with sauce.",
+     "id": "pt-u07-014"
+    },
+    {
+     "term": "o café da manhã",
+     "en": "breakfast",
+     "example": "Tomo café da manhã sempre às sete.",
+     "exampleEn": "I always have breakfast at seven.",
+     "id": "pt-u07-015"
+    },
+    {
+     "term": "o macarrão",
+     "en": "the pasta",
+     "example": "O macarrão cozinha em apenas dez minutos.",
+     "exampleEn": "The pasta cooks in just ten minutes.",
+     "id": "pt-u07-016"
+    }
+   ]
+  },
+  {
+   "id": "u08",
+   "title": "Fruits, Vegetables & Kitchen",
+   "cards": [
+    {
+     "term": "a maçã",
+     "en": "the apple",
+     "example": "Como uma maçã todos os dias.",
+     "exampleEn": "I eat an apple every day.",
+     "id": "pt-u08-001"
+    },
+    {
+     "term": "a banana",
+     "en": "the banana",
+     "example": "No lanche da tarde, como banana.",
+     "exampleEn": "For an afternoon snack, I eat banana.",
+     "id": "pt-u08-002"
+    },
+    {
+     "term": "a laranja",
+     "en": "the orange",
+     "example": "Vou fazer suco de laranja gelado.",
+     "exampleEn": "I'm going to make cold orange juice.",
+     "id": "pt-u08-003"
+    },
+    {
+     "term": "o abacaxi",
+     "en": "the pineapple",
+     "example": "Comprei um abacaxi doce na feira.",
+     "exampleEn": "I bought a sweet pineapple at the market.",
+     "id": "pt-u08-004"
+    },
+    {
+     "term": "o mamão",
+     "en": "the papaya",
+     "example": "Como mamão com aveia no café da manhã.",
+     "exampleEn": "I eat papaya with oats at breakfast.",
+     "id": "pt-u08-005"
+    },
+    {
+     "term": "o tomate",
+     "en": "the tomato",
+     "example": "Lavo o tomate para a salada.",
+     "exampleEn": "I wash the tomato for the salad.",
+     "id": "pt-u08-006"
+    },
+    {
+     "term": "a batata",
+     "en": "the potato",
+     "example": "Vou fritar batata para o lanche.",
+     "exampleEn": "I'm going to fry potatoes for a snack.",
+     "id": "pt-u08-007"
+    },
+    {
+     "term": "a cebola",
+     "en": "the onion",
+     "example": "Refogo a cebola com um pouco de alho.",
+     "exampleEn": "I sauté the onion with a little garlic.",
+     "id": "pt-u08-008"
+    },
+    {
+     "term": "o alho",
+     "en": "the garlic",
+     "example": "Esse arroz leva alho e sal.",
+     "exampleEn": "This rice has garlic and salt in it.",
+     "id": "pt-u08-009"
+    },
+    {
+     "term": "a cenoura",
+     "en": "the carrot",
+     "example": "Rale a cenoura para a salada.",
+     "exampleEn": "Grate the carrot for the salad.",
+     "id": "pt-u08-010"
+    },
+    {
+     "term": "a geladeira",
+     "en": "the refrigerator",
+     "example": "Guarda o leite na geladeira, por favor.",
+     "exampleEn": "Put the milk in the refrigerator, please.",
+     "id": "pt-u08-011"
+    },
+    {
+     "term": "o fogão",
+     "en": "the stove",
+     "example": "O feijão está cozinhando no fogão.",
+     "exampleEn": "The beans are cooking on the stove.",
+     "id": "pt-u08-012"
+    },
+    {
+     "term": "a panela",
+     "en": "the pot",
+     "example": "Preciso de uma panela maior.",
+     "exampleEn": "I need a bigger pot.",
+     "id": "pt-u08-013"
+    },
+    {
+     "term": "o prato",
+     "en": "the plate",
+     "example": "Coloque os pratos em cima da mesa.",
+     "exampleEn": "Put the plates on the table.",
+     "id": "pt-u08-014"
+    },
+    {
+     "term": "o garfo",
+     "en": "the fork",
+     "example": "O garfo e a faca estão na gaveta.",
+     "exampleEn": "The fork and the knife are in the drawer.",
+     "id": "pt-u08-015"
+    },
+    {
+     "term": "a faca",
+     "en": "the knife",
+     "example": "Corte o pão com a faca.",
+     "exampleEn": "Cut the bread with the knife.",
+     "id": "pt-u08-016"
+    }
+   ]
+  },
+  {
+   "id": "u09",
+   "title": "Drinks & Café",
+   "cards": [
+    {
+     "term": "a água",
+     "en": "the water",
+     "example": "Me traz um copo de água, por favor?",
+     "exampleEn": "Can you bring me a glass of water, please?",
+     "id": "pt-u09-001"
+    },
+    {
+     "term": "o suco",
+     "en": "the juice",
+     "example": "Vou pedir um suco de manga.",
+     "exampleEn": "I'm going to order a mango juice.",
+     "id": "pt-u09-002"
+    },
+    {
+     "term": "o refrigerante",
+     "en": "the soft drink",
+     "example": "Prefiro água a refrigerante no dia a dia.",
+     "exampleEn": "I prefer water to soft drinks day to day.",
+     "id": "pt-u09-003"
+    },
+    {
+     "term": "o vinho",
+     "en": "the wine",
+     "example": "Vamos tomar um vinho hoje à noite.",
+     "exampleEn": "Let's have a wine tonight.",
+     "id": "pt-u09-004"
+    },
+    {
+     "term": "a cerveja",
+     "en": "the beer",
+     "example": "Uma cerveja bem gelada, por favor.",
+     "exampleEn": "A very cold beer, please.",
+     "id": "pt-u09-005"
+    },
+    {
+     "term": "o chá",
+     "en": "the tea",
+     "example": "À noite gosto de tomar um chá.",
+     "exampleEn": "At night I like to have a tea.",
+     "id": "pt-u09-006"
+    },
+    {
+     "term": "o café",
+     "en": "the coffee",
+     "example": "Depois do jantar, tomo um café.",
+     "exampleEn": "After dinner, I have a coffee.",
+     "id": "pt-u09-007"
+    },
+    {
+     "term": "o copo",
+     "en": "the glass",
+     "example": "Desculpa, você tem um copo de água?",
+     "exampleEn": "Sorry, do you have a glass of water?",
+     "id": "pt-u09-008"
+    },
+    {
+     "term": "a xícara",
+     "en": "the cup",
+     "example": "Me serve mais uma xícara de café?",
+     "exampleEn": "Could you serve me one more cup of coffee?",
+     "id": "pt-u09-009"
+    },
+    {
+     "term": "a garrafa",
+     "en": "the bottle",
+     "example": "Uma garrafa de água mineral, por favor.",
+     "exampleEn": "A bottle of still water, please.",
+     "id": "pt-u09-010"
+    },
+    {
+     "term": "beber",
+     "en": "to drink",
+     "example": "Você quer beber alguma coisa agora?",
+     "exampleEn": "Do you want to drink something now?",
+     "id": "pt-u09-011"
+    },
+    {
+     "term": "tomar",
+     "en": "to drink, to have",
+     "example": "Vamos tomar um suco de laranja?",
+     "exampleEn": "Shall we have an orange juice?",
+     "id": "pt-u09-012"
+    },
+    {
+     "term": "a sede",
+     "en": "thirst",
+     "example": "Depois da corrida, estou com muita sede.",
+     "exampleEn": "After the run, I'm very thirsty.",
+     "id": "pt-u09-013"
+    },
+    {
+     "term": "a limonada",
+     "en": "the lemonade",
+     "example": "Faça uma limonada com gelo e açúcar.",
+     "exampleEn": "Make a lemonade with ice and sugar.",
+     "id": "pt-u09-014"
+    },
+    {
+     "term": "a bebida",
+     "en": "the drink",
+     "example": "Qual é a sua bebida favorita?",
+     "exampleEn": "What's your favorite drink?",
+     "id": "pt-u09-015"
+    },
+    {
+     "term": "o gelo",
+     "en": "the ice",
+     "example": "Prefiro refrigerante sem gelo.",
+     "exampleEn": "I prefer my soft drink without ice.",
+     "id": "pt-u09-016"
+    }
+   ]
+  },
+  {
+   "id": "u10",
+   "title": "At the Restaurant",
+   "cards": [
+    {
+     "term": "o cardápio",
+     "en": "the menu",
+     "example": "Me traz o cardápio, por favor?",
+     "exampleEn": "Can you bring me the menu, please?",
+     "id": "pt-u10-001"
+    },
+    {
+     "term": "a conta",
+     "en": "the bill",
+     "example": "Garçom, a conta, por favor.",
+     "exampleEn": "Waiter, the bill, please.",
+     "id": "pt-u10-002"
+    },
+    {
+     "term": "o garçom",
+     "en": "the waiter",
+     "example": "O garçom foi muito simpático com a gente.",
+     "exampleEn": "The waiter was very nice to us.",
+     "id": "pt-u10-003"
+    },
+    {
+     "term": "a gorjeta",
+     "en": "the tip",
+     "example": "A gorjeta aqui é de dez por cento.",
+     "exampleEn": "The tip here is ten percent.",
+     "id": "pt-u10-004"
+    },
+    {
+     "term": "pedir",
+     "en": "to order",
+     "example": "Vamos pedir a comida e uma bebida.",
+     "exampleEn": "Let's order the food and a drink.",
+     "id": "pt-u10-005"
+    },
+    {
+     "term": "o pedido",
+     "en": "the order",
+     "example": "Acho que o meu pedido veio errado.",
+     "exampleEn": "I think my order came wrong.",
+     "id": "pt-u10-006"
+    },
+    {
+     "term": "a sobremesa",
+     "en": "the dessert",
+     "example": "De sobremesa, vamos dividir um bolo.",
+     "exampleEn": "For dessert, let's split a cake.",
+     "id": "pt-u10-007"
+    },
+    {
+     "term": "a refeição",
+     "en": "the meal",
+     "example": "A refeição estava ótima e barata.",
+     "exampleEn": "The meal was great and cheap.",
+     "id": "pt-u10-008"
+    },
+    {
+     "term": "delicioso",
+     "en": "delicious",
+     "example": "Esse bolo caseiro está delicioso!",
+     "exampleEn": "This homemade cake is delicious!",
+     "id": "pt-u10-009"
+    },
+    {
+     "term": "a reserva",
+     "en": "the reservation",
+     "example": "Tenho uma reserva para duas pessoas.",
+     "exampleEn": "I have a reservation for two people.",
+     "id": "pt-u10-010"
+    },
+    {
+     "term": "pagar",
+     "en": "to pay",
+     "example": "Posso pagar com cartão de crédito?",
+     "exampleEn": "Can I pay with a credit card?",
+     "id": "pt-u10-011"
+    },
+    {
+     "term": "a comida",
+     "en": "the food",
+     "example": "A comida daqui é boa e caseira.",
+     "exampleEn": "The food here is good and homemade.",
+     "id": "pt-u10-012"
+    },
+    {
+     "term": "a entrada",
+     "en": "the starter",
+     "example": "Para começar, vamos dividir uma entrada.",
+     "exampleEn": "To start, let's split an appetizer.",
+     "id": "pt-u10-013"
+    },
+    {
+     "term": "fique à vontade",
+     "en": "make yourself at home",
+     "example": "Fique à vontade na minha casa.",
+     "exampleEn": "Make yourself at home in my house.",
+     "id": "pt-u10-014"
+    },
+    {
+     "term": "o guardanapo",
+     "en": "the napkin",
+     "example": "Passa os guardanapos, por favor.",
+     "exampleEn": "Pass the napkins, please.",
+     "id": "pt-u10-015"
+    },
+    {
+     "term": "a fome",
+     "en": "hunger",
+     "example": "Depois do passeio, estou com muita fome.",
+     "exampleEn": "After the walk, I'm very hungry.",
+     "id": "pt-u10-016"
+    }
+   ]
+  },
+  {
+   "id": "u11",
+   "title": "House & Rooms",
+   "cards": [
+    {
+     "term": "a casa",
+     "en": "the house",
+     "example": "Estou voltando para casa agora.",
+     "exampleEn": "I'm heading home right now.",
+     "id": "pt-u11-001"
+    },
+    {
+     "term": "o apartamento",
+     "en": "the apartment",
+     "example": "Meu apartamento tem dois quartos pequenos.",
+     "exampleEn": "My apartment has two small bedrooms.",
+     "id": "pt-u11-002"
+    },
+    {
+     "term": "a cozinha",
+     "en": "the kitchen",
+     "example": "Lavo a louça na cozinha depois do jantar.",
+     "exampleEn": "I wash the dishes in the kitchen after dinner.",
+     "id": "pt-u11-003"
+    },
+    {
+     "term": "o quarto",
+     "en": "the bedroom",
+     "example": "O quarto tem uma janela grande.",
+     "exampleEn": "The bedroom has a big window.",
+     "id": "pt-u11-004"
+    },
+    {
+     "term": "o banheiro",
+     "en": "the bathroom",
+     "example": "Posso usar o banheiro, por favor?",
+     "exampleEn": "Can I use the bathroom, please?",
+     "id": "pt-u11-005"
+    },
+    {
+     "term": "a sala",
+     "en": "the living room",
+     "example": "A família conversa à noite na sala.",
+     "exampleEn": "The family chats at night in the living room.",
+     "id": "pt-u11-006"
+    },
+    {
+     "term": "o quintal",
+     "en": "the backyard",
+     "example": "O cachorro brinca no quintal de casa.",
+     "exampleEn": "The dog plays in the backyard.",
+     "id": "pt-u11-007"
+    },
+    {
+     "term": "a garagem",
+     "en": "the garage",
+     "example": "O carro está estacionado na garagem.",
+     "exampleEn": "The car is parked in the garage.",
+     "id": "pt-u11-008"
+    },
+    {
+     "term": "a porta",
+     "en": "the door",
+     "example": "A porta da frente está aberta.",
+     "exampleEn": "The front door is open.",
+     "id": "pt-u11-009"
+    },
+    {
+     "term": "a janela",
+     "en": "the window",
+     "example": "Abra a janela para entrar ar, por favor.",
+     "exampleEn": "Open the window for some air, please.",
+     "id": "pt-u11-010"
+    },
+    {
+     "term": "o jardim",
+     "en": "the garden",
+     "example": "Meu pai rega as plantas do jardim.",
+     "exampleEn": "My dad waters the garden plants.",
+     "id": "pt-u11-011"
+    },
+    {
+     "term": "o elevador",
+     "en": "the elevator",
+     "example": "O elevador do prédio está quebrado.",
+     "exampleEn": "The building's elevator is broken.",
+     "id": "pt-u11-012"
+    },
+    {
+     "term": "a varanda",
+     "en": "the balcony",
+     "example": "À noite, tomamos café na varanda.",
+     "exampleEn": "At night, we have coffee on the balcony.",
+     "id": "pt-u11-013"
+    },
+    {
+     "term": "o vizinho",
+     "en": "the neighbor",
+     "example": "O vizinho novo é muito simpático.",
+     "exampleEn": "The new neighbor is very nice.",
+     "id": "pt-u11-014"
+    },
+    {
+     "term": "o escritório",
+     "en": "the office",
+     "example": "Trabalho no escritório aqui de casa.",
+     "exampleEn": "I work in the home office.",
+     "id": "pt-u11-015"
+    },
+    {
+     "term": "a escada",
+     "en": "the stairs",
+     "example": "Desça a escada com cuidado.",
+     "exampleEn": "Go down the stairs carefully.",
+     "id": "pt-u11-016"
+    }
+   ]
+  },
+  {
+   "id": "u12",
+   "title": "Objects & Furniture",
+   "cards": [
+    {
+     "term": "a mesa",
+     "en": "the table",
+     "example": "Os livros estão em cima da mesa.",
+     "exampleEn": "The books are on the table.",
+     "id": "pt-u12-001"
+    },
+    {
+     "term": "a cadeira",
+     "en": "the chair",
+     "example": "Puxa a cadeira e senta aqui.",
+     "exampleEn": "Pull up the chair and sit here.",
+     "id": "pt-u12-002"
+    },
+    {
+     "term": "a cama",
+     "en": "the bed",
+     "example": "Arrumo a cama todas as manhãs.",
+     "exampleEn": "I make the bed every morning.",
+     "id": "pt-u12-003"
+    },
+    {
+     "term": "o sofá",
+     "en": "the sofa",
+     "example": "Estou no sofá vendo televisão.",
+     "exampleEn": "I'm on the sofa watching television.",
+     "id": "pt-u12-004"
+    },
+    {
+     "term": "o armário",
+     "en": "the wardrobe",
+     "example": "Guardei as roupas novas no armário.",
+     "exampleEn": "I put the new clothes in the wardrobe.",
+     "id": "pt-u12-005"
+    },
+    {
+     "term": "o espelho",
+     "en": "the mirror",
+     "example": "Se olha no espelho antes de sair.",
+     "exampleEn": "He looks at himself in the mirror before going out.",
+     "id": "pt-u12-006"
+    },
+    {
+     "term": "a televisão",
+     "en": "the television",
+     "example": "A televisão está na sala de estar.",
+     "exampleEn": "The television is in the living room.",
+     "id": "pt-u12-007"
+    },
+    {
+     "term": "o computador",
+     "en": "the computer",
+     "example": "Uso o computador para trabalhar todos os dias.",
+     "exampleEn": "I use the computer to work every day.",
+     "id": "pt-u12-008"
+    },
+    {
+     "term": "o celular",
+     "en": "the cell phone",
+     "example": "Meu celular está sem bateria.",
+     "exampleEn": "My cell phone is out of battery.",
+     "id": "pt-u12-009"
+    },
+    {
+     "term": "a chave",
+     "en": "the key",
+     "example": "Perdi a chave de casa hoje.",
+     "exampleEn": "I lost my house key today.",
+     "id": "pt-u12-010"
+    },
+    {
+     "term": "o livro",
+     "en": "the book",
+     "example": "Estou lendo um livro muito bom.",
+     "exampleEn": "I'm reading a very good book.",
+     "id": "pt-u12-011"
+    },
+    {
+     "term": "a caneta",
+     "en": "the pen",
+     "example": "Você tem uma caneta para me emprestar?",
+     "exampleEn": "Do you have a pen to lend me?",
+     "id": "pt-u12-012"
+    },
+    {
+     "term": "o relógio",
+     "en": "the watch",
+     "example": "Esqueci meu relógio em cima da mesa.",
+     "exampleEn": "I left my watch on the table.",
+     "id": "pt-u12-013"
+    },
+    {
+     "term": "o travesseiro",
+     "en": "the pillow",
+     "example": "Comprei um travesseiro novo e macio.",
+     "exampleEn": "I bought a new, soft pillow.",
+     "id": "pt-u12-014"
+    },
+    {
+     "term": "a toalha",
+     "en": "the towel",
+     "example": "Pega a toalha para me secar.",
+     "exampleEn": "Grab the towel to dry me off.",
+     "id": "pt-u12-015"
+    },
+    {
+     "term": "o controle remoto",
+     "en": "the remote control",
+     "example": "Pega o controle remoto e muda o canal.",
+     "exampleEn": "Grab the remote control and change the channel.",
+     "id": "pt-u12-016"
+    }
+   ]
+  },
+  {
+   "id": "u13",
+   "title": "City & Places",
+   "cards": [
+    {
+     "term": "a cidade",
+     "en": "the city",
+     "example": "Moro nesta cidade há cinco anos.",
+     "exampleEn": "I've lived in this city for five years.",
+     "id": "pt-u13-001"
+    },
+    {
+     "term": "o bairro",
+     "en": "the neighborhood",
+     "example": "Este bairro é muito tranquilo.",
+     "exampleEn": "This neighborhood is very quiet.",
+     "id": "pt-u13-002"
+    },
+    {
+     "term": "a praça",
+     "en": "the square",
+     "example": "As crianças brincam na praça.",
+     "exampleEn": "The kids play in the square.",
+     "id": "pt-u13-003"
+    },
+    {
+     "term": "o mercado",
+     "en": "the market, the supermarket",
+     "example": "Vou ao mercado comprar frutas.",
+     "exampleEn": "I'm going to the market to buy fruit.",
+     "id": "pt-u13-004"
+    },
+    {
+     "term": "a farmácia",
+     "en": "the pharmacy",
+     "example": "A farmácia fica na esquina.",
+     "exampleEn": "The pharmacy is on the corner.",
+     "id": "pt-u13-005"
+    },
+    {
+     "term": "o hospital",
+     "en": "the hospital",
+     "example": "O hospital fica aberto vinte e quatro horas.",
+     "exampleEn": "The hospital is open twenty-four hours.",
+     "id": "pt-u13-006"
+    },
+    {
+     "term": "a escola",
+     "en": "the school",
+     "example": "A escola começa às sete.",
+     "exampleEn": "School starts at seven.",
+     "id": "pt-u13-007"
+    },
+    {
+     "term": "a igreja",
+     "en": "the church",
+     "example": "A igreja fica ao lado da praça.",
+     "exampleEn": "The church is next to the square.",
+     "id": "pt-u13-008"
+    },
+    {
+     "term": "o banco",
+     "en": "the bank",
+     "example": "Preciso ir ao banco hoje.",
+     "exampleEn": "I need to go to the bank today.",
+     "id": "pt-u13-009"
+    },
+    {
+     "term": "o restaurante",
+     "en": "the restaurant",
+     "example": "O restaurante fecha às dez.",
+     "exampleEn": "The restaurant closes at ten.",
+     "id": "pt-u13-010"
+    },
+    {
+     "term": "a padaria",
+     "en": "the bakery",
+     "example": "Comprei pão fresco na padaria.",
+     "exampleEn": "I bought fresh bread at the bakery.",
+     "id": "pt-u13-011"
+    },
+    {
+     "term": "o parque",
+     "en": "the park",
+     "example": "Passeamos no parque no domingo.",
+     "exampleEn": "We take a walk in the park on Sunday.",
+     "id": "pt-u13-012"
+    },
+    {
+     "term": "a estação",
+     "en": "the station",
+     "example": "A estação de trem é longe.",
+     "exampleEn": "The train station is far.",
+     "id": "pt-u13-013"
+    },
+    {
+     "term": "o shopping",
+     "en": "the mall",
+     "example": "Vamos ao shopping à tarde.",
+     "exampleEn": "Let's go to the mall this afternoon.",
+     "id": "pt-u13-014"
+    },
+    {
+     "term": "a feira",
+     "en": "the open-air market",
+     "example": "A feira acontece no sábado.",
+     "exampleEn": "The open-air market takes place on Saturday.",
+     "id": "pt-u13-015"
+    },
+    {
+     "term": "a praia",
+     "en": "the beach",
+     "example": "A praia está cheia hoje.",
+     "exampleEn": "The beach is crowded today.",
+     "id": "pt-u13-016"
+    }
+   ]
+  },
+  {
+   "id": "u14",
+   "title": "Directions & Transport",
+   "cards": [
+    {
+     "term": "a esquerda",
+     "en": "the left",
+     "example": "Vire à esquerda na esquina.",
+     "exampleEn": "Turn left at the corner.",
+     "id": "pt-u14-001"
+    },
+    {
+     "term": "a direita",
+     "en": "the right",
+     "example": "A farmácia fica à direita.",
+     "exampleEn": "The pharmacy is on the right.",
+     "id": "pt-u14-002"
+    },
+    {
+     "term": "em frente",
+     "en": "across, in front",
+     "example": "O banco fica em frente à padaria.",
+     "exampleEn": "The bank is across from the bakery.",
+     "id": "pt-u14-003"
+    },
+    {
+     "term": "perto",
+     "en": "near, close",
+     "example": "A escola é perto de casa.",
+     "exampleEn": "The school is close to home.",
+     "id": "pt-u14-004"
+    },
+    {
+     "term": "longe",
+     "en": "far",
+     "example": "O aeroporto fica muito longe.",
+     "exampleEn": "The airport is very far.",
+     "id": "pt-u14-005"
+    },
+    {
+     "term": "o ônibus",
+     "en": "the bus",
+     "example": "Pego o ônibus às oito.",
+     "exampleEn": "I take the bus at eight.",
+     "id": "pt-u14-006"
+    },
+    {
+     "term": "o metrô",
+     "en": "the subway",
+     "example": "O metrô está sempre cheio.",
+     "exampleEn": "The subway is always crowded.",
+     "id": "pt-u14-007"
+    },
+    {
+     "term": "o táxi",
+     "en": "the taxi",
+     "example": "Vamos de táxi para o hotel.",
+     "exampleEn": "Let's take a taxi to the hotel.",
+     "id": "pt-u14-008"
+    },
+    {
+     "term": "o carro",
+     "en": "the car",
+     "example": "Lavo o carro no sábado.",
+     "exampleEn": "I wash the car on Saturday.",
+     "id": "pt-u14-009"
+    },
+    {
+     "term": "a bicicleta",
+     "en": "the bicycle",
+     "example": "Vou de bicicleta ao trabalho.",
+     "exampleEn": "I go to work by bicycle.",
+     "id": "pt-u14-010"
+    },
+    {
+     "term": "a rua",
+     "en": "the street",
+     "example": "A rua está molhada de chuva.",
+     "exampleEn": "The street is wet from the rain.",
+     "id": "pt-u14-011"
+    },
+    {
+     "term": "o cruzamento",
+     "en": "the intersection",
+     "example": "O semáforo está no cruzamento.",
+     "exampleEn": "The traffic light is at the intersection.",
+     "id": "pt-u14-012"
+    },
+    {
+     "term": "o semáforo",
+     "en": "the traffic light",
+     "example": "O semáforo está vermelho.",
+     "exampleEn": "The traffic light is red.",
+     "id": "pt-u14-013"
+    },
+    {
+     "term": "a esquina",
+     "en": "the corner",
+     "example": "O mercado é na outra esquina.",
+     "exampleEn": "The market is on the other corner.",
+     "id": "pt-u14-014"
+    },
+    {
+     "term": "o ponto de ônibus",
+     "en": "the bus stop",
+     "example": "O ponto de ônibus está lotado.",
+     "exampleEn": "The bus stop is packed.",
+     "id": "pt-u14-015"
+    },
+    {
+     "term": "o endereço",
+     "en": "the address",
+     "example": "Qual é o seu endereço?",
+     "exampleEn": "What is your address?",
+     "id": "pt-u14-016"
+    }
+   ]
+  },
+  {
+   "id": "u15",
+   "title": "Travel: Airport & Hotel",
+   "cards": [
+    {
+     "term": "o aeroporto",
+     "en": "the airport",
+     "example": "O aeroporto fica longe do centro.",
+     "exampleEn": "The airport is far from downtown.",
+     "id": "pt-u15-001"
+    },
+    {
+     "term": "o passaporte",
+     "en": "the passport",
+     "example": "Preciso renovar meu passaporte.",
+     "exampleEn": "I need to renew my passport.",
+     "id": "pt-u15-002"
+    },
+    {
+     "term": "a passagem",
+     "en": "the ticket",
+     "example": "Comprei a passagem de avião.",
+     "exampleEn": "I bought the plane ticket.",
+     "id": "pt-u15-003"
+    },
+    {
+     "term": "o voo",
+     "en": "the flight",
+     "example": "O voo atrasou duas horas.",
+     "exampleEn": "The flight was two hours late.",
+     "id": "pt-u15-004"
+    },
+    {
+     "term": "a mala",
+     "en": "the suitcase",
+     "example": "Minha mala está muito pesada.",
+     "exampleEn": "My suitcase is very heavy.",
+     "id": "pt-u15-005"
+    },
+    {
+     "term": "a viagem",
+     "en": "the trip",
+     "example": "A viagem durou dez horas.",
+     "exampleEn": "The trip lasted ten hours.",
+     "id": "pt-u15-006"
+    },
+    {
+     "term": "o hotel",
+     "en": "the hotel",
+     "example": "O hotel tem piscina grande.",
+     "exampleEn": "The hotel has a big pool.",
+     "id": "pt-u15-007"
+    },
+    {
+     "term": "o quarto",
+     "en": "the room",
+     "example": "O quarto tem duas camas.",
+     "exampleEn": "The room has two beds.",
+     "id": "pt-u15-008"
+    },
+    {
+     "term": "o andar",
+     "en": "the floor (of a building)",
+     "example": "Meu quarto fica no terceiro andar.",
+     "exampleEn": "My room is on the third floor.",
+     "id": "pt-u15-009"
+    },
+    {
+     "term": "o ar-condicionado",
+     "en": "the air conditioner",
+     "example": "O ar-condicionado do quarto não funciona.",
+     "exampleEn": "The room's air conditioner doesn't work.",
+     "id": "pt-u15-010"
+    },
+    {
+     "term": "a fila",
+     "en": "the line, the queue",
+     "example": "A fila do aeroporto está enorme.",
+     "exampleEn": "The line at the airport is huge.",
+     "id": "pt-u15-011"
+    }
+   ]
+  },
+  {
+   "id": "u16",
+   "title": "Shopping & Money",
+   "cards": [
+    {
+     "term": "a loja",
+     "en": "the store",
+     "example": "A loja abre às nove.",
+     "exampleEn": "The store opens at nine.",
+     "id": "pt-u16-001"
+    },
+    {
+     "term": "o preço",
+     "en": "the price",
+     "example": "Qual é o preço desta camisa?",
+     "exampleEn": "What is the price of this shirt?",
+     "id": "pt-u16-002"
+    },
+    {
+     "term": "barato",
+     "en": "cheap",
+     "example": "Esta blusa está muito barata.",
+     "exampleEn": "This blouse is very cheap.",
+     "id": "pt-u16-003"
+    },
+    {
+     "term": "caro",
+     "en": "expensive",
+     "example": "Estes sapatos estão caros demais.",
+     "exampleEn": "These shoes are too expensive.",
+     "id": "pt-u16-004"
+    },
+    {
+     "term": "o dinheiro",
+     "en": "the money",
+     "example": "Não tenho dinheiro comigo.",
+     "exampleEn": "I don't have money with me.",
+     "id": "pt-u16-005"
+    },
+    {
+     "term": "o cartão",
+     "en": "the card (payment card)",
+     "example": "Posso pagar no cartão?",
+     "exampleEn": "Can I pay by card?",
+     "id": "pt-u16-006"
+    },
+    {
+     "term": "o troco",
+     "en": "the change (money back)",
+     "example": "O troco está certo, obrigado.",
+     "exampleEn": "The change is right, thank you.",
+     "id": "pt-u16-007"
+    },
+    {
+     "term": "o recibo",
+     "en": "the receipt",
+     "example": "Você pode me dar o recibo?",
+     "exampleEn": "Can you give me the receipt?",
+     "id": "pt-u16-008"
+    },
+    {
+     "term": "comprar",
+     "en": "to buy",
+     "example": "Vou comprar um presente para ela.",
+     "exampleEn": "I'm going to buy a gift for her.",
+     "id": "pt-u16-009"
+    },
+    {
+     "term": "a roupa",
+     "en": "the clothing",
+     "example": "Preciso comprar roupas novas.",
+     "exampleEn": "I need to buy new clothes.",
+     "id": "pt-u16-010"
+    },
+    {
+     "term": "o sapato",
+     "en": "the shoe",
+     "example": "Vou experimentar estes sapatos.",
+     "exampleEn": "I'm going to try on these shoes.",
+     "id": "pt-u16-011"
+    },
+    {
+     "term": "experimentar",
+     "en": "to try on",
+     "example": "Posso experimentar este vestido?",
+     "exampleEn": "Can I try on this dress?",
+     "id": "pt-u16-012"
+    },
+    {
+     "term": "o tamanho",
+     "en": "the size",
+     "example": "Você tem um tamanho maior?",
+     "exampleEn": "Do you have a bigger size?",
+     "id": "pt-u16-013"
+    },
+    {
+     "term": "custar",
+     "en": "to cost",
+     "example": "Quanto custa esta bolsa?",
+     "exampleEn": "How much does this bag cost?",
+     "id": "pt-u16-014"
+    }
+   ]
+  },
+  {
+   "id": "u17",
+   "title": "Work & School",
+   "cards": [
+    {
+     "term": "o trabalho",
+     "en": "the work",
+     "example": "Meu trabalho começa às nove.",
+     "exampleEn": "My work starts at nine.",
+     "id": "pt-u17-001"
+    },
+    {
+     "term": "o emprego",
+     "en": "the job",
+     "example": "Encontrei um emprego novo.",
+     "exampleEn": "I found a new job.",
+     "id": "pt-u17-002"
+    },
+    {
+     "term": "o chefe",
+     "en": "the boss",
+     "example": "O chefe chega cedo.",
+     "exampleEn": "The boss arrives early.",
+     "id": "pt-u17-003"
+    },
+    {
+     "term": "a reunião",
+     "en": "the meeting",
+     "example": "Tenho reunião com o chefe.",
+     "exampleEn": "I have a meeting with the boss.",
+     "id": "pt-u17-004"
+    },
+    {
+     "term": "o curso",
+     "en": "the course",
+     "example": "Fiz um curso de inglês.",
+     "exampleEn": "I took an English course.",
+     "id": "pt-u17-005"
+    },
+    {
+     "term": "o professor",
+     "en": "the teacher",
+     "example": "O professor é muito paciente.",
+     "exampleEn": "The teacher is very patient.",
+     "id": "pt-u17-006"
+    },
+    {
+     "term": "a aula",
+     "en": "the class, the lesson",
+     "example": "A aula começa em dez minutos.",
+     "exampleEn": "Class starts in ten minutes.",
+     "id": "pt-u17-007"
+    },
+    {
+     "term": "o aluno",
+     "en": "the student, the pupil",
+     "example": "O aluno respondeu a pergunta.",
+     "exampleEn": "The student answered the question.",
+     "id": "pt-u17-008"
+    },
+    {
+     "term": "o caderno",
+     "en": "the notebook",
+     "example": "Escrevi tudo no caderno.",
+     "exampleEn": "I wrote everything in the notebook.",
+     "id": "pt-u17-009"
+    },
+    {
+     "term": "a lição de casa",
+     "en": "the homework",
+     "example": "Fiz a lição de casa.",
+     "exampleEn": "I did the homework.",
+     "id": "pt-u17-010"
+    },
+    {
+     "term": "a prova",
+     "en": "the test, the exam",
+     "example": "Tenho prova de matemática amanhã.",
+     "exampleEn": "I have a math test tomorrow.",
+     "id": "pt-u17-011"
+    },
+    {
+     "term": "estudar",
+     "en": "to study",
+     "example": "Estudo português todos os dias.",
+     "exampleEn": "I study Portuguese every day.",
+     "id": "pt-u17-012"
+    }
+   ]
+  },
+  {
+   "id": "u18",
+   "title": "Body & Health",
+   "cards": [
+    {
+     "term": "a cabeça",
+     "en": "the head",
+     "example": "Bati a cabeça na porta.",
+     "exampleEn": "I hit my head on the door.",
+     "id": "pt-u18-001"
+    },
+    {
+     "term": "o corpo",
+     "en": "the body",
+     "example": "Estou com o corpo dolorido.",
+     "exampleEn": "My whole body is sore.",
+     "id": "pt-u18-002"
+    },
+    {
+     "term": "a dor",
+     "en": "the pain",
+     "example": "A dor passou hoje.",
+     "exampleEn": "The pain went away today.",
+     "id": "pt-u18-003"
+    },
+    {
+     "term": "doer",
+     "en": "to hurt",
+     "example": "Meu pé dói depois de caminhar.",
+     "exampleEn": "My foot hurts after walking.",
+     "id": "pt-u18-004"
+    },
+    {
+     "term": "a perna",
+     "en": "the leg",
+     "example": "Machuquei a perna correndo.",
+     "exampleEn": "I hurt my leg running.",
+     "id": "pt-u18-005"
+    },
+    {
+     "term": "o braço",
+     "en": "the arm",
+     "example": "Levantei o braço direito.",
+     "exampleEn": "I raised my right arm.",
+     "id": "pt-u18-006"
+    },
+    {
+     "term": "a mão",
+     "en": "the hand",
+     "example": "Lave as mãos antes de comer.",
+     "exampleEn": "Wash your hands before eating.",
+     "id": "pt-u18-007"
+    },
+    {
+     "term": "o pé",
+     "en": "the foot",
+     "example": "Machuquei o pé jogando futebol.",
+     "exampleEn": "I hurt my foot playing soccer.",
+     "id": "pt-u18-008"
+    },
+    {
+     "term": "o olho",
+     "en": "the eye",
+     "example": "Esfreguei o olho com areia.",
+     "exampleEn": "I rubbed my eye with sand.",
+     "id": "pt-u18-009"
+    },
+    {
+     "term": "a boca",
+     "en": "the mouth",
+     "example": "Abra a boca, por favor.",
+     "exampleEn": "Open your mouth, please.",
+     "id": "pt-u18-010"
+    },
+    {
+     "term": "o dente",
+     "en": "the tooth",
+     "example": "O dente está doendo.",
+     "exampleEn": "The tooth is hurting.",
+     "id": "pt-u18-011"
+    },
+    {
+     "term": "o médico",
+     "en": "the doctor",
+     "example": "O médico me deu um conselho.",
+     "exampleEn": "The doctor gave me some advice.",
+     "id": "pt-u18-012"
+    },
+    {
+     "term": "o remédio",
+     "en": "the medicine",
+     "example": "Tomo remédio de manhã.",
+     "exampleEn": "I take medicine in the morning.",
+     "id": "pt-u18-013"
+    },
+    {
+     "term": "doente",
+     "en": "sick",
+     "example": "Estou doente e vou ficar em casa.",
+     "exampleEn": "I'm sick and I'm going to stay home.",
+     "id": "pt-u18-014"
+    },
+    {
+     "term": "a febre",
+     "en": "the fever",
+     "example": "O menino está com febre.",
+     "exampleEn": "The boy has a fever.",
+     "id": "pt-u18-015"
+    },
+    {
+     "term": "a consulta",
+     "en": "the appointment (medical)",
+     "example": "A consulta é às duas.",
+     "exampleEn": "The appointment is at two.",
+     "id": "pt-u18-016"
+    }
+   ]
+  },
+  {
+   "id": "u19",
+   "title": "Weather & Nature",
+   "cards": [
+    {
+     "term": "o sol",
+     "en": "the sun",
+     "example": "Hoje o sol está muito forte.",
+     "exampleEn": "The sun is very strong today.",
+     "id": "pt-u19-001"
+    },
+    {
+     "term": "a chuva",
+     "en": "the rain",
+     "example": "A chuva não para desde ontem.",
+     "exampleEn": "The rain hasn't stopped since yesterday.",
+     "id": "pt-u19-002"
+    },
+    {
+     "term": "a lua",
+     "en": "the moon",
+     "example": "A lua está linda esta noite.",
+     "exampleEn": "The moon is beautiful tonight.",
+     "id": "pt-u19-003"
+    },
+    {
+     "term": "a estrela",
+     "en": "the star",
+     "example": "Hoje à noite tem muitas estrelas.",
+     "exampleEn": "There are many stars tonight.",
+     "id": "pt-u19-004"
+    },
+    {
+     "term": "o céu",
+     "en": "the sky",
+     "example": "O céu está limpo, sem nuvens.",
+     "exampleEn": "The sky is clear, without clouds.",
+     "id": "pt-u19-005"
+    },
+    {
+     "term": "o vento",
+     "en": "the wind",
+     "example": "O vento derrubou o guarda-chuva.",
+     "exampleEn": "The wind knocked down the umbrella.",
+     "id": "pt-u19-006"
+    },
+    {
+     "term": "a nuvem",
+     "en": "the cloud",
+     "example": "Tem uma nuvem escura se aproximando.",
+     "exampleEn": "A dark cloud is coming closer.",
+     "id": "pt-u19-007"
+    },
+    {
+     "term": "o calor",
+     "en": "the heat",
+     "example": "Aqui o calor dura o ano todo.",
+     "exampleEn": "Here the heat lasts all year long.",
+     "id": "pt-u19-008"
+    },
+    {
+     "term": "o frio",
+     "en": "the cold",
+     "example": "Em julho faz muito frio aqui.",
+     "exampleEn": "It's very cold here in July.",
+     "id": "pt-u19-009"
+    },
+    {
+     "term": "chover",
+     "en": "to rain",
+     "example": "Acho que vai chover amanhã.",
+     "exampleEn": "I think it's going to rain tomorrow.",
+     "id": "pt-u19-010"
+    },
+    {
+     "term": "o tempo",
+     "en": "the weather",
+     "example": "Como está o tempo lá hoje?",
+     "exampleEn": "How's the weather there today?",
+     "id": "pt-u19-011"
+    },
+    {
+     "term": "o verão",
+     "en": "the summer",
+     "example": "No verão eu vou à praia.",
+     "exampleEn": "In the summer I go to the beach.",
+     "id": "pt-u19-012"
+    },
+    {
+     "term": "o inverno",
+     "en": "the winter",
+     "example": "No inverno eu uso um casaco grosso.",
+     "exampleEn": "In the winter I wear a thick coat.",
+     "id": "pt-u19-013"
+    },
+    {
+     "term": "o mar",
+     "en": "the sea",
+     "example": "A água do mar está gelada.",
+     "exampleEn": "The sea water is freezing.",
+     "id": "pt-u19-014"
+    },
+    {
+     "term": "a floresta",
+     "en": "the forest",
+     "example": "A floresta tem muitas árvores altas.",
+     "exampleEn": "The forest has many tall trees.",
+     "id": "pt-u19-015"
+    }
+   ]
+  },
+  {
+   "id": "u20",
+   "title": "Animals",
+   "cards": [
+    {
+     "term": "o cachorro",
+     "en": "the dog",
+     "example": "Meu cachorro adora passear no parque.",
+     "exampleEn": "My dog loves to walk in the park.",
+     "id": "pt-u20-001"
+    },
+    {
+     "term": "o gato",
+     "en": "the cat",
+     "example": "O gato dorme o dia todo no sofá.",
+     "exampleEn": "The cat sleeps all day on the couch.",
+     "id": "pt-u20-002"
+    },
+    {
+     "term": "o pássaro",
+     "en": "the bird",
+     "example": "Esse pássaro canta de madrugada.",
+     "exampleEn": "That bird sings at dawn.",
+     "id": "pt-u20-003"
+    },
+    {
+     "term": "o cavalo",
+     "en": "the horse",
+     "example": "Meu avô tem dois cavalos.",
+     "exampleEn": "My grandfather has two horses.",
+     "id": "pt-u20-004"
+    },
+    {
+     "term": "a vaca",
+     "en": "the cow",
+     "example": "A fazenda tem muitas vacas.",
+     "exampleEn": "The farm has many cows.",
+     "id": "pt-u20-005"
+    },
+    {
+     "term": "o porco",
+     "en": "the pig",
+     "example": "O fazendeiro cria porcos e galinhas.",
+     "exampleEn": "The farmer raises pigs and chickens.",
+     "id": "pt-u20-006"
+    },
+    {
+     "term": "a galinha",
+     "en": "the hen",
+     "example": "A galinha bota ovos todos os dias.",
+     "exampleEn": "The hen lays eggs every day.",
+     "id": "pt-u20-007"
+    },
+    {
+     "term": "o macaco",
+     "en": "the monkey",
+     "example": "O macaco subiu na árvore.",
+     "exampleEn": "The monkey climbed the tree.",
+     "id": "pt-u20-008"
+    },
+    {
+     "term": "o leão",
+     "en": "the lion",
+     "example": "O leão é o rei da selva.",
+     "exampleEn": "The lion is the king of the jungle.",
+     "id": "pt-u20-009"
+    },
+    {
+     "term": "a abelha",
+     "en": "the bee",
+     "example": "A abelha faz o mel.",
+     "exampleEn": "The bee makes honey.",
+     "id": "pt-u20-010"
+    },
+    {
+     "term": "a formiga",
+     "en": "the ant",
+     "example": "Tem formiga na cozinha.",
+     "exampleEn": "There are ants in the kitchen.",
+     "id": "pt-u20-011"
+    },
+    {
+     "term": "a mosca",
+     "en": "the fly",
+     "example": "A mosca não me deixa em paz.",
+     "exampleEn": "That fly won't leave me in peace.",
+     "id": "pt-u20-012"
+    },
+    {
+     "term": "o mosquito",
+     "en": "the mosquito",
+     "example": "O mosquito me picou no braço.",
+     "exampleEn": "A mosquito bit me on the arm.",
+     "id": "pt-u20-013"
+    },
+    {
+     "term": "o bicho",
+     "en": "the creature, the animal",
+     "example": "Acho que tem um bicho no jardim.",
+     "exampleEn": "I think there's an animal in the garden.",
+     "id": "pt-u20-014"
+    },
+    {
+     "term": "o animal",
+     "en": "the animal",
+     "example": "Eu gosto muito de animais.",
+     "exampleEn": "I like animals a lot.",
+     "id": "pt-u20-015"
+    }
+   ]
+  },
+  {
+   "id": "u21",
+   "title": "Colors, Sizes & Opposites",
+   "cards": [
+    {
+     "term": "vermelho",
+     "en": "red",
+     "example": "Minha irmã vestiu um casaco vermelho.",
+     "exampleEn": "My sister put on a red coat.",
+     "id": "pt-u21-001"
+    },
+    {
+     "term": "azul",
+     "en": "blue",
+     "example": "Ele tem uma bicicleta azul.",
+     "exampleEn": "He has a blue bike.",
+     "id": "pt-u21-002"
+    },
+    {
+     "term": "verde",
+     "en": "green",
+     "example": "As folhas são verdes no verão.",
+     "exampleEn": "The leaves are green in the summer.",
+     "id": "pt-u21-003"
+    },
+    {
+     "term": "amarelo",
+     "en": "yellow",
+     "example": "Comprei uma camiseta amarela.",
+     "exampleEn": "I bought a yellow T-shirt.",
+     "id": "pt-u21-004"
+    },
+    {
+     "term": "preto",
+     "en": "black",
+     "example": "Meu uniforme é preto e branco.",
+     "exampleEn": "My uniform is black and white.",
+     "id": "pt-u21-005"
+    },
+    {
+     "term": "branco",
+     "en": "white",
+     "example": "Pinte a parede de branco.",
+     "exampleEn": "Paint the wall white.",
+     "id": "pt-u21-006"
+    },
+    {
+     "term": "grande",
+     "en": "big",
+     "example": "Esta cidade é muito grande.",
+     "exampleEn": "This city is very big.",
+     "id": "pt-u21-007"
+    },
+    {
+     "term": "pequeno",
+     "en": "small",
+     "example": "Ele mora em um apartamento pequeno.",
+     "exampleEn": "He lives in a small apartment.",
+     "id": "pt-u21-008"
+    },
+    {
+     "term": "alto",
+     "en": "tall",
+     "example": "Meu irmão mais velho é muito alto.",
+     "exampleEn": "My older brother is very tall.",
+     "id": "pt-u21-009"
+    },
+    {
+     "term": "baixo",
+     "en": "short",
+     "example": "Ela é baixa e simpática.",
+     "exampleEn": "She is short and friendly.",
+     "id": "pt-u21-010"
+    },
+    {
+     "term": "quente",
+     "en": "hot",
+     "example": "O café está bem quente, cuidado.",
+     "exampleEn": "The coffee is really hot, be careful.",
+     "id": "pt-u21-011"
+    },
+    {
+     "term": "frio",
+     "en": "cold",
+     "example": "Pega um casaco, está frio lá fora.",
+     "exampleEn": "Grab a jacket, it's cold outside.",
+     "id": "pt-u21-012"
+    },
+    {
+     "term": "novo",
+     "en": "new",
+     "example": "Comprei um celular novo.",
+     "exampleEn": "I bought a new cell phone.",
+     "id": "pt-u21-013"
+    },
+    {
+     "term": "velho",
+     "en": "old",
+     "example": "Este prédio é muito velho.",
+     "exampleEn": "This building is very old.",
+     "id": "pt-u21-014"
+    },
+    {
+     "term": "fácil",
+     "en": "easy",
+     "example": "Estas perguntas são fáceis.",
+     "exampleEn": "These questions are easy.",
+     "id": "pt-u21-015"
+    },
+    {
+     "term": "difícil",
+     "en": "difficult",
+     "example": "A prova de hoje foi difícil.",
+     "exampleEn": "Today's test was difficult.",
+     "id": "pt-u21-016"
+    }
+   ]
+  },
+  {
+   "id": "u22",
+   "title": "Feelings & Personality",
+   "cards": [
+    {
+     "term": "feliz",
+     "en": "happy",
+     "example": "Fiquei muito feliz em te ver!",
+     "exampleEn": "I was so happy to see you!",
+     "id": "pt-u22-001"
+    },
+    {
+     "term": "triste",
+     "en": "sad",
+     "example": "Por que você está tão triste?",
+     "exampleEn": "Why are you so sad?",
+     "id": "pt-u22-002"
+    },
+    {
+     "term": "cansado",
+     "en": "tired",
+     "example": "Ele chega cansado do trabalho.",
+     "exampleEn": "He comes home tired from work.",
+     "id": "pt-u22-003"
+    },
+    {
+     "term": "ocupado",
+     "en": "busy",
+     "example": "Ela está muito ocupada esta semana.",
+     "exampleEn": "She is very busy this week.",
+     "id": "pt-u22-004"
+    },
+    {
+     "term": "com medo",
+     "en": "afraid, scared",
+     "example": "A menina está com medo do escuro.",
+     "exampleEn": "The girl is afraid of the dark.",
+     "id": "pt-u22-005"
+    },
+    {
+     "term": "zangado",
+     "en": "angry",
+     "example": "Por favor, não fique zangado comigo.",
+     "exampleEn": "Please don't be angry with me.",
+     "id": "pt-u22-006"
+    },
+    {
+     "term": "nervoso",
+     "en": "nervous",
+     "example": "Fico nervoso antes das provas.",
+     "exampleEn": "I get nervous before exams.",
+     "id": "pt-u22-007"
+    },
+    {
+     "term": "surpreso",
+     "en": "surprised",
+     "example": "Ela ficou surpresa com o presente.",
+     "exampleEn": "She was surprised with the gift.",
+     "id": "pt-u22-008"
+    },
+    {
+     "term": "animado",
+     "en": "excited, in good spirits",
+     "example": "As crianças estão animadas com as férias.",
+     "exampleEn": "The kids are excited about the vacation.",
+     "id": "pt-u22-009"
+    },
+    {
+     "term": "tímido",
+     "en": "shy",
+     "example": "Ele é tímido com pessoas novas.",
+     "exampleEn": "He is shy with new people.",
+     "id": "pt-u22-010"
+    },
+    {
+     "term": "simpático",
+     "en": "friendly, nice",
+     "example": "Seu primo é muito simpático.",
+     "exampleEn": "Your cousin is very friendly.",
+     "id": "pt-u22-011"
+    },
+    {
+     "term": "gentil",
+     "en": "kind",
+     "example": "Obrigado, você é muito gentil.",
+     "exampleEn": "Thanks, you are very kind.",
+     "id": "pt-u22-012"
+    },
+    {
+     "term": "preguiçoso",
+     "en": "lazy",
+     "example": "Hoje estou preguiçoso, vou ficar no sofá.",
+     "exampleEn": "Today I'm lazy, I'll stay on the couch.",
+     "id": "pt-u22-013"
+    },
+    {
+     "term": "inteligente",
+     "en": "intelligent",
+     "example": "Essa aluna é muito inteligente.",
+     "exampleEn": "That student is very intelligent.",
+     "id": "pt-u22-014"
+    },
+    {
+     "term": "engraçado",
+     "en": "funny",
+     "example": "O amigo dela é muito engraçado.",
+     "exampleEn": "Her friend is very funny.",
+     "id": "pt-u22-015"
+    },
+    {
+     "term": "chato",
+     "en": "boring, annoying",
+     "example": "O filme foi chato e longo.",
+     "exampleEn": "The movie was boring and long.",
+     "id": "pt-u22-016"
+    }
+   ]
+  },
+  {
+   "id": "u23",
+   "title": "Everyday Verbs",
+   "cards": [
+    {
+     "term": "acordar",
+     "en": "to wake up",
+     "example": "Acordo cedo de segunda a sexta.",
+     "exampleEn": "I wake up early Monday to Friday.",
+     "id": "pt-u23-001"
+    },
+    {
+     "term": "dormir",
+     "en": "to sleep",
+     "example": "Eu durmo oito horas por noite.",
+     "exampleEn": "I sleep eight hours a night.",
+     "id": "pt-u23-002"
+    },
+    {
+     "term": "comer",
+     "en": "to eat",
+     "example": "Vou comer um sanduíche agora.",
+     "exampleEn": "I'm going to eat a sandwich now.",
+     "id": "pt-u23-003"
+    },
+    {
+     "term": "tomar",
+     "en": "to take (a shower), to drink",
+     "example": "Tomo banho antes de sair.",
+     "exampleEn": "I take a shower before going out.",
+     "id": "pt-u23-004"
+    },
+    {
+     "term": "trabalhar",
+     "en": "to work",
+     "example": "Trabalho em um escritório aqui perto.",
+     "exampleEn": "I work in an office near here.",
+     "id": "pt-u23-005"
+    },
+    {
+     "term": "fazer",
+     "en": "to do, to make",
+     "example": "Hoje eu faço o jantar.",
+     "exampleEn": "I'm making dinner tonight.",
+     "id": "pt-u23-006"
+    },
+    {
+     "term": "ir",
+     "en": "to go",
+     "example": "Vamos ao mercado de ônibus.",
+     "exampleEn": "We're going to the market by bus.",
+     "id": "pt-u23-007"
+    },
+    {
+     "term": "chegar",
+     "en": "to arrive",
+     "example": "Chego em casa às sete.",
+     "exampleEn": "I get home at seven.",
+     "id": "pt-u23-008"
+    },
+    {
+     "term": "sair",
+     "en": "to leave, to go out",
+     "example": "Saio de casa às oito.",
+     "exampleEn": "I leave home at eight.",
+     "id": "pt-u23-009"
+    },
+    {
+     "term": "morar",
+     "en": "to live (somewhere)",
+     "example": "Moro no Brasil há dois anos.",
+     "exampleEn": "I've lived in Brazil for two years.",
+     "id": "pt-u23-010"
+    },
+    {
+     "term": "esperar",
+     "en": "to wait",
+     "example": "Espera um pouco, já vou!",
+     "exampleEn": "Wait a moment, I'm coming!",
+     "id": "pt-u23-011"
+    },
+    {
+     "term": "lavar",
+     "en": "to wash",
+     "example": "Lavo as mãos antes de comer.",
+     "exampleEn": "I wash my hands before eating.",
+     "id": "pt-u23-012"
+    }
+   ]
+  },
+  {
+   "id": "u24",
+   "title": "Communication & Question Words",
+   "cards": [
+    {
+     "term": "falar",
+     "en": "to speak, to talk",
+     "example": "Eu falo português com meus amigos.",
+     "exampleEn": "I speak Portuguese with my friends.",
+     "id": "pt-u24-001"
+    },
+    {
+     "term": "dizer",
+     "en": "to say, to tell",
+     "example": "Ele sempre diz a verdade.",
+     "exampleEn": "He always tells the truth.",
+     "id": "pt-u24-002"
+    },
+    {
+     "term": "perguntar",
+     "en": "to ask",
+     "example": "Sempre perguntam a mesma coisa.",
+     "exampleEn": "People always ask the same thing.",
+     "id": "pt-u24-003"
+    },
+    {
+     "term": "responder",
+     "en": "to answer",
+     "example": "Ele nunca responde minhas mensagens.",
+     "exampleEn": "He never answers my messages.",
+     "id": "pt-u24-004"
+    },
+    {
+     "term": "ouvir",
+     "en": "to hear, to listen",
+     "example": "Fale mais alto, não estou ouvindo.",
+     "exampleEn": "Speak up, I'm not hearing you.",
+     "id": "pt-u24-005"
+    },
+    {
+     "term": "entender",
+     "en": "to understand",
+     "example": "Não entendi, pode repetir?",
+     "exampleEn": "I didn't understand, can you repeat?",
+     "id": "pt-u24-006"
+    },
+    {
+     "term": "chamar",
+     "en": "to call",
+     "example": "Vou chamar um táxi para você.",
+     "exampleEn": "I'll call a taxi for you.",
+     "id": "pt-u24-007"
+    },
+    {
+     "term": "ligar",
+     "en": "to call (on the phone)",
+     "example": "Vou ligar para ela hoje.",
+     "exampleEn": "I'll call her today.",
+     "id": "pt-u24-008"
+    },
+    {
+     "term": "mandar",
+     "en": "to send",
+     "example": "Manda uma mensagem depois!",
+     "exampleEn": "Send me a message later!",
+     "id": "pt-u24-009"
+    },
+    {
+     "term": "o que",
+     "en": "what",
+     "example": "O que é isso?",
+     "exampleEn": "What is this?",
+     "id": "pt-u24-010"
+    },
+    {
+     "term": "quem",
+     "en": "who",
+     "example": "Quem é o seu professor?",
+     "exampleEn": "Who is your teacher?",
+     "id": "pt-u24-011"
+    },
+    {
+     "term": "onde",
+     "en": "where",
+     "example": "Onde fica o banheiro?",
+     "exampleEn": "Where is the bathroom?",
+     "id": "pt-u24-012"
+    },
+    {
+     "term": "quando",
+     "en": "when",
+     "example": "Quando você chega em casa?",
+     "exampleEn": "When do you get home?",
+     "id": "pt-u24-013"
+    },
+    {
+     "term": "como",
+     "en": "how",
+     "example": "Como você diz isso em português?",
+     "exampleEn": "How do you say this in Portuguese?",
+     "id": "pt-u24-014"
+    },
+    {
+     "term": "qual",
+     "en": "which, what",
+     "example": "Qual é o seu nome?",
+     "exampleEn": "What is your name?",
+     "id": "pt-u24-015"
+    },
+    {
+     "term": "por que",
+     "en": "why",
+     "example": "Por que você está atrasado?",
+     "exampleEn": "Why are you late?",
+     "id": "pt-u24-016"
+    }
+   ]
+  }
+ ]
+}

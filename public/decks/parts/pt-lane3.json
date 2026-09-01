@@ -1,0 +1,143 @@
+{
+  "lang": "pt",
+  "units": [
+    {
+      "id": "u13",
+      "title": "Cidade e lugares",
+      "titleEn": "City & Places",
+      "cards": [
+        { "term": "a cidade", "en": "the city", "example": "Moro nesta cidade há cinco anos.", "exampleEn": "I've lived in this city for five years." },
+        { "term": "o bairro", "en": "the neighborhood", "example": "Este bairro é muito tranquilo.", "exampleEn": "This neighborhood is very quiet." },
+        { "term": "a praça", "en": "the square", "example": "As crianças brincam na praça.", "exampleEn": "The kids play in the square." },
+        { "term": "o mercado", "en": "the market, the supermarket", "example": "Vou ao mercado comprar frutas.", "exampleEn": "I'm going to the market to buy fruit." },
+        { "term": "a farmácia", "en": "the pharmacy", "example": "A farmácia fica na esquina.", "exampleEn": "The pharmacy is on the corner." },
+        { "term": "o hospital", "en": "the hospital", "example": "O hospital fica aberto vinte e quatro horas.", "exampleEn": "The hospital is open twenty-four hours." },
+        { "term": "a escola", "en": "the school", "example": "A escola começa às sete.", "exampleEn": "School starts at seven." },
+        { "term": "a igreja", "en": "the church", "example": "A igreja fica ao lado da praça.", "exampleEn": "The church is next to the square." },
+        { "term": "o banco", "en": "the bank", "example": "Preciso ir ao banco hoje.", "exampleEn": "I need to go to the bank today." },
+        { "term": "o restaurante", "en": "the restaurant", "example": "O restaurante fecha às dez.", "exampleEn": "The restaurant closes at ten." },
+        { "term": "a padaria", "en": "the bakery", "example": "Comprei pão fresco na padaria.", "exampleEn": "I bought fresh bread at the bakery." },
+        { "term": "o parque", "en": "the park", "example": "Passeamos no parque no domingo.", "exampleEn": "We take a walk in the park on Sunday." },
+        { "term": "a estação", "en": "the station", "example": "A estação de trem é longe.", "exampleEn": "The train station is far." },
+        { "term": "o shopping", "en": "the mall", "example": "Vamos ao shopping à tarde.", "exampleEn": "Let's go to the mall this afternoon." },
+        { "term": "a feira", "en": "the open-air market", "example": "A feira acontece no sábado.", "exampleEn": "The open-air market takes place on Saturday." },
+        { "term": "a praia", "en": "the beach", "example": "A praia está cheia hoje.", "exampleEn": "The beach is crowded today." }
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "Direções e transportes",
+      "titleEn": "Directions & Transport",
+      "cards": [
+        { "term": "a esquerda", "en": "the left", "example": "Vire à esquerda na esquina.", "exampleEn": "Turn left at the corner." },
+        { "term": "a direita", "en": "the right", "example": "A farmácia fica à direita.", "exampleEn": "The pharmacy is on the right." },
+        { "term": "em frente", "en": "across, in front", "example": "O banco fica em frente à padaria.", "exampleEn": "The bank is across from the bakery." },
+        { "term": "perto", "en": "near, close", "example": "A escola é perto de casa.", "exampleEn": "The school is close to home." },
+        { "term": "longe", "en": "far", "example": "O aeroporto fica muito longe.", "exampleEn": "The airport is very far." },
+        { "term": "o ônibus", "en": "the bus", "example": "Pego o ônibus às oito.", "exampleEn": "I take the bus at eight." },
+        { "term": "o metrô", "en": "the subway", "example": "O metrô está sempre cheio.", "exampleEn": "The subway is always crowded." },
+        { "term": "o táxi", "en": "the taxi", "example": "Vamos de táxi para o hotel.", "exampleEn": "Let's take a taxi to the hotel." },
+        { "term": "o carro", "en": "the car", "example": "Lavo o carro no sábado.", "exampleEn": "I wash the car on Saturday." },
+        { "term": "a bicicleta", "en": "the bicycle", "example": "Vou de bicicleta ao trabalho.", "exampleEn": "I go to work by bicycle." },
+        { "term": "a rua", "en": "the street", "example": "A rua está molhada de chuva.", "exampleEn": "The street is wet from the rain." },
+        { "term": "o cruzamento", "en": "the intersection", "example": "O semáforo está no cruzamento.", "exampleEn": "The traffic light is at the intersection." },
+        { "term": "o semáforo", "en": "the traffic light", "example": "O semáforo está vermelho.", "exampleEn": "The traffic light is red." },
+        { "term": "a esquina", "en": "the corner", "example": "O mercado é na outra esquina.", "exampleEn": "The market is on the other corner." },
+        { "term": "o ponto de ônibus", "en": "the bus stop", "example": "O ponto de ônibus está lotado.", "exampleEn": "The bus stop is packed." },
+        { "term": "o endereço", "en": "the address", "example": "Qual é o seu endereço?", "exampleEn": "What is your address?" }
+      ]
+    },
+    {
+      "id": "u15",
+      "title": "Viagem: aeroporto e hotel",
+      "titleEn": "Travel: Airport & Hotel",
+      "cards": [
+        { "term": "o aeroporto", "en": "the airport", "example": "O aeroporto fica longe do centro.", "exampleEn": "The airport is far from downtown." },
+        { "term": "o passaporte", "en": "the passport", "example": "Preciso renovar meu passaporte.", "exampleEn": "I need to renew my passport." },
+        { "term": "a passagem", "en": "the ticket", "example": "Comprei a passagem de avião.", "exampleEn": "I bought the plane ticket." },
+        { "term": "o voo", "en": "the flight", "example": "O voo atrasou duas horas.", "exampleEn": "The flight was two hours late." },
+        { "term": "a mala", "en": "the suitcase", "example": "Minha mala está muito pesada.", "exampleEn": "My suitcase is very heavy." },
+        { "term": "a viagem", "en": "the trip", "example": "A viagem durou dez horas.", "exampleEn": "The trip lasted ten hours." },
+        { "term": "o hotel", "en": "the hotel", "example": "O hotel tem piscina grande.", "exampleEn": "The hotel has a big pool." },
+        { "term": "o quarto", "en": "the room", "example": "O quarto tem duas camas.", "exampleEn": "The room has two beds." },
+        { "term": "a chave", "en": "the key", "example": "Perdi a chave do quarto.", "exampleEn": "I lost the room key." },
+        { "term": "a reserva", "en": "the reservation", "example": "Fiz uma reserva para dois.", "exampleEn": "I made a reservation for two." },
+        { "term": "o elevador", "en": "the elevator", "example": "O elevador está quebrado hoje.", "exampleEn": "The elevator is broken today." },
+        { "term": "o andar", "en": "the floor (of a building)", "example": "Meu quarto fica no terceiro andar.", "exampleEn": "My room is on the third floor." },
+        { "term": "o café da manhã", "en": "breakfast", "example": "O café da manhã é servido às sete.", "exampleEn": "Breakfast is served at seven." },
+        { "term": "a toalha", "en": "the towel", "example": "Preciso de uma toalha limpa.", "exampleEn": "I need a clean towel." },
+        { "term": "o ar-condicionado", "en": "the air conditioner", "example": "O ar-condicionado do quarto não funciona.", "exampleEn": "The room's air conditioner doesn't work." },
+        { "term": "a fila", "en": "the line, the queue", "example": "A fila do aeroporto está enorme.", "exampleEn": "The line at the airport is huge." }
+      ]
+    },
+    {
+      "id": "u16",
+      "title": "Compras e dinheiro",
+      "titleEn": "Shopping & Money",
+      "cards": [
+        { "term": "a loja", "en": "the store", "example": "A loja abre às nove.", "exampleEn": "The store opens at nine." },
+        { "term": "o preço", "en": "the price", "example": "Qual é o preço desta camisa?", "exampleEn": "What is the price of this shirt?" },
+        { "term": "barato", "en": "cheap", "example": "Esta blusa está muito barata.", "exampleEn": "This blouse is very cheap." },
+        { "term": "caro", "en": "expensive", "example": "Estes sapatos estão caros demais.", "exampleEn": "These shoes are too expensive." },
+        { "term": "o dinheiro", "en": "the money", "example": "Não tenho dinheiro comigo.", "exampleEn": "I don't have money with me." },
+        { "term": "o cartão", "en": "the card (payment card)", "example": "Posso pagar no cartão?", "exampleEn": "Can I pay by card?" },
+        { "term": "pagar", "en": "to pay", "example": "Quero pagar com dinheiro.", "exampleEn": "I want to pay with cash." },
+        { "term": "o troco", "en": "the change (money back)", "example": "O troco está certo, obrigado.", "exampleEn": "The change is right, thank you." },
+        { "term": "a conta", "en": "the bill", "example": "A conta, por favor.", "exampleEn": "The bill, please." },
+        { "term": "o recibo", "en": "the receipt", "example": "Você pode me dar o recibo?", "exampleEn": "Can you give me the receipt?" },
+        { "term": "comprar", "en": "to buy", "example": "Vou comprar um presente para ela.", "exampleEn": "I'm going to buy a gift for her." },
+        { "term": "a roupa", "en": "the clothing", "example": "Preciso comprar roupas novas.", "exampleEn": "I need to buy new clothes." },
+        { "term": "o sapato", "en": "the shoe", "example": "Vou experimentar estes sapatos.", "exampleEn": "I'm going to try on these shoes." },
+        { "term": "experimentar", "en": "to try on", "example": "Posso experimentar este vestido?", "exampleEn": "Can I try on this dress?" },
+        { "term": "o tamanho", "en": "the size", "example": "Você tem um tamanho maior?", "exampleEn": "Do you have a bigger size?" },
+        { "term": "custar", "en": "to cost", "example": "Quanto custa esta bolsa?", "exampleEn": "How much does this bag cost?" }
+      ]
+    },
+    {
+      "id": "u17",
+      "title": "Trabalho e escola",
+      "titleEn": "Work & School",
+      "cards": [
+        { "term": "o trabalho", "en": "the work", "example": "Meu trabalho começa às nove.", "exampleEn": "My work starts at nine." },
+        { "term": "o emprego", "en": "the job", "example": "Encontrei um emprego novo.", "exampleEn": "I found a new job." },
+        { "term": "o escritório", "en": "the office", "example": "Trabalho em um escritório pequeno.", "exampleEn": "I work in a small office." },
+        { "term": "o chefe", "en": "the boss", "example": "O chefe chega cedo.", "exampleEn": "The boss arrives early." },
+        { "term": "o computador", "en": "the computer", "example": "Meu computador está lento hoje.", "exampleEn": "My computer is slow today." },
+        { "term": "a reunião", "en": "the meeting", "example": "Tenho reunião com o chefe.", "exampleEn": "I have a meeting with the boss." },
+        { "term": "o curso", "en": "the course", "example": "Fiz um curso de inglês.", "exampleEn": "I took an English course." },
+        { "term": "o professor", "en": "the teacher", "example": "O professor é muito paciente.", "exampleEn": "The teacher is very patient." },
+        { "term": "a aula", "en": "the class, the lesson", "example": "A aula começa em dez minutos.", "exampleEn": "Class starts in ten minutes." },
+        { "term": "o aluno", "en": "the student, the pupil", "example": "O aluno respondeu a pergunta.", "exampleEn": "The student answered the question." },
+        { "term": "o livro", "en": "the book", "example": "Comprei um livro novo.", "exampleEn": "I bought a new book." },
+        { "term": "a caneta", "en": "the pen", "example": "Você pode me emprestar a caneta?", "exampleEn": "Can you lend me the pen?" },
+        { "term": "o caderno", "en": "the notebook", "example": "Escrevi tudo no caderno.", "exampleEn": "I wrote everything in the notebook." },
+        { "term": "a lição de casa", "en": "the homework", "example": "Fiz a lição de casa.", "exampleEn": "I did the homework." },
+        { "term": "a prova", "en": "the test, the exam", "example": "Tenho prova de matemática amanhã.", "exampleEn": "I have a math test tomorrow." },
+        { "term": "estudar", "en": "to study", "example": "Estudo português todos os dias.", "exampleEn": "I study Portuguese every day." }
+      ]
+    },
+    {
+      "id": "u18",
+      "title": "Corpo e saúde",
+      "titleEn": "Body & Health",
+      "cards": [
+        { "term": "a cabeça", "en": "the head", "example": "Bati a cabeça na porta.", "exampleEn": "I hit my head on the door." },
+        { "term": "o corpo", "en": "the body", "example": "Estou com o corpo dolorido.", "exampleEn": "My whole body is sore." },
+        { "term": "a dor", "en": "the pain", "example": "A dor passou hoje.", "exampleEn": "The pain went away today." },
+        { "term": "doer", "en": "to hurt", "example": "Meu pé dói depois de caminhar.", "exampleEn": "My foot hurts after walking." },
+        { "term": "a perna", "en": "the leg", "example": "Machuquei a perna correndo.", "exampleEn": "I hurt my leg running." },
+        { "term": "o braço", "en": "the arm", "example": "Levantei o braço direito.", "exampleEn": "I raised my right arm." },
+        { "term": "a mão", "en": "the hand", "example": "Lave as mãos antes de comer.", "exampleEn": "Wash your hands before eating." },
+        { "term": "o pé", "en": "the foot", "example": "Machuquei o pé jogando futebol.", "exampleEn": "I hurt my foot playing soccer." },
+        { "term": "o olho", "en": "the eye", "example": "Esfreguei o olho com areia.", "exampleEn": "I rubbed my eye with sand." },
+        { "term": "a boca", "en": "the mouth", "example": "Abra a boca, por favor.", "exampleEn": "Open your mouth, please." },
+        { "term": "o dente", "en": "the tooth", "example": "O dente está doendo.", "exampleEn": "The tooth is hurting." },
+        { "term": "o médico", "en": "the doctor", "example": "O médico me deu um conselho.", "exampleEn": "The doctor gave me some advice." },
+        { "term": "o remédio", "en": "the medicine", "example": "Tomo remédio de manhã.", "exampleEn": "I take medicine in the morning." },
+        { "term": "doente", "en": "sick", "example": "Estou doente e vou ficar em casa.", "exampleEn": "I'm sick and I'm going to stay home." },
+        { "term": "a febre", "en": "the fever", "example": "O menino está com febre.", "exampleEn": "The boy has a fever." },
+        { "term": "a consulta", "en": "the appointment (medical)", "example": "A consulta é às duas.", "exampleEn": "The appointment is at two." }
+      ]
+    }
+  ]
+}
