@@ -26,10 +26,11 @@ async function api(req, env, ctx, url) {
     if (req.method !== 'POST') return json({ error: 'method' }, 405)
     const body = await readJson(req)
     const ok = await codeMatches(body.code, env.APP_CODE)
-    const name = cleanName(body.name)
+    const email = cleanName(body.email ?? body.name)
     const geo = `${req.headers.get('cf-connecting-ip') || '?'} (${(req.cf && req.cf.country) || '?'})`
+    if (ok && !email) return json({ error: 'Enter a valid email address.' }, 400)
     if (ok) {
-      const user = await resolveUser(env, name)
+      const user = await resolveUser(env, email)
       ctx.waitUntil(logLogin(env, 1, req, user.label))
       ctx.waitUntil(notify(env, '🔑 Lingo Cards: NEW SUCCESSFUL LOGIN', `${user.label} signed in from ${geo} UA: ${(req.headers.get('user-agent') || '').slice(0, 120)}`, true))
       const token = await makeToken(env, user.id)
@@ -40,7 +41,7 @@ async function api(req, env, ctx, url) {
         { 'Set-Cookie': `${COOKIE}=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=31536000${secure}` }
       )
     }
-    ctx.waitUntil(logLogin(env, 0, req, name))
+    ctx.waitUntil(logLogin(env, 0, req, email))
     // Alert only the first bad attempt of each hour so brute-force bursts page once, not 100x.
     const recent = await env.DB.prepare("SELECT COUNT(*) AS c FROM logins WHERE ok = 0 AND ts > datetime('now','-1 hour')").first()
     if (recent && recent.c === 1) {
@@ -68,13 +69,14 @@ async function api(req, env, ctx, url) {
 
 // ---------- login audit + notify ----------
 
-function cleanName(name) {
-  const n = String(name || '').replace(/\s+/g, ' ').trim().slice(0, 24)
-  return n || 'Guest'
+function cleanName(raw) {
+  // Identity is an email (lowercased); anything else is rejected.
+  const n = String(raw || '').trim().toLowerCase().slice(0, 254)
+  return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(n) ? n : ''
 }
 
 async function resolveUser(env, label) {
-  // Names are case-insensitive identities; the first-entered spelling is kept for display.
+  // Emails are case-insensitive identities; stored lowercased by cleanName.
   const existing = await env.DB.prepare('SELECT id, label FROM users WHERE lower(label) = lower(?)').bind(label).first()
   if (existing) return existing
   const res = await env.DB.prepare('INSERT INTO users (label) VALUES (?)').bind(label).run()

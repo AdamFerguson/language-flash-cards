@@ -1,0 +1,8 @@
+#!/bin/sh
+# Blocks commits containing secrets. Active once `npm run prepare` has run
+# (it sets core.hooksPath to .githooks; runs automatically on npm install).
+command -v gitleaks >/dev/null 2>&1 || {
+  echo "pre-commit: gitleaks not found on PATH — install from https://github.com/gitleaks/gitleaks/releases" >&2
+  exit 1
+}
+exec gitleaks protect --staged --redact --no-banner

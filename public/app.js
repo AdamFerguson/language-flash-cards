@@ -118,7 +118,7 @@ function chrome(active) {
       el('button', { class: 'chip', title: 'switch user', onclick: async () => {
         await fetch('/api/logout', { method: 'POST', credentials: 'same-origin' })
         S.api = null; renderLogin()
-      } }, '👤 ', el('b', {}, S.api.me.label)),
+      } }, '👤 ', el('b', {}, S.api.me.label.split('@')[0])),
       el('span', { class: 'chip' }, 'Lvl ', el('b', {}, String(S.api.level))),
       el('span', { class: 'chip' }, '🔥', el('b', {}, String(S.api.streak))),
       el('div', { class: 'lang-toggle' },
@@ -142,26 +142,27 @@ function mount(active, ...views) { app.replaceChildren(...chrome(active), ...vie
 // ---------- login ----------
 
 function renderLogin(msg = '') {
-  const nameIn = el('input', { type: 'text', placeholder: 'your name', maxlength: 24, value: localStorage.getItem('name') || '', autocomplete: 'off' })
+  const emailIn = el('input', { type: 'email', placeholder: 'your email', maxlength: 254, value: localStorage.getItem('email') || '', autocomplete: 'email', autocapitalize: 'off', spellcheck: 'false' })
   const input = el('input', { type: 'password', placeholder: 'app code', autocomplete: 'off' })
   const err = el('p', { class: 'err' }, msg)
   const go = async () => {
-    const name = nameIn.value.trim()
-    if (!name) { err.textContent = 'Who are you?'; nameIn.focus(); return }
+    const email = emailIn.value.trim()
+    if (!email) { err.textContent = 'Enter your email.'; emailIn.focus(); return }
     const r = await fetch('/api/login', {
       method: 'POST', headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ code: input.value, name }), credentials: 'same-origin',
+      body: JSON.stringify({ code: input.value, email }), credentials: 'same-origin',
     })
-    if (r.ok) { localStorage.setItem('name', name); await boot() } else { err.textContent = 'Wrong code — try again.' }
+    if (r.ok) { localStorage.setItem('email', email); await boot() }
+    else { const j = await r.json().catch(() => ({})); err.textContent = j.error === 'bad-code' || r.status === 401 ? 'Wrong code — try again.' : (j.error || 'Login failed.') }
   }
-  nameIn.addEventListener('keydown', (e) => e.key === 'Enter' && input.focus())
+  emailIn.addEventListener('keydown', (e) => e.key === 'Enter' && input.focus())
   input.addEventListener('keydown', (e) => e.key === 'Enter' && go())
   app.replaceChildren(el('div', { class: 'login' },
     el('img', { src: '/icon.svg', alt: '' }),
     el('h2', {}, 'Lingo Cards'),
-    err, nameIn, input,
+    err, emailIn, input,
     el('button', { class: 'cta wide', onclick: go }, 'Enter')))
-  ;(nameIn.value ? input : nameIn).focus()
+  ;(emailIn.value ? input : emailIn).focus()
 }
 
 // ---------- today / review ----------

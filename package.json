@@ -6,7 +6,8 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "rotate-code": "printf 'New app code: ' >&2; read -r c && [ -n \"$c\" ] && printf '%s' \"$c\" | wrangler secret put APP_CODE",
-    "test": "node --test test/"
+    "test": "node --test test/",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "devDependencies": {
     "wrangler": "^4"
