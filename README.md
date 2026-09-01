@@ -2,7 +2,8 @@
 
 Personal Spanish/Portuguese flashcard app (English → es/pt) with a study →
 quiz → spaced-repetition loop, XP levels, streaks, and cloud-persisted
-progress. One user, one app code, mobile-first PWA.
+progress. **Multi-user**: one shared app code, each person signs in with
+their name and gets fully isolated progress; mobile-first PWA.
 
 Stack: Cloudflare Worker + Static Assets + D1. No framework, no build step.
 
@@ -35,6 +36,7 @@ npx wrangler login
 npx wrangler d1 create language-flash-cards   # paste database_id into wrangler.jsonc
 npx wrangler d1 execute language-flash-cards --remote --file=schema.sql
 npx wrangler secret put APP_CODE              # the code she types to log in
+# optional login alerts: printf '<webhook-url>' | npx wrangler secret put NOTIFY_URL
 npx wrangler deploy
 ```
 
@@ -54,8 +56,12 @@ existing progress rows will point at the wrong word.
 
 ## Notes
 
-- Auth = one shared app code (`APP_CODE` secret) → 1-year HMAC cookie. No
-  accounts. Rotating the secret logs everyone out.
+- Auth = shared app code (`APP_CODE` secret) + name (case-insensitive
+  identity, first spelling kept) → 1-year HMAC cookie scoped to that user;
+  👤 chip in the header logs out/switches user. Every sign-in attempt is
+  logged (time/who/ip/country) under Progress → “Recent sign-ins”, and
+  `NOTIFY_URL` (ntfy/Slack/Discord webhook secret) pushes an alert on every
+  successful login and on the first wrong-code attempt per hour.
 - Server owns all scheduling/XP (D1 is the source of truth); the client is a
   thin renderer over `/api/state`.
 - She can add to home screen (manifest included); TTS uses on-device

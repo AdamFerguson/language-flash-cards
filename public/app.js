@@ -115,6 +115,10 @@ function chrome(active) {
   return [
     el('header', {},
       el('span', { class: 'logo' }, 'Lingo Cards'),
+      el('button', { class: 'chip', title: 'switch user', onclick: async () => {
+        await fetch('/api/logout', { method: 'POST', credentials: 'same-origin' })
+        S.api = null; renderLogin()
+      } }, '👤 ', el('b', {}, S.api.me.label)),
       el('span', { class: 'chip' }, 'Lvl ', el('b', {}, String(S.api.level))),
       el('span', { class: 'chip' }, '🔥', el('b', {}, String(S.api.streak))),
       el('div', { class: 'lang-toggle' },
@@ -138,21 +142,26 @@ function mount(active, ...views) { app.replaceChildren(...chrome(active), ...vie
 // ---------- login ----------
 
 function renderLogin(msg = '') {
-  const input = el('input', { type: 'password', placeholder: 'app code', autofocus: true })
+  const nameIn = el('input', { type: 'text', placeholder: 'your name', maxlength: 24, value: localStorage.getItem('name') || '', autocomplete: 'off' })
+  const input = el('input', { type: 'password', placeholder: 'app code', autocomplete: 'off' })
   const err = el('p', { class: 'err' }, msg)
   const go = async () => {
+    const name = nameIn.value.trim()
+    if (!name) { err.textContent = 'Who are you?'; nameIn.focus(); return }
     const r = await fetch('/api/login', {
       method: 'POST', headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ code: input.value }), credentials: 'same-origin',
+      body: JSON.stringify({ code: input.value, name }), credentials: 'same-origin',
     })
-    if (r.ok) { await boot() } else { err.textContent = 'Wrong code — try again.' }
+    if (r.ok) { localStorage.setItem('name', name); await boot() } else { err.textContent = 'Wrong code — try again.' }
   }
+  nameIn.addEventListener('keydown', (e) => e.key === 'Enter' && input.focus())
   input.addEventListener('keydown', (e) => e.key === 'Enter' && go())
   app.replaceChildren(el('div', { class: 'login' },
     el('img', { src: '/icon.svg', alt: '' }),
     el('h2', {}, 'Lingo Cards'),
-    err, input,
+    err, nameIn, input,
     el('button', { class: 'cta wide', onclick: go }, 'Enter')))
+  ;(nameIn.value ? input : nameIn).focus()
 }
 
 // ---------- today / review ----------
@@ -444,7 +453,7 @@ async function viewProgress() {
   const loginPanel = loginRows.length ? el('div', { class: 'panel' },
     el('h2', {}, 'Recent sign-ins'),
     el('p', { class: 'muted', style: 'margin:0' }, loginRows.map((l) =>
-      el('div', {}, `${l.ts} UTC · ${l.ok ? '✅ entered' : '✗ wrong code'} · ${l.country} (${l.ip})`)))) : null
+      el('div', {}, `${l.ts} UTC · ${l.ok ? '✅' : '✗'} ${l.who || '?'} · ${l.country} (${l.ip})`)))) : null
 
   mount('progress',
     el('div', { class: 'panel center' },

@@ -48,6 +48,7 @@ CREATE TABLE IF NOT EXISTS activity (
 CREATE TABLE IF NOT EXISTS logins (
   ts TEXT DEFAULT (datetime('now')),
   ok INTEGER NOT NULL,
+  who TEXT,
   ip TEXT,
   country TEXT,
   ua TEXT
