@@ -401,7 +401,7 @@ async function viewQuiz(unitId) {
         el('a', { href: `#/study/${unit.id}` }, el('button', { class: 'wide' }, 'Re-study')),
         passed
           ? el('a', { href: '#/today' }, el('button', { class: 'cta wide' }, 'Review now'))
-          : el('a', { href: `#/quiz/${unit.id}` }, el('button', { class: 'cta wide' }, 'Retry')))))
+          : el('button', { class: 'cta wide', onclick: () => viewQuiz(unitId) }, 'Retry'))))
   }
   renderQ()
 }
