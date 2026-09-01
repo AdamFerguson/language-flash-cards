@@ -141,7 +141,7 @@ async function authed(req, env) {
 // Compare via SHA-256 digests so length/content of the code isn't leaked by timing.
 async function codeMatches(code, expected) {
   if (typeof code !== 'string' || typeof expected !== 'string' || !expected) return false
-  const [a, b] = await Promise.all([sha256hex(code), sha256hex(expected)])
+  const [a, b] = await Promise.all([sha256hex(code.trim()), sha256hex(expected.trim())])
   return a === b
 }
 
