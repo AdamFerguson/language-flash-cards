@@ -137,7 +137,7 @@ async function setLang(lang) {
   await loadDeck(lang)
   route()
 }
-function mount(active, ...views) { app.replaceChildren(...chrome(active), ...views.flat(Infinity)) }
+function mount(active, ...views) { app.replaceChildren(...chrome(active), ...views.flat(Infinity).filter((v) => v != null && v !== false)) }
 
 // ---------- login ----------
 
