@@ -60,9 +60,9 @@ existing progress rows will point at the wrong word.
 - Auth = shared app code (`APP_CODE` secret) + name (case-insensitive
   identity, first spelling kept) → 1-year HMAC cookie scoped to that user;
   👤 chip in the header logs out/switches user. Every sign-in attempt is
-  logged (time/who/ip/country) under Progress → “Recent sign-ins”, and
-  `NOTIFY_URL` (ntfy/Slack/Discord webhook secret) pushes an alert on every
-  successful login and on the first wrong-code attempt per hour.
+  logged (time/who/ip/country) under Progress → “Recent sign-ins”.
+  (Optional: set the `NOTIFY_URL` secret to also push login alerts to an
+  ntfy/Slack/Discord webhook — unset by default, feature dormant.)
 - Server owns all scheduling/XP (D1 is the source of truth); the client is a
   thin renderer over `/api/state`.
 - She can add to home screen (manifest included); TTS uses on-device
