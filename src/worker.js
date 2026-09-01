@@ -7,11 +7,11 @@ const COOKIE = 'sid'
 const DAY = 24 * 60 * 60 * 1000
 
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     const url = new URL(req.url)
     if (url.pathname.startsWith('/api/')) {
       try {
-        return await api(req, env, url)
+        return await api(req, env, ctx, url)
       } catch (e) {
         return json({ error: 'server', detail: String((e && e.message) || e) }, 500)
       }
@@ -20,13 +20,25 @@ export default {
   },
 }
 
-async function api(req, env, url) {
+async function api(req, env, ctx, url) {
   if (url.pathname === '/api/health') return json({ ok: true })
 
   if (url.pathname === '/api/login') {
     if (req.method !== 'POST') return json({ error: 'method' }, 405)
     const body = await readJson(req)
-    if (!(await codeMatches(body.code, env.APP_CODE))) return json({ error: 'bad-code' }, 401)
+    const ok = await codeMatches(body.code, env.APP_CODE)
+    const geo = `${req.headers.get('cf-connecting-ip') || '?'} (${(req.cf && req.cf.country) || '?'})`
+    ctx.waitUntil(logLogin(env, ok, req))
+    if (ok) {
+      ctx.waitUntil(notify(env, '🔑 Lingo Cards: NEW SUCCESSFUL LOGIN', `Sign-in from ${geo} UA: ${(req.headers.get('user-agent') || '').slice(0, 120)}`, true))
+    } else {
+      // Alert only the first bad attempt of each hour so brute-force bursts page once, not 100x.
+      const recent = await env.DB.prepare("SELECT COUNT(*) AS c FROM logins WHERE ok = 0 AND ts > datetime('now','-1 hour')").first()
+      if (recent && recent.c === 1) {
+        ctx.waitUntil(notify(env, '⚠️ Lingo Cards: failed sign-in attempts starting', `First wrong-code attempt (last hour) from ${geo}`, true))
+      }
+    }
+    if (!ok) return json({ error: 'bad-code' }, 401)
     const token = await makeToken(env)
     const secure = url.protocol === 'https:' ? '; Secure' : ''
     return json(
@@ -39,10 +51,39 @@ async function api(req, env, url) {
   if (!(await authed(req, env))) return json({ error: 'unauthorized' }, 401)
 
   if (url.pathname === '/api/state' && req.method === 'GET') return getState(env)
+  if (url.pathname === '/api/logins' && req.method === 'GET') {
+    const rows = await env.DB.prepare('SELECT ts, ok, ip, country, ua FROM logins ORDER BY ts DESC LIMIT 50').all()
+    return json({ logins: rows.results })
+  }
   if (url.pathname === '/api/study' && req.method === 'POST') return study(req, env)
   if (url.pathname === '/api/quiz' && req.method === 'POST') return quiz(req, env)
   if (url.pathname === '/api/review' && req.method === 'POST') return reviewRoute(req, env)
   return json({ error: 'not-found' }, 404)
+}
+
+// ---------- login audit + notify ----------
+
+function logLogin(env, ok, req) {
+  return env.DB.prepare('INSERT INTO logins (ok, ip, country, ua) VALUES (?, ?, ?, ?)')
+    .bind(ok ? 1 : 0, req.headers.get('cf-connecting-ip') || '', (req.cf && req.cf.country) || '', (req.headers.get('user-agent') || '').slice(0, 200))
+    .run()
+}
+// NOTIFY_URL secret: an ntfy.sh topic URL (plain-text body), or a Slack/Discord
+// incoming webhook. Missing NOTIFY_URL = logging only, no push.
+async function notify(env, title, text, urgent) {
+  if (!env.NOTIFY_URL) return
+  const url = env.NOTIFY_URL
+  let body, headers = { 'content-type': 'text/plain; charset=utf-8' }
+  if (url.includes('hooks.slack.com')) {
+    body = JSON.stringify({ text: `*${title}*\n${text}` }); headers = { 'content-type': 'application/json' }
+  } else if (url.includes('discord.com/webhooks') || url.includes('/webhooks/')) {
+    body = JSON.stringify({ content: `${title}\n${text}` }); headers = { 'content-type': 'application/json' }
+  } else {
+    // ntfy: title/priority via headers
+    headers = { 'X-Title': title, ...(urgent ? { 'X-Priority': '5', 'X-Tags': 'rotating_light' } : {}) }
+    body = text
+  }
+  await fetch(url, { method: 'POST', body, headers }).catch(() => {})
 }
 
 // ---------- auth ----------

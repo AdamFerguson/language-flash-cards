@@ -439,6 +439,13 @@ async function viewProgress() {
   }
   const totalReviews = days.reduce((s, a) => s + a.reviews, 0)
 
+  let loginRows = []
+  try { loginRows = (await api('/api/logins')).logins.slice(0, 5) } catch {}
+  const loginPanel = loginRows.length ? el('div', { class: 'panel' },
+    el('h2', {}, 'Recent sign-ins'),
+    el('p', { class: 'muted', style: 'margin:0' }, loginRows.map((l) =>
+      el('div', {}, `${l.ts} UTC · ${l.ok ? '✅ entered' : '✗ wrong code'} · ${l.country} (${l.ip})`)))) : null
+
   mount('progress',
     el('div', { class: 'panel center' },
       el('div', { class: 'muted' }, `level ${lvl} · ${xpNow} XP`),
@@ -448,7 +455,8 @@ async function viewProgress() {
     langPanels,
     el('div', { class: 'panel' },
       el('h2', {}, 'Last 28 days'),
-      el('div', { class: 'heat' }, heat)))
+      el('div', { class: 'heat' }, heat)),
+    loginPanel)
 }
 
 // ---------- router ----------

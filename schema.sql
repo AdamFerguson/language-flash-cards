@@ -45,4 +45,12 @@ CREATE TABLE IF NOT EXISTS activity (
   PRIMARY KEY (user_id, day)
 );
 
+CREATE TABLE IF NOT EXISTS logins (
+  ts TEXT DEFAULT (datetime('now')),
+  ok INTEGER NOT NULL,
+  ip TEXT,
+  country TEXT,
+  ua TEXT
+);
+
 INSERT OR IGNORE INTO users (id, label) VALUES (1, 'primary');
