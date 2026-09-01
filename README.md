@@ -35,10 +35,11 @@ npm test                                 # SRS unit tests (node:test)
 npx wrangler login
 npx wrangler d1 create language-flash-cards   # paste database_id into wrangler.jsonc
 npx wrangler d1 execute language-flash-cards --remote --file=schema.sql
-npx wrangler secret put APP_CODE              # the code she types to log in
-# optional login alerts: printf '<webhook-url>' | npx wrangler secret put NOTIFY_URL
+npx wrangler secret put APP_CODE              # the code everyone types to log in
 npx wrangler deploy
 ```
+
+Later, to change the login code: `npm run rotate-code` (prompts for the new code; everyone re-logs in with it).
 
 Optional custom route (e.g. `cards.adam-ferguson.com`): add to wrangler.jsonc
 
