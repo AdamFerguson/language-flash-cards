@@ -75,7 +75,7 @@ h2 { margin: 0 0 10px; font-size: 1.15rem; }
 
 /* quiz */
 .quiz-q { font-size: 1.5rem; font-weight: 800; text-align: center; margin: 18px 0; }
-.opts { display: grid; gap: 8px; }
+.opts { display: grid; gap: 12px; margin-top: 14px; }
 .opts button { text-align: left; padding: 14px; }
 .opts button.right, input.right { background: #1e4034; outline: 2px solid var(--green); }
 .opts button.wrong, input.wrong { background: #4b2330; outline: 2px solid var(--red); }
@@ -103,5 +103,6 @@ h2 { margin: 0 0 10px; font-size: 1.15rem; }
 .login { max-width: 340px; margin: 18vh auto 0; text-align: center; }
 .login img { width: 84px; }
 .login input { text-align: center; margin: 18px 0 10px; }
+.quiz-in { margin: 10px 0 14px; }
 .err { color: var(--red); font-size: 0.9rem; min-height: 1.2em; }
 .spin { color: var(--muted); }

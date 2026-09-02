@@ -292,7 +292,7 @@ async function viewStudyUnit(unitId) {
   const deck = await loadDeck(S.lang)
   const unit = deck.units.find((u) => u.id === unitId)
   if (!unit) return location.hash = '#/study'
-  let i = 0, flipped = false, seenTo = 0, studySent = S.api.studied.some((s) => s.lang === S.lang && s.unit_id === unitId)
+  let i = 0, flipped = false, seenTo = 0, spokenFor = -1, studySent = S.api.studied.some((s) => s.lang === S.lang && s.unit_id === unitId)
 
   function render() {
     const card = unit.cards[i]
@@ -313,7 +313,8 @@ async function viewStudyUnit(unitId) {
         el('button', { class: 'cta', onclick: () => { if (finished) finish(); else { i++; seenTo = Math.max(seenTo, i); flipped = false; render() } } }, finished ? 'Finish ✓' : 'Next →')),
       studySent ? el('p', { class: 'center', style: 'margin-top:14px' },
         el('a', { href: `#/quiz/${unit.id}` }, el('button', { class: 'cta wide' }, 'Take the quiz →'))) : null)
-    if ('speechSynthesis' in window) speak(card.term)
+    // speak each card's term once on arrival — flipping/unflipping stays quiet
+    if (spokenFor !== i && 'speechSynthesis' in window) { spokenFor = i; speak(card.term) }
   }
 
   async function finish() {
@@ -357,12 +358,17 @@ async function viewQuiz(unitId) {
       if (!ok && g && g.gloss) fb.append(el('div', { class: 'muted', style: 'margin-top:4px' }, `“${g.gloss}” ≠ “${card.en}”`))
       if (!ok && g && g.english) fb.append(el('div', { class: 'muted', style: 'margin-top:4px' }, `that’s English — type it in ${S.lang === 'es' ? 'Spanish' : 'Portuguese'} 🙂`))
       if (type === 2) fb.append(el('div', { class: 'muted', style: 'margin-top:6px' }, `“${card.example}” — ${card.exampleEn}`))
-      setTimeout(() => { qi++; renderQ() }, ok ? 600 : 1600)
+      if (ok) setTimeout(() => { qi++; renderQ() }, 600)
+      else if (type === 2) {
+        // free-typed wrong: hold on screen so the correct answer sinks in; user advances manually
+        fb.append(el('button', { class: 'cta wide', style: 'margin-top:10px', onclick: () => { qi++; renderQ() } }, 'Continue →'))
+      }
+      else setTimeout(() => { qi++; renderQ() }, 1600)
     }
     const fb = el('div', { class: 'feedback' })
 
     if (type === 2) {
-      const input = el('input', { placeholder: 'type the translation (accents optional)', autocomplete: 'off', autocapitalize: 'off', spellcheck: false })
+      const input = el('input', { class: 'quiz-in', placeholder: 'type the translation (accents optional)', autocomplete: 'off', autocapitalize: 'off', spellcheck: false })
       const btn = el('button', { class: 'cta wide' }, 'Check')
       const submit = async () => {
       const val = input.value.trim()
@@ -372,6 +378,7 @@ async function viewQuiz(unitId) {
       btn.disabled = true; btn.textContent = 'Checking…'
       let g = null
       try { const r = await fetch('/api/grade', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ lang: S.lang, cardId: card.id, answer: val }), credentials: 'same-origin' }); g = await r.json() } catch (e) {}
+      btn.textContent = 'Check'
       answered = false
       check(!!(g && g.correct), input, null, g || undefined)
     }
