@@ -16,6 +16,12 @@ while [ "$i" -le 3 ]; do
     exit 0
   fi
   echo "⚠️  deployed worker rejected the code (attempt $i) — redeploying to re-pick latest secret version..." >&2
+  if [ "$i" = "2" ]; then
+    # observed failure mode: secret VALUE drifts (newline/append corruption via bundle rewrites)
+    # -> re-put the exact bytes we were just given, then deploy picks it up cleanly
+    echo "   re-putting APP_CODE with the exact bytes provided..." >&2
+    printf '%s' "$CODE" | npx wrangler secret put APP_CODE >/dev/null 2>&1
+  fi
   i=$((i+1)); sleep 8
 done
 echo "❌ still failing — the SECRET itself drifted, not the binding. Fix: printf '<code>' | npx wrangler secret put APP_CODE, then npm run ship" >&2
