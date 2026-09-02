@@ -1,0 +1,65 @@
+[
+ {
+  "card": "es-u01-011",
+  "field": "example",
+  "word": "conocerte",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "es-u05-002",
+  "field": "example",
+  "word": "irme",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "es-u06-011",
+  "field": "example",
+  "word": "visitarnos",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "es-u22-008",
+  "field": "example",
+  "word": "llámame",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "es-u24-013",
+  "field": "example",
+  "word": "Llámame",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "pt-u03-006",
+  "field": "example",
+  "word": "quilos",
+  "otherLang": 1,
+  "properish": 0
+ },
+ {
+  "card": "pt-u04-004",
+  "field": "example",
+  "word": "Choveu",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "pt-u07-007",
+  "field": "example",
+  "word": "mexidos",
+  "otherLang": 0,
+  "properish": 0
+ },
+ {
+  "card": "pt-u10-008",
+  "field": "example",
+  "word": "ótima",
+  "otherLang": 0,
+  "properish": 0
+ }
+]

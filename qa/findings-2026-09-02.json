@@ -1,0 +1,991 @@
+{
+ "summary": {
+  "date": "2026-09-02",
+  "words": 0,
+  "lt": 0,
+  "mt": 140,
+  "distinctCards": 140
+ },
+ "mt": [
+  {
+   "card": "pt-u24-014",
+   "kind": "fwd",
+   "term": "como",
+   "en": "how",
+   "gloss": "as"
+  },
+  {
+   "card": "pt-u24-015",
+   "kind": "fwd",
+   "term": "qual",
+   "en": "which, what",
+   "gloss": "quality"
+  },
+  {
+   "card": "pt-u24-004",
+   "kind": "fwd",
+   "term": "responder",
+   "en": "to answer",
+   "gloss": "respond"
+  },
+  {
+   "card": "pt-u23-007",
+   "kind": "fwd",
+   "term": "ir",
+   "en": "to go",
+   "gloss": "ir"
+  },
+  {
+   "card": "pt-u23-001",
+   "kind": "fwd",
+   "term": "acordar",
+   "en": "to wake up",
+   "gloss": "to agree"
+  },
+  {
+   "card": "pt-u22-016",
+   "kind": "fwd",
+   "term": "chato",
+   "en": "boring, annoying",
+   "gloss": "chat"
+  },
+  {
+   "card": "pt-u22-009",
+   "kind": "fwd",
+   "term": "animado",
+   "en": "excited, in good spirits",
+   "gloss": "animated"
+  },
+  {
+   "card": "pt-u22-006",
+   "kind": "fwd",
+   "term": "zangado",
+   "en": "angry",
+   "gloss": "greedy"
+  },
+  {
+   "card": "pt-u22-005",
+   "kind": "fwd",
+   "term": "com medo",
+   "en": "afraid, scared",
+   "gloss": "with fear"
+  },
+  {
+   "card": "pt-u21-010",
+   "kind": "fwd",
+   "term": "baixo",
+   "en": "short",
+   "gloss": "low"
+  },
+  {
+   "card": "pt-u21-009",
+   "kind": "fwd",
+   "term": "alto",
+   "en": "tall",
+   "gloss": "high"
+  },
+  {
+   "card": "pt-u21-007",
+   "kind": "fwd",
+   "term": "grande",
+   "en": "big",
+   "gloss": "large"
+  },
+  {
+   "card": "pt-u20-012",
+   "kind": "fwd",
+   "term": "a mosca",
+   "en": "the fly",
+   "gloss": "a fly"
+  },
+  {
+   "card": "pt-u20-007",
+   "kind": "fwd",
+   "term": "a galinha",
+   "en": "the hen",
+   "gloss": "the chicken"
+  },
+  {
+   "card": "pt-u19-014",
+   "kind": "fwd",
+   "term": "o mar",
+   "en": "the sea",
+   "gloss": "ocean"
+  },
+  {
+   "card": "pt-u19-011",
+   "kind": "fwd",
+   "term": "o tempo",
+   "en": "the weather",
+   "gloss": "the time"
+  },
+  {
+   "card": "pt-u18-016",
+   "kind": "fwd",
+   "term": "a consulta",
+   "en": "the appointment (medical)",
+   "gloss": "the consultation"
+  },
+  {
+   "card": "pt-u18-011",
+   "kind": "fwd",
+   "term": "o dente",
+   "en": "the tooth",
+   "gloss": "one tooth"
+  },
+  {
+   "card": "pt-u18-004",
+   "kind": "fwd",
+   "term": "doer",
+   "en": "to hurt",
+   "gloss": "performer"
+  },
+  {
+   "card": "pt-u18-003",
+   "kind": "fwd",
+   "term": "a dor",
+   "en": "the pain",
+   "gloss": "a dor"
+  },
+  {
+   "card": "pt-u17-007",
+   "kind": "fwd",
+   "term": "a aula",
+   "en": "the class, the lesson",
+   "gloss": "the classroom"
+  },
+  {
+   "card": "pt-u17-006",
+   "kind": "fwd",
+   "term": "o professor",
+   "en": "the teacher",
+   "gloss": "professor"
+  },
+  {
+   "card": "pt-u16-014",
+   "kind": "fwd",
+   "term": "custar",
+   "en": "to cost",
+   "gloss": "custar"
+  },
+  {
+   "card": "pt-u16-012",
+   "kind": "fwd",
+   "term": "experimentar",
+   "en": "to try on",
+   "gloss": "to experiment"
+  },
+  {
+   "card": "pt-u16-010",
+   "kind": "fwd",
+   "term": "a roupa",
+   "en": "the clothing",
+   "gloss": "the clothes"
+  },
+  {
+   "card": "pt-u16-004",
+   "kind": "fwd",
+   "term": "caro",
+   "en": "expensive",
+   "gloss": "dear"
+  },
+  {
+   "card": "pt-u15-009",
+   "kind": "fwd",
+   "term": "o andar",
+   "en": "the floor (of a building)",
+   "gloss": "to walk"
+  },
+  {
+   "card": "pt-u15-005",
+   "kind": "fwd",
+   "term": "a mala",
+   "en": "the suitcase",
+   "gloss": "the apple"
+  },
+  {
+   "card": "pt-u15-003",
+   "kind": "fwd",
+   "term": "a passagem",
+   "en": "the ticket",
+   "gloss": "the passage"
+  },
+  {
+   "card": "pt-u14-005",
+   "kind": "fwd",
+   "term": "longe",
+   "en": "far",
+   "gloss": "long"
+  },
+  {
+   "card": "pt-u13-015",
+   "kind": "fwd",
+   "term": "a feira",
+   "en": "the open-air market",
+   "gloss": "the fair"
+  },
+  {
+   "card": "pt-u13-014",
+   "kind": "fwd",
+   "term": "o shopping",
+   "en": "the mall",
+   "gloss": "shopping"
+  },
+  {
+   "card": "pt-u12-005",
+   "kind": "fwd",
+   "term": "o armário",
+   "en": "the wardrobe",
+   "gloss": "the cabinet"
+  },
+  {
+   "card": "pt-u12-001",
+   "kind": "fwd",
+   "term": "a mesa",
+   "en": "the table",
+   "gloss": "a table"
+  },
+  {
+   "card": "pt-u11-016",
+   "kind": "fwd",
+   "term": "a escada",
+   "en": "the stairs",
+   "gloss": "the ladder"
+  },
+  {
+   "card": "pt-u11-013",
+   "kind": "fwd",
+   "term": "a varanda",
+   "en": "the balcony",
+   "gloss": "a veranda"
+  },
+  {
+   "card": "pt-u11-008",
+   "kind": "fwd",
+   "term": "a garagem",
+   "en": "the garage",
+   "gloss": "a garage"
+  },
+  {
+   "card": "pt-u11-007",
+   "kind": "fwd",
+   "term": "o quintal",
+   "en": "the backyard",
+   "gloss": "per ton"
+  },
+  {
+   "card": "pt-u11-004",
+   "kind": "fwd",
+   "term": "o quarto",
+   "en": "the bedroom",
+   "gloss": "the room"
+  },
+  {
+   "card": "pt-u10-015",
+   "kind": "fwd",
+   "term": "o guardanapo",
+   "en": "the napkin",
+   "gloss": "napkins"
+  },
+  {
+   "card": "pt-u10-014",
+   "kind": "fwd",
+   "term": "fique à vontade",
+   "en": "make yourself at home",
+   "gloss": "feel free"
+  },
+  {
+   "card": "pt-u10-013",
+   "kind": "fwd",
+   "term": "a entrada",
+   "en": "the starter",
+   "gloss": "the entrance"
+  },
+  {
+   "card": "pt-u10-007",
+   "kind": "fwd",
+   "term": "a sobremesa",
+   "en": "the dessert",
+   "gloss": "After-dinner conversation"
+  },
+  {
+   "card": "pt-u10-005",
+   "kind": "fwd",
+   "term": "pedir",
+   "en": "to order",
+   "gloss": "to ask"
+  },
+  {
+   "card": "pt-u09-014",
+   "kind": "fwd",
+   "term": "a limonada",
+   "en": "the lemonade",
+   "gloss": "a glass of lemonade"
+  },
+  {
+   "card": "pt-u09-013",
+   "kind": "fwd",
+   "term": "a sede",
+   "en": "thirst",
+   "gloss": "headquarters"
+  },
+  {
+   "card": "pt-u09-012",
+   "kind": "fwd",
+   "term": "tomar",
+   "en": "to drink, to have",
+   "gloss": "to take"
+  },
+  {
+   "card": "pt-u09-009",
+   "kind": "fwd",
+   "term": "a xícara",
+   "en": "the cup",
+   "gloss": "a cup"
+  },
+  {
+   "card": "pt-u09-008",
+   "kind": "fwd",
+   "term": "o copo",
+   "en": "the glass",
+   "gloss": "the cup"
+  },
+  {
+   "card": "pt-u09-007",
+   "kind": "fwd",
+   "term": "o café",
+   "en": "the coffee",
+   "gloss": "a coffee"
+  },
+  {
+   "card": "pt-u09-003",
+   "kind": "fwd",
+   "term": "o refrigerante",
+   "en": "the soft drink",
+   "gloss": "refrigerant"
+  },
+  {
+   "card": "pt-u08-016",
+   "kind": "fwd",
+   "term": "a faca",
+   "en": "the knife",
+   "gloss": "a knife"
+  },
+  {
+   "card": "pt-u08-013",
+   "kind": "fwd",
+   "term": "a panela",
+   "en": "the pot",
+   "gloss": "a panela"
+  },
+  {
+   "card": "pt-u08-008",
+   "kind": "fwd",
+   "term": "a cebola",
+   "en": "the onion",
+   "gloss": "an onion"
+  },
+  {
+   "card": "pt-u08-007",
+   "kind": "fwd",
+   "term": "a batata",
+   "en": "the potato",
+   "gloss": "a potato"
+  },
+  {
+   "card": "pt-u08-002",
+   "kind": "fwd",
+   "term": "a banana",
+   "en": "the banana",
+   "gloss": "a banana"
+  },
+  {
+   "card": "pt-u07-012",
+   "kind": "fwd",
+   "term": "o sal",
+   "en": "the salt",
+   "gloss": "o sal"
+  },
+  {
+   "card": "pt-u07-007",
+   "kind": "fwd",
+   "term": "o ovo",
+   "en": "the egg",
+   "gloss": "this egg"
+  },
+  {
+   "card": "pt-u05-016",
+   "kind": "fwd",
+   "term": "o minuto",
+   "en": "the minute",
+   "gloss": "one minute"
+  },
+  {
+   "card": "pt-u05-006",
+   "kind": "fwd",
+   "term": "tarde",
+   "en": "late",
+   "gloss": "afternoon"
+  },
+  {
+   "card": "pt-u05-005",
+   "kind": "fwd",
+   "term": "cedo",
+   "en": "early",
+   "gloss": "I give"
+  },
+  {
+   "card": "pt-u05-002",
+   "kind": "fwd",
+   "term": "o horário",
+   "en": "the schedule, opening hours",
+   "gloss": "the time"
+  },
+  {
+   "card": "pt-u04-016",
+   "kind": "fwd",
+   "term": "a semana que vem",
+   "en": "next week",
+   "gloss": "the coming week"
+  },
+  {
+   "card": "pt-u04-013",
+   "kind": "fwd",
+   "term": "a data",
+   "en": "the date",
+   "gloss": "a piece of data"
+  },
+  {
+   "card": "pt-u03-015",
+   "kind": "fwd",
+   "term": "cem",
+   "en": "one hundred",
+   "gloss": "CEM"
+  },
+  {
+   "card": "pt-u03-013",
+   "kind": "fwd",
+   "term": "doze",
+   "en": "twelve",
+   "gloss": "nap"
+  },
+  {
+   "card": "pt-u03-011",
+   "kind": "fwd",
+   "term": "dez",
+   "en": "ten",
+   "gloss": "December"
+  },
+  {
+   "card": "pt-u03-008",
+   "kind": "fwd",
+   "term": "sete",
+   "en": "seven",
+   "gloss": "thirst"
+  },
+  {
+   "card": "pt-u03-002",
+   "kind": "fwd",
+   "term": "um",
+   "en": "one",
+   "gloss": "um"
+  },
+  {
+   "card": "pt-u02-013",
+   "kind": "fwd",
+   "term": "claro",
+   "en": "of course, sure",
+   "gloss": "clear"
+  },
+  {
+   "card": "pt-u02-011",
+   "kind": "fwd",
+   "term": "ficar à vontade",
+   "en": "to make yourself at home",
+   "gloss": "to feel comfortable"
+  },
+  {
+   "card": "pt-u02-010",
+   "kind": "fwd",
+   "term": "por aqui",
+   "en": "this way",
+   "gloss": "through here"
+  },
+  {
+   "card": "pt-u02-009",
+   "kind": "fwd",
+   "term": "poder",
+   "en": "can, to be able to",
+   "gloss": "power"
+  },
+  {
+   "card": "pt-u02-006",
+   "kind": "fwd",
+   "term": "sim",
+   "en": "yes",
+   "gloss": "sim"
+  },
+  {
+   "card": "pt-u02-005",
+   "kind": "fwd",
+   "term": "desculpe",
+   "en": "sorry",
+   "gloss": "excuse me"
+  },
+  {
+   "card": "pt-u01-014",
+   "kind": "fwd",
+   "term": "a senhora",
+   "en": "madam, Mrs.",
+   "gloss": "the lady"
+  },
+  {
+   "card": "pt-u01-011",
+   "kind": "fwd",
+   "term": "até logo",
+   "en": "see you later",
+   "gloss": "see you soon"
+  },
+  {
+   "card": "pt-u01-009",
+   "kind": "fwd",
+   "term": "muito prazer",
+   "en": "nice to meet you",
+   "gloss": "very pleased"
+  },
+  {
+   "card": "pt-u01-005",
+   "kind": "fwd",
+   "term": "tudo bem",
+   "en": "all right; how are you?",
+   "gloss": "everything is fine"
+  },
+  {
+   "card": "es-u24-011",
+   "kind": "fwd",
+   "term": "responder",
+   "en": "to answer",
+   "gloss": "respond"
+  },
+  {
+   "card": "es-u23-008",
+   "kind": "fwd",
+   "term": "llevar",
+   "en": "to wear",
+   "gloss": "to take"
+  },
+  {
+   "card": "es-u22-014",
+   "kind": "fwd",
+   "term": "tranquilo",
+   "en": "calm",
+   "gloss": "peaceful"
+  },
+  {
+   "card": "es-u22-009",
+   "kind": "fwd",
+   "term": "amable",
+   "en": "kind",
+   "gloss": "friendly"
+  },
+  {
+   "card": "es-u22-006",
+   "kind": "fwd",
+   "term": "aburrido",
+   "en": "bored",
+   "gloss": "boring"
+  },
+  {
+   "card": "es-u21-011",
+   "kind": "fwd",
+   "term": "largo",
+   "en": "long",
+   "gloss": "length"
+  },
+  {
+   "card": "es-u21-008",
+   "kind": "fwd",
+   "term": "grande",
+   "en": "big",
+   "gloss": "large"
+  },
+  {
+   "card": "es-u17-014",
+   "kind": "fwd",
+   "term": "la tarea",
+   "en": "the homework",
+   "gloss": "the task"
+  },
+  {
+   "card": "es-u16-011",
+   "kind": "fwd",
+   "term": "la caja",
+   "en": "the checkout, the register",
+   "gloss": "the box"
+  },
+  {
+   "card": "es-u16-004",
+   "kind": "fwd",
+   "term": "caro",
+   "en": "expensive",
+   "gloss": "dear"
+  },
+  {
+   "card": "es-u16-002",
+   "kind": "fwd",
+   "term": "vender",
+   "en": "to sell",
+   "gloss": "seller"
+  },
+  {
+   "card": "es-u15-008",
+   "kind": "fwd",
+   "term": "facturar",
+   "en": "to check in (luggage)",
+   "gloss": "to invoice"
+  },
+  {
+   "card": "es-u15-005",
+   "kind": "fwd",
+   "term": "el avión",
+   "en": "the plane",
+   "gloss": "the airplane"
+  },
+  {
+   "card": "es-u14-015",
+   "kind": "fwd",
+   "term": "cerca",
+   "en": "near, close",
+   "gloss": "search"
+  },
+  {
+   "card": "es-u14-003",
+   "kind": "fwd",
+   "term": "todo recto",
+   "en": "straight ahead",
+   "gloss": "everything is fine"
+  },
+  {
+   "card": "es-u13-002",
+   "kind": "fwd",
+   "term": "el pueblo",
+   "en": "the town, the village",
+   "gloss": "the people"
+  },
+  {
+   "card": "es-u12-012",
+   "kind": "fwd",
+   "term": "el reloj",
+   "en": "clock, watch",
+   "gloss": "the clock"
+  },
+  {
+   "card": "es-u12-010",
+   "kind": "fwd",
+   "term": "el teléfono",
+   "en": "telephone, phone",
+   "gloss": "the phone"
+  },
+  {
+   "card": "es-u12-009",
+   "kind": "fwd",
+   "term": "el televisor",
+   "en": "television, TV",
+   "gloss": "the television"
+  },
+  {
+   "card": "es-u12-008",
+   "kind": "fwd",
+   "term": "la cortina",
+   "en": "curtain, blind",
+   "gloss": "the curtain"
+  },
+  {
+   "card": "es-u12-007",
+   "kind": "fwd",
+   "term": "la alfombra",
+   "en": "rug, carpet",
+   "gloss": "the rug"
+  },
+  {
+   "card": "es-u12-004",
+   "kind": "fwd",
+   "term": "el armario",
+   "en": "closet, wardrobe",
+   "gloss": "the closet"
+  },
+  {
+   "card": "es-u12-002",
+   "kind": "fwd",
+   "term": "el sofá",
+   "en": "sofa, couch",
+   "gloss": "the sofa"
+  },
+  {
+   "card": "es-u11-016",
+   "kind": "fwd",
+   "term": "la terraza",
+   "en": "terrace, patio",
+   "gloss": "the terrace"
+  },
+  {
+   "card": "es-u11-014",
+   "kind": "fwd",
+   "term": "el pasillo",
+   "en": "hallway, corridor",
+   "gloss": "the hallway"
+  },
+  {
+   "card": "es-u11-013",
+   "kind": "fwd",
+   "term": "la escalera",
+   "en": "staircase, stairs",
+   "gloss": "the stairs"
+  },
+  {
+   "card": "es-u11-011",
+   "kind": "fwd",
+   "term": "el techo",
+   "en": "ceiling, roof",
+   "gloss": "the ceiling"
+  },
+  {
+   "card": "es-u11-006",
+   "kind": "fwd",
+   "term": "el patio",
+   "en": "yard, patio",
+   "gloss": "the patio"
+  },
+  {
+   "card": "es-u11-004",
+   "kind": "fwd",
+   "term": "la habitación",
+   "en": "room, bedroom",
+   "gloss": "the room"
+  },
+  {
+   "card": "es-u11-001",
+   "kind": "fwd",
+   "term": "la casa",
+   "en": "house, home",
+   "gloss": "the house"
+  },
+  {
+   "card": "es-u10-016",
+   "kind": "fwd",
+   "term": "para llevar",
+   "en": "to go, takeout",
+   "gloss": "to carry"
+  },
+  {
+   "card": "es-u10-015",
+   "kind": "fwd",
+   "term": "invitar",
+   "en": "to treat, to pay for",
+   "gloss": "to invite"
+  },
+  {
+   "card": "es-u10-012",
+   "kind": "fwd",
+   "term": "pedir",
+   "en": "to order",
+   "gloss": "to ask"
+  },
+  {
+   "card": "es-u10-008",
+   "kind": "fwd",
+   "term": "la bebida",
+   "en": "drink, beverage",
+   "gloss": "the drink"
+  },
+  {
+   "card": "es-u10-003",
+   "kind": "fwd",
+   "term": "la propina",
+   "en": "tip (gratuity)",
+   "gloss": "the tip"
+  },
+  {
+   "card": "es-u10-002",
+   "kind": "fwd",
+   "term": "la cuenta",
+   "en": "the check, the bill",
+   "gloss": "the account"
+  },
+  {
+   "card": "es-u09-016",
+   "kind": "fwd",
+   "term": "el trago",
+   "en": "sip, drink",
+   "gloss": "the drink"
+  },
+  {
+   "card": "es-u09-015",
+   "kind": "fwd",
+   "term": "la merienda",
+   "en": "snack, afternoon snack",
+   "gloss": "the snack"
+  },
+  {
+   "card": "es-u09-007",
+   "kind": "fwd",
+   "term": "el refresco",
+   "en": "soda, soft drink",
+   "gloss": "the soda"
+  },
+  {
+   "card": "es-u08-016",
+   "kind": "fwd",
+   "term": "el refrigerador",
+   "en": "refrigerator, fridge",
+   "gloss": "the refrigerator"
+  },
+  {
+   "card": "es-u08-015",
+   "kind": "fwd",
+   "term": "la taza",
+   "en": "cup, mug",
+   "gloss": "the cup"
+  },
+  {
+   "card": "es-u08-014",
+   "kind": "fwd",
+   "term": "el plato",
+   "en": "plate, dish",
+   "gloss": "the dish"
+  },
+  {
+   "card": "es-u07-014",
+   "kind": "fwd",
+   "term": "la papa",
+   "en": "potato",
+   "gloss": "dad"
+  },
+  {
+   "card": "es-u06-011",
+   "kind": "fwd",
+   "term": "la prima",
+   "en": "the cousin (female)",
+   "gloss": "the first"
+  },
+  {
+   "card": "es-u06-010",
+   "kind": "fwd",
+   "term": "el tío",
+   "en": "the uncle",
+   "gloss": "the guy"
+  },
+  {
+   "card": "es-u05-015",
+   "kind": "fwd",
+   "term": "la vez",
+   "en": "the time (occasion)",
+   "gloss": "in turn"
+  },
+  {
+   "card": "es-u05-010",
+   "kind": "fwd",
+   "term": "ya",
+   "en": "already",
+   "gloss": "yes"
+  },
+  {
+   "card": "es-u05-004",
+   "kind": "fwd",
+   "term": "tarde",
+   "en": "late",
+   "gloss": "afternoon"
+  },
+  {
+   "card": "es-u03-014",
+   "kind": "fwd",
+   "term": "contar",
+   "en": "to count",
+   "gloss": "to tell"
+  },
+  {
+   "card": "es-u02-015",
+   "kind": "fwd",
+   "term": "amable",
+   "en": "kind, polite",
+   "gloss": "friendly"
+  },
+  {
+   "card": "es-u02-010",
+   "kind": "fwd",
+   "term": "aquí tienes",
+   "en": "here you go",
+   "gloss": "here you are"
+  },
+  {
+   "card": "es-u02-008",
+   "kind": "fwd",
+   "term": "claro",
+   "en": "of course",
+   "gloss": "clear"
+  },
+  {
+   "card": "es-u02-007",
+   "kind": "fwd",
+   "term": "permiso",
+   "en": "excuse me (to pass by)",
+   "gloss": "permission"
+  },
+  {
+   "card": "es-u02-005",
+   "kind": "fwd",
+   "term": "perdón",
+   "en": "sorry, forgiveness",
+   "gloss": "pardon"
+  },
+  {
+   "card": "es-u01-015",
+   "kind": "fwd",
+   "term": "el apellido",
+   "en": "surname, last name",
+   "gloss": "the surname"
+  },
+  {
+   "card": "es-u01-014",
+   "kind": "fwd",
+   "term": "presentar",
+   "en": "to introduce",
+   "gloss": "to present"
+  },
+  {
+   "card": "es-u01-013",
+   "kind": "fwd",
+   "term": "la señora",
+   "en": "the woman, Mrs.",
+   "gloss": "the lady"
+  },
+  {
+   "card": "es-u01-012",
+   "kind": "fwd",
+   "term": "el señor",
+   "en": "the man, Mr.",
+   "gloss": "the gentleman"
+  },
+  {
+   "card": "es-u01-009",
+   "kind": "fwd",
+   "term": "¿cómo te llamas?",
+   "en": "what's your name?",
+   "gloss": "What is your name?"
+  },
+  {
+   "card": "es-u01-007",
+   "kind": "fwd",
+   "term": "muy bien",
+   "en": "very well",
+   "gloss": "very good"
+  },
+  {
+   "card": "es-u01-005",
+   "kind": "fwd",
+   "term": "buenas noches",
+   "en": "good night",
+   "gloss": "good evening"
+  }
+ ]
+}

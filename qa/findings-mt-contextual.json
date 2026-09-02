@@ -1,0 +1,34 @@
+[
+ {
+  "card": "pt-u22-009",
+  "kind": "fwd",
+  "term": "animado",
+  "en": "excited, in good spirits",
+  "gloss": "animated",
+  "ctxGloss": "excited (context: The children are excited about the holidays.)"
+ },
+ {
+  "card": "pt-u09-003",
+  "kind": "fwd",
+  "term": "o refrigerante",
+  "en": "the soft drink",
+  "gloss": "refrigerant",
+  "ctxGloss": "the soda (context: I prefer water to soda in everyday life.)"
+ },
+ {
+  "card": "pt-u07-007",
+  "kind": "fwd",
+  "term": "o ovo",
+  "en": "the egg",
+  "gloss": "this egg",
+  "ctxGloss": "two eggs"
+ },
+ {
+  "card": "pt-u01-014",
+  "kind": "fwd",
+  "term": "a senhora",
+  "en": "madam, Mrs.",
+  "gloss": "the lady",
+  "ctxGloss": "the lady (context: The lady wants a coffee?)"
+ }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "es-u14-005",
+    "problem": "'Debe girar a la derecha' is textbook deber+infinitivo; in real directions natives use the imperative",
+    "example": "Gire a la derecha en la próxima esquina.",
+    "exampleEn": "Turn right at the next corner."
+  },
+  {
+    "id": "es-u14-012",
+    "problem": "'coche' is Peninsular; Latin-American everyday default is 'carro' (or 'auto' in the Southern Cone)",
+    "term": "el carro",
+    "example": "Mi carro está estacionado afuera."
+  },
+  {
+    "id": "es-u15-006",
+    "problem": "'billete' is Peninsular; Latin America says 'boleto' (or 'pasaje')",
+    "term": "el boleto",
+    "example": "Compré el boleto por internet."
+  },
+  {
+    "id": "es-u17-005",
+    "problem": "'El sueldo es suficiente para vivir' is an English calque; natives use the verb 'alcanzar'",
+    "example": "El sueldo me alcanza para vivir.",
+    "exampleEn": "I earn enough to live on."
+  }
+]

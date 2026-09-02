@@ -1,0 +1,182 @@
+{
+ "summary": {
+  "register_proposals": 24,
+  "mt_true_candidates": 0,
+  "lt_actionable": 0,
+  "words_actionable": 0
+ },
+ "register": [
+  {
+   "id": "es-u02-016",
+   "problem": "English 'to do a favor' is a calque; English only uses it ditransitively ('do someone a favor')",
+   "en": "to do someone a favor"
+  },
+  {
+   "id": "es-u03-009",
+   "problem": "'veinte años de edad' is textbook filler; natives just say 'Tengo veinte años'",
+   "example": "Tengo veinte años.",
+   "exampleEn": "I am twenty years old."
+  },
+  {
+   "id": "es-u09-004",
+   "problem": "'cada noche' is a literal 'every night' calque; natives say 'todas las noches'",
+   "example": "Mi abuela toma té verde todas las noches.",
+   "exampleEn": "My grandmother drinks green tea every night."
+  },
+  {
+   "id": "es-u10-005",
+   "problem": "'Nos dan la mesa' with definite article is unnatural at a restaurant; it's 'una mesa'",
+   "example": "Nos dan una mesa junto a la ventana.",
+   "exampleEn": "They give us a table next to the window."
+  },
+  {
+   "id": "es-u10-006",
+   "problem": "'En el pedido escribimos...' is stilted; nobody writes down an order this way — 'nuestro pedido es' is the natural restaurant phrasing",
+   "example": "Nuestro pedido es pollo con arroz.",
+   "exampleEn": "Our order is chicken with rice."
+  },
+  {
+   "id": "es-u10-008",
+   "problem": "'De bebida' is a 'for a drink' calque; natives say 'para beber'",
+   "example": "Para beber, todos queremos jugo de naranja.",
+   "exampleEn": "To drink, we all want orange juice."
+  },
+  {
+   "id": "es-u11-011",
+   "problem": "'El techo tiene una lámpara' is an inanimate-'have' calque; Spanish uses 'hay' for fixtures (deck itself does: u11-014, u11-016)",
+   "example": "En el techo hay una lámpara bonita.",
+   "exampleEn": "There is a nice lamp on the ceiling."
+  },
+  {
+   "id": "es-u14-005",
+   "problem": "'Debe girar a la derecha' is textbook deber+infinitivo; in real directions natives use the imperative",
+   "example": "Gire a la derecha en la próxima esquina.",
+   "exampleEn": "Turn right at the next corner."
+  },
+  {
+   "id": "es-u14-012",
+   "problem": "'coche' is Peninsular; Latin-American everyday default is 'carro' (or 'auto' in the Southern Cone)",
+   "term": "el carro",
+   "example": "Mi carro está estacionado afuera."
+  },
+  {
+   "id": "es-u15-006",
+   "problem": "'billete' is Peninsular; Latin America says 'boleto' (or 'pasaje')",
+   "term": "el boleto",
+   "example": "Compré el boleto por internet."
+  },
+  {
+   "id": "es-u17-005",
+   "problem": "'El sueldo es suficiente para vivir' is an English calque; natives use the verb 'alcanzar'",
+   "example": "El sueldo me alcanza para vivir.",
+   "exampleEn": "I earn enough to live on."
+  },
+  {
+   "id": "es-u19-004",
+   "problem": "'hay mucho calor' — Spanish weather uses hacer, not hay; classroom treats 'hay calor' as an error/calque",
+   "example": "En verano hace mucho calor aquí."
+  },
+  {
+   "id": "es-u19-005",
+   "problem": "'El frío de la noche es fuerte' is a stiff textbook construction; natives say 'hace un frío...' idiom",
+   "example": "Por la noche hace un frío muy fuerte."
+  },
+  {
+   "id": "es-u19-014",
+   "problem": "Generic singular 'las hojas del árbol' reads like a fable; in speech natives generalize with the plural",
+   "example": "En otoño se caen las hojas de los árboles."
+  },
+  {
+   "id": "es-u20-006",
+   "problem": "'La granja tiene muchos pollos' is an English-calque of 'the farm has'; natives say 'en la granja hay'",
+   "example": "En la granja hay muchos pollos."
+  },
+  {
+   "id": "es-u20-008",
+   "problem": "'produce lana' is bookish; everyday speech uses dar (las ovejas dan lana)",
+   "example": "Las ovejas dan lana muy suave."
+  },
+  {
+   "id": "es-u22-004",
+   "problem": "regional mismatch: 'enfadado' is Peninsular; Latin-American default (deck rule) teaches 'enojado'",
+   "term": "enojado",
+   "example": "Está enojada porque llegué tarde."
+  },
+  {
+   "id": "pt-u01-007",
+   "problem": "example has a tagged-on '..., você sabe?' calque of English 'Do you know...?'; classroom/natural form is 'Como é que você se chama?'",
+   "example": "Como é que você se chama?",
+   "exampleEn": "What's your name?"
+  },
+  {
+   "id": "pt-u03-013",
+   "problem": "'Doze meses formam um ano' is a textbook aphorism nobody says unprompted; natural phrasing uses ter",
+   "example": "Um ano tem doze meses.",
+   "exampleEn": "A year has twelve months."
+  },
+  {
+   "id": "pt-u03-016",
+   "problem": "fronted 'Mil reais é o aluguel' is stiff inverted word order; natives say 'O aluguel é mil reais'",
+   "example": "O aluguel é mil reais.",
+   "exampleEn": "Rent is one thousand reais."
+  },
+  {
+   "id": "pt-u11-010",
+   "problem": "'para entrar ar' is a textbook calque; the spoken idiom is 'pra entrar um ar' (with article), and informal imperatives match the deck's other examples",
+   "example": "Abre a janela pra entrar um ar, por favor?",
+   "exampleEn": "Open the window for some air, please?"
+  },
+  {
+   "id": "pt-u11-015",
+   "problem": "'no escritório aqui de casa' is awkward word order natives rarely use; 'o escritório de casa' (home office) is the natural way to express it",
+   "example": "Trabalho no escritório de casa.",
+   "exampleEn": "I work from my home office."
+  },
+  {
+   "id": "pt-u18-009",
+   "problem": "'Esfreguei o olho com areia' implies rubbing the eye WITH sand as the tool; natives say they rubbed it because sand was in the eye",
+   "example": "Esfreguei o olho porque estava com areia.",
+   "exampleEn": "I rubbed my eye because there was sand in it."
+  },
+  {
+   "id": "pt-u24-005",
+   "problem": "exampleEn 'I'm not hearing you' is a Portuguese calque; natural English is 'I can't hear you'",
+   "example": "Fale mais alto, não estou ouvindo.",
+   "exampleEn": "Speak up, I can't hear you."
+  }
+ ],
+ "mt_contextual_dismissed": [
+  {
+   "card": "pt-u22-009",
+   "kind": "fwd",
+   "term": "animado",
+   "en": "excited, in good spirits",
+   "gloss": "animated",
+   "ctxGloss": "excited (context: The children are excited about the holidays.)"
+  },
+  {
+   "card": "pt-u09-003",
+   "kind": "fwd",
+   "term": "o refrigerante",
+   "en": "the soft drink",
+   "gloss": "refrigerant",
+   "ctxGloss": "the soda (context: I prefer water to soda in everyday life.)"
+  },
+  {
+   "card": "pt-u07-007",
+   "kind": "fwd",
+   "term": "o ovo",
+   "en": "the egg",
+   "gloss": "this egg",
+   "ctxGloss": "two eggs"
+  },
+  {
+   "card": "pt-u01-014",
+   "kind": "fwd",
+   "term": "a senhora",
+   "en": "madam, Mrs.",
+   "gloss": "the lady",
+   "ctxGloss": "the lady (context: The lady wants a coffee?)"
+  }
+ ]
+}

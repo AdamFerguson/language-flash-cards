@@ -1,0 +1,38 @@
+[
+ {
+  "card": "pt-u01-006",
+  "rule": "Esta palavra rege-se com a preposição “a”.",
+  "ruleId": "CRASE_CONFUSION",
+  "sentence": "Olá, como vai a família?"
+ },
+ {
+  "card": "pt-u01-011",
+  "rule": "Duas frases seguidas começam com o mesmo advérbio. Considere reformular a frase ou use um dicionário para encontrar um sinônimo.",
+  "ruleId": "PORTUGUESE_WORD_REPEAT_BEGINNING_RULE",
+  "sentence": "Até logo! Foi bom te ver."
+ },
+ {
+  "card": "pt-u12-011",
+  "rule": "“muito bom” é uma expressão prolixa. É preferível dizer “ótimo”.",
+  "ruleId": "PT_WORDINESS_REPLACE_MUITO_BOM",
+  "sentence": "Estou lendo um livro muito bom."
+ },
+ {
+  "card": "pt-u14-015",
+  "rule": "Num contexto formal, substitua “perto” por “próximo”, escolhendo a forma que concorda com o sujeito:",
+  "ruleId": "PERTO_PRÓXIMO",
+  "sentence": "Meu ponto de ônibus fica perto da padaria."
+ },
+ {
+  "card": "pt-u18-004",
+  "rule": "Para conferir mais clareza ao seu texto, busque usar uma linguagem mais concisa.",
+  "ruleId": "DEPOIS_DE_APÓS",
+  "sentence": "Meu pé dói depois de caminhar."
+ },
+ {
+  "card": "pt-u24-003",
+  "rule": "“a mesma coisa” é uma expressão prolixa. É preferível dizer “o mesmo”.",
+  "ruleId": "PT_WORDINESS_REPLACE_A_MESMA_COISA",
+  "sentence": "Sempre perguntam a mesma coisa."
+ }
+]

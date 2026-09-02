@@ -1,0 +1,32 @@
+[
+  {
+    "id": "es-u09-004",
+    "problem": "'cada noche' is a literal 'every night' calque; natives say 'todas las noches'",
+    "example": "Mi abuela toma té verde todas las noches.",
+    "exampleEn": "My grandmother drinks green tea every night."
+  },
+  {
+    "id": "es-u10-005",
+    "problem": "'Nos dan la mesa' with definite article is unnatural at a restaurant; it's 'una mesa'",
+    "example": "Nos dan una mesa junto a la ventana.",
+    "exampleEn": "They give us a table next to the window."
+  },
+  {
+    "id": "es-u10-006",
+    "problem": "'En el pedido escribimos...' is stilted; nobody writes down an order this way — 'nuestro pedido es' is the natural restaurant phrasing",
+    "example": "Nuestro pedido es pollo con arroz.",
+    "exampleEn": "Our order is chicken with rice."
+  },
+  {
+    "id": "es-u10-008",
+    "problem": "'De bebida' is a 'for a drink' calque; natives say 'para beber'",
+    "example": "Para beber, todos queremos jugo de naranja.",
+    "exampleEn": "To drink, we all want orange juice."
+  },
+  {
+    "id": "es-u11-011",
+    "problem": "'El techo tiene una lámpara' is an inanimate-'have' calque; Spanish uses 'hay' for fixtures (deck itself does: u11-014, u11-016)",
+    "example": "En el techo hay una lámpara bonita.",
+    "exampleEn": "There is a nice lamp on the ceiling."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pt-u01-007",
+    "problem": "example has a tagged-on '..., você sabe?' calque of English 'Do you know...?'; classroom/natural form is 'Como é que você se chama?'",
+    "example": "Como é que você se chama?",
+    "exampleEn": "What's your name?"
+  },
+  {
+    "id": "pt-u03-013",
+    "problem": "'Doze meses formam um ano' is a textbook aphorism nobody says unprompted; natural phrasing uses ter",
+    "example": "Um ano tem doze meses.",
+    "exampleEn": "A year has twelve months."
+  },
+  {
+    "id": "pt-u03-016",
+    "problem": "fronted 'Mil reais é o aluguel' is stiff inverted word order; natives say 'O aluguel é mil reais'",
+    "example": "O aluguel é mil reais.",
+    "exampleEn": "Rent is one thousand reais."
+  }
+]
