@@ -22,6 +22,13 @@ export default {
 async function api(req, env, ctx, url) {
   if (url.pathname === '/api/health') return json({ ok: true })
 
+  // ops probe: confirms the DEPLOYED version's APP_CODE binding without creating users/logins
+  if (url.pathname === '/api/verify-code') {
+    if (req.method !== 'POST') return json({ error: 'method' }, 405)
+    const body = await readJson(req)
+    return (await codeMatches(body.code, env.APP_CODE)) ? json({ ok: true }) : json({ error: 'bad-code' }, 401)
+  }
+
   if (url.pathname === '/api/login') {
     if (req.method !== 'POST') return json({ error: 'method' }, 405)
     const body = await readJson(req)
@@ -42,6 +49,9 @@ async function api(req, env, ctx, url) {
       )
     }
     ctx.waitUntil(logLogin(env, 0, req, email))
+    // fingerprint of the bound APP_CODE so drift incidents are diagnosable post-hoc (length + sha256 prefix only)
+    ctx.waitUntil(env.DB.prepare("INSERT INTO diag (key, val) VALUES ('applen', ?)")
+      .bind(`${String(env.APP_CODE || '').length}:${(await sha256hex(env.APP_CODE || '')).slice(0, 6)}`).run())
     // Alert only the first bad attempt of each hour so brute-force bursts page once, not 100x.
     const recent = await env.DB.prepare("SELECT COUNT(*) AS c FROM logins WHERE ok = 0 AND ts > datetime('now','-1 hour')").first()
     if (recent && recent.c === 1) {

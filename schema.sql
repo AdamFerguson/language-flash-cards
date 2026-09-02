@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS logins (
 
 INSERT OR IGNORE INTO users (id, label) VALUES (1, 'primary');
 
--- MT verdict cache for /api/grade (accepted/rejected answer variants per card)
+-- MT verdict cache for /api/grade (card answer variants)
 CREATE TABLE IF NOT EXISTS grades (
   card_id TEXT NOT NULL,
   norm TEXT NOT NULL,
@@ -64,4 +64,12 @@ CREATE TABLE IF NOT EXISTS grades (
   gloss TEXT DEFAULT '',
   created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (card_id, norm)
+);
+
+-- Ops diagnostics: e.g. APP_CODE binding fingerprint on failed logins
+-- (explains secret-version drift incidents without exposing the value).
+CREATE TABLE IF NOT EXISTS diag (
+  ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  key TEXT NOT NULL,
+  val TEXT NOT NULL
 );
