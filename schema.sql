@@ -55,3 +55,13 @@ CREATE TABLE IF NOT EXISTS logins (
 );
 
 INSERT OR IGNORE INTO users (id, label) VALUES (1, 'primary');
+
+-- MT verdict cache for /api/grade (accepted/rejected answer variants per card)
+CREATE TABLE IF NOT EXISTS grades (
+  card_id TEXT NOT NULL,
+  norm TEXT NOT NULL,
+  correct INTEGER NOT NULL,
+  gloss TEXT DEFAULT '',
+  created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (card_id, norm)
+);

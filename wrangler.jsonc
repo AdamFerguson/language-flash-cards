@@ -15,5 +15,8 @@
       "database_name": "language-flash-cards",
       "database_id": "e2da02d4-e54b-4db2-b171-e1c7e27f7e6c"
     }
-  ]
+  ],
+  "ai": {
+    "binding": "AI"
+  }
 }

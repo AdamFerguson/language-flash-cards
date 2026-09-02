@@ -65,6 +65,13 @@ existing progress rows will point at the wrong word.
   ntfy/Slack/Discord webhook — unset by default, feature dormant.)
 - `git commit` runs gitleaks (`.githooks/pre-commit`, armed by `npm install`)
   and refuses commits containing secrets.
+- Grading free-typed answers (quiz “Type in Spanish/Portuguese”): layered —
+  accent/punctuation-tolerant matcher first, then a translation-gloss check by
+  **Workers AI** (`gemma-4-26b-a4b-it`, free tier: 10k neurons/day ≈ 2.4k
+  checks, hard-caps and never invoices). The AI can only ever *accept* an
+  answer the matcher rejected (alternate phrasings), never mark a matched one
+  wrong; verdicts are cached in D1. If AI is unavailable or quota is spent,
+  grading silently degrades to the matcher.
 - Server owns all scheduling/XP (D1 is the source of truth); the client is a
   thin renderer over `/api/state`.
 - She can add to home screen (manifest included); TTS uses on-device

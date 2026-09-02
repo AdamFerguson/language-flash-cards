@@ -345,7 +345,7 @@ async function viewQuiz(unitId) {
     const { card, type } = qs[qi]
     answered = false
     const body = []
-    const check = (ok, chosenEl, rightEl) => {
+    const check = (ok, chosenEl, rightEl, g) => {
       if (answered) return
       answered = true
       if (ok) { correct++; }
@@ -353,6 +353,9 @@ async function viewQuiz(unitId) {
       if (!ok && rightEl) rightEl.classList.add('right')
       fb.className = 'feedback ' + (ok ? 'ok' : 'no')
       fb.replaceChildren(document.createTextNode(ok ? '✓ correct' : `✗ ${card.term} — ${card.en}`))
+      if (ok && g && g.gloss) fb.append(el('div', { class: 'muted', style: 'margin-top:4px' }, `accepted → “${g.gloss}”`))
+      if (!ok && g && g.gloss) fb.append(el('div', { class: 'muted', style: 'margin-top:4px' }, `“${g.gloss}” ≠ “${card.en}”`))
+      if (!ok && g && g.english) fb.append(el('div', { class: 'muted', style: 'margin-top:4px' }, `that’s English — type it in ${S.lang === 'es' ? 'Spanish' : 'Portuguese'} 🙂`))
       if (type === 2) fb.append(el('div', { class: 'muted', style: 'margin-top:6px' }, `“${card.example}” — ${card.exampleEn}`))
       setTimeout(() => { qi++; renderQ() }, ok ? 600 : 1600)
     }
@@ -361,7 +364,17 @@ async function viewQuiz(unitId) {
     if (type === 2) {
       const input = el('input', { placeholder: 'type the translation (accents optional)', autocomplete: 'off', autocapitalize: 'off', spellcheck: false })
       const btn = el('button', { class: 'cta wide' }, 'Check')
-      const submit = () => input.value.trim() && check(typedOk(input.value, card.term), input, null)
+      const submit = async () => {
+      const val = input.value.trim()
+      if (!val || answered) return
+      if (typedOk(val, card.term)) return check(true, input, null)
+      answered = true
+      btn.disabled = true; btn.textContent = 'Checking…'
+      let g = null
+      try { const r = await fetch('/api/grade', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ lang: S.lang, cardId: card.id, answer: val }), credentials: 'same-origin' }); g = await r.json() } catch (e) {}
+      answered = false
+      check(!!(g && g.correct), input, null, g || undefined)
+    }
       btn.onclick = submit
       input.addEventListener('keydown', (e) => e.key === 'Enter' && submit())
       const langName = S.lang === 'es' ? 'Spanish' : 'Portuguese'

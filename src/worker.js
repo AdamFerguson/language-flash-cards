@@ -63,6 +63,7 @@ async function api(req, env, ctx, url) {
   }
   if (url.pathname === '/api/study' && req.method === 'POST') return study(req, env, uid)
   if (url.pathname === '/api/quiz' && req.method === 'POST') return quiz(req, env, uid)
+  if (url.pathname === '/api/grade' && req.method === 'POST') return grade(req, env)
   if (url.pathname === '/api/review' && req.method === 'POST') return reviewRoute(req, env, uid)
   return json({ error: 'not-found' }, 404)
 }
@@ -209,6 +210,99 @@ async function study(req, env, uid) {
   const first = res.meta.changes > 0
   if (first) await activityStmt(env, uid, 10, 0).run()
   return json({ ok: true, first, xp: first ? 10 : 0 })
+}
+
+// ---------- answer grading (typed quiz answers) ----------
+// Layered: deterministic fuzzy (mirror of client typedOk) -> D1 verdict cache ->
+// TranslateGemma gloss compare (user answer AND card term are glossed by the same
+// translator, so translator bias cancels out; it can only ever UPGRADE a fuzzy-reject).
+
+// Keep in sync with normTerm/typedOk in public/app.js.
+const normTerm = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  .replace(/[¿?¡!.,;:»«”"'()]/g, '').replace(/\s+/g, ' ')
+  .replace(/^(el|la|los|las|o|a|os|as|um|uma)\s+/, '').replace(/\b(se|me)\s+$/, '').trim()
+
+function lev(a, b) {
+  const m = [...Array(b.length + 1).keys()]
+  for (let i = 1; i <= a.length; i++) {
+    let p = m[0]; m[0] = i
+    for (let j = 1; j <= b.length; j++) {
+      const t = m[j]
+      m[j] = Math.min(m[j] + 1, m[j - 1] + 1, p + (a[i - 1] === b[j - 1] ? 0 : 1))
+      p = t
+    }
+  }
+  return m[b.length]
+}
+const typedOk = (input, term) => {
+  const a = normTerm(input), b = normTerm(term)
+  return a === b || (b.length >= 5 && lev(a, b) <= 1)
+}
+
+const deckCache = {} // per-isolate, 1h
+async function cardById(env, lang, id) {
+  let d = deckCache[lang]
+  if (!d || Date.now() - d.at > 3600e3) {
+    const res = await env.ASSETS.fetch(new Request('https://assets/decks/' + lang + '.json'))
+    if (!res.ok) return null
+    const deck = await res.json()
+    d = deckCache[lang] = { at: Date.now(), byId: {} }
+    for (const u of deck.units) for (const c of u.cards) d.byId[c.id] = c
+  }
+  return d.byId[id] || null
+}
+
+async function gloss(env, text) {
+  // Workers AI, free tier (10k neurons/day ≈ 2.4k glosses; hard-caps, never bills).
+  // If the model errors or quotas trip, grade() degrades to fuzzy-only — quiz keeps working.
+  const j = await env.AI.run('@cf/google/gemma-4-26b-a4b-it', {
+    messages: [{ role: 'user', content: `Translate the following text to English. Output ONLY the translation, nothing else:\n\n${text}` }],
+    max_tokens: 200,
+    enable_thinking: false,
+  })
+  const out = String((j && (j.response || (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content))) || '')
+  return out.split('\n').map((l) => l.trim()).find((l) => l && !/^[*-]/.test(l)) || out
+}
+
+// token coverage: fraction of x's tokens present in y, and count of extras in x not in y
+const cov = (x, y) => { const X = new Set(x.split(' ')), Y = new Set(y.split(' ')); if (!X.size) return { c: 0, extra: 0 }; let hit = 0, extra = 0; for (const w of X) (Y.has(w) ? hit++ : extra++); return { c: hit / X.size, extra } }
+
+async function grade(req, env) {
+  const body = await readJson(req)
+  const { lang, cardId, answer } = body
+  if (!LANGS.includes(lang) || typeof cardId !== 'string' || !new RegExp(`^${lang}-u\\d{2}-\\d{3}$`).test(cardId)
+    || typeof answer !== 'string' || !answer.trim() || answer.length > 200) {
+    return json({ error: 'bad-input' }, 400)
+  }
+  const card = await cardById(env, lang, cardId)
+  if (!card) return json({ error: 'bad-card' }, 404)
+
+  // 1. deterministic fast path (doubles as fallback when the translator is away)
+  if (typedOk(answer, card.term)) return json({ correct: true, method: 'fuzzy' })
+
+  // typed the English question back at us → not a target-language answer
+  const norm = normTerm(answer)
+  const enNorm = normTerm(card.en)
+  if (enNorm && lev(norm, enNorm) <= 2) return json({ correct: false, method: 'fuzzy', english: true })
+
+  // 2. cached MT verdict
+  const hit = await env.DB.prepare('SELECT correct, gloss FROM grades WHERE card_id = ? AND norm = ?').bind(cardId, norm).first()
+  if (hit) return json({ correct: !!hit.correct, method: 'cache', gloss: hit.gloss || undefined })
+
+  // 3. gloss compare — never downgrades, only upgrades fuzzy-rejects
+  let ua = ''
+  try {
+    const [uaRaw, termRaw] = await Promise.all([gloss(env, answer), gloss(env, card.term)])
+    ua = normTerm(uaRaw); const ta = normTerm(termRaw)
+    const forward = cov(ta, ua) // all term-gloss words covered by their answer, few extras
+    const back = cov(ua, ta)    // their answer fully inside the term gloss (max 1 word short)
+    const correct = (forward.c >= 0.85 && forward.extra <= 3) || (back.c >= 0.85 && back.extra <= 1)
+    await env.DB.prepare('INSERT OR REPLACE INTO grades (card_id, norm, correct, gloss) VALUES (?, ?, ?, ?)')
+      .bind(cardId, norm, correct ? 1 : 0, normTerm(uaRaw) === ta ? '' : uaRaw.trim().slice(0, 160)).run()
+    return json({ correct, method: 'mt', gloss: correct ? undefined : (uaRaw.trim().slice(0, 120) || undefined) })
+  } catch (e) {
+    return json({ correct: false, method: 'fuzzy', unavailable: true, detail: String(e.message || e) })
+  }
 }
 
 async function quiz(req, env, uid) {
