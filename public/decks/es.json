@@ -8,28 +8,28 @@
     {
      "term": "hola",
      "en": "hello",
-     "example": "\u00a1Hola! \u00bfC\u00f3mo est\u00e1s, todo bien?",
+     "example": "¡Hola! ¿Cómo estás, todo bien?",
      "exampleEn": "Hi! How are you, all good?",
      "id": "es-u01-001"
     },
     {
-     "term": "adi\u00f3s",
+     "term": "adiós",
      "en": "goodbye",
-     "example": "Adi\u00f3s, hasta la pr\u00f3xima semana.",
+     "example": "Adiós, hasta la próxima semana.",
      "exampleEn": "Goodbye, see you next week.",
      "id": "es-u01-002"
     },
     {
-     "term": "buenos d\u00edas",
+     "term": "buenos días",
      "en": "good morning",
-     "example": "Buenos d\u00edas, \u00bfc\u00f3mo est\u00e1 usted?",
+     "example": "Buenos días, ¿cómo está usted?",
      "exampleEn": "Good morning, how are you?",
      "id": "es-u01-003"
     },
     {
      "term": "buenas tardes",
      "en": "good afternoon",
-     "example": "Buenas tardes, \u00bftiene una mesa para dos?",
+     "example": "Buenas tardes, ¿tiene una mesa para dos?",
      "exampleEn": "Good afternoon, do you have a table for two?",
      "id": "es-u01-004"
     },
@@ -41,16 +41,16 @@
      "id": "es-u01-005"
     },
     {
-     "term": "\u00bfc\u00f3mo est\u00e1s?",
+     "term": "¿cómo estás?",
      "en": "how are you?",
-     "example": "\u00bfC\u00f3mo est\u00e1s? Hace mucho que no hablamos.",
+     "example": "¿Cómo estás? Hace mucho que no hablamos.",
      "exampleEn": "How are you? It has been a long time since we talked.",
      "id": "es-u01-006"
     },
     {
      "term": "muy bien",
      "en": "very well",
-     "example": "Mi madre est\u00e1 muy bien de salud.",
+     "example": "Mi madre está muy bien de salud.",
      "exampleEn": "My mother is in good health.",
      "id": "es-u01-007"
     },
@@ -62,16 +62,16 @@
      "id": "es-u01-008"
     },
     {
-     "term": "\u00bfc\u00f3mo te llamas?",
+     "term": "¿cómo te llamas?",
      "en": "what's your name?",
-     "example": "\u00bfC\u00f3mo te llamas? Me llamo Ana, \u00bfy t\u00fa?",
+     "example": "¿Cómo te llamas? Me llamo Ana, ¿y tú?",
      "exampleEn": "What's your name? My name's Ana, and you?",
      "id": "es-u01-009"
     },
     {
      "term": "mucho gusto",
      "en": "nice to meet you",
-     "example": "Mucho gusto, \u00bfc\u00f3mo est\u00e1 usted?",
+     "example": "Mucho gusto, ¿cómo está usted?",
      "exampleEn": "Nice to meet you, how are you?",
      "id": "es-u01-010"
     },
@@ -83,16 +83,16 @@
      "id": "es-u01-011"
     },
     {
-     "term": "el se\u00f1or",
+     "term": "el señor",
      "en": "the man, Mr.",
-     "example": "El se\u00f1or de la puerta es mi t\u00edo.",
+     "example": "El señor de la puerta es mi tío.",
      "exampleEn": "The man at the door is my uncle.",
      "id": "es-u01-012"
     },
     {
-     "term": "la se\u00f1ora",
+     "term": "la señora",
      "en": "the woman, Mrs.",
-     "example": "La se\u00f1ora habla por tel\u00e9fono.",
+     "example": "La señora habla por teléfono.",
      "exampleEn": "The woman is talking on the phone.",
      "id": "es-u01-013"
     },
@@ -106,7 +106,7 @@
     {
      "term": "el apellido",
      "en": "surname, last name",
-     "example": "\u00bfC\u00f3mo se escribe tu apellido?",
+     "example": "¿Cómo se escribe tu apellido?",
      "exampleEn": "How do you spell your last name?",
      "id": "es-u01-015"
     },
@@ -126,7 +126,7 @@
     {
      "term": "por favor",
      "en": "please",
-     "example": "Un caf\u00e9 con leche, por favor.",
+     "example": "Un café con leche, por favor.",
      "exampleEn": "A coffee with milk, please.",
      "id": "es-u02-001"
     },
@@ -147,14 +147,14 @@
     {
      "term": "disculpe",
      "en": "excuse me (formal)",
-     "example": "Disculpe, \u00bfd\u00f3nde est\u00e1 la estaci\u00f3n?",
+     "example": "Disculpe, ¿dónde está la estación?",
      "exampleEn": "Excuse me, where is the station?",
      "id": "es-u02-004"
     },
     {
-     "term": "perd\u00f3n",
+     "term": "perdón",
      "en": "sorry, forgiveness",
-     "example": "Perd\u00f3n, llego muy tarde.",
+     "example": "Perdón, llego muy tarde.",
      "exampleEn": "Sorry, I'm very late.",
      "id": "es-u02-005"
     },
@@ -187,9 +187,9 @@
      "id": "es-u02-009"
     },
     {
-     "term": "aqu\u00ed tienes",
+     "term": "aquí tienes",
      "en": "here you go",
-     "example": "Aqu\u00ed tienes el dinero que te prest\u00e9.",
+     "example": "Aquí tienes el dinero que te presté.",
      "exampleEn": "Here's the money I lent you.",
      "id": "es-u02-010"
     },
@@ -203,21 +203,21 @@
     {
      "term": "usted",
      "en": "you (formal)",
-     "example": "Disculpe, \u00bfusted habla ingl\u00e9s?",
+     "example": "Disculpe, ¿usted habla inglés?",
      "exampleEn": "Excuse me, do you speak English?",
      "id": "es-u02-012"
     },
     {
-     "term": "t\u00fa",
+     "term": "tú",
      "en": "you (informal)",
-     "example": "T\u00fa eres muy amable conmigo.",
+     "example": "Tú eres muy amable conmigo.",
      "exampleEn": "You are very kind to me.",
      "id": "es-u02-013"
     },
     {
      "term": "saludar",
      "en": "to greet, to say hello",
-     "example": "Saludo a mis vecinos cada ma\u00f1ana.",
+     "example": "Saludo a mis vecinos cada mañana.",
      "exampleEn": "I greet my neighbors every morning.",
      "id": "es-u02-014"
     },
@@ -230,8 +230,8 @@
     },
     {
      "term": "hacer un favor",
-     "en": "to do a favor",
-     "example": "\u00bfMe haces un favor? Llama a mi madre.",
+     "en": "to do someone a favor",
+     "example": "¿Me haces un favor? Llama a mi madre.",
      "exampleEn": "Can you do me a favor? Call my mother.",
      "id": "es-u02-016"
     }
@@ -286,7 +286,7 @@
     {
      "term": "siete",
      "en": "seven",
-     "example": "Son las siete de la ma\u00f1ana.",
+     "example": "Son las siete de la mañana.",
      "exampleEn": "It's seven in the morning.",
      "id": "es-u03-007"
     },
@@ -300,7 +300,7 @@
     {
      "term": "veinte",
      "en": "twenty",
-     "example": "Tengo veinte a\u00f1os de edad.",
+     "example": "Tengo veinte años.",
      "exampleEn": "I am twenty years old.",
      "id": "es-u03-009"
     },
@@ -321,21 +321,21 @@
     {
      "term": "mil",
      "en": "one thousand",
-     "example": "Esa bicicleta cost\u00f3 mil pesos.",
+     "example": "Esa bicicleta costó mil pesos.",
      "exampleEn": "That bike cost one thousand pesos.",
      "id": "es-u03-012"
     },
     {
-     "term": "el n\u00famero",
+     "term": "el número",
      "en": "the number",
-     "example": "\u00bfCu\u00e1l es tu n\u00famero de tel\u00e9fono?",
+     "example": "¿Cuál es tu número de teléfono?",
      "exampleEn": "What's your phone number?",
      "id": "es-u03-013"
     },
     {
      "term": "contar",
      "en": "to count",
-     "example": "Los ni\u00f1os cuentan hasta diez.",
+     "example": "Los niños cuentan hasta diez.",
      "exampleEn": "The children count to ten.",
      "id": "es-u03-014"
     },
@@ -369,14 +369,14 @@
     {
      "term": "el martes",
      "en": "Tuesday",
-     "example": "El martes tengo clase de espa\u00f1ol.",
+     "example": "El martes tengo clase de español.",
      "exampleEn": "On Tuesday I have a Spanish class.",
      "id": "es-u04-002"
     },
     {
-     "term": "el mi\u00e9rcoles",
+     "term": "el miércoles",
      "en": "Wednesday",
-     "example": "\u00bfVienes a mi casa el mi\u00e9rcoles?",
+     "example": "¿Vienes a mi casa el miércoles?",
      "exampleEn": "Are you coming to my place on Wednesday?",
      "id": "es-u04-003"
     },
@@ -390,7 +390,7 @@
     {
      "term": "el viernes",
      "en": "Friday",
-     "example": "Por fin es viernes, qu\u00e9 bien.",
+     "example": "Por fin es viernes, qué bien.",
      "exampleEn": "It's finally Friday, great.",
      "id": "es-u04-005"
     },
@@ -402,9 +402,9 @@
      "id": "es-u04-006"
     },
     {
-     "term": "el d\u00eda",
+     "term": "el día",
      "en": "the day",
-     "example": "Hoy es un buen d\u00eda.",
+     "example": "Hoy es un buen día.",
      "exampleEn": "Today is a good day.",
      "id": "es-u04-007"
     },
@@ -416,44 +416,44 @@
      "id": "es-u04-008"
     },
     {
-     "term": "ma\u00f1ana",
+     "term": "mañana",
      "en": "tomorrow",
-     "example": "Ma\u00f1ana me levanto temprano.",
+     "example": "Mañana me levanto temprano.",
      "exampleEn": "Tomorrow I get up early.",
      "id": "es-u04-009"
     },
     {
      "term": "ayer",
      "en": "yesterday",
-     "example": "Ayer llegu\u00e9 muy tarde a casa.",
+     "example": "Ayer llegué muy tarde a casa.",
      "exampleEn": "Yesterday I got home very late.",
      "id": "es-u04-010"
     },
     {
      "term": "la semana",
      "en": "the week",
-     "example": "Trabajo cinco d\u00edas a la semana.",
+     "example": "Trabajo cinco días a la semana.",
      "exampleEn": "I work five days a week.",
      "id": "es-u04-011"
     },
     {
      "term": "el mes",
      "en": "the month",
-     "example": "Trabajo aqu\u00ed desde hace un mes.",
+     "example": "Trabajo aquí desde hace un mes.",
      "exampleEn": "I've worked here for a month.",
      "id": "es-u04-012"
     },
     {
-     "term": "el a\u00f1o",
+     "term": "el año",
      "en": "the year",
-     "example": "Este a\u00f1o viajo mucho por trabajo.",
+     "example": "Este año viajo mucho por trabajo.",
      "exampleEn": "This year I travel a lot for work.",
      "id": "es-u04-013"
     },
     {
      "term": "enero",
      "en": "January",
-     "example": "En enero hace mucho fr\u00edo.",
+     "example": "En enero hace mucho frío.",
      "exampleEn": "In January it's very cold.",
      "id": "es-u04-014"
     },
@@ -465,9 +465,9 @@
      "id": "es-u04-015"
     },
     {
-     "term": "el cumplea\u00f1os",
+     "term": "el cumpleaños",
      "en": "the birthday",
-     "example": "Mi cumplea\u00f1os es en mayo.",
+     "example": "Mi cumpleaños es en mayo.",
      "exampleEn": "My birthday is in May.",
      "id": "es-u04-016"
     }
@@ -480,28 +480,28 @@
     {
      "term": "la hora",
      "en": "the hour, the time",
-     "example": "\u00bfA qu\u00e9 hora es la clase?",
+     "example": "¿A qué hora es la clase?",
      "exampleEn": "What time is the class?",
      "id": "es-u05-001"
     },
     {
-     "term": "\u00bfqu\u00e9 hora es?",
+     "term": "¿qué hora es?",
      "en": "what time is it?",
-     "example": "\u00bfQu\u00e9 hora es? Tengo que irme ya.",
+     "example": "¿Qué hora es? Tengo que irme ya.",
      "exampleEn": "What time is it? I have to go now.",
      "id": "es-u05-002"
     },
     {
      "term": "temprano",
      "en": "early",
-     "example": "Me levanto temprano todos los d\u00edas.",
+     "example": "Me levanto temprano todos los días.",
      "exampleEn": "I get up early every day.",
      "id": "es-u05-003"
     },
     {
      "term": "tarde",
      "en": "late",
-     "example": "Llego tarde a la reuni\u00f3n.",
+     "example": "Llego tarde a la reunión.",
      "exampleEn": "I'm late to the meeting.",
      "id": "es-u05-004"
     },
@@ -543,21 +543,21 @@
     {
      "term": "ya",
      "en": "already",
-     "example": "Ya termin\u00e9 mi trabajo.",
+     "example": "Ya terminé mi trabajo.",
      "exampleEn": "I already finished my work.",
      "id": "es-u05-010"
     },
     {
-     "term": "todav\u00eda",
+     "term": "todavía",
      "en": "still, yet",
-     "example": "Todav\u00eda no he comido nada.",
+     "example": "Todavía no he comido nada.",
      "exampleEn": "I haven't eaten anything yet.",
      "id": "es-u05-011"
     },
     {
-     "term": "r\u00e1pido",
+     "term": "rápido",
      "en": "fast, quickly",
-     "example": "El tren nuevo es muy r\u00e1pido.",
+     "example": "El tren nuevo es muy rápido.",
      "exampleEn": "The new train is very fast.",
      "id": "es-u05-012"
     },
@@ -585,7 +585,7 @@
     {
      "term": "cada",
      "en": "every, each",
-     "example": "Voy al gimnasio cada d\u00eda.",
+     "example": "Voy al gimnasio cada día.",
      "exampleEn": "I go to the gym every day.",
      "id": "es-u05-016"
     }
@@ -633,7 +633,7 @@
     {
      "term": "el hijo",
      "en": "the son",
-     "example": "Su hijo tiene cinco a\u00f1os.",
+     "example": "Su hijo tiene cinco años.",
      "exampleEn": "Her son is five years old.",
      "id": "es-u06-006"
     },
@@ -659,9 +659,9 @@
      "id": "es-u06-009"
     },
     {
-     "term": "el t\u00edo",
+     "term": "el tío",
      "en": "the uncle",
-     "example": "Mi t\u00edo vive cerca de aqu\u00ed.",
+     "example": "Mi tío vive cerca de aquí.",
      "exampleEn": "My uncle lives near here.",
      "id": "es-u06-010"
     },
@@ -675,7 +675,7 @@
     {
      "term": "el amigo",
      "en": "the friend",
-     "example": "\u00c9l es mi mejor amigo.",
+     "example": "Él es mi mejor amigo.",
      "exampleEn": "He is my best friend.",
      "id": "es-u06-012"
     },
@@ -687,23 +687,23 @@
      "id": "es-u06-013"
     },
     {
-     "term": "el ni\u00f1o",
+     "term": "el niño",
      "en": "the child, the boy",
-     "example": "El ni\u00f1o juega en el parque.",
+     "example": "El niño juega en el parque.",
      "exampleEn": "The boy plays in the park.",
      "id": "es-u06-014"
     },
     {
      "term": "el hombre",
      "en": "the man",
-     "example": "El hombre espera el autob\u00fas.",
+     "example": "El hombre espera el autobús.",
      "exampleEn": "The man is waiting for the bus.",
      "id": "es-u06-015"
     },
     {
      "term": "casado",
      "en": "married",
-     "example": "Mis padres est\u00e1n casados hace veinte a\u00f1os.",
+     "example": "Mis padres están casados hace veinte años.",
      "exampleEn": "My parents have been married for twenty years.",
      "id": "es-u06-016"
     }
@@ -716,7 +716,7 @@
     {
      "term": "el desayuno",
      "en": "breakfast",
-     "example": "El desayuno est\u00e1 listo a las siete.",
+     "example": "El desayuno está listo a las siete.",
      "exampleEn": "Breakfast is ready at seven.",
      "id": "es-u07-001"
     },
@@ -737,21 +737,21 @@
     {
      "term": "el pan",
      "en": "bread",
-     "example": "Compro pan fresco en la panader\u00eda.",
+     "example": "Compro pan fresco en la panadería.",
      "exampleEn": "I buy fresh bread at the bakery.",
      "id": "es-u07-004"
     },
     {
      "term": "el arroz",
      "en": "rice",
-     "example": "El arroz con pollo es muy com\u00fan.",
+     "example": "El arroz con pollo es muy común.",
      "exampleEn": "Chicken and rice is very common.",
      "id": "es-u07-005"
     },
     {
      "term": "la pasta",
      "en": "pasta",
-     "example": "La pasta con salsa es f\u00e1cil de hacer.",
+     "example": "La pasta con salsa es fácil de hacer.",
      "exampleEn": "Pasta with sauce is easy to make.",
      "id": "es-u07-006"
     },
@@ -819,9 +819,9 @@
      "id": "es-u07-015"
     },
     {
-     "term": "el az\u00facar",
+     "term": "el azúcar",
      "en": "sugar",
-     "example": "Tomo el caf\u00e9 sin az\u00facar.",
+     "example": "Tomo el café sin azúcar.",
      "exampleEn": "I drink my coffee without sugar.",
      "id": "es-u07-016"
     }
@@ -834,7 +834,7 @@
     {
      "term": "la manzana",
      "en": "apple",
-     "example": "Como una manzana todos los d\u00edas.",
+     "example": "Como una manzana todos los días.",
      "exampleEn": "I eat an apple every day.",
      "id": "es-u08-001"
     },
@@ -867,9 +867,9 @@
      "id": "es-u08-005"
     },
     {
-     "term": "el lim\u00f3n",
+     "term": "el limón",
      "en": "lemon",
-     "example": "El agua con lim\u00f3n es muy refrescante.",
+     "example": "El agua con limón es muy refrescante.",
      "exampleEn": "Water with lemon is very refreshing.",
      "id": "es-u08-006"
     },
@@ -911,7 +911,7 @@
     {
      "term": "el cuchillo",
      "en": "knife",
-     "example": "\u00bfMe pasas el cuchillo, por favor?",
+     "example": "¿Me pasas el cuchillo, por favor?",
      "exampleEn": "Can you pass me the knife, please?",
      "id": "es-u08-012"
     },
@@ -925,21 +925,21 @@
     {
      "term": "el plato",
      "en": "plate, dish",
-     "example": "Lava los platos despu\u00e9s de cenar.",
+     "example": "Lava los platos después de cenar.",
      "exampleEn": "Wash the dishes after dinner.",
      "id": "es-u08-014"
     },
     {
      "term": "la taza",
      "en": "cup, mug",
-     "example": "Mi taza de caf\u00e9 est\u00e1 llena.",
+     "example": "Mi taza de café está llena.",
      "exampleEn": "My coffee cup is full.",
      "id": "es-u08-015"
     },
     {
      "term": "el refrigerador",
      "en": "refrigerator, fridge",
-     "example": "La leche est\u00e1 en el refrigerador.",
+     "example": "La leche está en el refrigerador.",
      "exampleEn": "The milk is in the fridge.",
      "id": "es-u08-016"
     }
@@ -947,33 +947,33 @@
   },
   {
    "id": "u09",
-   "title": "Drinks & Caf\u00e9",
+   "title": "Drinks & Café",
    "cards": [
     {
      "term": "el agua",
      "en": "water",
-     "example": "Necesito beber m\u00e1s agua en verano.",
+     "example": "Necesito beber más agua en verano.",
      "exampleEn": "I need to drink more water in summer.",
      "id": "es-u09-001"
     },
     {
-     "term": "el caf\u00e9",
+     "term": "el café",
      "en": "coffee",
-     "example": "Por la ma\u00f1ana tomo un caf\u00e9 con leche.",
+     "example": "Por la mañana tomo un café con leche.",
      "exampleEn": "In the morning I have a coffee with milk.",
      "id": "es-u09-002"
     },
     {
      "term": "la leche",
      "en": "milk",
-     "example": "Le pongo leche al caf\u00e9.",
+     "example": "Le pongo leche al café.",
      "exampleEn": "I add milk to my coffee.",
      "id": "es-u09-003"
     },
     {
-     "term": "el t\u00e9",
+     "term": "el té",
      "en": "tea",
-     "example": "Mi abuela toma t\u00e9 verde cada noche.",
+     "example": "Mi abuela toma té verde todas las noches.",
      "exampleEn": "My grandmother drinks green tea every night.",
      "id": "es-u09-004"
     },
@@ -987,7 +987,7 @@
     {
      "term": "la limonada",
      "en": "lemonade",
-     "example": "En verano me encanta la limonada fr\u00eda.",
+     "example": "En verano me encanta la limonada fría.",
      "exampleEn": "In summer I love cold lemonade.",
      "id": "es-u09-006"
     },
@@ -1022,7 +1022,7 @@
     {
      "term": "la botella",
      "en": "bottle",
-     "example": "Una botella de agua cuesta un d\u00f3lar.",
+     "example": "Una botella de agua cuesta un dólar.",
      "exampleEn": "A bottle of water costs one dollar.",
      "id": "es-u09-011"
     },
@@ -1036,14 +1036,14 @@
     {
      "term": "la sed",
      "en": "thirst",
-     "example": "Tengo mucha sed despu\u00e9s de correr.",
+     "example": "Tengo mucha sed después de correr.",
      "exampleEn": "I'm very thirsty after running.",
      "id": "es-u09-013"
     },
     {
      "term": "el chocolate",
      "en": "hot chocolate, chocolate",
-     "example": "Los ni\u00f1os toman chocolate con galletas.",
+     "example": "Los niños toman chocolate con galletas.",
      "exampleEn": "The kids have hot chocolate with cookies.",
      "id": "es-u09-014"
     },
@@ -1057,7 +1057,7 @@
     {
      "term": "el trago",
      "en": "sip, drink",
-     "example": "Tom\u00e9 un trago de agua fr\u00eda.",
+     "example": "Tomé un trago de agua fría.",
      "exampleEn": "I took a sip of cold water.",
      "id": "es-u09-016"
     }
@@ -1068,9 +1068,9 @@
    "title": "At the Restaurant",
    "cards": [
     {
-     "term": "el men\u00fa",
+     "term": "el menú",
      "en": "menu",
-     "example": "\u00bfMe traen el men\u00fa, por favor?",
+     "example": "¿Me traen el menú, por favor?",
      "exampleEn": "Could you bring me the menu, please?",
      "id": "es-u10-001"
     },
@@ -1091,22 +1091,22 @@
     {
      "term": "el mesero",
      "en": "waiter",
-     "example": "El mesero nos trae el men\u00fa.",
+     "example": "El mesero nos trae el menú.",
      "exampleEn": "The waiter brings us the menu.",
      "id": "es-u10-004"
     },
     {
      "term": "la mesa",
      "en": "table",
-     "example": "Nos dan la mesa junto a la ventana.",
-     "exampleEn": "They give us the table next to the window.",
+     "example": "Nos dan una mesa junto a la ventana.",
+     "exampleEn": "They give us a table next to the window.",
      "id": "es-u10-005"
     },
     {
      "term": "el pedido",
      "en": "order",
-     "example": "En el pedido escribimos pollo y arroz.",
-     "exampleEn": "On the order we wrote down chicken and rice.",
+     "example": "Nuestro pedido es pollo con arroz.",
+     "exampleEn": "Our order is chicken with rice.",
      "id": "es-u10-006"
     },
     {
@@ -1119,21 +1119,21 @@
     {
      "term": "la bebida",
      "en": "drink, beverage",
-     "example": "De bebida, todos queremos jugo de naranja.",
-     "exampleEn": "For a drink, we all want orange juice.",
+     "example": "Para beber, todos queremos jugo de naranja.",
+     "exampleEn": "To drink, we all want orange juice.",
      "id": "es-u10-008"
     },
     {
-     "term": "la reservaci\u00f3n",
+     "term": "la reservación",
      "en": "reservation",
-     "example": "Tengo una reservaci\u00f3n para las ocho.",
+     "example": "Tengo una reservación para las ocho.",
      "exampleEn": "I have a reservation for eight.",
      "id": "es-u10-009"
     },
     {
      "term": "delicioso",
      "en": "delicious",
-     "example": "\u00a1Esta comida est\u00e1 deliciosa!",
+     "example": "¡Esta comida está deliciosa!",
      "exampleEn": "This food is delicious!",
      "id": "es-u10-010"
     },
@@ -1154,7 +1154,7 @@
     {
      "term": "pagar",
      "en": "to pay",
-     "example": "\u00bfPuedo pagar con tarjeta, por favor?",
+     "example": "¿Puedo pagar con tarjeta, por favor?",
      "exampleEn": "Can I pay with card, please?",
      "id": "es-u10-013"
     },
@@ -1168,14 +1168,14 @@
     {
      "term": "invitar",
      "en": "to treat, to pay for",
-     "example": "Hoy invito yo, es tu cumplea\u00f1os.",
+     "example": "Hoy invito yo, es tu cumpleaños.",
      "exampleEn": "Today I'm treating, it's your birthday.",
      "id": "es-u10-015"
     },
     {
      "term": "para llevar",
      "en": "to go, takeout",
-     "example": "Este restaurante tambi\u00e9n vende comida para llevar.",
+     "example": "Este restaurante también vende comida para llevar.",
      "exampleEn": "This restaurant also sells food to go.",
      "id": "es-u10-016"
     }
@@ -1200,51 +1200,51 @@
      "id": "es-u11-002"
     },
     {
-     "term": "el ba\u00f1o",
+     "term": "el baño",
      "en": "bathroom",
-     "example": "El ba\u00f1o est\u00e1 al final del pasillo.",
+     "example": "El baño está al final del pasillo.",
      "exampleEn": "The bathroom is at the end of the hall.",
      "id": "es-u11-003"
     },
     {
-     "term": "la habitaci\u00f3n",
+     "term": "la habitación",
      "en": "room, bedroom",
-     "example": "Mi habitaci\u00f3n es peque\u00f1a pero c\u00f3moda.",
+     "example": "Mi habitación es pequeña pero cómoda.",
      "exampleEn": "My room is small but cozy.",
      "id": "es-u11-004"
     },
     {
      "term": "la sala",
      "en": "living room",
-     "example": "Nos sentamos en la sala a ver pel\u00edculas.",
+     "example": "Nos sentamos en la sala a ver películas.",
      "exampleEn": "We sit in the living room to watch movies.",
      "id": "es-u11-005"
     },
     {
      "term": "el patio",
      "en": "yard, patio",
-     "example": "Los ni\u00f1os juegan en el patio.",
+     "example": "Los niños juegan en el patio.",
      "exampleEn": "The kids play in the yard.",
      "id": "es-u11-006"
     },
     {
-     "term": "el jard\u00edn",
+     "term": "el jardín",
      "en": "garden",
-     "example": "Mi padre riega las flores del jard\u00edn.",
+     "example": "Mi padre riega las flores del jardín.",
      "exampleEn": "My father waters the flowers in the garden.",
      "id": "es-u11-007"
     },
     {
      "term": "la puerta",
      "en": "door",
-     "example": "Cierra la puerta, hace fr\u00edo.",
+     "example": "Cierra la puerta, hace frío.",
      "exampleEn": "Close the door, it's cold.",
      "id": "es-u11-008"
     },
     {
      "term": "la ventana",
      "en": "window",
-     "example": "Abre la ventana para ventilar la habitaci\u00f3n.",
+     "example": "Abre la ventana para ventilar la habitación.",
      "exampleEn": "Open the window to air out the room.",
      "id": "es-u11-009"
     },
@@ -1258,8 +1258,8 @@
     {
      "term": "el techo",
      "en": "ceiling, roof",
-     "example": "El techo tiene una l\u00e1mpara bonita.",
-     "exampleEn": "The ceiling has a nice lamp.",
+     "example": "En el techo hay una lámpara bonita.",
+     "exampleEn": "There is a nice lamp on the ceiling.",
      "id": "es-u11-011"
     },
     {
@@ -1286,7 +1286,7 @@
     {
      "term": "el garaje",
      "en": "garage",
-     "example": "El coche est\u00e1 en el garaje.",
+     "example": "El coche está en el garaje.",
      "exampleEn": "The car is in the garage.",
      "id": "es-u11-015"
     },
@@ -1311,37 +1311,37 @@
      "id": "es-u12-001"
     },
     {
-     "term": "el sof\u00e1",
+     "term": "el sofá",
      "en": "sofa, couch",
-     "example": "El perro duerme en el sof\u00e1.",
+     "example": "El perro duerme en el sofá.",
      "exampleEn": "The dog sleeps on the couch.",
      "id": "es-u12-002"
     },
     {
      "term": "la silla",
      "en": "chair",
-     "example": "La silla est\u00e1 junto a la mesa.",
+     "example": "La silla está junto a la mesa.",
      "exampleEn": "The chair is next to the table.",
      "id": "es-u12-003"
     },
     {
      "term": "el armario",
      "en": "closet, wardrobe",
-     "example": "La camisa est\u00e1 en el armario.",
+     "example": "La camisa está en el armario.",
      "exampleEn": "The shirt is in the closet.",
      "id": "es-u12-004"
     },
     {
      "term": "el espejo",
      "en": "mirror",
-     "example": "Me miro en el espejo por la ma\u00f1ana.",
+     "example": "Me miro en el espejo por la mañana.",
      "exampleEn": "I look at myself in the mirror in the morning.",
      "id": "es-u12-005"
     },
     {
-     "term": "la l\u00e1mpara",
+     "term": "la lámpara",
      "en": "lamp",
-     "example": "Enciende la l\u00e1mpara, est\u00e1 oscuro aqu\u00ed.",
+     "example": "Enciende la lámpara, está oscuro aquí.",
      "exampleEn": "Turn on the lamp, it's dark in here.",
      "id": "es-u12-006"
     },
@@ -1362,35 +1362,35 @@
     {
      "term": "el televisor",
      "en": "television, TV",
-     "example": "El televisor est\u00e1 en la sala.",
+     "example": "El televisor está en la sala.",
      "exampleEn": "The TV is in the living room.",
      "id": "es-u12-009"
     },
     {
-     "term": "el tel\u00e9fono",
+     "term": "el teléfono",
      "en": "telephone, phone",
-     "example": "Suena el tel\u00e9fono en la cocina.",
+     "example": "Suena el teléfono en la cocina.",
      "exampleEn": "The phone is ringing in the kitchen.",
      "id": "es-u12-010"
     },
     {
      "term": "la computadora",
      "en": "computer",
-     "example": "Trabajo en la computadora todo el d\u00eda.",
+     "example": "Trabajo en la computadora todo el día.",
      "exampleEn": "I work on the computer all day.",
      "id": "es-u12-011"
     },
     {
      "term": "el reloj",
      "en": "clock, watch",
-     "example": "El reloj de la cocina est\u00e1 parado.",
+     "example": "El reloj de la cocina está parado.",
      "exampleEn": "The kitchen clock has stopped.",
      "id": "es-u12-012"
     },
     {
      "term": "la llave",
      "en": "key",
-     "example": "Perd\u00ed la llave de mi casa.",
+     "example": "Perdí la llave de mi casa.",
      "exampleEn": "I lost the key to my house.",
      "id": "es-u12-013"
     },
@@ -1411,7 +1411,7 @@
     {
      "term": "el cargador",
      "en": "charger",
-     "example": "Mi cargador no funciona, \u00bftienes uno?",
+     "example": "Mi cargador no funciona, ¿tienes uno?",
      "exampleEn": "My charger isn't working, do you have one?",
      "id": "es-u12-016"
     }
@@ -1431,14 +1431,14 @@
     {
      "term": "el pueblo",
      "en": "the town, the village",
-     "example": "Mi abuela vive en un pueblo peque\u00f1o.",
+     "example": "Mi abuela vive en un pueblo pequeño.",
      "exampleEn": "My grandmother lives in a small town.",
      "id": "es-u13-002"
     },
     {
      "term": "la calle",
      "en": "the street",
-     "example": "La calle est\u00e1 llena de gente.",
+     "example": "La calle está llena de gente.",
      "exampleEn": "The street is full of people.",
      "id": "es-u13-003"
     },
@@ -1452,7 +1452,7 @@
     {
      "term": "el hospital",
      "en": "the hospital",
-     "example": "El hospital est\u00e1 cerca de mi casa.",
+     "example": "El hospital está cerca de mi casa.",
      "exampleEn": "The hospital is near my house.",
      "id": "es-u13-005"
     },
@@ -1466,7 +1466,7 @@
     {
      "term": "la escuela",
      "en": "the school",
-     "example": "Los ni\u00f1os van a la escuela en autob\u00fas.",
+     "example": "Los niños van a la escuela en autobús.",
      "exampleEn": "The kids go to school by bus.",
      "id": "es-u13-007"
     },
@@ -1494,14 +1494,14 @@
     {
      "term": "el parque",
      "en": "the park",
-     "example": "Los ni\u00f1os juegan en el parque.",
+     "example": "Los niños juegan en el parque.",
      "exampleEn": "The kids play in the park.",
      "id": "es-u13-011"
     },
     {
      "term": "la biblioteca",
      "en": "the library",
-     "example": "La biblioteca est\u00e1 abierta los lunes.",
+     "example": "La biblioteca está abierta los lunes.",
      "exampleEn": "The library is open on Mondays.",
      "id": "es-u13-012"
     },
@@ -1520,16 +1520,16 @@
      "id": "es-u13-014"
     },
     {
-     "term": "la estaci\u00f3n",
+     "term": "la estación",
      "en": "the station",
-     "example": "La estaci\u00f3n de tren est\u00e1 lejos.",
+     "example": "La estación de tren está lejos.",
      "exampleEn": "The train station is far away.",
      "id": "es-u13-015"
     },
     {
      "term": "la tienda",
      "en": "the store, the shop",
-     "example": "La tienda de ropa est\u00e1 cerrada.",
+     "example": "La tienda de ropa está cerrada.",
      "exampleEn": "The clothing store is closed.",
      "id": "es-u13-016"
     }
@@ -1549,7 +1549,7 @@
     {
      "term": "la derecha",
      "en": "the right",
-     "example": "La farmacia est\u00e1 a la derecha.",
+     "example": "La farmacia está a la derecha.",
      "exampleEn": "The pharmacy is on the right.",
      "id": "es-u14-002"
     },
@@ -1563,15 +1563,15 @@
     {
      "term": "la esquina",
      "en": "the corner",
-     "example": "El sem\u00e1foro est\u00e1 en la esquina.",
+     "example": "El semáforo está en la esquina.",
      "exampleEn": "The traffic light is on the corner.",
      "id": "es-u14-004"
     },
     {
      "term": "girar",
      "en": "to turn",
-     "example": "Debe girar a la derecha.",
-     "exampleEn": "You must turn right.",
+     "example": "Gire a la derecha en la próxima esquina.",
+     "exampleEn": "Turn right at the next corner.",
      "id": "es-u14-005"
     },
     {
@@ -1584,14 +1584,14 @@
     {
      "term": "la parada",
      "en": "the stop",
-     "example": "La parada del autob\u00fas est\u00e1 aqu\u00ed.",
+     "example": "La parada del autobús está aquí.",
      "exampleEn": "The bus stop is right here.",
      "id": "es-u14-007"
     },
     {
-     "term": "el autob\u00fas",
+     "term": "el autobús",
      "en": "the bus",
-     "example": "Tomo el autob\u00fas para ir al trabajo.",
+     "example": "Tomo el autobús para ir al trabajo.",
      "exampleEn": "I take the bus to go to work.",
      "id": "es-u14-008"
     },
@@ -1619,7 +1619,7 @@
     {
      "term": "el coche",
      "en": "the car",
-     "example": "Mi coche est\u00e1 estacionado afuera.",
+     "example": "Mi coche está estacionado afuera.",
      "exampleEn": "My car is parked outside.",
      "id": "es-u14-012"
     },
@@ -1640,7 +1640,7 @@
     {
      "term": "cerca",
      "en": "near, close",
-     "example": "La farmacia est\u00e1 cerca de aqu\u00ed.",
+     "example": "La farmacia está cerca de aquí.",
      "exampleEn": "The pharmacy is near here.",
      "id": "es-u14-015"
     },
@@ -1674,7 +1674,7 @@
     {
      "term": "el equipaje",
      "en": "the luggage",
-     "example": "El equipaje pesa m\u00e1s de veinte kilos.",
+     "example": "El equipaje pesa más de veinte kilos.",
      "exampleEn": "The luggage weighs more than twenty kilos.",
      "id": "es-u15-003"
     },
@@ -1686,23 +1686,23 @@
      "id": "es-u15-004"
     },
     {
-     "term": "el avi\u00f3n",
+     "term": "el avión",
      "en": "the plane",
-     "example": "El avi\u00f3n sale a las seis.",
+     "example": "El avión sale a las seis.",
      "exampleEn": "The plane departs at six.",
      "id": "es-u15-005"
     },
     {
      "term": "el billete",
      "en": "the ticket",
-     "example": "Compr\u00e9 el billete por internet.",
+     "example": "Compré el billete por internet.",
      "exampleEn": "I bought the ticket online.",
      "id": "es-u15-006"
     },
     {
      "term": "el asiento",
      "en": "the seat",
-     "example": "Mi asiento est\u00e1 junto a la ventana.",
+     "example": "Mi asiento está junto a la ventana.",
      "exampleEn": "My seat is next to the window.",
      "id": "es-u15-007"
     },
@@ -1723,28 +1723,28 @@
     {
      "term": "la aduana",
      "en": "customs",
-     "example": "Pas\u00e9 la aduana sin problemas.",
+     "example": "Pasé la aduana sin problemas.",
      "exampleEn": "I passed through customs without problems.",
      "id": "es-u15-010"
     },
     {
      "term": "el hotel",
      "en": "the hotel",
-     "example": "El hotel est\u00e1 cerca de la playa.",
+     "example": "El hotel está cerca de la playa.",
      "exampleEn": "The hotel is near the beach.",
      "id": "es-u15-011"
     },
     {
-     "term": "la habitaci\u00f3n",
+     "term": "la habitación",
      "en": "the room",
-     "example": "La habitaci\u00f3n tiene vista al mar.",
+     "example": "La habitación tiene vista al mar.",
      "exampleEn": "The room has a view of the sea.",
      "id": "es-u15-012"
     },
     {
      "term": "la llave",
      "en": "the key",
-     "example": "Necesito la llave de mi habitaci\u00f3n.",
+     "example": "Necesito la llave de mi habitación.",
      "exampleEn": "I need the key to my room.",
      "id": "es-u15-013"
     },
@@ -1756,16 +1756,16 @@
      "id": "es-u15-014"
     },
     {
-     "term": "la recepci\u00f3n",
+     "term": "la recepción",
      "en": "the front desk, the reception",
-     "example": "Deje su llave en la recepci\u00f3n.",
+     "example": "Deje su llave en la recepción.",
      "exampleEn": "Leave your key at the front desk.",
      "id": "es-u15-015"
     },
     {
      "term": "el pasillo",
      "en": "the aisle, the hallway",
-     "example": "Mi asiento est\u00e1 en el pasillo.",
+     "example": "Mi asiento está en el pasillo.",
      "exampleEn": "My seat is on the aisle.",
      "id": "es-u15-016"
     }
@@ -1778,14 +1778,14 @@
     {
      "term": "comprar",
      "en": "to buy",
-     "example": "Voy a comprar pan en la panader\u00eda.",
+     "example": "Voy a comprar pan en la panadería.",
      "exampleEn": "I'm going to buy bread at the bakery.",
      "id": "es-u16-001"
     },
     {
      "term": "vender",
      "en": "to sell",
-     "example": "El se\u00f1or vende fruta en el mercado.",
+     "example": "El señor vende fruta en el mercado.",
      "exampleEn": "The man sells fruit at the market.",
      "id": "es-u16-002"
     },
@@ -1806,7 +1806,7 @@
     {
      "term": "barato",
      "en": "cheap",
-     "example": "El mercado es m\u00e1s barato.",
+     "example": "El mercado es más barato.",
      "exampleEn": "The market is cheaper.",
      "id": "es-u16-005"
     },
@@ -1820,7 +1820,7 @@
     {
      "term": "la tarjeta",
      "en": "the card",
-     "example": "Puedo pagar con tarjeta, \u00bfverdad?",
+     "example": "Puedo pagar con tarjeta, ¿verdad?",
      "exampleEn": "I can pay with a card, right?",
      "id": "es-u16-007"
     },
@@ -1834,7 +1834,7 @@
     {
      "term": "el cambio",
      "en": "the change (coins)",
-     "example": "\u00bfMe puede dar el cambio?",
+     "example": "¿Me puede dar el cambio?",
      "exampleEn": "Can you give me the change?",
      "id": "es-u16-009"
     },
@@ -1869,7 +1869,7 @@
     {
      "term": "la talla",
      "en": "the size (clothing)",
-     "example": "\u00bfTiene esta camisa en otra talla?",
+     "example": "¿Tiene esta camisa en otra talla?",
      "exampleEn": "Do you have this shirt in another size?",
      "id": "es-u16-014"
     },
@@ -1903,7 +1903,7 @@
     {
      "term": "la oficina",
      "en": "the office",
-     "example": "Trabajo en una oficina peque\u00f1a.",
+     "example": "Trabajo en una oficina pequeña.",
      "exampleEn": "I work in a small office.",
      "id": "es-u17-003"
     },
@@ -1917,8 +1917,8 @@
     {
      "term": "el sueldo",
      "en": "the salary",
-     "example": "El sueldo es suficiente para vivir.",
-     "exampleEn": "The salary is enough to live on.",
+     "example": "El sueldo me alcanza para vivir.",
+     "exampleEn": "I earn enough to live on.",
      "id": "es-u17-005"
     },
     {
@@ -1938,7 +1938,7 @@
     {
      "term": "estudiar",
      "en": "to study",
-     "example": "Estudio espa\u00f1ol todos los d\u00edas.",
+     "example": "Estudio español todos los días.",
      "exampleEn": "I study Spanish every day.",
      "id": "es-u17-008"
     },
@@ -1959,7 +1959,7 @@
     {
      "term": "el profesor",
      "en": "the teacher, the professor",
-     "example": "El profesor explica la lecci\u00f3n.",
+     "example": "El profesor explica la lección.",
      "exampleEn": "The teacher explains the lesson.",
      "id": "es-u17-011"
     },
@@ -2007,7 +2007,7 @@
     {
      "term": "la cabeza",
      "en": "the head",
-     "example": "El ni\u00f1o se golpe\u00f3 la cabeza con la puerta.",
+     "example": "El niño se golpeó la cabeza con la puerta.",
      "exampleEn": "The boy hit his head on the door.",
      "id": "es-u18-001"
     },
@@ -2021,7 +2021,7 @@
     {
      "term": "la nariz",
      "en": "the nose",
-     "example": "Tengo la nariz roja del fr\u00edo.",
+     "example": "Tengo la nariz roja del frío.",
      "exampleEn": "My nose is red from the cold.",
      "id": "es-u18-003"
     },
@@ -2049,7 +2049,7 @@
     {
      "term": "la mano",
      "en": "the hand",
-     "example": "L\u00e1vate las manos antes de comer.",
+     "example": "Lávate las manos antes de comer.",
      "exampleEn": "Wash your hands before eating.",
      "id": "es-u18-007"
     },
@@ -2075,9 +2075,9 @@
      "id": "es-u18-010"
     },
     {
-     "term": "el coraz\u00f3n",
+     "term": "el corazón",
      "en": "the heart",
-     "example": "Me late muy r\u00e1pido el coraz\u00f3n cuando corro.",
+     "example": "Me late muy rápido el corazón cuando corro.",
      "exampleEn": "My heart beats very fast when I run.",
      "id": "es-u18-011"
     },
@@ -2089,9 +2089,9 @@
      "id": "es-u18-012"
     },
     {
-     "term": "el m\u00e9dico",
+     "term": "el médico",
      "en": "the doctor",
-     "example": "Voy al m\u00e9dico ma\u00f1ana.",
+     "example": "Voy al médico mañana.",
      "exampleEn": "I'm going to the doctor tomorrow.",
      "id": "es-u18-013"
     },
@@ -2105,7 +2105,7 @@
     {
      "term": "enfermo",
      "en": "sick",
-     "example": "Mi hermano est\u00e1 enfermo hoy.",
+     "example": "Mi hermano está enfermo hoy.",
      "exampleEn": "My brother is sick today.",
      "id": "es-u18-015"
     },
@@ -2146,15 +2146,15 @@
     {
      "term": "el calor",
      "en": "the heat",
-     "example": "En verano hay mucho calor aqu\u00ed.",
-     "exampleEn": "It's very hot here in summer.",
+     "example": "En verano hace mucho calor aquí.",
+     "exampleEn": "It's very hot here in the summer.",
      "id": "es-u19-004"
     },
     {
-     "term": "el fr\u00edo",
+     "term": "el frío",
      "en": "the cold",
-     "example": "El fr\u00edo de la noche es fuerte.",
-     "exampleEn": "The cold at night is intense.",
+     "example": "Por la noche hace un frío muy fuerte.",
+     "exampleEn": "It gets really cold at night.",
      "id": "es-u19-005"
     },
     {
@@ -2167,7 +2167,7 @@
     {
      "term": "el cielo",
      "en": "the sky",
-     "example": "El cielo est\u00e1 muy azul hoy.",
+     "example": "El cielo está muy azul hoy.",
      "exampleEn": "The sky is very blue today.",
      "id": "es-u19-007"
     },
@@ -2181,7 +2181,7 @@
     {
      "term": "la nieve",
      "en": "the snow",
-     "example": "En la monta\u00f1a hay nieve en enero.",
+     "example": "En la montaña hay nieve en enero.",
      "exampleEn": "There is snow in the mountains in January.",
      "id": "es-u19-009"
     },
@@ -2193,16 +2193,16 @@
      "id": "es-u19-010"
     },
     {
-     "term": "la monta\u00f1a",
+     "term": "la montaña",
      "en": "the mountain",
-     "example": "Vamos a caminar por la monta\u00f1a el s\u00e1bado.",
+     "example": "Vamos a caminar por la montaña el sábado.",
      "exampleEn": "We're going to hike in the mountains on Saturday.",
      "id": "es-u19-011"
     },
     {
-     "term": "el r\u00edo",
+     "term": "el río",
      "en": "the river",
-     "example": "Los ni\u00f1os juegan cerca del r\u00edo.",
+     "example": "Los niños juegan cerca del río.",
      "exampleEn": "The kids play near the river.",
      "id": "es-u19-012"
     },
@@ -2214,10 +2214,10 @@
      "id": "es-u19-013"
     },
     {
-     "term": "el \u00e1rbol",
+     "term": "el árbol",
      "en": "the tree",
-     "example": "En oto\u00f1o las hojas del \u00e1rbol caen al suelo.",
-     "exampleEn": "In autumn the leaves of the tree fall to the ground.",
+     "example": "En otoño se caen las hojas de los árboles.",
+     "exampleEn": "In autumn the leaves fall off the trees.",
      "id": "es-u19-014"
     },
     {
@@ -2243,21 +2243,21 @@
     {
      "term": "el gato",
      "en": "the cat",
-     "example": "El gato duerme todo el d\u00eda.",
+     "example": "El gato duerme todo el día.",
      "exampleEn": "The cat sleeps all day.",
      "id": "es-u20-002"
     },
     {
-     "term": "el p\u00e1jaro",
+     "term": "el pájaro",
      "en": "the bird",
-     "example": "Un p\u00e1jaro canta en el jard\u00edn.",
+     "example": "Un pájaro canta en el jardín.",
      "exampleEn": "A bird is singing in the garden.",
      "id": "es-u20-003"
     },
     {
      "term": "el caballo",
      "en": "the horse",
-     "example": "El caballo corre muy r\u00e1pido.",
+     "example": "El caballo corre muy rápido.",
      "exampleEn": "The horse runs very fast.",
      "id": "es-u20-004"
     },
@@ -2271,8 +2271,8 @@
     {
      "term": "el pollo",
      "en": "the chicken",
-     "example": "La granja tiene muchos pollos.",
-     "exampleEn": "The farm has a lot of chickens.",
+     "example": "En la granja hay muchos pollos.",
+     "exampleEn": "There are a lot of chickens on the farm.",
      "id": "es-u20-006"
     },
     {
@@ -2285,21 +2285,21 @@
     {
      "term": "la oveja",
      "en": "the sheep",
-     "example": "La oveja produce lana muy suave.",
-     "exampleEn": "The sheep produces very soft wool.",
+     "example": "Las ovejas dan lana muy suave.",
+     "exampleEn": "Sheep give very soft wool.",
      "id": "es-u20-008"
     },
     {
      "term": "el pato",
      "en": "the duck",
-     "example": "El pato nada tranquilo en el r\u00edo.",
+     "example": "El pato nada tranquilo en el río.",
      "exampleEn": "The duck swims calmly in the river.",
      "id": "es-u20-009"
     },
     {
-     "term": "el rat\u00f3n",
+     "term": "el ratón",
      "en": "the mouse",
-     "example": "Vi un rat\u00f3n en la cocina anoche.",
+     "example": "Vi un ratón en la cocina anoche.",
      "exampleEn": "I saw a mouse in the kitchen last night.",
      "id": "es-u20-010"
     },
@@ -2313,7 +2313,7 @@
     {
      "term": "la abeja",
      "en": "the bee",
-     "example": "Una abeja me pic\u00f3 en la mano.",
+     "example": "Una abeja me picó en la mano.",
      "exampleEn": "A bee stung me on the hand.",
      "id": "es-u20-012"
     },
@@ -2332,9 +2332,9 @@
      "id": "es-u20-014"
     },
     {
-     "term": "el le\u00f3n",
+     "term": "el león",
      "en": "the lion",
-     "example": "El le\u00f3n es el rey de la selva.",
+     "example": "El león es el rey de la selva.",
      "exampleEn": "The lion is the king of the jungle.",
      "id": "es-u20-015"
     },
@@ -2354,7 +2354,7 @@
     {
      "term": "el color",
      "en": "the color",
-     "example": "\u00bfCu\u00e1l es tu color favorito?",
+     "example": "¿Cuál es tu color favorito?",
      "exampleEn": "What's your favorite color?",
      "id": "es-u21-001"
     },
@@ -2382,14 +2382,14 @@
     {
      "term": "amarillo",
      "en": "yellow",
-     "example": "Las hojas est\u00e1n amarillas en oto\u00f1o.",
+     "example": "Las hojas están amarillas en otoño.",
      "exampleEn": "The leaves are yellow in autumn.",
      "id": "es-u21-005"
     },
     {
      "term": "negro",
      "en": "black",
-     "example": "\u00bfTienes un bol\u00edgrafo negro?",
+     "example": "¿Tienes un bolígrafo negro?",
      "exampleEn": "Do you have a black pen?",
      "id": "es-u21-006"
     },
@@ -2408,9 +2408,9 @@
      "id": "es-u21-008"
     },
     {
-     "term": "peque\u00f1o",
+     "term": "pequeño",
      "en": "small",
-     "example": "\u00bfMe da un vaso peque\u00f1o, por favor?",
+     "example": "¿Me da un vaso pequeño, por favor?",
      "exampleEn": "Can I have a small glass, please?",
      "id": "es-u21-009"
     },
@@ -2424,7 +2424,7 @@
     {
      "term": "largo",
      "en": "long",
-     "example": "La pel\u00edcula fue muy larga.",
+     "example": "La película fue muy larga.",
      "exampleEn": "The movie was very long.",
      "id": "es-u21-011"
     },
@@ -2438,7 +2438,7 @@
     {
      "term": "nuevo",
      "en": "new",
-     "example": "Compr\u00e9 un tel\u00e9fono nuevo ayer.",
+     "example": "Compré un teléfono nuevo ayer.",
      "exampleEn": "I bought a new phone yesterday.",
      "id": "es-u21-013"
     },
@@ -2452,14 +2452,14 @@
     {
      "term": "abierto",
      "en": "open",
-     "example": "La tienda est\u00e1 abierta hasta las nueve.",
+     "example": "La tienda está abierta hasta las nueve.",
      "exampleEn": "The store is open until nine.",
      "id": "es-u21-015"
     },
     {
      "term": "cerrado",
      "en": "closed",
-     "example": "El restaurante est\u00e1 cerrado los lunes.",
+     "example": "El restaurante está cerrado los lunes.",
      "exampleEn": "The restaurant is closed on Mondays.",
      "id": "es-u21-016"
     }
@@ -2479,21 +2479,21 @@
     {
      "term": "triste",
      "en": "sad",
-     "example": "Est\u00e1 triste porque perdi\u00f3 el partido.",
+     "example": "Está triste porque perdió el partido.",
      "exampleEn": "He's sad because he lost the game.",
      "id": "es-u22-002"
     },
     {
      "term": "cansado",
      "en": "tired",
-     "example": "Estoy cansado despu\u00e9s del trabajo.",
+     "example": "Estoy cansado después del trabajo.",
      "exampleEn": "I'm tired after work.",
      "id": "es-u22-003"
     },
     {
-     "term": "enfadado",
+     "term": "enojado",
      "en": "angry",
-     "example": "Est\u00e1 enfadada porque llegu\u00e9 tarde.",
+     "example": "Está enojada porque llegué tarde.",
      "exampleEn": "She's angry because I arrived late.",
      "id": "es-u22-004"
     },
@@ -2507,21 +2507,21 @@
     {
      "term": "aburrido",
      "en": "bored",
-     "example": "Estoy aburrido, \u00bfvemos una pel\u00edcula?",
+     "example": "Estoy aburrido, ¿vemos una película?",
      "exampleEn": "I'm bored, shall we watch a movie?",
      "id": "es-u22-006"
     },
     {
      "term": "asustado",
      "en": "scared",
-     "example": "El ni\u00f1o estaba asustado por el ruido.",
+     "example": "El niño estaba asustado por el ruido.",
      "exampleEn": "The boy was scared of the noise.",
      "id": "es-u22-007"
     },
     {
      "term": "ocupado",
      "en": "busy",
-     "example": "Ahora estoy ocupado, ll\u00e1mame luego.",
+     "example": "Ahora estoy ocupado, llámame luego.",
      "exampleEn": "I'm busy now, call me later.",
      "id": "es-u22-008"
     },
@@ -2533,9 +2533,9 @@
      "id": "es-u22-009"
     },
     {
-     "term": "simp\u00e1tico",
+     "term": "simpático",
      "en": "nice, friendly",
-     "example": "Tu amigo es muy simp\u00e1tico.",
+     "example": "Tu amigo es muy simpático.",
      "exampleEn": "Your friend is very nice.",
      "id": "es-u22-010"
     },
@@ -2554,9 +2554,9 @@
      "id": "es-u22-012"
     },
     {
-     "term": "t\u00edmido",
+     "term": "tímido",
      "en": "shy",
-     "example": "Mi hermano es t\u00edmido con los desconocidos.",
+     "example": "Mi hermano es tímido con los desconocidos.",
      "exampleEn": "My brother is shy with strangers.",
      "id": "es-u22-013"
     },
@@ -2570,7 +2570,7 @@
     {
      "term": "generoso",
      "en": "generous",
-     "example": "Es muy generoso, siempre ayuda a los dem\u00e1s.",
+     "example": "Es muy generoso, siempre ayuda a los demás.",
      "exampleEn": "He's very generous, he always helps others.",
      "id": "es-u22-015"
     },
@@ -2590,14 +2590,14 @@
     {
      "term": "comer",
      "en": "to eat",
-     "example": "Como arroz y pollo casi todos los d\u00edas.",
+     "example": "Como arroz y pollo casi todos los días.",
      "exampleEn": "I eat rice and chicken almost every day.",
      "id": "es-u23-001"
     },
     {
      "term": "beber",
      "en": "to drink",
-     "example": "Bebemos agua fr\u00eda despu\u00e9s de correr.",
+     "example": "Bebemos agua fría después de correr.",
      "exampleEn": "We drink cold water after running.",
      "id": "es-u23-002"
     },
@@ -2611,7 +2611,7 @@
     {
      "term": "vivir",
      "en": "to live",
-     "example": "Vivo en esta ciudad desde ni\u00f1o.",
+     "example": "Vivo en esta ciudad desde niño.",
      "exampleEn": "I've lived in this city since I was a kid.",
      "id": "es-u23-004"
     },
@@ -2625,14 +2625,14 @@
     {
      "term": "limpiar",
      "en": "to clean",
-     "example": "Limpio la cocina los s\u00e1bados.",
+     "example": "Limpio la cocina los sábados.",
      "exampleEn": "I clean the kitchen on Saturdays.",
      "id": "es-u23-006"
     },
     {
      "term": "usar",
      "en": "to use",
-     "example": "\u00bfPuedo usar tu tel\u00e9fono un momento?",
+     "example": "¿Puedo usar tu teléfono un momento?",
      "exampleEn": "Can I use your phone for a moment?",
      "id": "es-u23-007"
     },
@@ -2646,28 +2646,28 @@
     {
      "term": "traer",
      "en": "to bring",
-     "example": "\u00bfMe traes un vaso de agua, por favor?",
+     "example": "¿Me traes un vaso de agua, por favor?",
      "exampleEn": "Can you bring me a glass of water, please?",
      "id": "es-u23-009"
     },
     {
      "term": "jugar",
      "en": "to play",
-     "example": "Los ni\u00f1os juegan en el parque.",
+     "example": "Los niños juegan en el parque.",
      "exampleEn": "The kids play in the park.",
      "id": "es-u23-010"
     },
     {
      "term": "caminar",
      "en": "to walk",
-     "example": "Camino veinte minutos cada ma\u00f1ana.",
+     "example": "Camino veinte minutos cada mañana.",
      "exampleEn": "I walk twenty minutes every morning.",
      "id": "es-u23-011"
     },
     {
      "term": "esperar",
      "en": "to wait",
-     "example": "Espero el autob\u00fas en la esquina.",
+     "example": "Espero el autobús en la esquina.",
      "exampleEn": "I wait for the bus on the corner.",
      "id": "es-u23-012"
     },
@@ -2685,58 +2685,58 @@
    "title": "Communication & Question Words",
    "cards": [
     {
-     "term": "qu\u00e9",
+     "term": "qué",
      "en": "what",
-     "example": "\u00bfQu\u00e9 quieres comer esta noche?",
+     "example": "¿Qué quieres comer esta noche?",
      "exampleEn": "What do you want to eat tonight?",
      "id": "es-u24-001"
     },
     {
-     "term": "qui\u00e9n",
+     "term": "quién",
      "en": "who",
-     "example": "\u00bfQui\u00e9n llama a la puerta?",
+     "example": "¿Quién llama a la puerta?",
      "exampleEn": "Who's knocking at the door?",
      "id": "es-u24-002"
     },
     {
-     "term": "d\u00f3nde",
+     "term": "dónde",
      "en": "where",
-     "example": "\u00bfD\u00f3nde est\u00e1 la estaci\u00f3n de tren?",
+     "example": "¿Dónde está la estación de tren?",
      "exampleEn": "Where is the train station?",
      "id": "es-u24-003"
     },
     {
-     "term": "cu\u00e1ndo",
+     "term": "cuándo",
      "en": "when",
-     "example": "\u00bfCu\u00e1ndo empieza la clase de espa\u00f1ol?",
+     "example": "¿Cuándo empieza la clase de español?",
      "exampleEn": "When does the Spanish class start?",
      "id": "es-u24-004"
     },
     {
-     "term": "por qu\u00e9",
+     "term": "por qué",
      "en": "why",
-     "example": "\u00bfPor qu\u00e9 llegas tan tarde hoy?",
+     "example": "¿Por qué llegas tan tarde hoy?",
      "exampleEn": "Why are you arriving so late today?",
      "id": "es-u24-005"
     },
     {
-     "term": "c\u00f3mo",
+     "term": "cómo",
      "en": "how",
-     "example": "\u00bfC\u00f3mo se dice esto en espa\u00f1ol?",
+     "example": "¿Cómo se dice esto en español?",
      "exampleEn": "How do you say this in Spanish?",
      "id": "es-u24-006"
     },
     {
-     "term": "cu\u00e1nto",
+     "term": "cuánto",
      "en": "how much",
-     "example": "\u00bfCu\u00e1nto cuesta este billete de autob\u00fas?",
+     "example": "¿Cuánto cuesta este billete de autobús?",
      "exampleEn": "How much does this bus ticket cost?",
      "id": "es-u24-007"
     },
     {
      "term": "hablar",
      "en": "to speak",
-     "example": "\u00bfPuedes hablar un poco m\u00e1s despacio?",
+     "example": "¿Puedes hablar un poco más despacio?",
      "exampleEn": "Can you speak a little more slowly?",
      "id": "es-u24-008"
     },
@@ -2750,49 +2750,49 @@
     {
      "term": "preguntar",
      "en": "to ask",
-     "example": "Ella me pregunt\u00f3 por mi familia.",
+     "example": "Ella me preguntó por mi familia.",
      "exampleEn": "She asked me about my family.",
      "id": "es-u24-010"
     },
     {
      "term": "responder",
      "en": "to answer",
-     "example": "Responde a la pregunta en espa\u00f1ol.",
+     "example": "Responde a la pregunta en español.",
      "exampleEn": "Answer the question in Spanish.",
      "id": "es-u24-011"
     },
     {
      "term": "escuchar",
      "en": "to listen",
-     "example": "Me gusta escuchar m\u00fasica en el coche.",
+     "example": "Me gusta escuchar música en el coche.",
      "exampleEn": "I like to listen to music in the car.",
      "id": "es-u24-012"
     },
     {
      "term": "llamar",
      "en": "to call",
-     "example": "Ll\u00e1mame esta noche, por favor.",
+     "example": "Llámame esta noche, por favor.",
      "exampleEn": "Call me tonight, please.",
      "id": "es-u24-013"
     },
     {
      "term": "entender",
      "en": "to understand",
-     "example": "No entiendo esta frase, \u00bfme la repites?",
+     "example": "No entiendo esta frase, ¿me la repites?",
      "exampleEn": "I don't understand this sentence, can you repeat it?",
      "id": "es-u24-014"
     },
     {
      "term": "la pregunta",
      "en": "the question",
-     "example": "No s\u00e9 la respuesta a esa pregunta.",
+     "example": "No sé la respuesta a esa pregunta.",
      "exampleEn": "I don't know the answer to that question.",
      "id": "es-u24-015"
     },
     {
      "term": "el mensaje",
      "en": "the message",
-     "example": "Te env\u00edo un mensaje esta noche.",
+     "example": "Te envío un mensaje esta noche.",
      "exampleEn": "I'll send you a message tonight.",
      "id": "es-u24-016"
     }
