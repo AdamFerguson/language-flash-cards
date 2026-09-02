@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pt-u14-013",
+    "problem": "Decoy trap: 'O semáforo está vermelho' is barely more than the term; rewritten to an action sentence",
+    "example": "Os carros pararam no semáforo vermelho.",
+    "exampleEn": "The cars stopped at the red traffic light."
+  },
+  {
+    "id": "pt-u14-015",
+    "problem": "Near-duplicate of pt-u14-007 ('O metrô está sempre cheio' / 'O ponto de ônibus está lotado'); rewritten",
+    "example": "Meu ponto de ônibus fica perto da padaria.",
+    "exampleEn": "My bus stop is near the bakery."
+  },
+  {
+    "id": "pt-u14-016",
+    "problem": "Decoy trap: 'Qual é o seu endereço?' is the stock prompt for the term itself; rewritten",
+    "example": "Meu irmão mudou de endereço semana passada.",
+    "exampleEn": "My brother moved to a new address last week."
+  },
+  {
+    "id": "pt-u17-003",
+    "problem": "Decoy trap: bare 'O chefe' + one verb reads as just naming the term; rewritten to richer context",
+    "example": "Vou falar com o chefe agora mesmo.",
+    "exampleEn": "I'm going to talk to the boss right now."
+  },
+  {
+    "id": "pt-u17-006",
+    "problem": "Decoy trap: 'O professor é muito paciente' is barely more than the term; rewritten",
+    "example": "Pedi ajuda ao professor depois da aula.",
+    "exampleEn": "I asked the teacher for help after class."
+  },
+  {
+    "id": "pt-u17-008",
+    "problem": "Preposition/regência: 'responder' takes 'a' + crase; 'respondeu a pergunta' should be 'à pergunta'",
+    "example": "O aluno respondeu à pergunta.",
+    "exampleEn": "The student answered the question."
+  },
+  {
+    "id": "pt-u17-010",
+    "problem": "Decoy trap: 'Fiz a lição de casa' is the bare collocation of the term; rewritten",
+    "example": "Ainda não fiz a lição de casa.",
+    "exampleEn": "I haven't done the homework yet."
+  },
+  {
+    "id": "pt-u18-003",
+    "problem": "Decoy trap: 'A dor passou hoje' is barely more than the term; rewritten with richer context",
+    "example": "O remédio tirou a dor rápido.",
+    "exampleEn": "The medicine took the pain away quickly."
+  },
+  {
+    "id": "pt-u18-005",
+    "problem": "Near-duplicate of pt-u18-008 ('Machuquei a perna correndo' / 'Machuquei o pé jogando futebol'); rewritten",
+    "example": "Estou com a perna machucada e ando devagar.",
+    "exampleEn": "My leg is hurt and I walk slowly."
+  },
+  {
+    "id": "pt-u18-006",
+    "problem": "Decoy trap: 'Levantei o braço direito' is a minimal frame around the term; rewritten",
+    "example": "Levantei o braço para responder na aula.",
+    "exampleEn": "I raised my arm to answer in class."
+  },
+  {
+    "id": "pt-u18-011",
+    "problem": "Decoy trap: 'O dente está doendo' is nearly just the term (and shadows the 'doer' card); rewritten",
+    "example": "Meu dente dói quando como algo doce.",
+    "exampleEn": "My tooth hurts when I eat something sweet."
+  },
+  {
+    "id": "pt-u18-016",
+    "problem": "Decoy trap: 'A consulta é às duas' is a minimal frame around the term; rewritten",
+    "example": "Tenho consulta com o médico amanhã.",
+    "exampleEn": "I have a doctor's appointment tomorrow."
+  }
+]

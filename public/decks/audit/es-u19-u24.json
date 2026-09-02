@@ -1,0 +1,14 @@
+[
+  {
+    "id": "es-u19-003",
+    "problem": "ser used for a temporary condition with 'hoy'; idiomatic weather phrasing is 'hacer viento'",
+    "example": "Hoy hace un viento muy fuerte.",
+    "exampleEn": "The wind is very strong today."
+  },
+  {
+    "id": "es-u21-012",
+    "problem": "term is 'corto' but the example only mentions 'largo'; term never showcased",
+    "example": "Mi hermano lleva el pelo muy corto.",
+    "exampleEn": "My brother has very short hair."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pt-u10-014",
+    "problem": "Decoy: example is just the term itself ('Make yourself at home in my house'), answer-like with no richer context",
+    "example": "Fique à vontade, a casa é sua.",
+    "exampleEn": "Make yourself at home, the house is yours."
+  },
+  {
+    "id": "pt-u12-006",
+    "problem": "Bare 'Se olha...' reads most naturally as an imperative order, clashing with the 'He looks at himself' translation; added explicit subject",
+    "example": "Ele se olha no espelho antes de sair.",
+    "exampleEn": "He looks at himself in the mirror before going out."
+  }
+]

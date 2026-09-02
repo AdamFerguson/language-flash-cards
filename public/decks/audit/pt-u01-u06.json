@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pt-u01-012",
+    "problem": "Decoy: example was just two greetings stacked ('Boa noite, até amanhã!'), near-identical to the term itself",
+    "example": "Estou indo embora, até amanhã!",
+    "exampleEn": "I'm heading out, see you tomorrow!"
+  },
+  {
+    "id": "pt-u01-014",
+    "problem": "Decoy: 'A senhora está bem?' was term + bare copula, minimal and confusable with 'tudo bem' cards",
+    "example": "A senhora quer um café?",
+    "exampleEn": "Would you like a coffee? (to a woman, formal)"
+  },
+  {
+    "id": "pt-u01-016",
+    "problem": "Decoy: 'Bem-vindo à nossa casa!' is essentially just the term as a standalone exclamation",
+    "example": "Que bom te ver, bem-vindo!",
+    "exampleEn": "Great to see you, welcome!"
+  },
+  {
+    "id": "pt-u02-001",
+    "problem": "Near-duplicate of pt-u02-010 ('Senta aqui, por favor' vs 'Siga por aqui, por favor'); confusable pairs",
+    "example": "Me passa o sal, por favor.",
+    "exampleEn": "Pass me the salt, please."
+  },
+  {
+    "id": "pt-u02-004",
+    "problem": "Near-duplicate structure with pt-u02-009 ('Com licença, posso passar?' vs 'Com licença, posso sentar aqui?')",
+    "example": "Com licença, vou sair agora.",
+    "exampleEn": "Excuse me, I'm leaving now."
+  },
+  {
+    "id": "pt-u02-010",
+    "problem": "Near-duplicate of pt-u02-001 and example ≈ 'por favor' answer; dropped 'por favor', richer context",
+    "example": "A saída? É só seguir por aqui.",
+    "exampleEn": "The exit? Just follow this way."
+  },
+  {
+    "id": "pt-u02-014",
+    "problem": "Decoy: 'Está bem, sem problema.' was filler + term, near-identical to the term itself",
+    "example": "Sem problema, eu espero você aqui.",
+    "exampleEn": "No problem, I'll wait for you here."
+  },
+  {
+    "id": "pt-u04-007",
+    "problem": "Near-duplicate with pt-u04-005 which also mentions 'segunda'; minimal 'toda segunda-feira' pattern",
+    "example": "Na segunda-feira tenho reunião cedo.",
+    "exampleEn": "On Monday I have an early meeting."
+  },
+  {
+    "id": "pt-u05-001",
+    "problem": "Near-duplicate question with pt-u05-003 'que horas são' and pt-u05-002 'Qual é o horário...'; rewritten as statement",
+    "example": "A aula começa na hora do lanche.",
+    "exampleEn": "Class starts at snack time."
+  },
+  {
+    "id": "pt-u05-003",
+    "problem": "Decoy: 'Ei, que horas são?' is literally just the term with an interjection",
+    "example": "Ei, que horas são? Meu celular morreu.",
+    "exampleEn": "Hey, what time is it? My phone died."
+  },
+  {
+    "id": "pt-u05-013",
+    "problem": "Decoy: bare imperative 'Venha depressa' ≈ term; also confusable in sense with 'rápido' card",
+    "example": "O menino comeu depressa e foi brincar.",
+    "exampleEn": "The boy ate quickly and went to play."
+  },
+  {
+    "id": "pt-u06-001",
+    "problem": "Decoy: 'A família dele é grande.' is term + trivial adjective, minimal content",
+    "example": "Minha família inteira vai ao casamento.",
+    "exampleEn": "My whole family is going to the wedding."
+  },
+  {
+    "id": "pt-u06-006",
+    "problem": "Near-duplicate with sister card pt-u06-007 ('O irmão dela é X' vs 'A irmã mais nova...'), classic brother/sister swap",
+    "example": "Chamei meu irmão para jogar bola.",
+    "exampleEn": "I called my brother to play soccer."
+  },
+  {
+    "id": "pt-u06-013",
+    "problem": "Near-duplicate with pt-u06-014 (child sleeping early vs baby sleeping all night) and plural form in u07",
+    "example": "A criança já sabe ler e escrever.",
+    "exampleEn": "The child already knows how to read and write."
+  }
+]

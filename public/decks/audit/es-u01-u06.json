@@ -1,0 +1,12 @@
+[
+  {"id": "es-u01-004", "problem": "example is just the term plus a stub question, reads as the answer itself", "example": "Buenas tardes, ¿tiene una mesa para dos?", "exampleEn": "Good afternoon, do you have a table for two?"},
+  {"id": "es-u01-005", "problem": "example is a bare good-night formula, near-duplicate of the term", "example": "Le doy las buenas noches a mi abuela.", "exampleEn": "I say good night to my grandmother."},
+  {"id": "es-u01-006", "problem": "example is the term with 'hola/hoy' filler, indistinguishable from the term", "example": "¿Cómo estás? Hace mucho que no hablamos.", "exampleEn": "How are you? It has been a long time since we talked."},
+  {"id": "es-u01-007", "problem": "example 'Estoy muy bien, gracias' is the canned answer to 'how are you', near-duplicate of term", "example": "Mi madre está muy bien de salud.", "exampleEn": "My mother is in good health."},
+  {"id": "es-u01-009", "problem": "example differs from the term only by 'completo', reads as the answer itself", "example": "¿Cuál es tu nombre? No me acuerdo.", "exampleEn": "What's your name? I don't remember."},
+  {"id": "es-u02-009", "problem": "example is the term plus a stub phrase, could be mistaken for the term's answer", "example": "Te ayudo con gusto cuando quieras.", "exampleEn": "I'll gladly help you whenever you want."},
+  {"id": "es-u02-010", "problem": "example is the term plus a bare object, near-duplicate of the term", "example": "Aquí tienes el dinero que te presté.", "exampleEn": "Here's the money I lent you."},
+  {"id": "es-u02-016", "problem": "example '¿Me haces un favor?' is the term itself, reads as the answer", "example": "¿Me haces un favor? Llama a mi madre.", "exampleEn": "Can you do me a favor? Call my mother."},
+  {"id": "es-u04-006", "problem": "example is a bare question built on the term with no extra context", "example": "El fin de semana no hago nada.", "exampleEn": "I don't do anything on the weekend."},
+  {"id": "es-u05-002", "problem": "example is the term plus 'disculpe', indistinguishable from the term", "example": "¿Qué hora es? Tengo que irme ya.", "exampleEn": "What time is it? I have to go now."}
+]

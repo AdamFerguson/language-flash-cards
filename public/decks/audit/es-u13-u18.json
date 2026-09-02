@@ -1,0 +1,62 @@
+[
+  {
+    "id": "es-u13-008",
+    "problem": "known hazard: \"Estudio en la universidad\" is just the term plus a verb, reads as the answer itself",
+    "example": "Mi hermana estudia en la universidad nueva.",
+    "exampleEn": "My sister studies at the new university."
+  },
+  {
+    "id": "es-u15-009",
+    "problem": "known hazard: \"La puerta de embarque es la doce\" only names the term, no context",
+    "example": "La puerta de embarque abre en quince minutos.",
+    "exampleEn": "The boarding gate opens in fifteen minutes."
+  },
+  {
+    "id": "es-u15-016",
+    "problem": "wrong be-verb: location needs estar, not \"es en el pasillo\"",
+    "example": "Mi asiento está en el pasillo.",
+    "exampleEn": "My seat is on the aisle."
+  },
+  {
+    "id": "es-u16-003",
+    "problem": "unnatural without an intensifier: \"el precio es alto\" reads as a dictionary line",
+    "example": "El precio de la carne es muy alto.",
+    "exampleEn": "The price of meat is very high."
+  },
+  {
+    "id": "es-u16-012",
+    "problem": "idiom: \"un descuento grande\" should be \"un gran descuento\" before the noun",
+    "example": "Me hicieron un gran descuento.",
+    "exampleEn": "They gave me a big discount."
+  },
+  {
+    "id": "es-u17-007",
+    "problem": "near-duplicate: \"Soy estudiante todavía\" is the term with two filler words",
+    "example": "Mi primo es estudiante en Madrid.",
+    "exampleEn": "My cousin is a student in Madrid."
+  },
+  {
+    "id": "es-u17-015",
+    "problem": "known hazard: \"El examen es el viernes\" is the term plus a bare date",
+    "example": "El examen de historia es el viernes.",
+    "exampleEn": "The history exam is on Friday."
+  },
+  {
+    "id": "es-u18-001",
+    "problem": "known hazard: \"Me duele la cabeza\" is literally the term's gloss (headache) with nothing else",
+    "example": "El niño se golpeó la cabeza con la puerta.",
+    "exampleEn": "The boy hit his head on the door."
+  },
+  {
+    "id": "es-u18-003",
+    "problem": "known hazard: \"Tengo la nariz tapada\" is just the stock collocation for the term",
+    "example": "Tengo la nariz roja del frío.",
+    "exampleEn": "My nose is red from the cold."
+  },
+  {
+    "id": "es-u18-011",
+    "problem": "definition-flavored generic sentence that mirrors the term instead of using it",
+    "example": "Me late muy rápido el corazón cuando corro.",
+    "exampleEn": "My heart beats very fast when I run."
+  }
+]

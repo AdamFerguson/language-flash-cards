@@ -58,6 +58,7 @@ async function loadDeck(lang) {
 // ---------- text utils ----------
 
 const normTerm = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  .replace(/[¿?¡!.,;:»«”"'()]/g, '').replace(/\s+/g, ' ')
   .replace(/^(el|la|los|las|o|a|os|as|um|uma)\s+/, '').replace(/\b(se|me)\s+$/, '').trim()
 
 function lev(a, b) {
@@ -351,7 +352,8 @@ async function viewQuiz(unitId) {
       chosenEl && chosenEl.classList.add(ok ? 'right' : 'wrong')
       if (!ok && rightEl) rightEl.classList.add('right')
       fb.className = 'feedback ' + (ok ? 'ok' : 'no')
-      fb.textContent = ok ? '✓ correct' : `✗ ${card.term} — ${card.en}`
+      fb.replaceChildren(document.createTextNode(ok ? '✓ correct' : `✗ ${card.term} — ${card.en}`))
+      if (type === 2) fb.append(el('div', { class: 'muted', style: 'margin-top:6px' }, `“${card.example}” — ${card.exampleEn}`))
       setTimeout(() => { qi++; renderQ() }, ok ? 600 : 1600)
     }
     const fb = el('div', { class: 'feedback' })
@@ -362,8 +364,10 @@ async function viewQuiz(unitId) {
       const submit = () => input.value.trim() && check(typedOk(input.value, card.term), input, null)
       btn.onclick = submit
       input.addEventListener('keydown', (e) => e.key === 'Enter' && submit())
-      body.push(el('div', { class: 'quiz-q' }, card.en),
-        el('p', { class: 'muted center' }, `“${card.example}”`), input, btn)
+      const langName = S.lang === 'es' ? 'Spanish' : 'Portuguese'
+      input.placeholder = `type it in ${langName.toLowerCase()} (accents optional)`
+      body.push(el('p', { class: 'muted', style: 'text-transform:uppercase;letter-spacing:.08em;font-size:12px;margin:0 0 4px' }, `Type in ${langName}:`),
+        el('div', { class: 'quiz-q' }, `“${card.en}”`), input, btn)
     } else {
       const askTerm = type === 0 // EN -> target
       const pool = unit.cards.filter((c) => c.id !== card.id)

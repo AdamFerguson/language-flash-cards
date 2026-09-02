@@ -29,29 +29,29 @@
     {
      "term": "buenas tardes",
      "en": "good afternoon",
-     "example": "Buenas tardes, ¿puedo pasar?",
-     "exampleEn": "Good afternoon, may I come in?",
+     "example": "Buenas tardes, ¿tiene una mesa para dos?",
+     "exampleEn": "Good afternoon, do you have a table for two?",
      "id": "es-u01-004"
     },
     {
      "term": "buenas noches",
      "en": "good night",
-     "example": "Buenas noches, dulces sueños.",
-     "exampleEn": "Good night, sweet dreams.",
+     "example": "Le doy las buenas noches a mi abuela.",
+     "exampleEn": "I say good night to my grandmother.",
      "id": "es-u01-005"
     },
     {
      "term": "¿cómo estás?",
      "en": "how are you?",
-     "example": "Hola, ¿cómo estás hoy?",
-     "exampleEn": "Hi, how are you today?",
+     "example": "¿Cómo estás? Hace mucho que no hablamos.",
+     "exampleEn": "How are you? It has been a long time since we talked.",
      "id": "es-u01-006"
     },
     {
      "term": "muy bien",
      "en": "very well",
-     "example": "Estoy muy bien, gracias.",
-     "exampleEn": "I'm very well, thank you.",
+     "example": "Mi madre está muy bien de salud.",
+     "exampleEn": "My mother is in good health.",
      "id": "es-u01-007"
     },
     {
@@ -64,8 +64,8 @@
     {
      "term": "¿cuál es tu nombre?",
      "en": "what's your name?",
-     "example": "¿Cuál es tu nombre completo?",
-     "exampleEn": "What's your full name?",
+     "example": "¿Cuál es tu nombre? No me acuerdo.",
+     "exampleEn": "What's your name? I don't remember.",
      "id": "es-u01-009"
     },
     {
@@ -182,15 +182,15 @@
     {
      "term": "con gusto",
      "en": "with pleasure",
-     "example": "Con gusto, aquí tienes.",
-     "exampleEn": "With pleasure, here you go.",
+     "example": "Te ayudo con gusto cuando quieras.",
+     "exampleEn": "I'll gladly help you whenever you want.",
      "id": "es-u02-009"
     },
     {
      "term": "aquí tienes",
      "en": "here you go",
-     "example": "Aquí tienes tu libro.",
-     "exampleEn": "Here's your book.",
+     "example": "Aquí tienes el dinero que te presté.",
+     "exampleEn": "Here's the money I lent you.",
      "id": "es-u02-010"
     },
     {
@@ -231,8 +231,8 @@
     {
      "term": "hacer un favor",
      "en": "to do a favor",
-     "example": "¿Me haces un favor?",
-     "exampleEn": "Can you do me a favor?",
+     "example": "¿Me haces un favor? Llama a mi madre.",
+     "exampleEn": "Can you do me a favor? Call my mother.",
      "id": "es-u02-016"
     }
    ]
@@ -397,8 +397,8 @@
     {
      "term": "el fin de semana",
      "en": "the weekend",
-     "example": "¿Qué haces el fin de semana?",
-     "exampleEn": "What are you doing this weekend?",
+     "example": "El fin de semana no hago nada.",
+     "exampleEn": "I don't do anything on the weekend.",
      "id": "es-u04-006"
     },
     {
@@ -487,8 +487,8 @@
     {
      "term": "¿qué hora es?",
      "en": "what time is it?",
-     "example": "Disculpe, ¿qué hora es?",
-     "exampleEn": "Excuse me, what time is it?",
+     "example": "¿Qué hora es? Tengo que irme ya.",
+     "exampleEn": "What time is it? I have to go now.",
      "id": "es-u05-002"
     },
     {
@@ -1098,15 +1098,15 @@
     {
      "term": "la mesa",
      "en": "table",
-     "example": "Una mesa para dos, por favor.",
-     "exampleEn": "A table for two, please.",
+     "example": "Nos dan la mesa junto a la ventana.",
+     "exampleEn": "They give us the table next to the window.",
      "id": "es-u10-005"
     },
     {
      "term": "el pedido",
      "en": "order",
-     "example": "Ya hicimos el pedido.",
-     "exampleEn": "We've already placed our order.",
+     "example": "En el pedido escribimos pollo y arroz.",
+     "exampleEn": "On the order we wrote down chicken and rice.",
      "id": "es-u10-006"
     },
     {
@@ -1119,8 +1119,8 @@
     {
      "term": "la bebida",
      "en": "drink, beverage",
-     "example": "¿Qué bebida prefieres, agua o jugo?",
-     "exampleEn": "What drink do you prefer, water or juice?",
+     "example": "De bebida, todos queremos jugo de naranja.",
+     "exampleEn": "For a drink, we all want orange juice.",
      "id": "es-u10-008"
     },
     {
@@ -1175,8 +1175,8 @@
     {
      "term": "para llevar",
      "en": "to go, takeout",
-     "example": "Un café para llevar, por favor.",
-     "exampleEn": "A coffee to go, please.",
+     "example": "Este restaurante también vende comida para llevar.",
+     "exampleEn": "This restaurant also sells food to go.",
      "id": "es-u10-016"
     }
    ]
@@ -1341,8 +1341,8 @@
     {
      "term": "la lámpara",
      "en": "lamp",
-     "example": "La lámpara está sobre la mesa.",
-     "exampleEn": "The lamp is on the table.",
+     "example": "Enciende la lámpara, está oscuro aquí.",
+     "exampleEn": "Turn on the lamp, it's dark in here.",
      "id": "es-u12-006"
     },
     {
@@ -1473,8 +1473,8 @@
     {
      "term": "la universidad",
      "en": "the university",
-     "example": "Estudio en la universidad.",
-     "exampleEn": "I study at the university.",
+     "example": "Mi hermana estudia en la universidad nueva.",
+     "exampleEn": "My sister studies at the new university.",
      "id": "es-u13-008"
     },
     {
@@ -1716,8 +1716,8 @@
     {
      "term": "la puerta de embarque",
      "en": "the boarding gate",
-     "example": "La puerta de embarque es la doce.",
-     "exampleEn": "The boarding gate is number twelve.",
+     "example": "La puerta de embarque abre en quince minutos.",
+     "exampleEn": "The boarding gate opens in fifteen minutes.",
      "id": "es-u15-009"
     },
     {
@@ -1765,7 +1765,7 @@
     {
      "term": "el pasillo",
      "en": "the aisle, the hallway",
-     "example": "Mi asiento es en el pasillo.",
+     "example": "Mi asiento está en el pasillo.",
      "exampleEn": "My seat is on the aisle.",
      "id": "es-u15-016"
     }
@@ -1792,8 +1792,8 @@
     {
      "term": "el precio",
      "en": "the price",
-     "example": "El precio de la carne es alto.",
-     "exampleEn": "The price of the meat is high.",
+     "example": "El precio de la carne es muy alto.",
+     "exampleEn": "The price of meat is very high.",
      "id": "es-u16-003"
     },
     {
@@ -1855,7 +1855,7 @@
     {
      "term": "el descuento",
      "en": "the discount",
-     "example": "Me hicieron un descuento grande.",
+     "example": "Me hicieron un gran descuento.",
      "exampleEn": "They gave me a big discount.",
      "id": "es-u16-012"
     },
@@ -1931,8 +1931,8 @@
     {
      "term": "el estudiante",
      "en": "the student",
-     "example": "Soy estudiante todavía.",
-     "exampleEn": "I'm still a student.",
+     "example": "Mi primo es estudiante en Madrid.",
+     "exampleEn": "My cousin is a student in Madrid.",
      "id": "es-u17-007"
     },
     {
@@ -1987,8 +1987,8 @@
     {
      "term": "el examen",
      "en": "the exam",
-     "example": "El examen es el viernes.",
-     "exampleEn": "The exam is on Friday.",
+     "example": "El examen de historia es el viernes.",
+     "exampleEn": "The history exam is on Friday.",
      "id": "es-u17-015"
     },
     {
@@ -2007,8 +2007,8 @@
     {
      "term": "la cabeza",
      "en": "the head",
-     "example": "Me duele la cabeza.",
-     "exampleEn": "I have a headache.",
+     "example": "El niño se golpeó la cabeza con la puerta.",
+     "exampleEn": "The boy hit his head on the door.",
      "id": "es-u18-001"
     },
     {
@@ -2021,8 +2021,8 @@
     {
      "term": "la nariz",
      "en": "the nose",
-     "example": "Tengo la nariz tapada.",
-     "exampleEn": "My nose is stuffed up.",
+     "example": "Tengo la nariz roja del frío.",
+     "exampleEn": "My nose is red from the cold.",
      "id": "es-u18-003"
     },
     {
@@ -2077,8 +2077,8 @@
     {
      "term": "el corazón",
      "en": "the heart",
-     "example": "El corazón late muy rápido.",
-     "exampleEn": "The heart beats very fast.",
+     "example": "Me late muy rápido el corazón cuando corro.",
+     "exampleEn": "My heart beats very fast when I run.",
      "id": "es-u18-011"
     },
     {
@@ -2139,7 +2139,7 @@
     {
      "term": "el viento",
      "en": "the wind",
-     "example": "El viento es muy fuerte hoy.",
+     "example": "Hoy hace un viento muy fuerte.",
      "exampleEn": "The wind is very strong today.",
      "id": "es-u19-003"
     },
@@ -2431,8 +2431,8 @@
     {
      "term": "corto",
      "en": "short",
-     "example": "Me corté el pelo porque lo tenía muy largo.",
-     "exampleEn": "I cut my hair because it was very long.",
+     "example": "Mi hermano lleva el pelo muy corto.",
+     "exampleEn": "My brother has very short hair.",
      "id": "es-u21-012"
     },
     {

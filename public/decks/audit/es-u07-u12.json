@@ -1,0 +1,32 @@
+[
+  {
+    "id": "es-u10-005",
+    "problem": "example is only the ordering phrase built from the term (term + \"para dos, por favor\")",
+    "example": "Nos dan la mesa junto a la ventana.",
+    "exampleEn": "They give us the table next to the window."
+  },
+  {
+    "id": "es-u10-006",
+    "problem": "known hazard: \"Ya hicimos el pedido\" is just the verb collocation for the term, nothing else around it",
+    "example": "En el pedido escribimos pollo y arroz.",
+    "exampleEn": "On the order we wrote down chicken and rice."
+  },
+  {
+    "id": "es-u10-008",
+    "problem": "example is the term inside a bare choice question, so it reads like the term itself",
+    "example": "De bebida, todos queremos jugo de naranja.",
+    "exampleEn": "For a drink, we all want orange juice."
+  },
+  {
+    "id": "es-u10-016",
+    "problem": "example is the term plus \"por favor\" and one noun, i.e. the takeout order phrase itself",
+    "example": "Este restaurante también vende comida para llevar.",
+    "exampleEn": "This restaurant also sells food to go."
+  },
+  {
+    "id": "es-u12-006",
+    "problem": "example is a bare location statement that only names the term",
+    "example": "Enciende la lámpara, está oscuro aquí.",
+    "exampleEn": "Turn on the lamp, it's dark in here."
+  }
+]
