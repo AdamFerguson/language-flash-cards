@@ -28,7 +28,7 @@ for (const f of readdirSync(`qa/${DIR}`).filter((f) => f.endsWith('.json'))) {
     const newTerm = fx.term?.trim() || card.term
     if (fx.example !== undefined && (!fx.example?.trim() || !fx.exampleEn?.trim())) { rejected.push([fx.id, 'empty example pair']); continue }
     if (fx.example && isHazard(newTerm, fx.example)) console.log(`WARN ${fx.id}: example near-duplicates term (accepted; examples no longer shown mid-quiz)`)
-    for (const k of ['term', 'en', 'example', 'exampleEn']) if (fx[k]?.trim()) card[k] = fx[k].trim()
+    for (const k of ['term', 'en', 'example', 'exampleEn', 'emoji']) if (fx[k]?.trim()) card[k] = fx[k].trim()
     applied++
   }
   if (DIR !== `${DIR}-applied`) try { renameSync(`qa/${DIR}/${f}`, `qa/${DIR}-applied/${f}`) } catch { /* already moved */ } // provenance: keep the fix files, out of the pending dir

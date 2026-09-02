@@ -57,6 +57,7 @@ Both languages share the same 24 unit ids and English titles. Each language file
 - `en`: English translation matching `term` exactly in scope.
 - `example`: natural, colloquial sentence of 4–10 words that clearly demonstrates the word; the target word must appear in it (conjugated/inflected forms fine).
 - `exampleEn`: faithful English translation of the example.
+- `emoji`: exactly one emoji depicting the concept (visual mnemonic shown on study/quiz/review cards). Filled/maintained with `node scripts/add-emoji.mjs` (fills only missing cards; `--all` to redo). New cards may ship without one — UI degrades gracefully.
 - Spanish: neutral Latin-American. Portuguese: **Brazilian**. Correct accents/diacritics (á é í ó ú ñ ü ã õ ç à). No European-PT constructions (use "você", "estou fazendo", possessives with `de`).
 - No proper nouns, no slang, no vulgarity.
 - Avoid duplicates within your units. Keep gender/number defaults simple (singular).

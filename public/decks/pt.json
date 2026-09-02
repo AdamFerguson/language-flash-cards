@@ -6,116 +6,132 @@
    "title": "Greetings & Introductions",
    "cards": [
     {
-     "term": "olá",
+     "term": "ol\u00e1",
      "en": "hello",
-     "example": "Olá! Como você está hoje?",
+     "example": "Ol\u00e1! Como voc\u00ea est\u00e1 hoje?",
      "exampleEn": "Hello! How are you today?",
-     "id": "pt-u01-001"
+     "id": "pt-u01-001",
+     "emoji": "\ud83d\udc4b"
     },
     {
      "term": "bom dia",
      "en": "good morning",
      "example": "Bom dia e boa semana!",
      "exampleEn": "Good morning and have a good week!",
-     "id": "pt-u01-002"
+     "id": "pt-u01-002",
+     "emoji": "\u2600\ufe0f"
     },
     {
      "term": "boa tarde",
      "en": "good afternoon",
      "example": "Boa tarde! Em que posso ajudar?",
      "exampleEn": "Good afternoon! How can I help?",
-     "id": "pt-u01-003"
+     "id": "pt-u01-003",
+     "emoji": "\ud83c\udf07"
     },
     {
      "term": "boa noite",
      "en": "good evening / good night",
      "example": "Boa noite! Foi um longo dia.",
      "exampleEn": "Good evening! It was a long day.",
-     "id": "pt-u01-004"
+     "id": "pt-u01-004",
+     "emoji": "\ud83c\udf19"
     },
     {
      "term": "tudo bem",
      "en": "all right; how are you?",
-     "example": "Oi, tudo bem com você?",
+     "example": "Oi, tudo bem com voc\u00ea?",
      "exampleEn": "Hi, how are you?",
-     "id": "pt-u01-005"
+     "id": "pt-u01-005",
+     "emoji": "\ud83d\ude0a"
     },
     {
      "term": "como vai",
      "en": "how are you? (formal)",
-     "example": "Olá, como vai a família?",
+     "example": "Ol\u00e1, como vai a fam\u00edlia?",
      "exampleEn": "Hello, how is your family?",
-     "id": "pt-u01-006"
+     "id": "pt-u01-006",
+     "emoji": "\ud83d\ude4f"
     },
     {
      "term": "chamar-se",
      "en": "to be called",
-     "example": "Como é que você se chama?",
+     "example": "Como \u00e9 que voc\u00ea se chama?",
      "exampleEn": "What's your name?",
-     "id": "pt-u01-007"
+     "id": "pt-u01-007",
+     "emoji": "\ud83c\udff7\ufe0f"
     },
     {
      "term": "o nome",
      "en": "the name",
      "example": "Anotei o nome de todo mundo.",
      "exampleEn": "I wrote down everyone's name.",
-     "id": "pt-u01-008"
+     "id": "pt-u01-008",
+     "emoji": "\ud83d\udcdd"
     },
     {
      "term": "muito prazer",
      "en": "nice to meet you",
-     "example": "Muito prazer! Já ouvi muito sobre você.",
+     "example": "Muito prazer! J\u00e1 ouvi muito sobre voc\u00ea.",
      "exampleEn": "Nice to meet you! I've heard a lot about you.",
-     "id": "pt-u01-009"
+     "id": "pt-u01-009",
+     "emoji": "\ud83e\udd1d"
     },
     {
      "term": "tchau",
      "en": "bye",
-     "example": "Tchau, gente! Até mais.",
+     "example": "Tchau, gente! At\u00e9 mais.",
      "exampleEn": "Bye, everyone! See you later.",
-     "id": "pt-u01-010"
+     "id": "pt-u01-010",
+     "emoji": "\ud83d\udc4b"
     },
     {
-     "term": "até logo",
+     "term": "at\u00e9 logo",
      "en": "see you later",
-     "example": "Até logo! Foi bom te ver.",
+     "example": "At\u00e9 logo! Foi bom te ver.",
      "exampleEn": "See you later! It was good to see you.",
-     "id": "pt-u01-011"
+     "id": "pt-u01-011",
+     "emoji": "\ud83d\udc4b"
     },
     {
-     "term": "até amanhã",
+     "term": "at\u00e9 amanh\u00e3",
      "en": "see you tomorrow",
-     "example": "Estou indo embora, até amanhã!",
+     "example": "Estou indo embora, at\u00e9 amanh\u00e3!",
      "exampleEn": "I'm heading out, see you tomorrow!",
-     "id": "pt-u01-012"
+     "id": "pt-u01-012",
+     "emoji": "\ud83d\udc4b"
     },
     {
      "term": "o senhor",
      "en": "sir, Mr.",
-     "example": "O senhor fala inglês?",
+     "example": "O senhor fala ingl\u00eas?",
      "exampleEn": "Do you speak English? (to a man, formal)",
-     "id": "pt-u01-013"
+     "id": "pt-u01-013",
+     "emoji": "\ud83d\udc68\u200d\ud83d\udcbc"
     },
     {
      "term": "a senhora",
      "en": "madam, Mrs.",
-     "example": "A senhora quer um café?",
+     "example": "A senhora quer um caf\u00e9?",
      "exampleEn": "Would you like a coffee? (to a woman, formal)",
-     "id": "pt-u01-014"
+     "id": "pt-u01-014",
+     "emoji": "\ud83d\udc69\u200d\ud83d\udcbc"
     },
     {
      "term": "apresentar-se",
      "en": "to introduce oneself",
      "example": "Vou me apresentar rapidamente.",
      "exampleEn": "I'll introduce myself quickly.",
-     "id": "pt-u01-015"
+     "id": "pt-u01-015",
+     "emoji": "\ud83d\ude4b"
     },
     {
      "term": "bem-vindo",
      "en": "welcome",
      "example": "Que bom te ver, bem-vindo!",
      "exampleEn": "Great to see you, welcome!",
-     "id": "pt-u01-016"
+     "id": "pt-u01-016",
+     "emoji": "\ud83d\ude4c"
     }
    ]
   },
@@ -128,112 +144,128 @@
      "en": "please",
      "example": "Me passa o sal, por favor.",
      "exampleEn": "Pass me the salt, please.",
-     "id": "pt-u02-001"
+     "id": "pt-u02-001",
+     "emoji": "\ud83d\ude4f"
     },
     {
      "term": "obrigado",
      "en": "thank you",
      "example": "Muito obrigado por tudo!",
      "exampleEn": "Thank you very much for everything!",
-     "id": "pt-u02-002"
+     "id": "pt-u02-002",
+     "emoji": "\ud83d\ude0a"
     },
     {
      "term": "de nada",
      "en": "you're welcome",
      "example": "De nada! Foi um prazer.",
      "exampleEn": "You're welcome! It was a pleasure.",
-     "id": "pt-u02-003"
+     "id": "pt-u02-003",
+     "emoji": "\ud83e\udd1d"
     },
     {
-     "term": "com licença",
+     "term": "com licen\u00e7a",
      "en": "excuse me",
-     "example": "Com licença, vou sair agora.",
+     "example": "Com licen\u00e7a, vou sair agora.",
      "exampleEn": "Excuse me, I'm leaving now.",
-     "id": "pt-u02-004"
+     "id": "pt-u02-004",
+     "emoji": "\ud83d\udeb6\u200d\u2640\ufe0f"
     },
     {
      "term": "desculpe",
      "en": "sorry",
      "example": "Desculpe, cheguei um pouco atrasado.",
      "exampleEn": "Sorry, I arrived a little late.",
-     "id": "pt-u02-005"
+     "id": "pt-u02-005",
+     "emoji": "\ud83d\ude14"
     },
     {
      "term": "sim",
      "en": "yes",
      "example": "Sim, claro, sem problema!",
      "exampleEn": "Yes, of course, no problem!",
-     "id": "pt-u02-006"
+     "id": "pt-u02-006",
+     "emoji": "\u2705"
     },
     {
-     "term": "não",
+     "term": "n\u00e3o",
      "en": "no",
-     "example": "Não, obrigado. Estou bem.",
+     "example": "N\u00e3o, obrigado. Estou bem.",
      "exampleEn": "No, thank you. I'm fine.",
-     "id": "pt-u02-007"
+     "id": "pt-u02-007",
+     "emoji": "\u274c"
     },
     {
      "term": "ajudar",
      "en": "to help",
-     "example": "Você pode me ajudar, por favor?",
+     "example": "Voc\u00ea pode me ajudar, por favor?",
      "exampleEn": "Can you help me, please?",
-     "id": "pt-u02-008"
+     "id": "pt-u02-008",
+     "emoji": "\ud83e\udd1d"
     },
     {
      "term": "poder",
      "en": "can, to be able to",
-     "example": "Com licença, posso sentar aqui?",
+     "example": "Com licen\u00e7a, posso sentar aqui?",
      "exampleEn": "Excuse me, may I sit here?",
-     "id": "pt-u02-009"
+     "id": "pt-u02-009",
+     "emoji": "\ud83d\udc4d"
     },
     {
      "term": "por aqui",
      "en": "this way",
-     "example": "A saída? É só seguir por aqui.",
+     "example": "A sa\u00edda? \u00c9 s\u00f3 seguir por aqui.",
      "exampleEn": "The exit? Just follow this way.",
-     "id": "pt-u02-010"
+     "id": "pt-u02-010",
+     "emoji": "\u27a1\ufe0f"
     },
     {
-     "term": "ficar à vontade",
+     "term": "ficar \u00e0 vontade",
      "en": "to make yourself at home",
-     "example": "Fique à vontade, a casa é sua.",
+     "example": "Fique \u00e0 vontade, a casa \u00e9 sua.",
      "exampleEn": "Make yourself at home, the house is yours.",
-     "id": "pt-u02-011"
+     "id": "pt-u02-011",
+     "emoji": "\ud83c\udfe1"
     },
     {
      "term": "agradecer",
      "en": "to thank",
      "example": "Quero agradecer pela comida.",
      "exampleEn": "I want to thank you for the food.",
-     "id": "pt-u02-012"
+     "id": "pt-u02-012",
+     "emoji": "\ud83d\ude4f"
     },
     {
      "term": "claro",
      "en": "of course, sure",
      "example": "Claro! Pode contar comigo.",
      "exampleEn": "Of course! You can count on me.",
-     "id": "pt-u02-013"
+     "id": "pt-u02-013",
+     "emoji": "\ud83d\udc4c"
     },
     {
      "term": "sem problema",
      "en": "no problem",
-     "example": "Sem problema, eu espero você aqui.",
+     "example": "Sem problema, eu espero voc\u00ea aqui.",
      "exampleEn": "No problem, I'll wait for you here.",
-     "id": "pt-u02-014"
+     "id": "pt-u02-014",
+     "emoji": "\ud83d\ude0a"
     },
     {
      "term": "com prazer",
      "en": "with pleasure",
      "example": "Com prazer, eu explico de novo.",
      "exampleEn": "With pleasure, I'll explain it again.",
-     "id": "pt-u02-015"
+     "id": "pt-u02-015",
+     "emoji": "\ud83d\ude0a"
     },
     {
      "term": "repetir",
      "en": "to repeat",
      "example": "Pode repetir, por favor?",
      "exampleEn": "Can you repeat, please?",
-     "id": "pt-u02-016"
+     "id": "pt-u02-016",
+     "emoji": "\ud83d\udd01"
     }
    ]
   },
@@ -244,114 +276,130 @@
     {
      "term": "zero",
      "en": "zero",
-     "example": "O placar está zero a zero.",
+     "example": "O placar est\u00e1 zero a zero.",
      "exampleEn": "The score is nil-nil.",
-     "id": "pt-u03-001"
+     "id": "pt-u03-001",
+     "emoji": "0\ufe0f\u20e3"
     },
     {
      "term": "um",
      "en": "one",
-     "example": "Um café, por favor.",
+     "example": "Um caf\u00e9, por favor.",
      "exampleEn": "A coffee, please.",
-     "id": "pt-u03-002"
+     "id": "pt-u03-002",
+     "emoji": "1\ufe0f\u20e3"
     },
     {
      "term": "dois",
      "en": "two",
-     "example": "Tenho dois irmãos gêmeos.",
+     "example": "Tenho dois irm\u00e3os g\u00eameos.",
      "exampleEn": "I have two twin brothers.",
-     "id": "pt-u03-003"
+     "id": "pt-u03-003",
+     "emoji": "2\ufe0f\u20e3"
     },
     {
-     "term": "três",
+     "term": "tr\u00eas",
      "en": "three",
-     "example": "São três e meia agora.",
+     "example": "S\u00e3o tr\u00eas e meia agora.",
      "exampleEn": "It's three-thirty now.",
-     "id": "pt-u03-004"
+     "id": "pt-u03-004",
+     "emoji": "3\ufe0f\u20e3"
     },
     {
      "term": "quatro",
      "en": "four",
      "example": "Ele tem quatro anos.",
      "exampleEn": "He is four years old.",
-     "id": "pt-u03-005"
+     "id": "pt-u03-005",
+     "emoji": "4\ufe0f\u20e3"
     },
     {
      "term": "cinco",
      "en": "five",
      "example": "Pego cinco quilos de arroz.",
      "exampleEn": "I'll take five kilos of rice.",
-     "id": "pt-u03-006"
+     "id": "pt-u03-006",
+     "emoji": "5\ufe0f\u20e3"
     },
     {
      "term": "seis",
      "en": "six",
-     "example": "A prova começa às seis.",
+     "example": "A prova come\u00e7a \u00e0s seis.",
      "exampleEn": "The test starts at six.",
-     "id": "pt-u03-007"
+     "id": "pt-u03-007",
+     "emoji": "6\ufe0f\u20e3"
     },
     {
      "term": "sete",
      "en": "seven",
      "example": "Trabalho sete dias por semana.",
      "exampleEn": "I work seven days a week.",
-     "id": "pt-u03-008"
+     "id": "pt-u03-008",
+     "emoji": "7\ufe0f\u20e3"
     },
     {
      "term": "oito",
      "en": "eight",
-     "example": "A aula é às oito.",
+     "example": "A aula \u00e9 \u00e0s oito.",
      "exampleEn": "Class is at eight.",
-     "id": "pt-u03-009"
+     "id": "pt-u03-009",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "nove",
      "en": "nine",
-     "example": "Já são nove horas.",
+     "example": "J\u00e1 s\u00e3o nove horas.",
      "exampleEn": "It's already nine o'clock.",
-     "id": "pt-u03-010"
+     "id": "pt-u03-010",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "dez",
      "en": "ten",
-     "example": "Dali são dez minutos a pé.",
+     "example": "Dali s\u00e3o dez minutos a p\u00e9.",
      "exampleEn": "It's a ten-minute walk from there.",
-     "id": "pt-u03-011"
+     "id": "pt-u03-011",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "onze",
      "en": "eleven",
-     "example": "O jogo é às onze.",
+     "example": "O jogo \u00e9 \u00e0s onze.",
      "exampleEn": "The game is at eleven.",
-     "id": "pt-u03-012"
+     "id": "pt-u03-012",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "doze",
      "en": "twelve",
      "example": "Um ano tem doze meses.",
      "exampleEn": "A year has twelve months.",
-     "id": "pt-u03-013"
+     "id": "pt-u03-013",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "vinte",
      "en": "twenty",
      "example": "Ela fez vinte anos ontem.",
      "exampleEn": "She turned twenty yesterday.",
-     "id": "pt-u03-014"
+     "id": "pt-u03-014",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "cem",
      "en": "one hundred",
      "example": "O livro custa cem reais.",
      "exampleEn": "The book costs one hundred reais.",
-     "id": "pt-u03-015"
+     "id": "pt-u03-015",
+     "emoji": "\ud83d\udd22"
     },
     {
      "term": "mil",
      "en": "one thousand",
-     "example": "O aluguel é mil reais.",
+     "example": "O aluguel \u00e9 mil reais.",
      "exampleEn": "Rent is one thousand reais.",
-     "id": "pt-u03-016"
+     "id": "pt-u03-016",
+     "emoji": "\ud83d\udd22"
     }
    ]
   },
@@ -364,112 +412,128 @@
      "en": "the day",
      "example": "Passei o dia todo em casa.",
      "exampleEn": "I spent the whole day at home.",
-     "id": "pt-u04-001"
+     "id": "pt-u04-001",
+     "emoji": "\ud83d\uddd3\ufe0f"
     },
     {
      "term": "hoje",
      "en": "today",
      "example": "Hoje estou muito cansado.",
      "exampleEn": "I'm very tired today.",
-     "id": "pt-u04-002"
+     "id": "pt-u04-002",
+     "emoji": "\ud83d\uddd3\ufe0f"
     },
     {
-     "term": "amanhã",
+     "term": "amanh\u00e3",
      "en": "tomorrow",
-     "example": "Amanhã eu te ligo.",
+     "example": "Amanh\u00e3 eu te ligo.",
      "exampleEn": "I'll call you tomorrow.",
-     "id": "pt-u04-003"
+     "id": "pt-u04-003",
+     "emoji": "\ud83d\udcc5"
     },
     {
      "term": "ontem",
      "en": "yesterday",
-     "example": "Choveu muito ontem à noite.",
+     "example": "Choveu muito ontem \u00e0 noite.",
      "exampleEn": "It rained a lot yesterday evening.",
-     "id": "pt-u04-004"
+     "id": "pt-u04-004",
+     "emoji": "\u23ea"
     },
     {
      "term": "a semana",
      "en": "the week",
-     "example": "A semana começa na segunda.",
+     "example": "A semana come\u00e7a na segunda.",
      "exampleEn": "The week starts on Monday.",
-     "id": "pt-u04-005"
+     "id": "pt-u04-005",
+     "emoji": "\ud83d\uddd3\ufe0f"
     },
     {
      "term": "o fim de semana",
      "en": "the weekend",
-     "example": "No fim de semana vou à praia.",
+     "example": "No fim de semana vou \u00e0 praia.",
      "exampleEn": "On the weekend I'm going to the beach.",
-     "id": "pt-u04-006"
+     "id": "pt-u04-006",
+     "emoji": "\ud83c\udf89"
     },
     {
      "term": "segunda-feira",
      "en": "Monday",
-     "example": "Na segunda-feira tenho reunião cedo.",
+     "example": "Na segunda-feira tenho reuni\u00e3o cedo.",
      "exampleEn": "On Monday I have an early meeting.",
-     "id": "pt-u04-007"
+     "id": "pt-u04-007",
+     "emoji": "\u27a1\ufe0f"
     },
     {
      "term": "sexta-feira",
      "en": "Friday",
-     "example": "Sexta-feira à noite saio com amigos.",
+     "example": "Sexta-feira \u00e0 noite saio com amigos.",
      "exampleEn": "On Friday nights I go out with friends.",
-     "id": "pt-u04-008"
+     "id": "pt-u04-008",
+     "emoji": "\u27a1\ufe0f"
     },
     {
      "term": "domingo",
      "en": "Sunday",
-     "example": "Domingo a família almoça junta.",
+     "example": "Domingo a fam\u00edlia almo\u00e7a junta.",
      "exampleEn": "On Sunday the family has lunch together.",
-     "id": "pt-u04-009"
+     "id": "pt-u04-009",
+     "emoji": "\ud83d\ude34"
     },
     {
-     "term": "o mês",
+     "term": "o m\u00eas",
      "en": "the month",
-     "example": "Este mês estou sem dinheiro.",
+     "example": "Este m\u00eas estou sem dinheiro.",
      "exampleEn": "This month I'm without money.",
-     "id": "pt-u04-010"
+     "id": "pt-u04-010",
+     "emoji": "\ud83d\uddd3\ufe0f"
     },
     {
      "term": "o ano",
      "en": "the year",
      "example": "Este ano vou viajar muito.",
      "exampleEn": "This year I'm going to travel a lot.",
-     "id": "pt-u04-011"
+     "id": "pt-u04-011",
+     "emoji": "\ud83d\uddd3\ufe0f"
     },
     {
-     "term": "o calendário",
+     "term": "o calend\u00e1rio",
      "en": "the calendar",
-     "example": "Preciso de um calendário novo.",
+     "example": "Preciso de um calend\u00e1rio novo.",
      "exampleEn": "I need a new calendar.",
-     "id": "pt-u04-012"
+     "id": "pt-u04-012",
+     "emoji": "\ud83d\uddd3\ufe0f"
     },
     {
      "term": "a data",
      "en": "the date",
-     "example": "Qual é a data do casamento?",
+     "example": "Qual \u00e9 a data do casamento?",
      "exampleEn": "What is the date of the wedding?",
-     "id": "pt-u04-013"
+     "id": "pt-u04-013",
+     "emoji": "\ud83d\udcc5"
     },
     {
-     "term": "o aniversário",
+     "term": "o anivers\u00e1rio",
      "en": "the birthday",
-     "example": "Fizemos uma festa de aniversário.",
+     "example": "Fizemos uma festa de anivers\u00e1rio.",
      "exampleEn": "We threw a birthday party.",
-     "id": "pt-u04-014"
+     "id": "pt-u04-014",
+     "emoji": "\ud83c\udf82"
     },
     {
      "term": "o feriado",
      "en": "the holiday",
      "example": "O feriado caiu na segunda.",
      "exampleEn": "The holiday fell on a Monday.",
-     "id": "pt-u04-015"
+     "id": "pt-u04-015",
+     "emoji": "\ud83c\udf89"
     },
     {
      "term": "a semana que vem",
      "en": "next week",
      "example": "Na semana que vem eu volto.",
      "exampleEn": "I'm coming back next week.",
-     "id": "pt-u04-016"
+     "id": "pt-u04-016",
+     "emoji": "\ud83d\uddd3\ufe0f"
     }
    ]
   },
@@ -480,114 +544,130 @@
     {
      "term": "a hora",
      "en": "the hour, time",
-     "example": "A aula começa na hora do lanche.",
+     "example": "A aula come\u00e7a na hora do lanche.",
      "exampleEn": "Class starts at snack time.",
-     "id": "pt-u05-001"
+     "id": "pt-u05-001",
+     "emoji": "\ud83d\udd50"
     },
     {
-     "term": "o horário",
+     "term": "o hor\u00e1rio",
      "en": "the schedule, opening hours",
-     "example": "Qual é o horário de funcionamento?",
+     "example": "Qual \u00e9 o hor\u00e1rio de funcionamento?",
      "exampleEn": "What are the opening hours?",
-     "id": "pt-u05-002"
+     "id": "pt-u05-002",
+     "emoji": "\u23f0"
     },
     {
-     "term": "que horas são",
+     "term": "que horas s\u00e3o",
      "en": "what time is it?",
-     "example": "Ei, que horas são? Meu celular morreu.",
+     "example": "Ei, que horas s\u00e3o? Meu celular morreu.",
      "exampleEn": "Hey, what time is it? My phone died.",
-     "id": "pt-u05-003"
+     "id": "pt-u05-003",
+     "emoji": "\u2753"
     },
     {
-     "term": "o relógio",
+     "term": "o rel\u00f3gio",
      "en": "the clock, watch",
-     "example": "O relógio da cozinha quebrou.",
+     "example": "O rel\u00f3gio da cozinha quebrou.",
      "exampleEn": "The kitchen clock broke.",
-     "id": "pt-u05-004"
+     "id": "pt-u05-004",
+     "emoji": "\u231a"
     },
     {
      "term": "cedo",
      "en": "early",
      "example": "Levanto cedo todos os dias.",
      "exampleEn": "I get up early every day.",
-     "id": "pt-u05-005"
+     "id": "pt-u05-005",
+     "emoji": "\ud83c\udf05"
     },
     {
      "term": "tarde",
      "en": "late",
-     "example": "Cheguei tarde na reunião.",
+     "example": "Cheguei tarde na reuni\u00e3o.",
      "exampleEn": "I arrived late to the meeting.",
-     "id": "pt-u05-006"
+     "id": "pt-u05-006",
+     "emoji": "\ud83c\udf07"
     },
     {
      "term": "sempre",
      "en": "always",
-     "example": "Sempre tomo café da manhã.",
+     "example": "Sempre tomo caf\u00e9 da manh\u00e3.",
      "exampleEn": "I always have breakfast.",
-     "id": "pt-u05-007"
+     "id": "pt-u05-007",
+     "emoji": "\u23f3"
     },
     {
      "term": "nunca",
      "en": "never",
-     "example": "Nunca como doces à noite.",
+     "example": "Nunca como doces \u00e0 noite.",
      "exampleEn": "I never eat sweets at night.",
-     "id": "pt-u05-008"
+     "id": "pt-u05-008",
+     "emoji": "\u274c"
     },
     {
-     "term": "às vezes",
+     "term": "\u00e0s vezes",
      "en": "sometimes",
-     "example": "Às vezes caminho até o trabalho.",
+     "example": "\u00c0s vezes caminho at\u00e9 o trabalho.",
      "exampleEn": "Sometimes I walk to work.",
-     "id": "pt-u05-009"
+     "id": "pt-u05-009",
+     "emoji": "\ud83e\udd37\u200d\u2640\ufe0f"
     },
     {
      "term": "geralmente",
      "en": "usually",
-     "example": "Geralmente almoço ao meio-dia.",
+     "example": "Geralmente almo\u00e7o ao meio-dia.",
      "exampleEn": "I usually have lunch at noon.",
-     "id": "pt-u05-010"
+     "id": "pt-u05-010",
+     "emoji": "\ud83d\udd53"
     },
     {
-     "term": "já",
+     "term": "j\u00e1",
      "en": "already",
-     "example": "Já terminei o meu trabalho.",
+     "example": "J\u00e1 terminei o meu trabalho.",
      "exampleEn": "I've already finished my work.",
-     "id": "pt-u05-011"
+     "id": "pt-u05-011",
+     "emoji": "\u2705"
     },
     {
      "term": "ainda",
      "en": "still, yet",
-     "example": "A loja ainda não abriu.",
+     "example": "A loja ainda n\u00e3o abriu.",
      "exampleEn": "The store hasn't opened yet.",
-     "id": "pt-u05-012"
+     "id": "pt-u05-012",
+     "emoji": "\u23f3"
     },
     {
      "term": "depressa",
      "en": "quickly, fast",
      "example": "O menino comeu depressa e foi brincar.",
      "exampleEn": "The boy ate quickly and went to play.",
-     "id": "pt-u05-013"
+     "id": "pt-u05-013",
+     "emoji": "\ud83c\udfc3"
     },
     {
      "term": "devagar",
      "en": "slowly",
      "example": "Fale mais devagar, por favor.",
      "exampleEn": "Speak more slowly, please.",
-     "id": "pt-u05-014"
+     "id": "pt-u05-014",
+     "emoji": "\ud83d\udc22"
     },
     {
-     "term": "rápido",
+     "term": "r\u00e1pido",
      "en": "fast, quick",
-     "example": "O trem novo é muito rápido.",
+     "example": "O trem novo \u00e9 muito r\u00e1pido.",
      "exampleEn": "The new train is very fast.",
-     "id": "pt-u05-015"
+     "id": "pt-u05-015",
+     "emoji": "\ud83d\ude80"
     },
     {
      "term": "o minuto",
      "en": "the minute",
-     "example": "O filme começa em cinco minutos.",
+     "example": "O filme come\u00e7a em cinco minutos.",
      "exampleEn": "The movie starts in five minutes.",
-     "id": "pt-u05-016"
+     "id": "pt-u05-016",
+     "emoji": "\u23f1\ufe0f"
     }
    ]
   },
@@ -596,116 +676,132 @@
    "title": "Family & People",
    "cards": [
     {
-     "term": "a família",
+     "term": "a fam\u00edlia",
      "en": "the family",
-     "example": "Minha família inteira vai ao casamento.",
+     "example": "Minha fam\u00edlia inteira vai ao casamento.",
      "exampleEn": "My whole family is going to the wedding.",
-     "id": "pt-u06-001"
+     "id": "pt-u06-001",
+     "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
     },
     {
      "term": "o pai",
      "en": "the father",
      "example": "O pai dela viaja toda semana.",
      "exampleEn": "Her father travels every week.",
-     "id": "pt-u06-002"
+     "id": "pt-u06-002",
+     "emoji": "\ud83d\udc68\u200d\ud83d\udd27"
     },
     {
-     "term": "a mãe",
+     "term": "a m\u00e3e",
      "en": "the mother",
-     "example": "A mãe dela trabalha comigo.",
+     "example": "A m\u00e3e dela trabalha comigo.",
      "exampleEn": "Her mother works with me.",
-     "id": "pt-u06-003"
+     "id": "pt-u06-003",
+     "emoji": "\ud83d\udc69\u200d\ud83d\udd27"
     },
     {
      "term": "o filho",
      "en": "the son",
      "example": "O filho deles estuda medicina.",
      "exampleEn": "Their son studies medicine.",
-     "id": "pt-u06-004"
+     "id": "pt-u06-004",
+     "emoji": "\ud83d\udc66"
     },
     {
      "term": "a filha",
      "en": "the daughter",
      "example": "A filha dela tem dois anos.",
      "exampleEn": "Her daughter is two years old.",
-     "id": "pt-u06-005"
+     "id": "pt-u06-005",
+     "emoji": "\ud83d\udc67"
     },
     {
-     "term": "o irmão",
+     "term": "o irm\u00e3o",
      "en": "the brother",
-     "example": "Chamei meu irmão para jogar bola.",
+     "example": "Chamei meu irm\u00e3o para jogar bola.",
      "exampleEn": "I called my brother to play soccer.",
-     "id": "pt-u06-006"
+     "id": "pt-u06-006",
+     "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
     },
     {
-     "term": "a irmã",
+     "term": "a irm\u00e3",
      "en": "the sister",
-     "example": "A irmã mais nova mora longe.",
+     "example": "A irm\u00e3 mais nova mora longe.",
      "exampleEn": "The younger sister lives far away.",
-     "id": "pt-u06-007"
+     "id": "pt-u06-007",
+     "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
     },
     {
      "term": "o marido",
      "en": "the husband",
      "example": "O marido dela cozinha muito bem.",
      "exampleEn": "Her husband cooks very well.",
-     "id": "pt-u06-008"
+     "id": "pt-u06-008",
+     "emoji": "\ud83e\udd35"
     },
     {
      "term": "a esposa",
      "en": "the wife",
      "example": "Ele saiu com a esposa.",
      "exampleEn": "He went out with his wife.",
-     "id": "pt-u06-009"
+     "id": "pt-u06-009",
+     "emoji": "\ud83d\udc70"
     },
     {
      "term": "os pais",
      "en": "the parents",
      "example": "Amo muito os meus pais.",
      "exampleEn": "I love my parents very much.",
-     "id": "pt-u06-010"
+     "id": "pt-u06-010",
+     "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
     },
     {
-     "term": "o avô",
+     "term": "o av\u00f4",
      "en": "the grandfather",
-     "example": "O avô conta histórias antigas.",
+     "example": "O av\u00f4 conta hist\u00f3rias antigas.",
      "exampleEn": "Grandpa tells old stories.",
-     "id": "pt-u06-011"
+     "id": "pt-u06-011",
+     "emoji": "\ud83d\udc74"
     },
     {
-     "term": "a avó",
+     "term": "a av\u00f3",
      "en": "the grandmother",
-     "example": "A avó faz um bolo delicioso.",
+     "example": "A av\u00f3 faz um bolo delicioso.",
      "exampleEn": "Grandma makes a delicious cake.",
-     "id": "pt-u06-012"
+     "id": "pt-u06-012",
+     "emoji": "\ud83d\udc75"
     },
     {
-     "term": "a criança",
+     "term": "a crian\u00e7a",
      "en": "the child",
-     "example": "A criança já sabe ler e escrever.",
+     "example": "A crian\u00e7a j\u00e1 sabe ler e escrever.",
      "exampleEn": "The child already knows how to read and write.",
-     "id": "pt-u06-013"
+     "id": "pt-u06-013",
+     "emoji": "\ud83d\udc76"
     },
     {
-     "term": "o bebê",
+     "term": "o beb\u00ea",
      "en": "the baby",
-     "example": "O bebê dorme a noite inteira.",
+     "example": "O beb\u00ea dorme a noite inteira.",
      "exampleEn": "The baby sleeps the whole night.",
-     "id": "pt-u06-014"
+     "id": "pt-u06-014",
+     "emoji": "\ud83c\udf7c"
     },
     {
      "term": "o amigo",
      "en": "the friend",
      "example": "Meu melhor amigo mora aqui.",
      "exampleEn": "My best friend lives here.",
-     "id": "pt-u06-015"
+     "id": "pt-u06-015",
+     "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
     },
     {
      "term": "a pessoa",
      "en": "the person",
-     "example": "Ele é uma pessoa gentil.",
+     "example": "Ele \u00e9 uma pessoa gentil.",
      "exampleEn": "He is a kind person.",
-     "id": "pt-u06-016"
+     "id": "pt-u06-016",
+     "emoji": "\ud83e\uddd1\u200d\u2194\ufe0f"
     }
    ]
   },
@@ -714,116 +810,132 @@
    "title": "Food: Meals & Staples",
    "cards": [
     {
-     "term": "o pão",
+     "term": "o p\u00e3o",
      "en": "the bread",
-     "example": "Como pão com queijo no café da manhã.",
+     "example": "Como p\u00e3o com queijo no caf\u00e9 da manh\u00e3.",
      "exampleEn": "I eat bread with cheese at breakfast.",
-     "id": "pt-u07-001"
+     "id": "pt-u07-001",
+     "emoji": "\ud83c\udf5e"
     },
     {
      "term": "o arroz",
      "en": "the rice",
-     "example": "No almoço, não pode faltar arroz e feijão.",
+     "example": "No almo\u00e7o, n\u00e3o pode faltar arroz e feij\u00e3o.",
      "exampleEn": "At lunch, rice and beans can't be missing.",
-     "id": "pt-u07-002"
+     "id": "pt-u07-002",
+     "emoji": "\ud83c\udf5a"
     },
     {
-     "term": "o feijão",
+     "term": "o feij\u00e3o",
      "en": "the beans",
-     "example": "Hoje tem feijão com arroz no almoço.",
+     "example": "Hoje tem feij\u00e3o com arroz no almo\u00e7o.",
      "exampleEn": "Today there's beans and rice for lunch.",
-     "id": "pt-u07-003"
+     "id": "pt-u07-003",
+     "emoji": "\ud83e\uded8"
     },
     {
      "term": "a carne",
      "en": "the meat",
      "example": "Vamos comprar carne no mercado hoje.",
      "exampleEn": "Let's buy meat at the market today.",
-     "id": "pt-u07-004"
+     "id": "pt-u07-004",
+     "emoji": "\ud83e\udd69"
     },
     {
      "term": "o frango",
      "en": "the chicken",
-     "example": "O frango assado está quase pronto.",
+     "example": "O frango assado est\u00e1 quase pronto.",
      "exampleEn": "The roasted chicken is almost ready.",
-     "id": "pt-u07-005"
+     "id": "pt-u07-005",
+     "emoji": "\ud83d\udc14"
     },
     {
      "term": "o peixe",
      "en": "the fish",
-     "example": "Ela gosta de peixe assado com limão.",
+     "example": "Ela gosta de peixe assado com lim\u00e3o.",
      "exampleEn": "She likes roasted fish with lemon.",
-     "id": "pt-u07-006"
+     "id": "pt-u07-006",
+     "emoji": "\ud83d\udc1f"
     },
     {
      "term": "o ovo",
      "en": "the egg",
-     "example": "No café da manhã, como dois ovos mexidos.",
+     "example": "No caf\u00e9 da manh\u00e3, como dois ovos mexidos.",
      "exampleEn": "At breakfast, I eat two scrambled eggs.",
-     "id": "pt-u07-007"
+     "id": "pt-u07-007",
+     "emoji": "\ud83e\udd5a"
     },
     {
      "term": "o leite",
      "en": "the milk",
-     "example": "As crianças bebem leite todos os dias.",
+     "example": "As crian\u00e7as bebem leite todos os dias.",
      "exampleEn": "The kids drink milk every day.",
-     "id": "pt-u07-008"
+     "id": "pt-u07-008",
+     "emoji": "\ud83e\udd5b"
     },
     {
      "term": "o queijo",
      "en": "the cheese",
-     "example": "Pão de queijo é um lanche clássico brasileiro.",
+     "example": "P\u00e3o de queijo \u00e9 um lanche cl\u00e1ssico brasileiro.",
      "exampleEn": "Cheese bread is a classic Brazilian snack.",
-     "id": "pt-u07-009"
+     "id": "pt-u07-009",
+     "emoji": "\ud83e\uddc0"
     },
     {
      "term": "a manteiga",
      "en": "the butter",
-     "example": "O pão com manteiga acabou de sair do forno.",
+     "example": "O p\u00e3o com manteiga acabou de sair do forno.",
      "exampleEn": "The buttered bread just came out of the oven.",
-     "id": "pt-u07-010"
+     "id": "pt-u07-010",
+     "emoji": "\ud83e\uddc8"
     },
     {
-     "term": "o açúcar",
+     "term": "o a\u00e7\u00facar",
      "en": "the sugar",
-     "example": "Você quer açúcar no café?",
+     "example": "Voc\u00ea quer a\u00e7\u00facar no caf\u00e9?",
      "exampleEn": "Do you want sugar in your coffee?",
-     "id": "pt-u07-011"
+     "id": "pt-u07-011",
+     "emoji": "\ud83c\udf6c"
     },
     {
      "term": "o sal",
      "en": "the salt",
      "example": "A sopa precisa de mais sal.",
      "exampleEn": "The soup needs more salt.",
-     "id": "pt-u07-012"
+     "id": "pt-u07-012",
+     "emoji": "\ud83e\uddc2"
     },
     {
-     "term": "o almoço",
+     "term": "o almo\u00e7o",
      "en": "lunch",
-     "example": "O almoço está pronto ao meio-dia.",
+     "example": "O almo\u00e7o est\u00e1 pronto ao meio-dia.",
      "exampleEn": "Lunch is ready at noon.",
-     "id": "pt-u07-013"
+     "id": "pt-u07-013",
+     "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
      "term": "o jantar",
      "en": "dinner",
-     "example": "O jantar de hoje é macarrão com molho.",
+     "example": "O jantar de hoje \u00e9 macarr\u00e3o com molho.",
      "exampleEn": "Tonight's dinner is pasta with sauce.",
-     "id": "pt-u07-014"
+     "id": "pt-u07-014",
+     "emoji": "\ud83c\udf03"
     },
     {
-     "term": "o café da manhã",
+     "term": "o caf\u00e9 da manh\u00e3",
      "en": "breakfast",
-     "example": "Tomo café da manhã sempre às sete.",
+     "example": "Tomo caf\u00e9 da manh\u00e3 sempre \u00e0s sete.",
      "exampleEn": "I always have breakfast at seven.",
-     "id": "pt-u07-015"
+     "id": "pt-u07-015",
+     "emoji": "\ud83c\udf73"
     },
     {
-     "term": "o macarrão",
+     "term": "o macarr\u00e3o",
      "en": "the pasta",
-     "example": "O macarrão cozinha em apenas dez minutos.",
+     "example": "O macarr\u00e3o cozinha em apenas dez minutos.",
      "exampleEn": "The pasta cooks in just ten minutes.",
-     "id": "pt-u07-016"
+     "id": "pt-u07-016",
+     "emoji": "\ud83c\udf5d"
     }
    ]
   },
@@ -832,234 +944,266 @@
    "title": "Fruits, Vegetables & Kitchen",
    "cards": [
     {
-     "term": "a maçã",
+     "term": "a ma\u00e7\u00e3",
      "en": "the apple",
-     "example": "Como uma maçã todos os dias.",
+     "example": "Como uma ma\u00e7\u00e3 todos os dias.",
      "exampleEn": "I eat an apple every day.",
-     "id": "pt-u08-001"
+     "id": "pt-u08-001",
+     "emoji": "\ud83c\udf4e"
     },
     {
      "term": "a banana",
      "en": "the banana",
      "example": "No lanche da tarde, como banana.",
      "exampleEn": "For an afternoon snack, I eat banana.",
-     "id": "pt-u08-002"
+     "id": "pt-u08-002",
+     "emoji": "\ud83c\udf4c"
     },
     {
      "term": "a laranja",
      "en": "the orange",
      "example": "Vou fazer suco de laranja gelado.",
      "exampleEn": "I'm going to make cold orange juice.",
-     "id": "pt-u08-003"
+     "id": "pt-u08-003",
+     "emoji": "\ud83c\udf4a"
     },
     {
      "term": "o abacaxi",
      "en": "the pineapple",
      "example": "Comprei um abacaxi doce na feira.",
      "exampleEn": "I bought a sweet pineapple at the market.",
-     "id": "pt-u08-004"
+     "id": "pt-u08-004",
+     "emoji": "\ud83c\udf4d"
     },
     {
-     "term": "o mamão",
+     "term": "o mam\u00e3o",
      "en": "the papaya",
-     "example": "Como mamão com aveia no café da manhã.",
+     "example": "Como mam\u00e3o com aveia no caf\u00e9 da manh\u00e3.",
      "exampleEn": "I eat papaya with oats at breakfast.",
-     "id": "pt-u08-005"
+     "id": "pt-u08-005",
+     "emoji": "\ud83e\udd6d"
     },
     {
      "term": "o tomate",
      "en": "the tomato",
      "example": "Lavo o tomate para a salada.",
      "exampleEn": "I wash the tomato for the salad.",
-     "id": "pt-u08-006"
+     "id": "pt-u08-006",
+     "emoji": "\ud83c\udf45"
     },
     {
      "term": "a batata",
      "en": "the potato",
      "example": "Vou fritar batata para o lanche.",
      "exampleEn": "I'm going to fry potatoes for a snack.",
-     "id": "pt-u08-007"
+     "id": "pt-u08-007",
+     "emoji": "\ud83e\udd54"
     },
     {
      "term": "a cebola",
      "en": "the onion",
      "example": "Refogo a cebola com um pouco de alho.",
-     "exampleEn": "I sauté the onion with a little garlic.",
-     "id": "pt-u08-008"
+     "exampleEn": "I saut\u00e9 the onion with a little garlic.",
+     "id": "pt-u08-008",
+     "emoji": "\ud83e\uddc5"
     },
     {
      "term": "o alho",
      "en": "the garlic",
      "example": "Esse arroz leva alho e sal.",
      "exampleEn": "This rice has garlic and salt in it.",
-     "id": "pt-u08-009"
+     "id": "pt-u08-009",
+     "emoji": "\ud83e\uddc4"
     },
     {
      "term": "a cenoura",
      "en": "the carrot",
      "example": "Rale a cenoura para a salada.",
      "exampleEn": "Grate the carrot for the salad.",
-     "id": "pt-u08-010"
+     "id": "pt-u08-010",
+     "emoji": "\ud83e\udd55"
     },
     {
      "term": "a geladeira",
      "en": "the refrigerator",
      "example": "Guarda o leite na geladeira, por favor.",
      "exampleEn": "Put the milk in the refrigerator, please.",
-     "id": "pt-u08-011"
+     "id": "pt-u08-011",
+     "emoji": "\ud83e\uddca"
     },
     {
-     "term": "o fogão",
+     "term": "o fog\u00e3o",
      "en": "the stove",
-     "example": "O feijão está cozinhando no fogão.",
+     "example": "O feij\u00e3o est\u00e1 cozinhando no fog\u00e3o.",
      "exampleEn": "The beans are cooking on the stove.",
-     "id": "pt-u08-012"
+     "id": "pt-u08-012",
+     "emoji": "\ud83d\udd25"
     },
     {
      "term": "a panela",
      "en": "the pot",
      "example": "Preciso de uma panela maior.",
      "exampleEn": "I need a bigger pot.",
-     "id": "pt-u08-013"
+     "id": "pt-u08-013",
+     "emoji": "\ud83c\udf72"
     },
     {
      "term": "o prato",
      "en": "the plate",
      "example": "Coloque os pratos em cima da mesa.",
      "exampleEn": "Put the plates on the table.",
-     "id": "pt-u08-014"
+     "id": "pt-u08-014",
+     "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
      "term": "o garfo",
      "en": "the fork",
-     "example": "O garfo e a faca estão na gaveta.",
+     "example": "O garfo e a faca est\u00e3o na gaveta.",
      "exampleEn": "The fork and the knife are in the drawer.",
-     "id": "pt-u08-015"
+     "id": "pt-u08-015",
+     "emoji": "\ud83c\udf74"
     },
     {
      "term": "a faca",
      "en": "the knife",
-     "example": "Corte o pão com a faca.",
+     "example": "Corte o p\u00e3o com a faca.",
      "exampleEn": "Cut the bread with the knife.",
-     "id": "pt-u08-016"
+     "id": "pt-u08-016",
+     "emoji": "\ud83d\udd2a"
     }
    ]
   },
   {
    "id": "u09",
-   "title": "Drinks & Café",
+   "title": "Drinks & Caf\u00e9",
    "cards": [
     {
-     "term": "a água",
+     "term": "a \u00e1gua",
      "en": "the water",
-     "example": "Me traz um copo de água, por favor?",
+     "example": "Me traz um copo de \u00e1gua, por favor?",
      "exampleEn": "Can you bring me a glass of water, please?",
-     "id": "pt-u09-001"
+     "id": "pt-u09-001",
+     "emoji": "\ud83d\udca7"
     },
     {
      "term": "o suco",
      "en": "the juice",
      "example": "Vou pedir um suco de manga.",
      "exampleEn": "I'm going to order a mango juice.",
-     "id": "pt-u09-002"
+     "id": "pt-u09-002",
+     "emoji": "\ud83c\udf79"
     },
     {
      "term": "o refrigerante",
      "en": "the soft drink",
-     "example": "Prefiro água a refrigerante no dia a dia.",
+     "example": "Prefiro \u00e1gua a refrigerante no dia a dia.",
      "exampleEn": "I prefer water to soft drinks day to day.",
-     "id": "pt-u09-003"
+     "id": "pt-u09-003",
+     "emoji": "\ud83e\udd64"
     },
     {
      "term": "o vinho",
      "en": "the wine",
-     "example": "Vamos tomar um vinho hoje à noite.",
+     "example": "Vamos tomar um vinho hoje \u00e0 noite.",
      "exampleEn": "Let's have a wine tonight.",
-     "id": "pt-u09-004"
+     "id": "pt-u09-004",
+     "emoji": "\ud83c\udf77"
     },
     {
      "term": "a cerveja",
      "en": "the beer",
      "example": "Uma cerveja bem gelada, por favor.",
      "exampleEn": "A very cold beer, please.",
-     "id": "pt-u09-005"
+     "id": "pt-u09-005",
+     "emoji": "\ud83c\udf7a"
     },
     {
-     "term": "o chá",
+     "term": "o ch\u00e1",
      "en": "the tea",
-     "example": "À noite gosto de tomar um chá.",
+     "example": "\u00c0 noite gosto de tomar um ch\u00e1.",
      "exampleEn": "At night I like to have a tea.",
-     "id": "pt-u09-006"
+     "id": "pt-u09-006",
+     "emoji": "\ud83c\udf75"
     },
     {
-     "term": "o café",
+     "term": "o caf\u00e9",
      "en": "the coffee",
-     "example": "Depois do jantar, tomo um café.",
+     "example": "Depois do jantar, tomo um caf\u00e9.",
      "exampleEn": "After dinner, I have a coffee.",
-     "id": "pt-u09-007"
+     "id": "pt-u09-007",
+     "emoji": "\u2615"
     },
     {
      "term": "o copo",
      "en": "the glass",
-     "example": "Desculpa, você tem um copo de água?",
+     "example": "Desculpa, voc\u00ea tem um copo de \u00e1gua?",
      "exampleEn": "Sorry, do you have a glass of water?",
-     "id": "pt-u09-008"
+     "id": "pt-u09-008",
+     "emoji": "\ud83e\udd5b"
     },
     {
-     "term": "a xícara",
+     "term": "a x\u00edcara",
      "en": "the cup",
-     "example": "Me serve mais uma xícara de café?",
+     "example": "Me serve mais uma x\u00edcara de caf\u00e9?",
      "exampleEn": "Could you serve me one more cup of coffee?",
-     "id": "pt-u09-009"
+     "id": "pt-u09-009",
+     "emoji": "\u2615"
     },
     {
      "term": "a garrafa",
      "en": "the bottle",
-     "example": "Uma garrafa de água mineral, por favor.",
+     "example": "Uma garrafa de \u00e1gua mineral, por favor.",
      "exampleEn": "A bottle of still water, please.",
-     "id": "pt-u09-010"
+     "id": "pt-u09-010",
+     "emoji": "\ud83c\udf7e"
     },
     {
      "term": "beber",
      "en": "to drink",
-     "example": "Você quer beber alguma coisa agora?",
+     "example": "Voc\u00ea quer beber alguma coisa agora?",
      "exampleEn": "Do you want to drink something now?",
-     "id": "pt-u09-011"
+     "id": "pt-u09-011",
+     "emoji": "\ud83c\udf79"
     },
     {
      "term": "tomar",
      "en": "to drink, to have",
      "example": "Vamos tomar um suco de laranja?",
      "exampleEn": "Shall we have an orange juice?",
-     "id": "pt-u09-012"
+     "id": "pt-u09-012",
+     "emoji": "\ud83c\udf77"
     },
     {
      "term": "a sede",
      "en": "thirst",
      "example": "Depois da corrida, estou com muita sede.",
      "exampleEn": "After the run, I'm very thirsty.",
-     "id": "pt-u09-013"
+     "id": "pt-u09-013",
+     "emoji": "\ud83d\ude29"
     },
     {
      "term": "a limonada",
      "en": "the lemonade",
-     "example": "Faça uma limonada com gelo e açúcar.",
+     "example": "Fa\u00e7a uma limonada com gelo e a\u00e7\u00facar.",
      "exampleEn": "Make a lemonade with ice and sugar.",
-     "id": "pt-u09-014"
+     "id": "pt-u09-014",
+     "emoji": "\ud83c\udf79"
     },
     {
      "term": "a bebida",
      "en": "the drink",
-     "example": "Qual é a sua bebida favorita?",
+     "example": "Qual \u00e9 a sua bebida favorita?",
      "exampleEn": "What's your favorite drink?",
-     "id": "pt-u09-015"
+     "id": "pt-u09-015",
+     "emoji": "\ud83e\udd64"
     },
     {
      "term": "o gelo",
      "en": "the ice",
      "example": "Prefiro refrigerante sem gelo.",
      "exampleEn": "I prefer my soft drink without ice.",
-     "id": "pt-u09-016"
+     "id": "pt-u09-016",
+     "emoji": "\ud83e\uddca"
     }
    ]
   },
@@ -1068,116 +1212,132 @@
    "title": "At the Restaurant",
    "cards": [
     {
-     "term": "o cardápio",
+     "term": "o card\u00e1pio",
      "en": "the menu",
-     "example": "Me traz o cardápio, por favor?",
+     "example": "Me traz o card\u00e1pio, por favor?",
      "exampleEn": "Can you bring me the menu, please?",
-     "id": "pt-u10-001"
+     "id": "pt-u10-001",
+     "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
      "term": "a conta",
      "en": "the bill",
-     "example": "Garçom, a conta, por favor.",
+     "example": "Gar\u00e7om, a conta, por favor.",
      "exampleEn": "Waiter, the bill, please.",
-     "id": "pt-u10-002"
+     "id": "pt-u10-002",
+     "emoji": "\ud83e\uddfe"
     },
     {
-     "term": "o garçom",
+     "term": "o gar\u00e7om",
      "en": "the waiter",
-     "example": "O garçom foi muito simpático com a gente.",
+     "example": "O gar\u00e7om foi muito simp\u00e1tico com a gente.",
      "exampleEn": "The waiter was very nice to us.",
-     "id": "pt-u10-003"
+     "id": "pt-u10-003",
+     "emoji": "\ud83e\uddd1\u200d\ud83c\udf73"
     },
     {
      "term": "a gorjeta",
      "en": "the tip",
-     "example": "A gorjeta aqui é de dez por cento.",
+     "example": "A gorjeta aqui \u00e9 de dez por cento.",
      "exampleEn": "The tip here is ten percent.",
-     "id": "pt-u10-004"
+     "id": "pt-u10-004",
+     "emoji": "\ud83d\udcb8"
     },
     {
      "term": "pedir",
      "en": "to order",
      "example": "Vamos pedir a comida e uma bebida.",
      "exampleEn": "Let's order the food and a drink.",
-     "id": "pt-u10-005"
+     "id": "pt-u10-005",
+     "emoji": "\ud83d\udc49"
     },
     {
      "term": "o pedido",
      "en": "the order",
      "example": "Acho que o meu pedido veio errado.",
      "exampleEn": "I think my order came wrong.",
-     "id": "pt-u10-006"
+     "id": "pt-u10-006",
+     "emoji": "\ud83d\udcdd"
     },
     {
      "term": "a sobremesa",
      "en": "the dessert",
      "example": "De sobremesa, vamos dividir um bolo.",
      "exampleEn": "For dessert, let's split a cake.",
-     "id": "pt-u10-007"
+     "id": "pt-u10-007",
+     "emoji": "\ud83c\udf70"
     },
     {
-     "term": "a refeição",
+     "term": "a refei\u00e7\u00e3o",
      "en": "the meal",
-     "example": "A refeição estava ótima e barata.",
+     "example": "A refei\u00e7\u00e3o estava \u00f3tima e barata.",
      "exampleEn": "The meal was great and cheap.",
-     "id": "pt-u10-008"
+     "id": "pt-u10-008",
+     "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
      "term": "delicioso",
      "en": "delicious",
-     "example": "Esse bolo caseiro está delicioso!",
+     "example": "Esse bolo caseiro est\u00e1 delicioso!",
      "exampleEn": "This homemade cake is delicious!",
-     "id": "pt-u10-009"
+     "id": "pt-u10-009",
+     "emoji": "\ud83d\ude0b"
     },
     {
      "term": "a reserva",
      "en": "the reservation",
      "example": "Tenho uma reserva para duas pessoas.",
      "exampleEn": "I have a reservation for two people.",
-     "id": "pt-u10-010"
+     "id": "pt-u10-010",
+     "emoji": "\ud83c\udfe8"
     },
     {
      "term": "pagar",
      "en": "to pay",
-     "example": "Posso pagar com cartão de crédito?",
+     "example": "Posso pagar com cart\u00e3o de cr\u00e9dito?",
      "exampleEn": "Can I pay with a credit card?",
-     "id": "pt-u10-011"
+     "id": "pt-u10-011",
+     "emoji": "\ud83d\udcb0"
     },
     {
      "term": "a comida",
      "en": "the food",
-     "example": "A comida daqui é boa e caseira.",
+     "example": "A comida daqui \u00e9 boa e caseira.",
      "exampleEn": "The food here is good and homemade.",
-     "id": "pt-u10-012"
+     "id": "pt-u10-012",
+     "emoji": "\ud83c\udf54"
     },
     {
      "term": "a entrada",
      "en": "the starter",
-     "example": "Para começar, vamos dividir uma entrada.",
+     "example": "Para come\u00e7ar, vamos dividir uma entrada.",
      "exampleEn": "To start, let's split an appetizer.",
-     "id": "pt-u10-013"
+     "id": "pt-u10-013",
+     "emoji": "\ud83e\udd57"
     },
     {
-     "term": "fique à vontade",
+     "term": "fique \u00e0 vontade",
      "en": "make yourself at home",
-     "example": "Fique à vontade, a casa é sua.",
+     "example": "Fique \u00e0 vontade, a casa \u00e9 sua.",
      "exampleEn": "Make yourself at home, the house is yours.",
-     "id": "pt-u10-014"
+     "id": "pt-u10-014",
+     "emoji": "\ud83c\udfe1"
     },
     {
      "term": "o guardanapo",
      "en": "the napkin",
      "example": "Passa os guardanapos, por favor.",
      "exampleEn": "Pass the napkins, please.",
-     "id": "pt-u10-015"
+     "id": "pt-u10-015",
+     "emoji": "\ud83e\uddfb"
     },
     {
      "term": "a fome",
      "en": "hunger",
      "example": "Depois do passeio, estou com muita fome.",
      "exampleEn": "After the walk, I'm very hungry.",
-     "id": "pt-u10-016"
+     "id": "pt-u10-016",
+     "emoji": "\ud83d\ude2b"
     }
    ]
   },
@@ -1190,112 +1350,128 @@
      "en": "the house",
      "example": "Estou voltando para casa agora.",
      "exampleEn": "I'm heading home right now.",
-     "id": "pt-u11-001"
+     "id": "pt-u11-001",
+     "emoji": "\ud83c\udfe0"
     },
     {
      "term": "o apartamento",
      "en": "the apartment",
      "example": "Meu apartamento tem dois quartos pequenos.",
      "exampleEn": "My apartment has two small bedrooms.",
-     "id": "pt-u11-002"
+     "id": "pt-u11-002",
+     "emoji": "\ud83c\udfe2"
     },
     {
      "term": "a cozinha",
      "en": "the kitchen",
-     "example": "Lavo a louça na cozinha depois do jantar.",
+     "example": "Lavo a lou\u00e7a na cozinha depois do jantar.",
      "exampleEn": "I wash the dishes in the kitchen after dinner.",
-     "id": "pt-u11-003"
+     "id": "pt-u11-003",
+     "emoji": "\ud83c\udf73"
     },
     {
      "term": "o quarto",
      "en": "the bedroom",
      "example": "O quarto tem uma janela grande.",
      "exampleEn": "The bedroom has a big window.",
-     "id": "pt-u11-004"
+     "id": "pt-u11-004",
+     "emoji": "\ud83d\udecc"
     },
     {
      "term": "o banheiro",
      "en": "the bathroom",
      "example": "Posso usar o banheiro, por favor?",
      "exampleEn": "Can I use the bathroom, please?",
-     "id": "pt-u11-005"
+     "id": "pt-u11-005",
+     "emoji": "\ud83d\udebd"
     },
     {
      "term": "a sala",
      "en": "the living room",
-     "example": "A família conversa à noite na sala.",
+     "example": "A fam\u00edlia conversa \u00e0 noite na sala.",
      "exampleEn": "The family chats at night in the living room.",
-     "id": "pt-u11-006"
+     "id": "pt-u11-006",
+     "emoji": "\ud83d\udecb\ufe0f"
     },
     {
      "term": "o quintal",
      "en": "the backyard",
      "example": "O cachorro brinca no quintal de casa.",
      "exampleEn": "The dog plays in the backyard.",
-     "id": "pt-u11-007"
+     "id": "pt-u11-007",
+     "emoji": "\ud83c\udf33"
     },
     {
      "term": "a garagem",
      "en": "the garage",
-     "example": "O carro está estacionado na garagem.",
+     "example": "O carro est\u00e1 estacionado na garagem.",
      "exampleEn": "The car is parked in the garage.",
-     "id": "pt-u11-008"
+     "id": "pt-u11-008",
+     "emoji": "\ud83d\ude97"
     },
     {
      "term": "a porta",
      "en": "the door",
-     "example": "A porta da frente está aberta.",
+     "example": "A porta da frente est\u00e1 aberta.",
      "exampleEn": "The front door is open.",
-     "id": "pt-u11-009"
+     "id": "pt-u11-009",
+     "emoji": "\ud83d\udeaa"
     },
     {
      "term": "a janela",
      "en": "the window",
      "example": "Abra a janela pra entrar um ar, por favor.",
      "exampleEn": "Please open the window to let some air in.",
-     "id": "pt-u11-010"
+     "id": "pt-u11-010",
+     "emoji": "\ud83e\ude9f"
     },
     {
      "term": "o jardim",
      "en": "the garden",
      "example": "Meu pai rega as plantas do jardim.",
      "exampleEn": "My dad waters the garden plants.",
-     "id": "pt-u11-011"
+     "id": "pt-u11-011",
+     "emoji": "\ud83c\udf37"
     },
     {
      "term": "o elevador",
      "en": "the elevator",
-     "example": "O elevador do prédio está quebrado.",
+     "example": "O elevador do pr\u00e9dio est\u00e1 quebrado.",
      "exampleEn": "The building's elevator is broken.",
-     "id": "pt-u11-012"
+     "id": "pt-u11-012",
+     "emoji": "\ud83d\udeac"
     },
     {
      "term": "a varanda",
      "en": "the balcony",
-     "example": "À noite, tomamos café na varanda.",
+     "example": "\u00c0 noite, tomamos caf\u00e9 na varanda.",
      "exampleEn": "At night, we have coffee on the balcony.",
-     "id": "pt-u11-013"
+     "id": "pt-u11-013",
+     "emoji": "\ud83e\udeb4"
     },
     {
      "term": "o vizinho",
      "en": "the neighbor",
-     "example": "O vizinho novo é muito simpático.",
+     "example": "O vizinho novo \u00e9 muito simp\u00e1tico.",
      "exampleEn": "The new neighbor is very nice.",
-     "id": "pt-u11-014"
+     "id": "pt-u11-014",
+     "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
     },
     {
-     "term": "o escritório",
+     "term": "o escrit\u00f3rio",
      "en": "the office",
-     "example": "Trabalho no escritório de casa.",
+     "example": "Trabalho no escrit\u00f3rio de casa.",
      "exampleEn": "I work from my home office.",
-     "id": "pt-u11-015"
+     "id": "pt-u11-015",
+     "emoji": "\ud83c\udfe2"
     },
     {
      "term": "a escada",
      "en": "the stairs",
-     "example": "Desça a escada com cuidado.",
+     "example": "Des\u00e7a a escada com cuidado.",
      "exampleEn": "Go down the stairs carefully.",
-     "id": "pt-u11-016"
+     "id": "pt-u11-016",
+     "emoji": "\ud83e\ude9c"
     }
    ]
   },
@@ -1306,114 +1482,130 @@
     {
      "term": "a mesa",
      "en": "the table",
-     "example": "Os livros estão em cima da mesa.",
+     "example": "Os livros est\u00e3o em cima da mesa.",
      "exampleEn": "The books are on the table.",
-     "id": "pt-u12-001"
+     "id": "pt-u12-001",
+     "emoji": "\ud83d\udd62"
     },
     {
      "term": "a cadeira",
      "en": "the chair",
      "example": "Puxa a cadeira e senta aqui.",
      "exampleEn": "Pull up the chair and sit here.",
-     "id": "pt-u12-002"
+     "id": "pt-u12-002",
+     "emoji": "\ud83d\udcba"
     },
     {
      "term": "a cama",
      "en": "the bed",
-     "example": "Arrumo a cama todas as manhãs.",
+     "example": "Arrumo a cama todas as manh\u00e3s.",
      "exampleEn": "I make the bed every morning.",
-     "id": "pt-u12-003"
+     "id": "pt-u12-003",
+     "emoji": "\ud83d\udecc"
     },
     {
-     "term": "o sofá",
+     "term": "o sof\u00e1",
      "en": "the sofa",
-     "example": "Estou no sofá vendo televisão.",
+     "example": "Estou no sof\u00e1 vendo televis\u00e3o.",
      "exampleEn": "I'm on the sofa watching television.",
-     "id": "pt-u12-004"
+     "id": "pt-u12-004",
+     "emoji": "\ud83d\udecb\ufe0f"
     },
     {
-     "term": "o armário",
+     "term": "o arm\u00e1rio",
      "en": "the wardrobe",
-     "example": "Guardei as roupas novas no armário.",
+     "example": "Guardei as roupas novas no arm\u00e1rio.",
      "exampleEn": "I put the new clothes in the wardrobe.",
-     "id": "pt-u12-005"
+     "id": "pt-u12-005",
+     "emoji": "\ud83d\uddc4\ufe0f"
     },
     {
      "term": "o espelho",
      "en": "the mirror",
      "example": "Ele se olha no espelho antes de sair.",
      "exampleEn": "He looks at himself in the mirror before going out.",
-     "id": "pt-u12-006"
+     "id": "pt-u12-006",
+     "emoji": "\ud83e\ude9e"
     },
     {
-     "term": "a televisão",
+     "term": "a televis\u00e3o",
      "en": "the television",
-     "example": "A televisão está na sala de estar.",
+     "example": "A televis\u00e3o est\u00e1 na sala de estar.",
      "exampleEn": "The television is in the living room.",
-     "id": "pt-u12-007"
+     "id": "pt-u12-007",
+     "emoji": "\ud83d\udcfa"
     },
     {
      "term": "o computador",
      "en": "the computer",
      "example": "Uso o computador para trabalhar todos os dias.",
      "exampleEn": "I use the computer to work every day.",
-     "id": "pt-u12-008"
+     "id": "pt-u12-008",
+     "emoji": "\ud83d\udcbb"
     },
     {
      "term": "o celular",
      "en": "the cell phone",
-     "example": "Meu celular está sem bateria.",
+     "example": "Meu celular est\u00e1 sem bateria.",
      "exampleEn": "My cell phone is out of battery.",
-     "id": "pt-u12-009"
+     "id": "pt-u12-009",
+     "emoji": "\ud83d\udcf1"
     },
     {
      "term": "a chave",
      "en": "the key",
      "example": "Perdi a chave de casa hoje.",
      "exampleEn": "I lost my house key today.",
-     "id": "pt-u12-010"
+     "id": "pt-u12-010",
+     "emoji": "\ud83d\udd11"
     },
     {
      "term": "o livro",
      "en": "the book",
      "example": "Estou lendo um livro muito bom.",
      "exampleEn": "I'm reading a very good book.",
-     "id": "pt-u12-011"
+     "id": "pt-u12-011",
+     "emoji": "\ud83d\udcd6"
     },
     {
      "term": "a caneta",
      "en": "the pen",
-     "example": "Você tem uma caneta para me emprestar?",
+     "example": "Voc\u00ea tem uma caneta para me emprestar?",
      "exampleEn": "Do you have a pen to lend me?",
-     "id": "pt-u12-012"
+     "id": "pt-u12-012",
+     "emoji": "\ud83d\udd8a\ufe0f"
     },
     {
-     "term": "o relógio",
+     "term": "o rel\u00f3gio",
      "en": "the watch",
-     "example": "Esqueci meu relógio em cima da mesa.",
+     "example": "Esqueci meu rel\u00f3gio em cima da mesa.",
      "exampleEn": "I left my watch on the table.",
-     "id": "pt-u12-013"
+     "id": "pt-u12-013",
+     "emoji": "\u231a"
     },
     {
      "term": "o travesseiro",
      "en": "the pillow",
      "example": "Comprei um travesseiro novo e macio.",
      "exampleEn": "I bought a new, soft pillow.",
-     "id": "pt-u12-014"
+     "id": "pt-u12-014",
+     "emoji": "\ud83d\udecf\ufe0f"
     },
     {
      "term": "a toalha",
      "en": "the towel",
      "example": "Pega a toalha para me secar.",
      "exampleEn": "Grab the towel to dry me off.",
-     "id": "pt-u12-015"
+     "id": "pt-u12-015",
+     "emoji": "\ud83e\uddfb"
     },
     {
      "term": "o controle remoto",
      "en": "the remote control",
      "example": "Pega o controle remoto e muda o canal.",
      "exampleEn": "Grab the remote control and change the channel.",
-     "id": "pt-u12-016"
+     "id": "pt-u12-016",
+     "emoji": "\u23ef\ufe0f"
     }
    ]
   },
@@ -1424,114 +1616,130 @@
     {
      "term": "a cidade",
      "en": "the city",
-     "example": "Moro nesta cidade há cinco anos.",
+     "example": "Moro nesta cidade h\u00e1 cinco anos.",
      "exampleEn": "I've lived in this city for five years.",
-     "id": "pt-u13-001"
+     "id": "pt-u13-001",
+     "emoji": "\ud83c\udfd9\ufe0f"
     },
     {
      "term": "o bairro",
      "en": "the neighborhood",
-     "example": "Este bairro é muito tranquilo.",
+     "example": "Este bairro \u00e9 muito tranquilo.",
      "exampleEn": "This neighborhood is very quiet.",
-     "id": "pt-u13-002"
+     "id": "pt-u13-002",
+     "emoji": "\ud83c\udfd8\ufe0f"
     },
     {
-     "term": "a praça",
+     "term": "a pra\u00e7a",
      "en": "the square",
-     "example": "As crianças brincam na praça.",
+     "example": "As crian\u00e7as brincam na pra\u00e7a.",
      "exampleEn": "The kids play in the square.",
-     "id": "pt-u13-003"
+     "id": "pt-u13-003",
+     "emoji": "\u26f2"
     },
     {
      "term": "o mercado",
      "en": "the market, the supermarket",
      "example": "Vou ao mercado comprar frutas.",
      "exampleEn": "I'm going to the market to buy fruit.",
-     "id": "pt-u13-004"
+     "id": "pt-u13-004",
+     "emoji": "\ud83d\uded2"
     },
     {
-     "term": "a farmácia",
+     "term": "a farm\u00e1cia",
      "en": "the pharmacy",
-     "example": "A farmácia fica na esquina.",
+     "example": "A farm\u00e1cia fica na esquina.",
      "exampleEn": "The pharmacy is on the corner.",
-     "id": "pt-u13-005"
+     "id": "pt-u13-005",
+     "emoji": "\ud83d\udc8a"
     },
     {
      "term": "o hospital",
      "en": "the hospital",
      "example": "O hospital fica aberto vinte e quatro horas.",
      "exampleEn": "The hospital is open twenty-four hours.",
-     "id": "pt-u13-006"
+     "id": "pt-u13-006",
+     "emoji": "\ud83c\udfe5"
     },
     {
      "term": "a escola",
      "en": "the school",
-     "example": "A escola começa às sete.",
+     "example": "A escola come\u00e7a \u00e0s sete.",
      "exampleEn": "School starts at seven.",
-     "id": "pt-u13-007"
+     "id": "pt-u13-007",
+     "emoji": "\ud83c\udfeb"
     },
     {
      "term": "a igreja",
      "en": "the church",
-     "example": "A igreja fica ao lado da praça.",
+     "example": "A igreja fica ao lado da pra\u00e7a.",
      "exampleEn": "The church is next to the square.",
-     "id": "pt-u13-008"
+     "id": "pt-u13-008",
+     "emoji": "\u26ea"
     },
     {
      "term": "o banco",
      "en": "the bank",
      "example": "Preciso ir ao banco hoje.",
      "exampleEn": "I need to go to the bank today.",
-     "id": "pt-u13-009"
+     "id": "pt-u13-009",
+     "emoji": "\ud83c\udfe6"
     },
     {
      "term": "o restaurante",
      "en": "the restaurant",
-     "example": "O restaurante fecha às dez.",
+     "example": "O restaurante fecha \u00e0s dez.",
      "exampleEn": "The restaurant closes at ten.",
-     "id": "pt-u13-010"
+     "id": "pt-u13-010",
+     "emoji": "\ud83c\udf7d\ufe0f"
     },
     {
      "term": "a padaria",
      "en": "the bakery",
-     "example": "Comprei pão fresco na padaria.",
+     "example": "Comprei p\u00e3o fresco na padaria.",
      "exampleEn": "I bought fresh bread at the bakery.",
-     "id": "pt-u13-011"
+     "id": "pt-u13-011",
+     "emoji": "\ud83e\udd50"
     },
     {
      "term": "o parque",
      "en": "the park",
      "example": "Passeamos no parque no domingo.",
      "exampleEn": "We take a walk in the park on Sunday.",
-     "id": "pt-u13-012"
+     "id": "pt-u13-012",
+     "emoji": "\ud83c\udf33"
     },
     {
-     "term": "a estação",
+     "term": "a esta\u00e7\u00e3o",
      "en": "the station",
-     "example": "A estação de trem é longe.",
+     "example": "A esta\u00e7\u00e3o de trem \u00e9 longe.",
      "exampleEn": "The train station is far.",
-     "id": "pt-u13-013"
+     "id": "pt-u13-013",
+     "emoji": "\ud83d\ude89"
     },
     {
      "term": "o shopping",
      "en": "the mall",
-     "example": "Vamos ao shopping à tarde.",
+     "example": "Vamos ao shopping \u00e0 tarde.",
      "exampleEn": "Let's go to the mall this afternoon.",
-     "id": "pt-u13-014"
+     "id": "pt-u13-014",
+     "emoji": "\ud83d\uded2"
     },
     {
      "term": "a feira",
      "en": "the open-air market",
-     "example": "A feira acontece no sábado.",
+     "example": "A feira acontece no s\u00e1bado.",
      "exampleEn": "The open-air market takes place on Saturday.",
-     "id": "pt-u13-015"
+     "id": "pt-u13-015",
+     "emoji": "\ud83c\udfaa"
     },
     {
      "term": "a praia",
      "en": "the beach",
-     "example": "A praia está cheia hoje.",
+     "example": "A praia est\u00e1 cheia hoje.",
      "exampleEn": "The beach is crowded today.",
-     "id": "pt-u13-016"
+     "id": "pt-u13-016",
+     "emoji": "\ud83c\udfd6\ufe0f"
     }
    ]
   },
@@ -1542,114 +1750,130 @@
     {
      "term": "a esquerda",
      "en": "the left",
-     "example": "Vire à esquerda na esquina.",
+     "example": "Vire \u00e0 esquerda na esquina.",
      "exampleEn": "Turn left at the corner.",
-     "id": "pt-u14-001"
+     "id": "pt-u14-001",
+     "emoji": "\u2b05\ufe0f"
     },
     {
      "term": "a direita",
      "en": "the right",
-     "example": "A farmácia fica à direita.",
+     "example": "A farm\u00e1cia fica \u00e0 direita.",
      "exampleEn": "The pharmacy is on the right.",
-     "id": "pt-u14-002"
+     "id": "pt-u14-002",
+     "emoji": "\u27a1\ufe0f"
     },
     {
      "term": "em frente",
      "en": "across, in front",
-     "example": "O banco fica em frente à padaria.",
+     "example": "O banco fica em frente \u00e0 padaria.",
      "exampleEn": "The bank is across from the bakery.",
-     "id": "pt-u14-003"
+     "id": "pt-u14-003",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "perto",
      "en": "near, close",
-     "example": "A escola é perto de casa.",
+     "example": "A escola \u00e9 perto de casa.",
      "exampleEn": "The school is close to home.",
-     "id": "pt-u14-004"
+     "id": "pt-u14-004",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "longe",
      "en": "far",
      "example": "O aeroporto fica muito longe.",
      "exampleEn": "The airport is very far.",
-     "id": "pt-u14-005"
+     "id": "pt-u14-005",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "o ônibus",
+     "term": "o \u00f4nibus",
      "en": "the bus",
-     "example": "Pego o ônibus às oito.",
+     "example": "Pego o \u00f4nibus \u00e0s oito.",
      "exampleEn": "I take the bus at eight.",
-     "id": "pt-u14-006"
+     "id": "pt-u14-006",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "o metrô",
+     "term": "o metr\u00f4",
      "en": "the subway",
-     "example": "O metrô está sempre cheio.",
+     "example": "O metr\u00f4 est\u00e1 sempre cheio.",
      "exampleEn": "The subway is always crowded.",
-     "id": "pt-u14-007"
+     "id": "pt-u14-007",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "o táxi",
+     "term": "o t\u00e1xi",
      "en": "the taxi",
-     "example": "Vamos de táxi para o hotel.",
+     "example": "Vamos de t\u00e1xi para o hotel.",
      "exampleEn": "Let's take a taxi to the hotel.",
-     "id": "pt-u14-008"
+     "id": "pt-u14-008",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o carro",
      "en": "the car",
-     "example": "Lavo o carro no sábado.",
+     "example": "Lavo o carro no s\u00e1bado.",
      "exampleEn": "I wash the car on Saturday.",
-     "id": "pt-u14-009"
+     "id": "pt-u14-009",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a bicicleta",
      "en": "the bicycle",
      "example": "Vou de bicicleta ao trabalho.",
      "exampleEn": "I go to work by bicycle.",
-     "id": "pt-u14-010"
+     "id": "pt-u14-010",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a rua",
      "en": "the street",
-     "example": "A rua está molhada de chuva.",
+     "example": "A rua est\u00e1 molhada de chuva.",
      "exampleEn": "The street is wet from the rain.",
-     "id": "pt-u14-011"
+     "id": "pt-u14-011",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o cruzamento",
      "en": "the intersection",
-     "example": "O semáforo está no cruzamento.",
+     "example": "O sem\u00e1foro est\u00e1 no cruzamento.",
      "exampleEn": "The traffic light is at the intersection.",
-     "id": "pt-u14-012"
+     "id": "pt-u14-012",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "o semáforo",
+     "term": "o sem\u00e1foro",
      "en": "the traffic light",
-     "example": "Os carros pararam no semáforo vermelho.",
+     "example": "Os carros pararam no sem\u00e1foro vermelho.",
      "exampleEn": "The cars stopped at the red traffic light.",
-     "id": "pt-u14-013"
+     "id": "pt-u14-013",
+     "emoji": "\ud83d\udea6"
     },
     {
      "term": "a esquina",
      "en": "the corner",
-     "example": "O mercado é na outra esquina.",
+     "example": "O mercado \u00e9 na outra esquina.",
      "exampleEn": "The market is on the other corner.",
-     "id": "pt-u14-014"
+     "id": "pt-u14-014",
+     "emoji": "\ud83d\udcd0"
     },
     {
-     "term": "o ponto de ônibus",
+     "term": "o ponto de \u00f4nibus",
      "en": "the bus stop",
-     "example": "Meu ponto de ônibus fica perto da padaria.",
+     "example": "Meu ponto de \u00f4nibus fica perto da padaria.",
      "exampleEn": "My bus stop is near the bakery.",
-     "id": "pt-u14-015"
+     "id": "pt-u14-015",
+     "emoji": "\ud83d\ude8c"
     },
     {
-     "term": "o endereço",
+     "term": "o endere\u00e7o",
      "en": "the address",
-     "example": "Meu irmão mudou de endereço semana passada.",
+     "example": "Meu irm\u00e3o mudou de endere\u00e7o semana passada.",
      "exampleEn": "My brother moved to a new address last week.",
-     "id": "pt-u14-016"
+     "id": "pt-u14-016",
+     "emoji": "\ud83d\udccd"
     }
    ]
   },
@@ -1662,77 +1886,88 @@
      "en": "the airport",
      "example": "O aeroporto fica longe do centro.",
      "exampleEn": "The airport is far from downtown.",
-     "id": "pt-u15-001"
+     "id": "pt-u15-001",
+     "emoji": "\u2708\ufe0f"
     },
     {
      "term": "o passaporte",
      "en": "the passport",
      "example": "Preciso renovar meu passaporte.",
      "exampleEn": "I need to renew my passport.",
-     "id": "pt-u15-002"
+     "id": "pt-u15-002",
+     "emoji": "\ud83d\udec2"
     },
     {
      "term": "a passagem",
      "en": "the ticket",
-     "example": "Comprei a passagem de avião.",
+     "example": "Comprei a passagem de avi\u00e3o.",
      "exampleEn": "I bought the plane ticket.",
-     "id": "pt-u15-003"
+     "id": "pt-u15-003",
+     "emoji": "\ud83c\udf9f\ufe0f"
     },
     {
      "term": "o voo",
      "en": "the flight",
      "example": "O voo atrasou duas horas.",
      "exampleEn": "The flight was two hours late.",
-     "id": "pt-u15-004"
+     "id": "pt-u15-004",
+     "emoji": "\u2708\ufe0f"
     },
     {
      "term": "a mala",
      "en": "the suitcase",
-     "example": "Minha mala está muito pesada.",
+     "example": "Minha mala est\u00e1 muito pesada.",
      "exampleEn": "My suitcase is very heavy.",
-     "id": "pt-u15-005"
+     "id": "pt-u15-005",
+     "emoji": "\ud83e\uddf3"
     },
     {
      "term": "a viagem",
      "en": "the trip",
      "example": "A viagem durou dez horas.",
      "exampleEn": "The trip lasted ten hours.",
-     "id": "pt-u15-006"
+     "id": "pt-u15-006",
+     "emoji": "\ud83c\udf0d"
     },
     {
      "term": "o hotel",
      "en": "the hotel",
      "example": "O hotel tem piscina grande.",
      "exampleEn": "The hotel has a big pool.",
-     "id": "pt-u15-007"
+     "id": "pt-u15-007",
+     "emoji": "\ud83c\udfe8"
     },
     {
      "term": "o quarto",
      "en": "the room",
      "example": "O quarto tem duas camas.",
      "exampleEn": "The room has two beds.",
-     "id": "pt-u15-008"
+     "id": "pt-u15-008",
+     "emoji": "\ud83d\udecc"
     },
     {
      "term": "o andar",
      "en": "the floor (of a building)",
      "example": "Meu quarto fica no terceiro andar.",
      "exampleEn": "My room is on the third floor.",
-     "id": "pt-u15-009"
+     "id": "pt-u15-009",
+     "emoji": "\ud83c\udfe2"
     },
     {
      "term": "o ar-condicionado",
      "en": "the air conditioner",
-     "example": "O ar-condicionado do quarto não funciona.",
+     "example": "O ar-condicionado do quarto n\u00e3o funciona.",
      "exampleEn": "The room's air conditioner doesn't work.",
-     "id": "pt-u15-010"
+     "id": "pt-u15-010",
+     "emoji": "\u2744\ufe0f"
     },
     {
      "term": "a fila",
      "en": "the line, the queue",
-     "example": "A fila do aeroporto está enorme.",
+     "example": "A fila do aeroporto est\u00e1 enorme.",
      "exampleEn": "The line at the airport is huge.",
-     "id": "pt-u15-011"
+     "id": "pt-u15-011",
+     "emoji": "\ud83e\uddcd\u200d\u2640\ufe0f\ud83e\uddcd\u200d\u2642\ufe0f"
     }
    ]
   },
@@ -1743,100 +1978,114 @@
     {
      "term": "a loja",
      "en": "the store",
-     "example": "A loja abre às nove.",
+     "example": "A loja abre \u00e0s nove.",
      "exampleEn": "The store opens at nine.",
-     "id": "pt-u16-001"
+     "id": "pt-u16-001",
+     "emoji": "\ud83d\uded2"
     },
     {
-     "term": "o preço",
+     "term": "o pre\u00e7o",
      "en": "the price",
-     "example": "Qual é o preço desta camisa?",
+     "example": "Qual \u00e9 o pre\u00e7o desta camisa?",
      "exampleEn": "What is the price of this shirt?",
-     "id": "pt-u16-002"
+     "id": "pt-u16-002",
+     "emoji": "\ud83d\udcb0"
     },
     {
      "term": "barato",
      "en": "cheap",
-     "example": "Esta blusa está muito barata.",
+     "example": "Esta blusa est\u00e1 muito barata.",
      "exampleEn": "This blouse is very cheap.",
-     "id": "pt-u16-003"
+     "id": "pt-u16-003",
+     "emoji": "\ud83d\udcc9"
     },
     {
      "term": "caro",
      "en": "expensive",
-     "example": "Estes sapatos estão caros demais.",
+     "example": "Estes sapatos est\u00e3o caros demais.",
      "exampleEn": "These shoes are too expensive.",
-     "id": "pt-u16-004"
+     "id": "pt-u16-004",
+     "emoji": "\ud83d\udcb8"
     },
     {
      "term": "o dinheiro",
      "en": "the money",
-     "example": "Não tenho dinheiro comigo.",
+     "example": "N\u00e3o tenho dinheiro comigo.",
      "exampleEn": "I don't have money with me.",
-     "id": "pt-u16-005"
+     "id": "pt-u16-005",
+     "emoji": "\ud83c\udfe7"
     },
     {
-     "term": "o cartão",
+     "term": "o cart\u00e3o",
      "en": "the card (payment card)",
-     "example": "Posso pagar no cartão?",
+     "example": "Posso pagar no cart\u00e3o?",
      "exampleEn": "Can I pay by card?",
-     "id": "pt-u16-006"
+     "id": "pt-u16-006",
+     "emoji": "\ud83d\udcb3"
     },
     {
      "term": "o troco",
      "en": "the change (money back)",
-     "example": "O troco está certo, obrigado.",
+     "example": "O troco est\u00e1 certo, obrigado.",
      "exampleEn": "The change is right, thank you.",
-     "id": "pt-u16-007"
+     "id": "pt-u16-007",
+     "emoji": "\ud83d\udcb0"
     },
     {
      "term": "o recibo",
      "en": "the receipt",
-     "example": "Você pode me dar o recibo?",
+     "example": "Voc\u00ea pode me dar o recibo?",
      "exampleEn": "Can you give me the receipt?",
-     "id": "pt-u16-008"
+     "id": "pt-u16-008",
+     "emoji": "\ud83e\uddfe"
     },
     {
      "term": "comprar",
      "en": "to buy",
      "example": "Vou comprar um presente para ela.",
      "exampleEn": "I'm going to buy a gift for her.",
-     "id": "pt-u16-009"
+     "id": "pt-u16-009",
+     "emoji": "\ud83d\uded2"
     },
     {
      "term": "a roupa",
      "en": "the clothing",
      "example": "Preciso comprar roupas novas.",
      "exampleEn": "I need to buy new clothes.",
-     "id": "pt-u16-010"
+     "id": "pt-u16-010",
+     "emoji": "\ud83d\udc55"
     },
     {
      "term": "o sapato",
      "en": "the shoe",
      "example": "Vou experimentar estes sapatos.",
      "exampleEn": "I'm going to try on these shoes.",
-     "id": "pt-u16-011"
+     "id": "pt-u16-011",
+     "emoji": "\ud83d\udc5f"
     },
     {
      "term": "experimentar",
      "en": "to try on",
      "example": "Posso experimentar este vestido?",
      "exampleEn": "Can I try on this dress?",
-     "id": "pt-u16-012"
+     "id": "pt-u16-012",
+     "emoji": "\ud83d\udecd\ufe0f"
     },
     {
      "term": "o tamanho",
      "en": "the size",
-     "example": "Você tem um tamanho maior?",
+     "example": "Voc\u00ea tem um tamanho maior?",
      "exampleEn": "Do you have a bigger size?",
-     "id": "pt-u16-013"
+     "id": "pt-u16-013",
+     "emoji": "\ud83d\udccf"
     },
     {
      "term": "custar",
      "en": "to cost",
      "example": "Quanto custa esta bolsa?",
      "exampleEn": "How much does this bag cost?",
-     "id": "pt-u16-014"
+     "id": "pt-u16-014",
+     "emoji": "\ud83d\udcb8"
     }
    ]
   },
@@ -1847,86 +2096,98 @@
     {
      "term": "o trabalho",
      "en": "the work",
-     "example": "Meu trabalho começa às nove.",
+     "example": "Meu trabalho come\u00e7a \u00e0s nove.",
      "exampleEn": "My work starts at nine.",
-     "id": "pt-u17-001"
+     "id": "pt-u17-001",
+     "emoji": "\ud83d\udcbc"
     },
     {
      "term": "o emprego",
      "en": "the job",
      "example": "Encontrei um emprego novo.",
      "exampleEn": "I found a new job.",
-     "id": "pt-u17-002"
+     "id": "pt-u17-002",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o chefe",
      "en": "the boss",
      "example": "Vou falar com o chefe agora mesmo.",
      "exampleEn": "I'm going to talk to the boss right now.",
-     "id": "pt-u17-003"
+     "id": "pt-u17-003",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "a reunião",
+     "term": "a reuni\u00e3o",
      "en": "the meeting",
-     "example": "Tenho reunião com o chefe.",
+     "example": "Tenho reuni\u00e3o com o chefe.",
      "exampleEn": "I have a meeting with the boss.",
-     "id": "pt-u17-004"
+     "id": "pt-u17-004",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o curso",
      "en": "the course",
-     "example": "Fiz um curso de inglês.",
+     "example": "Fiz um curso de ingl\u00eas.",
      "exampleEn": "I took an English course.",
-     "id": "pt-u17-005"
+     "id": "pt-u17-005",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o professor",
      "en": "the teacher",
      "example": "Pedi ajuda ao professor depois da aula.",
      "exampleEn": "I asked the teacher for help after class.",
-     "id": "pt-u17-006"
+     "id": "pt-u17-006",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a aula",
      "en": "the class, the lesson",
-     "example": "A aula começa em dez minutos.",
+     "example": "A aula come\u00e7a em dez minutos.",
      "exampleEn": "Class starts in ten minutes.",
-     "id": "pt-u17-007"
+     "id": "pt-u17-007",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o aluno",
      "en": "the student, the pupil",
-     "example": "O aluno respondeu à pergunta.",
+     "example": "O aluno respondeu \u00e0 pergunta.",
      "exampleEn": "The student answered the question.",
-     "id": "pt-u17-008"
+     "id": "pt-u17-008",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o caderno",
      "en": "the notebook",
      "example": "Escrevi tudo no caderno.",
      "exampleEn": "I wrote everything in the notebook.",
-     "id": "pt-u17-009"
+     "id": "pt-u17-009",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "a lição de casa",
+     "term": "a li\u00e7\u00e3o de casa",
      "en": "the homework",
-     "example": "Ainda não fiz a lição de casa.",
+     "example": "Ainda n\u00e3o fiz a li\u00e7\u00e3o de casa.",
      "exampleEn": "I haven't done the homework yet.",
-     "id": "pt-u17-010"
+     "id": "pt-u17-010",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a prova",
      "en": "the test, the exam",
-     "example": "Tenho prova de matemática amanhã.",
+     "example": "Tenho prova de matem\u00e1tica amanh\u00e3.",
      "exampleEn": "I have a math test tomorrow.",
-     "id": "pt-u17-011"
+     "id": "pt-u17-011",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "estudar",
      "en": "to study",
-     "example": "Estudo português todos os dias.",
+     "example": "Estudo portugu\u00eas todos os dias.",
      "exampleEn": "I study Portuguese every day.",
-     "id": "pt-u17-012"
+     "id": "pt-u17-012",
+     "emoji": "\ud83d\udc36"
     }
    ]
   },
@@ -1935,116 +2196,132 @@
    "title": "Body & Health",
    "cards": [
     {
-     "term": "a cabeça",
+     "term": "a cabe\u00e7a",
      "en": "the head",
-     "example": "Bati a cabeça na porta.",
+     "example": "Bati a cabe\u00e7a na porta.",
      "exampleEn": "I hit my head on the door.",
-     "id": "pt-u18-001"
+     "id": "pt-u18-001",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o corpo",
      "en": "the body",
      "example": "Estou com o corpo dolorido.",
      "exampleEn": "My whole body is sore.",
-     "id": "pt-u18-002"
+     "id": "pt-u18-002",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a dor",
      "en": "the pain",
-     "example": "O remédio tirou a dor rápido.",
+     "example": "O rem\u00e9dio tirou a dor r\u00e1pido.",
      "exampleEn": "The medicine took the pain away quickly.",
-     "id": "pt-u18-003"
+     "id": "pt-u18-003",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "doer",
      "en": "to hurt",
-     "example": "Meu pé dói depois de caminhar.",
+     "example": "Meu p\u00e9 d\u00f3i depois de caminhar.",
      "exampleEn": "My foot hurts after walking.",
-     "id": "pt-u18-004"
+     "id": "pt-u18-004",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a perna",
      "en": "the leg",
      "example": "Estou com a perna machucada e ando devagar.",
      "exampleEn": "My leg is hurt and I walk slowly.",
-     "id": "pt-u18-005"
+     "id": "pt-u18-005",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "o braço",
+     "term": "o bra\u00e7o",
      "en": "the arm",
-     "example": "Levantei o braço para responder na aula.",
+     "example": "Levantei o bra\u00e7o para responder na aula.",
      "exampleEn": "I raised my arm to answer in class.",
-     "id": "pt-u18-006"
+     "id": "pt-u18-006",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "a mão",
+     "term": "a m\u00e3o",
      "en": "the hand",
-     "example": "Lave as mãos antes de comer.",
+     "example": "Lave as m\u00e3os antes de comer.",
      "exampleEn": "Wash your hands before eating.",
-     "id": "pt-u18-007"
+     "id": "pt-u18-007",
+     "emoji": "\ud83d\udc36"
     },
     {
-     "term": "o pé",
+     "term": "o p\u00e9",
      "en": "the foot",
-     "example": "Machuquei o pé jogando futebol.",
+     "example": "Machuquei o p\u00e9 jogando futebol.",
      "exampleEn": "I hurt my foot playing soccer.",
-     "id": "pt-u18-008"
+     "id": "pt-u18-008",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o olho",
      "en": "the eye",
      "example": "Esfreguei o olho porque estava com areia.",
      "exampleEn": "I rubbed my eye because there was sand in it.",
-     "id": "pt-u18-009"
+     "id": "pt-u18-009",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "a boca",
      "en": "the mouth",
      "example": "Abra a boca, por favor.",
      "exampleEn": "Open your mouth, please.",
-     "id": "pt-u18-010"
+     "id": "pt-u18-010",
+     "emoji": "\ud83d\udc44"
     },
     {
      "term": "o dente",
      "en": "the tooth",
-     "example": "Meu dente dói quando como algo doce.",
+     "example": "Meu dente d\u00f3i quando como algo doce.",
      "exampleEn": "My tooth hurts when I eat something sweet.",
-     "id": "pt-u18-011"
+     "id": "pt-u18-011",
+     "emoji": "\ud83e\uddb7"
     },
     {
-     "term": "o médico",
+     "term": "o m\u00e9dico",
      "en": "the doctor",
-     "example": "O médico me deu um conselho.",
+     "example": "O m\u00e9dico me deu um conselho.",
      "exampleEn": "The doctor gave me some advice.",
-     "id": "pt-u18-012"
+     "id": "pt-u18-012",
+     "emoji": "\ud83e\uddd1\u200d\u2695\ufe0f"
     },
     {
-     "term": "o remédio",
+     "term": "o rem\u00e9dio",
      "en": "the medicine",
-     "example": "Tomo remédio de manhã.",
+     "example": "Tomo rem\u00e9dio de manh\u00e3.",
      "exampleEn": "I take medicine in the morning.",
-     "id": "pt-u18-013"
+     "id": "pt-u18-013",
+     "emoji": "\ud83d\udc8a"
     },
     {
      "term": "doente",
      "en": "sick",
      "example": "Estou doente e vou ficar em casa.",
      "exampleEn": "I'm sick and I'm going to stay home.",
-     "id": "pt-u18-014"
+     "id": "pt-u18-014",
+     "emoji": "\ud83e\udd12"
     },
     {
      "term": "a febre",
      "en": "the fever",
-     "example": "O menino está com febre.",
+     "example": "O menino est\u00e1 com febre.",
      "exampleEn": "The boy has a fever.",
-     "id": "pt-u18-015"
+     "id": "pt-u18-015",
+     "emoji": "\ud83d\udd25"
     },
     {
      "term": "a consulta",
      "en": "the appointment (medical)",
-     "example": "Tenho consulta com o médico amanhã.",
+     "example": "Tenho consulta com o m\u00e9dico amanh\u00e3.",
      "exampleEn": "I have a doctor's appointment tomorrow.",
-     "id": "pt-u18-016"
+     "id": "pt-u18-016",
+     "emoji": "\ud83d\uddd3\ufe0f"
     }
    ]
   },
@@ -2055,107 +2332,122 @@
     {
      "term": "o sol",
      "en": "the sun",
-     "example": "Hoje o sol está muito forte.",
+     "example": "Hoje o sol est\u00e1 muito forte.",
      "exampleEn": "The sun is very strong today.",
-     "id": "pt-u19-001"
+     "id": "pt-u19-001",
+     "emoji": "\u2600\ufe0f"
     },
     {
      "term": "a chuva",
      "en": "the rain",
-     "example": "A chuva não para desde ontem.",
+     "example": "A chuva n\u00e3o para desde ontem.",
      "exampleEn": "The rain hasn't stopped since yesterday.",
-     "id": "pt-u19-002"
+     "id": "pt-u19-002",
+     "emoji": "\ud83c\udf27\ufe0f"
     },
     {
      "term": "a lua",
      "en": "the moon",
-     "example": "A lua está linda esta noite.",
+     "example": "A lua est\u00e1 linda esta noite.",
      "exampleEn": "The moon is beautiful tonight.",
-     "id": "pt-u19-003"
+     "id": "pt-u19-003",
+     "emoji": "\ud83c\udf19"
     },
     {
      "term": "a estrela",
      "en": "the star",
-     "example": "Hoje à noite tem muitas estrelas.",
+     "example": "Hoje \u00e0 noite tem muitas estrelas.",
      "exampleEn": "There are many stars tonight.",
-     "id": "pt-u19-004"
+     "id": "pt-u19-004",
+     "emoji": "\u2b50"
     },
     {
-     "term": "o céu",
+     "term": "o c\u00e9u",
      "en": "the sky",
-     "example": "O céu está limpo, sem nuvens.",
+     "example": "O c\u00e9u est\u00e1 limpo, sem nuvens.",
      "exampleEn": "The sky is clear, without clouds.",
-     "id": "pt-u19-005"
+     "id": "pt-u19-005",
+     "emoji": "\ud83c\udf0c"
     },
     {
      "term": "o vento",
      "en": "the wind",
      "example": "O vento derrubou o guarda-chuva.",
      "exampleEn": "The wind knocked down the umbrella.",
-     "id": "pt-u19-006"
+     "id": "pt-u19-006",
+     "emoji": "\ud83d\udca8"
     },
     {
      "term": "a nuvem",
      "en": "the cloud",
      "example": "Tem uma nuvem escura se aproximando.",
      "exampleEn": "A dark cloud is coming closer.",
-     "id": "pt-u19-007"
+     "id": "pt-u19-007",
+     "emoji": "\u2601\ufe0f"
     },
     {
      "term": "o calor",
      "en": "the heat",
      "example": "Aqui o calor dura o ano todo.",
      "exampleEn": "Here the heat lasts all year long.",
-     "id": "pt-u19-008"
+     "id": "pt-u19-008",
+     "emoji": "\ud83d\udd25"
     },
     {
      "term": "o frio",
      "en": "the cold",
      "example": "Em julho faz muito frio aqui.",
      "exampleEn": "It's very cold here in July.",
-     "id": "pt-u19-009"
+     "id": "pt-u19-009",
+     "emoji": "\ud83e\udd76"
     },
     {
      "term": "chover",
      "en": "to rain",
-     "example": "Acho que vai chover amanhã.",
+     "example": "Acho que vai chover amanh\u00e3.",
      "exampleEn": "I think it's going to rain tomorrow.",
-     "id": "pt-u19-010"
+     "id": "pt-u19-010",
+     "emoji": "\ud83c\udf27\ufe0f"
     },
     {
      "term": "o tempo",
      "en": "the weather",
-     "example": "Como está o tempo lá hoje?",
+     "example": "Como est\u00e1 o tempo l\u00e1 hoje?",
      "exampleEn": "How's the weather there today?",
-     "id": "pt-u19-011"
+     "id": "pt-u19-011",
+     "emoji": "\ud83c\udf24\ufe0f"
     },
     {
-     "term": "o verão",
+     "term": "o ver\u00e3o",
      "en": "the summer",
-     "example": "No verão eu vou à praia.",
+     "example": "No ver\u00e3o eu vou \u00e0 praia.",
      "exampleEn": "In the summer I go to the beach.",
-     "id": "pt-u19-012"
+     "id": "pt-u19-012",
+     "emoji": "\u2600\ufe0f"
     },
     {
      "term": "o inverno",
      "en": "the winter",
      "example": "No inverno eu uso um casaco grosso.",
      "exampleEn": "In the winter I wear a thick coat.",
-     "id": "pt-u19-013"
+     "id": "pt-u19-013",
+     "emoji": "\u2744\ufe0f"
     },
     {
      "term": "o mar",
      "en": "the sea",
-     "example": "A água do mar está gelada.",
+     "example": "A \u00e1gua do mar est\u00e1 gelada.",
      "exampleEn": "The sea water is freezing.",
-     "id": "pt-u19-014"
+     "id": "pt-u19-014",
+     "emoji": "\ud83c\udf0a"
     },
     {
      "term": "a floresta",
      "en": "the forest",
-     "example": "A floresta tem muitas árvores altas.",
+     "example": "A floresta tem muitas \u00e1rvores altas.",
      "exampleEn": "The forest has many tall trees.",
-     "id": "pt-u19-015"
+     "id": "pt-u19-015",
+     "emoji": "\ud83c\udf32"
     }
    ]
   },
@@ -2168,105 +2460,120 @@
      "en": "the dog",
      "example": "Meu cachorro adora passear no parque.",
      "exampleEn": "My dog loves to walk in the park.",
-     "id": "pt-u20-001"
+     "id": "pt-u20-001",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "o gato",
      "en": "the cat",
-     "example": "O gato dorme o dia todo no sofá.",
+     "example": "O gato dorme o dia todo no sof\u00e1.",
      "exampleEn": "The cat sleeps all day on the couch.",
-     "id": "pt-u20-002"
+     "id": "pt-u20-002",
+     "emoji": "\ud83d\udc31"
     },
     {
-     "term": "o pássaro",
+     "term": "o p\u00e1ssaro",
      "en": "the bird",
-     "example": "Esse pássaro canta de madrugada.",
+     "example": "Esse p\u00e1ssaro canta de madrugada.",
      "exampleEn": "That bird sings at dawn.",
-     "id": "pt-u20-003"
+     "id": "pt-u20-003",
+     "emoji": "\ud83d\udc26"
     },
     {
      "term": "o cavalo",
      "en": "the horse",
-     "example": "Meu avô tem dois cavalos.",
+     "example": "Meu av\u00f4 tem dois cavalos.",
      "exampleEn": "My grandfather has two horses.",
-     "id": "pt-u20-004"
+     "id": "pt-u20-004",
+     "emoji": "\ud83d\udc34"
     },
     {
      "term": "a vaca",
      "en": "the cow",
      "example": "A fazenda tem muitas vacas.",
      "exampleEn": "The farm has many cows.",
-     "id": "pt-u20-005"
+     "id": "pt-u20-005",
+     "emoji": "\ud83d\udc04"
     },
     {
      "term": "o porco",
      "en": "the pig",
      "example": "O fazendeiro cria porcos e galinhas.",
      "exampleEn": "The farmer raises pigs and chickens.",
-     "id": "pt-u20-006"
+     "id": "pt-u20-006",
+     "emoji": "\ud83d\udc37"
     },
     {
      "term": "a galinha",
      "en": "the hen",
      "example": "A galinha bota ovos todos os dias.",
      "exampleEn": "The hen lays eggs every day.",
-     "id": "pt-u20-007"
+     "id": "pt-u20-007",
+     "emoji": "\ud83d\udc14"
     },
     {
      "term": "o macaco",
      "en": "the monkey",
-     "example": "O macaco subiu na árvore.",
+     "example": "O macaco subiu na \u00e1rvore.",
      "exampleEn": "The monkey climbed the tree.",
-     "id": "pt-u20-008"
+     "id": "pt-u20-008",
+     "emoji": "\ud83d\udc12"
     },
     {
-     "term": "o leão",
+     "term": "o le\u00e3o",
      "en": "the lion",
-     "example": "O leão é o rei da selva.",
+     "example": "O le\u00e3o \u00e9 o rei da selva.",
      "exampleEn": "The lion is the king of the jungle.",
-     "id": "pt-u20-009"
+     "id": "pt-u20-009",
+     "emoji": "\ud83e\udd81"
     },
     {
      "term": "a abelha",
      "en": "the bee",
      "example": "A abelha faz mel.",
      "exampleEn": "The bee makes honey.",
-     "id": "pt-u20-010"
+     "id": "pt-u20-010",
+     "emoji": "\ud83d\udc1d"
     },
     {
      "term": "a formiga",
      "en": "the ant",
      "example": "Tem formiga na cozinha.",
      "exampleEn": "There are ants in the kitchen.",
-     "id": "pt-u20-011"
+     "id": "pt-u20-011",
+     "emoji": "\ud83d\udc1c"
     },
     {
      "term": "a mosca",
      "en": "the fly",
-     "example": "A mosca não me deixa em paz.",
+     "example": "A mosca n\u00e3o me deixa em paz.",
      "exampleEn": "That fly won't leave me in peace.",
-     "id": "pt-u20-012"
+     "id": "pt-u20-012",
+     "emoji": "\ud83e\udeb0"
     },
     {
      "term": "o mosquito",
      "en": "the mosquito",
-     "example": "O mosquito me picou no braço.",
+     "example": "O mosquito me picou no bra\u00e7o.",
      "exampleEn": "A mosquito bit me on the arm.",
-     "id": "pt-u20-013"
+     "id": "pt-u20-013",
+     "emoji": "\ud83e\udd9f"
     },
     {
      "term": "o bicho",
      "en": "the creature, the animal",
      "example": "Acho que tem um bicho no jardim.",
      "exampleEn": "I think there's an animal in the garden.",
-     "id": "pt-u20-014"
+     "id": "pt-u20-014",
+     "emoji": "\ud83d\udc05"
     },
     {
      "term": "o animal",
      "en": "the animal",
      "example": "Eu gosto muito de animais.",
      "exampleEn": "I like animals a lot.",
-     "id": "pt-u20-015"
+     "id": "pt-u20-015",
+     "emoji": "\ud83d\udc3e"
     }
    ]
   },
@@ -2277,114 +2584,130 @@
     {
      "term": "vermelho",
      "en": "red",
-     "example": "Minha irmã vestiu um casaco vermelho.",
+     "example": "Minha irm\u00e3 vestiu um casaco vermelho.",
      "exampleEn": "My sister put on a red coat.",
-     "id": "pt-u21-001"
+     "id": "pt-u21-001",
+     "emoji": "\ud83c\udf4e"
     },
     {
      "term": "azul",
      "en": "blue",
      "example": "Ele tem uma bicicleta azul.",
      "exampleEn": "He has a blue bike.",
-     "id": "pt-u21-002"
+     "id": "pt-u21-002",
+     "emoji": "\ud83d\udd37"
     },
     {
      "term": "verde",
      "en": "green",
-     "example": "As folhas são verdes no verão.",
+     "example": "As folhas s\u00e3o verdes no ver\u00e3o.",
      "exampleEn": "The leaves are green in the summer.",
-     "id": "pt-u21-003"
+     "id": "pt-u21-003",
+     "emoji": "\ud83c\udf3f"
     },
     {
      "term": "amarelo",
      "en": "yellow",
      "example": "Comprei uma camiseta amarela.",
      "exampleEn": "I bought a yellow T-shirt.",
-     "id": "pt-u21-004"
+     "id": "pt-u21-004",
+     "emoji": "\ud83d\udc36"
     },
     {
      "term": "preto",
      "en": "black",
-     "example": "Meu uniforme é preto e branco.",
+     "example": "Meu uniforme \u00e9 preto e branco.",
      "exampleEn": "My uniform is black and white.",
-     "id": "pt-u21-005"
+     "id": "pt-u21-005",
+     "emoji": "\ud83d\udc31"
     },
     {
      "term": "branco",
      "en": "white",
      "example": "Pinte a parede de branco.",
      "exampleEn": "Paint the wall white.",
-     "id": "pt-u21-006"
+     "id": "pt-u21-006",
+     "emoji": "\ud83d\udc2d"
     },
     {
      "term": "grande",
      "en": "big",
-     "example": "Esta cidade é muito grande.",
+     "example": "Esta cidade \u00e9 muito grande.",
      "exampleEn": "This city is very big.",
-     "id": "pt-u21-007"
+     "id": "pt-u21-007",
+     "emoji": "\ud83d\udc3b"
     },
     {
      "term": "pequeno",
      "en": "small",
      "example": "Ele mora em um apartamento pequeno.",
      "exampleEn": "He lives in a small apartment.",
-     "id": "pt-u21-008"
+     "id": "pt-u21-008",
+     "emoji": "\ud83d\udc31"
     },
     {
      "term": "alto",
      "en": "tall",
-     "example": "Meu irmão mais velho é muito alto.",
+     "example": "Meu irm\u00e3o mais velho \u00e9 muito alto.",
      "exampleEn": "My older brother is very tall.",
-     "id": "pt-u21-009"
+     "id": "pt-u21-009",
+     "emoji": "\ud83d\udc3b"
     },
     {
      "term": "baixo",
      "en": "short",
-     "example": "Ela é baixa e simpática.",
+     "example": "Ela \u00e9 baixa e simp\u00e1tica.",
      "exampleEn": "She is short and friendly.",
-     "id": "pt-u21-010"
+     "id": "pt-u21-010",
+     "emoji": "\ud83d\udc31"
     },
     {
      "term": "quente",
      "en": "hot",
-     "example": "O café está bem quente, cuidado.",
+     "example": "O caf\u00e9 est\u00e1 bem quente, cuidado.",
      "exampleEn": "The coffee is really hot, be careful.",
-     "id": "pt-u21-011"
+     "id": "pt-u21-011",
+     "emoji": "\ud83d\udc3b"
     },
     {
      "term": "frio",
      "en": "cold",
-     "example": "Pega um casaco, está frio lá fora.",
+     "example": "Pega um casaco, est\u00e1 frio l\u00e1 fora.",
      "exampleEn": "Grab a jacket, it's cold outside.",
-     "id": "pt-u21-012"
+     "id": "pt-u21-012",
+     "emoji": "\ud83d\udc31"
     },
     {
      "term": "novo",
      "en": "new",
      "example": "Comprei um celular novo.",
      "exampleEn": "I bought a new cell phone.",
-     "id": "pt-u21-013"
+     "id": "pt-u21-013",
+     "emoji": "\ud83d\udc3b"
     },
     {
      "term": "velho",
      "en": "old",
-     "example": "Este prédio é muito velho.",
+     "example": "Este pr\u00e9dio \u00e9 muito velho.",
      "exampleEn": "This building is very old.",
-     "id": "pt-u21-014"
+     "id": "pt-u21-014",
+     "emoji": "\ud83d\udc74"
     },
     {
-     "term": "fácil",
+     "term": "f\u00e1cil",
      "en": "easy",
-     "example": "Estas perguntas são fáceis.",
+     "example": "Estas perguntas s\u00e3o f\u00e1ceis.",
      "exampleEn": "These questions are easy.",
-     "id": "pt-u21-015"
+     "id": "pt-u21-015",
+     "emoji": "\ud83d\udc4d"
     },
     {
-     "term": "difícil",
+     "term": "dif\u00edcil",
      "en": "difficult",
-     "example": "A prova de hoje foi difícil.",
+     "example": "A prova de hoje foi dif\u00edcil.",
      "exampleEn": "Today's test was difficult.",
-     "id": "pt-u21-016"
+     "id": "pt-u21-016",
+     "emoji": "\ud83d\ude2b"
     }
    ]
   },
@@ -2397,112 +2720,128 @@
      "en": "happy",
      "example": "Fiquei muito feliz em te ver!",
      "exampleEn": "I was so happy to see you!",
-     "id": "pt-u22-001"
+     "id": "pt-u22-001",
+     "emoji": "\ud83d\ude00"
     },
     {
      "term": "triste",
      "en": "sad",
-     "example": "Por que você está tão triste?",
+     "example": "Por que voc\u00ea est\u00e1 t\u00e3o triste?",
      "exampleEn": "Why are you so sad?",
-     "id": "pt-u22-002"
+     "id": "pt-u22-002",
+     "emoji": "\ud83d\ude22"
     },
     {
      "term": "cansado",
      "en": "tired",
      "example": "Ele chega cansado do trabalho.",
      "exampleEn": "He comes home tired from work.",
-     "id": "pt-u22-003"
+     "id": "pt-u22-003",
+     "emoji": "\ud83d\ude34"
     },
     {
      "term": "ocupado",
      "en": "busy",
-     "example": "Ela está muito ocupada esta semana.",
+     "example": "Ela est\u00e1 muito ocupada esta semana.",
      "exampleEn": "She is very busy this week.",
-     "id": "pt-u22-004"
+     "id": "pt-u22-004",
+     "emoji": "\ud83d\udcbc"
     },
     {
      "term": "com medo",
      "en": "afraid, scared",
-     "example": "A menina está com medo do escuro.",
+     "example": "A menina est\u00e1 com medo do escuro.",
      "exampleEn": "The girl is afraid of the dark.",
-     "id": "pt-u22-005"
+     "id": "pt-u22-005",
+     "emoji": "\ud83d\ude28"
     },
     {
      "term": "zangado",
      "en": "angry",
-     "example": "Por favor, não fique zangado comigo.",
+     "example": "Por favor, n\u00e3o fique zangado comigo.",
      "exampleEn": "Please don't be angry with me.",
-     "id": "pt-u22-006"
+     "id": "pt-u22-006",
+     "emoji": "\ud83d\ude21"
     },
     {
      "term": "nervoso",
      "en": "nervous",
      "example": "Fico nervoso antes das provas.",
      "exampleEn": "I get nervous before exams.",
-     "id": "pt-u22-007"
+     "id": "pt-u22-007",
+     "emoji": "\ud83d\ude2c"
     },
     {
      "term": "surpreso",
      "en": "surprised",
      "example": "Ela ficou surpresa com o presente.",
      "exampleEn": "She was surprised with the gift.",
-     "id": "pt-u22-008"
+     "id": "pt-u22-008",
+     "emoji": "\ud83d\ude32"
     },
     {
      "term": "animado",
      "en": "excited, in good spirits",
-     "example": "As crianças estão animadas com as férias.",
+     "example": "As crian\u00e7as est\u00e3o animadas com as f\u00e9rias.",
      "exampleEn": "The kids are excited about the vacation.",
-     "id": "pt-u22-009"
+     "id": "pt-u22-009",
+     "emoji": "\ud83e\udd29"
     },
     {
-     "term": "tímido",
+     "term": "t\u00edmido",
      "en": "shy",
-     "example": "Ele é tímido com pessoas novas.",
+     "example": "Ele \u00e9 t\u00edmido com pessoas novas.",
      "exampleEn": "He is shy with new people.",
-     "id": "pt-u22-010"
+     "id": "pt-u22-010",
+     "emoji": "\ud83d\ude33"
     },
     {
-     "term": "simpático",
+     "term": "simp\u00e1tico",
      "en": "friendly, nice",
-     "example": "Seu primo é muito simpático.",
+     "example": "Seu primo \u00e9 muito simp\u00e1tico.",
      "exampleEn": "Your cousin is very friendly.",
-     "id": "pt-u22-011"
+     "id": "pt-u22-011",
+     "emoji": "\ud83d\ude0a"
     },
     {
      "term": "gentil",
      "en": "kind",
-     "example": "Obrigado, você é muito gentil.",
+     "example": "Obrigado, voc\u00ea \u00e9 muito gentil.",
      "exampleEn": "Thanks, you are very kind.",
-     "id": "pt-u22-012"
+     "id": "pt-u22-012",
+     "emoji": "\ud83d\ude07"
     },
     {
-     "term": "preguiçoso",
+     "term": "pregui\u00e7oso",
      "en": "lazy",
-     "example": "Hoje estou preguiçoso, vou ficar no sofá.",
+     "example": "Hoje estou pregui\u00e7oso, vou ficar no sof\u00e1.",
      "exampleEn": "Today I'm lazy, I'll stay on the couch.",
-     "id": "pt-u22-013"
+     "id": "pt-u22-013",
+     "emoji": "\ud83d\ude34"
     },
     {
      "term": "inteligente",
      "en": "intelligent",
-     "example": "Essa aluna é muito inteligente.",
+     "example": "Essa aluna \u00e9 muito inteligente.",
      "exampleEn": "That student is very intelligent.",
-     "id": "pt-u22-014"
+     "id": "pt-u22-014",
+     "emoji": "\ud83e\udd13"
     },
     {
-     "term": "engraçado",
+     "term": "engra\u00e7ado",
      "en": "funny",
-     "example": "O amigo dela é muito engraçado.",
+     "example": "O amigo dela \u00e9 muito engra\u00e7ado.",
      "exampleEn": "Her friend is very funny.",
-     "id": "pt-u22-015"
+     "id": "pt-u22-015",
+     "emoji": "\ud83d\ude02"
     },
     {
      "term": "chato",
      "en": "boring, annoying",
      "example": "O filme foi chato e longo.",
      "exampleEn": "The movie was boring and long.",
-     "id": "pt-u22-016"
+     "id": "pt-u22-016",
+     "emoji": "\ud83d\ude12"
     }
    ]
   },
@@ -2515,84 +2854,96 @@
      "en": "to wake up",
      "example": "Acordo cedo de segunda a sexta.",
      "exampleEn": "I wake up early Monday to Friday.",
-     "id": "pt-u23-001"
+     "id": "pt-u23-001",
+     "emoji": "\u23f0"
     },
     {
      "term": "dormir",
      "en": "to sleep",
      "example": "Eu durmo oito horas por noite.",
      "exampleEn": "I sleep eight hours a night.",
-     "id": "pt-u23-002"
+     "id": "pt-u23-002",
+     "emoji": "\ud83d\ude34"
     },
     {
      "term": "comer",
      "en": "to eat",
-     "example": "Vou comer um sanduíche agora.",
+     "example": "Vou comer um sandu\u00edche agora.",
      "exampleEn": "I'm going to eat a sandwich now.",
-     "id": "pt-u23-003"
+     "id": "pt-u23-003",
+     "emoji": "\ud83c\udf54"
     },
     {
      "term": "tomar",
      "en": "to take (a shower), to drink",
      "example": "Tomo banho antes de sair.",
      "exampleEn": "I take a shower before going out.",
-     "id": "pt-u23-004"
+     "id": "pt-u23-004",
+     "emoji": "\ud83d\udebf"
     },
     {
      "term": "trabalhar",
      "en": "to work",
-     "example": "Trabalho em um escritório aqui perto.",
+     "example": "Trabalho em um escrit\u00f3rio aqui perto.",
      "exampleEn": "I work in an office near here.",
-     "id": "pt-u23-005"
+     "id": "pt-u23-005",
+     "emoji": "\ud83d\udcbc"
     },
     {
      "term": "fazer",
      "en": "to do, to make",
-     "example": "Hoje eu faço o jantar.",
+     "example": "Hoje eu fa\u00e7o o jantar.",
      "exampleEn": "I'm making dinner tonight.",
-     "id": "pt-u23-006"
+     "id": "pt-u23-006",
+     "emoji": "\ud83d\udd28"
     },
     {
      "term": "ir",
      "en": "to go",
-     "example": "Vamos ao mercado de ônibus.",
+     "example": "Vamos ao mercado de \u00f4nibus.",
      "exampleEn": "We're going to the market by bus.",
-     "id": "pt-u23-007"
+     "id": "pt-u23-007",
+     "emoji": "\ud83d\ude97"
     },
     {
      "term": "chegar",
      "en": "to arrive",
-     "example": "Chego em casa às sete.",
+     "example": "Chego em casa \u00e0s sete.",
      "exampleEn": "I get home at seven.",
-     "id": "pt-u23-008"
+     "id": "pt-u23-008",
+     "emoji": "\ud83c\udfc1"
     },
     {
      "term": "sair",
      "en": "to leave, to go out",
-     "example": "Saio de casa às oito.",
+     "example": "Saio de casa \u00e0s oito.",
      "exampleEn": "I leave home at eight.",
-     "id": "pt-u23-009"
+     "id": "pt-u23-009",
+     "emoji": "\ud83d\udeaa"
     },
     {
      "term": "morar",
      "en": "to live (somewhere)",
-     "example": "Moro no Brasil há dois anos.",
+     "example": "Moro no Brasil h\u00e1 dois anos.",
      "exampleEn": "I've lived in Brazil for two years.",
-     "id": "pt-u23-010"
+     "id": "pt-u23-010",
+     "emoji": "\ud83c\udfe0"
     },
     {
      "term": "esperar",
      "en": "to wait",
-     "example": "Espera um pouco, já vou!",
+     "example": "Espera um pouco, j\u00e1 vou!",
      "exampleEn": "Wait a moment, I'm coming!",
-     "id": "pt-u23-011"
+     "id": "pt-u23-011",
+     "emoji": "\u23f3"
     },
     {
      "term": "lavar",
      "en": "to wash",
-     "example": "Lavo as mãos antes de comer.",
+     "example": "Lavo as m\u00e3os antes de comer.",
      "exampleEn": "I wash my hands before eating.",
-     "id": "pt-u23-012"
+     "id": "pt-u23-012",
+     "emoji": "\ud83e\uddfd"
     }
    ]
   },
@@ -2603,114 +2954,130 @@
     {
      "term": "falar",
      "en": "to speak, to talk",
-     "example": "Eu falo português com meus amigos.",
+     "example": "Eu falo portugu\u00eas com meus amigos.",
      "exampleEn": "I speak Portuguese with my friends.",
-     "id": "pt-u24-001"
+     "id": "pt-u24-001",
+     "emoji": "\ud83d\udde3\ufe0f"
     },
     {
      "term": "dizer",
      "en": "to say, to tell",
      "example": "Ele sempre diz a verdade.",
      "exampleEn": "He always tells the truth.",
-     "id": "pt-u24-002"
+     "id": "pt-u24-002",
+     "emoji": "\ud83d\udcac"
     },
     {
      "term": "perguntar",
      "en": "to ask",
      "example": "Sempre perguntam a mesma coisa.",
      "exampleEn": "People always ask the same thing.",
-     "id": "pt-u24-003"
+     "id": "pt-u24-003",
+     "emoji": "\u2753"
     },
     {
      "term": "responder",
      "en": "to answer",
      "example": "Ele nunca responde minhas mensagens.",
      "exampleEn": "He never answers my messages.",
-     "id": "pt-u24-004"
+     "id": "pt-u24-004",
+     "emoji": "\u21a9\ufe0f"
     },
     {
      "term": "ouvir",
      "en": "to hear, to listen",
-     "example": "Fale mais alto, não estou ouvindo.",
+     "example": "Fale mais alto, n\u00e3o estou ouvindo.",
      "exampleEn": "Speak up, I can't hear you.",
-     "id": "pt-u24-005"
+     "id": "pt-u24-005",
+     "emoji": "\ud83d\udc42"
     },
     {
      "term": "entender",
      "en": "to understand",
-     "example": "Não entendi, pode repetir?",
+     "example": "N\u00e3o entendi, pode repetir?",
      "exampleEn": "I didn't understand, can you repeat?",
-     "id": "pt-u24-006"
+     "id": "pt-u24-006",
+     "emoji": "\ud83e\uddd0"
     },
     {
      "term": "chamar",
      "en": "to call",
-     "example": "Vou chamar um táxi para você.",
+     "example": "Vou chamar um t\u00e1xi para voc\u00ea.",
      "exampleEn": "I'll call a taxi for you.",
-     "id": "pt-u24-007"
+     "id": "pt-u24-007",
+     "emoji": "\ud83d\udcde"
     },
     {
      "term": "ligar",
      "en": "to call (on the phone)",
      "example": "Vou ligar para ela hoje.",
      "exampleEn": "I'll call her today.",
-     "id": "pt-u24-008"
+     "id": "pt-u24-008",
+     "emoji": "\ud83d\udcf1"
     },
     {
      "term": "mandar",
      "en": "to send",
      "example": "Manda uma mensagem depois!",
      "exampleEn": "Send me a message later!",
-     "id": "pt-u24-009"
+     "id": "pt-u24-009",
+     "emoji": "\u2709\ufe0f"
     },
     {
      "term": "o que",
      "en": "what",
-     "example": "O que você quer fazer hoje?",
+     "example": "O que voc\u00ea quer fazer hoje?",
      "exampleEn": "What do you want to do today?",
-     "id": "pt-u24-010"
+     "id": "pt-u24-010",
+     "emoji": "\u2753"
     },
     {
      "term": "quem",
      "en": "who",
-     "example": "Quem é o seu professor?",
+     "example": "Quem \u00e9 o seu professor?",
      "exampleEn": "Who is your teacher?",
-     "id": "pt-u24-011"
+     "id": "pt-u24-011",
+     "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc"
     },
     {
      "term": "onde",
      "en": "where",
      "example": "Onde fica o banheiro?",
      "exampleEn": "Where is the bathroom?",
-     "id": "pt-u24-012"
+     "id": "pt-u24-012",
+     "emoji": "\ud83d\udccd"
     },
     {
      "term": "quando",
      "en": "when",
-     "example": "Quando você chega em casa?",
+     "example": "Quando voc\u00ea chega em casa?",
      "exampleEn": "When do you get home?",
-     "id": "pt-u24-013"
+     "id": "pt-u24-013",
+     "emoji": "\u23f0"
     },
     {
      "term": "como",
      "en": "how",
-     "example": "Como você diz isso em português?",
+     "example": "Como voc\u00ea diz isso em portugu\u00eas?",
      "exampleEn": "How do you say this in Portuguese?",
-     "id": "pt-u24-014"
+     "id": "pt-u24-014",
+     "emoji": "\ud83e\udd14"
     },
     {
      "term": "qual",
      "en": "which, what",
-     "example": "Qual é o seu nome?",
+     "example": "Qual \u00e9 o seu nome?",
      "exampleEn": "What is your name?",
-     "id": "pt-u24-015"
+     "id": "pt-u24-015",
+     "emoji": "\u2753"
     },
     {
      "term": "por que",
      "en": "why",
-     "example": "Por que você está atrasado?",
+     "example": "Por que voc\u00ea est\u00e1 atrasado?",
      "exampleEn": "Why are you late?",
-     "id": "pt-u24-016"
+     "id": "pt-u24-016",
+     "emoji": "\ud83e\udd37\u200d\u2640\ufe0f"
     }
    ]
   }

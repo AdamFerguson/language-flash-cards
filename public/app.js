@@ -240,6 +240,7 @@ function renderReview() {
 
   mount('today',
     el('div', { class: 'progressbar' }, el('div', { style: `width:${(i / queue.length) * 100}%` })),
+    card.emoji ? el('div', { class: 'card-emoji' }, card.emoji) : null,
     el('p', { class: 'muted center' }, `${i + 1} / ${queue.length}`),
     face,
     revealed
@@ -301,6 +302,7 @@ async function viewStudyUnit(unitId) {
     mount('study',
       el('p', { class: 'muted' }, el('a', { href: '#/study' }, '← units'), ` · ${unit.title} · ${i + 1}/${unit.cards.length}`),
       el('div', { class: 'flash', onclick: (e) => { if (!e.target.closest('button')) { flipped = !flipped; render() } } },
+        card.emoji ? el('div', { class: 'card-emoji' }, card.emoji) : null,
         el('div', { class: 'term' }, card.term),
         listenBtn(card.term),
         cog ? el('div', { class: 'cognate' }, `≈ ${S.lang === 'es' ? 'Portuguese' : 'Spanish'} “${cog}”`) : null,
@@ -345,7 +347,7 @@ async function viewQuiz(unitId) {
     if (qi >= qs.length) return finish()
     const { card, type } = qs[qi]
     answered = false
-    const body = []
+    const body = card.emoji ? [el('div', { class: 'card-emoji' }, card.emoji)] : []
     const check = (ok, chosenEl, rightEl, g) => {
       if (answered) return
       answered = true
