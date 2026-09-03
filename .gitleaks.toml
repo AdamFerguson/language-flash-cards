@@ -12,7 +12,7 @@ Cloudflare Access values that are public by design:
   identifier/revocation handle, not a credential — Cloudflare's docs explicitly note
   AUD + JWK URL are not secrets.
 - ACCESS_TEAM: the team name is literally the login-redirect hostname.
-Allowlisted only in wrangler.jsonc, only on the ACCESS_* lines.
+Allowlisted only on the ACCESS_* lines (no path rule — a path allowlist would
+blanket the whole file; verified empirically that path conditions are OR'd).
 """
-paths = ['''wrangler\.jsonc''']
-regexes = ['''ACCESS_AUD''', '''ACCESS_TEAM''']
+regexes = ['''"ACCESS_AUD"\\s*:\\s*"[0-9a-f]+"''', '''"ACCESS_TEAM"\\s*:\\s*"[a-z0-9-]+"''']
