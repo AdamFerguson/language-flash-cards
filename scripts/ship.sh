@@ -16,10 +16,13 @@ while [ "$i" -le 3 ]; do
     echo "✅ deployed and code binding verified"
     exit 0
   fi
-  if [ "$code" = "410" ]; then
+  if [ "$code" = "410" ] || [ "$code" = "302" ] || [ "$code" = "403" ]; then
+    # Access active: edge redirects browsers to login (302) and curl clients may get
+    # 403; 410 = request reached the Worker with Access expected (bypass attempt).
     loc=$(curl -s -m 15 -o /dev/null -w '%{redirect_url}' "$BASE/")
     case "$loc" in
-      *cloudflareaccess.com*) echo "✅ deployed; app behind Cloudflare Access (${loc%%/*}...)"; exit 0;;
+      *cloudflareaccess.com*) echo "✅ deployed; app behind Cloudflare Access (${loc%%/cdn-cgi*})"; exit 0;;
+      *) if [ "$code" = "410" ]; then echo "✅ deployed; Worker confirms Access mode (edge redirect missing?!)"; exit 0; fi;;
     esac
   fi
   echo "⚠️  deployed worker rejected the code (attempt $i) — redeploying to re-pick latest secret version..." >&2

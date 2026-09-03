@@ -27,6 +27,8 @@ Within the application, create a policy:
   (Users are created in the app automatically on first entry — no app-side signup.)
 
 ## 5. Give the Worker its two values
+Tip: the team name is revealed by the login redirect itself —
+`curl -s -o /dev/null -w '%{redirect_url}\n' https://<your-worker-url>/` → `https://<TEAM>.cloudflareaccess.com/...`.
 On the application/policy page copy the **AUD tag** (a hex string identifying this Access app; rotating it revokes sessions). Then in `wrangler.jsonc`, inside `vars`:
 
 ```jsonc

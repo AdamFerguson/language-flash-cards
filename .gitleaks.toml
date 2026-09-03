@@ -1,0 +1,21 @@
+# Project gitleaks rules.
+title = "language-flash-cards"
+
+[extend]
+useDefault = true
+
+[[rules]]
+# none added yet
+
+[allowlist]
+description = """
+Cloudflare Access values that are public by design:
+- ACCESS_AUD: the policy AUD tag appears in every visitor's login redirect
+  (https://<team>.cloudflareaccess.com/cdn-cgi/access/login/...?kid=<AUD>). It is an
+  identifier/revocation handle, not a credential — Cloudflare's docs explicitly note
+  AUD + JWK URL are not secrets.
+- ACCESS_TEAM: the team name is literally the login-redirect hostname.
+Allowlisted only in wrangler.jsonc, only on the ACCESS_* lines.
+"""
+paths = ['''wrangler\.jsonc''']
+regexes = ['''ACCESS_AUD''', '''ACCESS_TEAM''']

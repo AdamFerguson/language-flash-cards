@@ -4,6 +4,12 @@
   "main": "src/worker.js",
   "compatibility_date": "2026-09-01",
   "observability": { "enabled": true },
+  "vars": {
+    // Cloudflare Access mode (not secrets — team domain is public in the login
+    // redirect; AUD rotation is the revoke mechanism). See docs/ACCESS-SETUP.md.
+    "ACCESS_TEAM": "adam-ferguson",
+    "ACCESS_AUD": "21485a6ad1288bb14878c6053b4b626733b1348db0d6e5e6c5a986b3b3ab0d7a"
+  },
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
