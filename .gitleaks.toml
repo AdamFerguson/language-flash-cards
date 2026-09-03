@@ -4,9 +4,6 @@ title = "language-flash-cards"
 [extend]
 useDefault = true
 
-[[rules]]
-# none added yet
-
 [allowlist]
 description = """
 Cloudflare Access values that are public by design:
