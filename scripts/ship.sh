@@ -11,9 +11,16 @@ read -r CODE
 i=1
 while [ "$i" -le 3 ]; do
   npx wrangler deploy
-  if curl -sf -m 15 -o /dev/null -X POST "$BASE/api/verify-code" -H 'content-type: application/json' -d "{\"code\":\"$CODE\"}"; then
+  code=$(curl -s -m 15 -o /dev/null -w '%{http_code}' -X POST "$BASE/api/verify-code" -H 'content-type: application/json' -d "{\"code\":\"$CODE\"}")
+  if [ "$code" = "200" ]; then
     echo "✅ deployed and code binding verified"
     exit 0
+  fi
+  if [ "$code" = "410" ]; then
+    loc=$(curl -s -m 15 -o /dev/null -w '%{redirect_url}' "$BASE/")
+    case "$loc" in
+      *cloudflareaccess.com*) echo "✅ deployed; app behind Cloudflare Access (${loc%%/*}...)"; exit 0;;
+    esac
   fi
   echo "⚠️  deployed worker rejected the code (attempt $i) — redeploying to re-pick latest secret version..." >&2
   if [ "$i" = "2" ]; then

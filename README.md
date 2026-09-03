@@ -57,12 +57,19 @@ existing progress rows will point at the wrong word.
 
 ## Notes
 
-- Auth = shared app code (`APP_CODE` secret) + email (lowercased,
-  case-insensitive identity) → 1-year HMAC cookie scoped to that user;
-  👤 chip in the header logs out/switches user. Every sign-in attempt is
-  logged (time/who/ip/country) under Progress → “Recent sign-ins”.
-  (Optional: set the `NOTIFY_URL` secret to also push login alerts to an
-  ntfy/Slack/Discord webhook — unset by default, feature dormant.)
+- Auth has two modes:
+  - **Cloudflare Access (target state)** — login lives at Cloudflare's edge (email
+    one-time codes / Google IdP, allowlist of ~50 free seats). The Worker verifies the
+    Access JWT (`CF-Access-Jwt-Assertion`, RS256 vs the team JWKS — `src/access.js`,
+    fully unit-tested) on *every* request and resolves the user from the verified
+    email. Enabled by setting `ACCESS_TEAM` + `ACCESS_AUD` vars; see
+    [`docs/ACCESS-SETUP.md`](docs/ACCESS-SETUP.md). `/api/login` + `/api/verify-code`
+    return 410 in this mode; `APP_CODE` becomes unneeded.
+  - **Legacy (fallback)** — shared app code (`APP_CODE` secret) + self-declared email
+    → 1-year HMAC cookie (`uid.exp.sig`). Active while the two Access vars are unset.
+    Sign-in attempts (time/who/ip/country) are logged in D1 → Progress → “Recent
+    sign-ins”; in Access mode, authentication logs live in the Zero Trust dashboard
+    instead and the 👤 chip only clears the app session.
 - `git commit` runs gitleaks (`.githooks/pre-commit`, armed by `npm install`)
   and refuses commits containing secrets.
 - Grading free-typed answers (quiz “Type in Spanish/Portuguese”): layered —

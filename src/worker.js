@@ -1,4 +1,5 @@
 import { review, reviewXp, levelFor, streakFor } from './srs.js'
+import { accessMode, verifyAccessJwt } from './access.js'
 
 const LANGS = ['es', 'pt']
 const UNIT_RE = /^u\d{2}$/
@@ -8,9 +9,16 @@ const DAY = 24 * 60 * 60 * 1000
 export default {
   async fetch(req, env, ctx) {
     const url = new URL(req.url)
+    // Access mode: EVERY request (pages, assets, APIs) must carry a valid Access JWT.
+    // Normally unreachable without one — Access 302s to login at the edge first; a
+    // 401 here means someone reached the Worker while bypassing the Access app.
+    let accessUser = null
+    if (accessMode(env)) {
+      try { accessUser = await verifyAccessJwt(req, env) } catch { return json({ error: 'unauthorized' }, 401) }
+    }
     if (url.pathname.startsWith('/api/')) {
       try {
-        return await api(req, env, ctx, url)
+        return await api(req, env, ctx, url, accessUser)
       } catch (e) {
         return json({ error: 'server', detail: String((e && e.message) || e) }, 500)
       }
@@ -19,8 +27,13 @@ export default {
   },
 }
 
-async function api(req, env, ctx, url) {
+async function api(req, env, ctx, url, accessUser) {
   if (url.pathname === '/api/health') return json({ ok: true })
+
+  // In Access mode the app-code ceremony is retired; Cloudflare owns the login.
+  if (url.pathname === '/api/login' || url.pathname === '/api/verify-code') {
+    if (accessMode(env)) return json({ error: 'access-mode', detail: 'app is behind Cloudflare Access' }, 410)
+  }
 
   // ops probe: confirms the DEPLOYED version's APP_CODE binding without creating users/logins
   if (url.pathname === '/api/verify-code') {
@@ -60,7 +73,12 @@ async function api(req, env, ctx, url) {
     return json({ error: 'bad-code' }, 401)
   }
 
-  const uid = await authed(req, env)
+  let uid
+  if (accessUser) {
+    uid = (await resolveUser(env, accessUser.email)).id // verified email → the same per-user state
+  } else {
+    uid = await authed(req, env)
+  }
   if (!uid) return json({ error: 'unauthorized' }, 401)
 
   if (url.pathname === '/api/logout' && req.method === 'POST') {

@@ -7,7 +7,11 @@
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
-    "not_found_handling": "single-page-application"
+    "not_found_handling": "single-page-application",
+    // Access mode verifies JWTs for EVERY request — assets must go through the Worker too,
+    // otherwise static files bypass the check (edge Access still 302s first; this is the
+    // second boundary).
+    "run_worker_first": true
   },
   "d1_databases": [
     {
